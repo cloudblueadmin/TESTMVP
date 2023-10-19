@@ -1,0 +1,97 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTransformQuoteInputDataCustom8335",
+        "InputFieldName": "Step1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformQuoteInputData",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformQuoteInputData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformQuoteInputData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteInputData:Step1",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformQuoteInputDataCustom9873",
+        "InputFieldName": "Step2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformQuoteInputData",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformQuoteInputData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformQuoteInputData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteInputData:Step2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformQuoteInputDataCustom4586",
+        "InputFieldName": "Step3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformQuoteInputData",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformQuoteInputData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformQuoteInputData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteInputData:Step3",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformQuoteInputDataCustom1394",
+        "InputFieldName": "Step4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformQuoteInputData",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformQuoteInputData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformQuoteInputData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteInputData:Step4",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformQuoteInputDataCustom9538",
+        "InputFieldName": "Step5",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformQuoteInputData",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformQuoteInputData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformQuoteInputData",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteInputData:Step5",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

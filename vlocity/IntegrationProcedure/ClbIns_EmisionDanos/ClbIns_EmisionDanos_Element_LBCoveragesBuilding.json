@@ -1,0 +1,25 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "LBCoveragesBuilding",
+    "OmniProcessId": {
+        "Name": "clbIPEmisionDanos",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/EmisionDanos/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "FormattedCoverages",
+        "loopOutput": {
+            "cobertBienList": "%DRTCoverageJsonList%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/EmisionDanos/Procedure/LBCoveragesBuilding"
+}

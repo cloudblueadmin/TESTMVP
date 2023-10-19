@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_RateAuto_SampleInput.json",
+    "Description": "VIP that returns a Rate for Auto Product",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": true,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsRateAuto",
+    "OmniProcessElement": [
+        "ClbIns_RateAuto_Element_ClbInsDRTUserInputsAuto.json",
+        "ClbIns_RateAuto_Element_GetRateForAuto.json",
+        "ClbIns_RateAuto_Element_TransformRatingResults.json",
+        "ClbIns_RateAuto_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_RateAuto",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_RateAuto_PropertySetConfig.json",
+    "SubType": "RateAuto",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/RateAuto/Procedure",
+    "WebComponentKey": "1d480a0d-77f1-4790-c65d-e6feb165fb30"
+}

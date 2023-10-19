@@ -1,0 +1,2667 @@
+[
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom223",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:AutoQuoteType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "001",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto9015895245713959",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Canal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8604",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Categoria",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8487",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Poliza:Certificado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4744",
+        "InputFieldName": "autoVehicle.Year",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:AnoVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6619",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:AntigAutos",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4727",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:AutosVigentes",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "30000",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7356",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CPAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "C",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1276",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Clase",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1943",
+        "InputFieldName": "claseVeh",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:ClaseVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3949",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:ClaveSB",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3927",
+        "InputFieldName": "codModDetalle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:ClaveSBCorta",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4609",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodCpto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7912",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodDestinado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6719",
+        "InputFieldName": "autoVehicle.Make",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:CodMarca",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3759",
+        "InputFieldName": "autoVehicle.Model",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:CodModelo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5939",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodRemolque",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom885",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodTipoCarga",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4361",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodTipoRemolque",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "01",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7990",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodUso",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8375",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodVersion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4531",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:CodigoRemolque",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom406",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:ColoniaAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8539",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:EdadConductor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4362",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:EdadConductor2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom950",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:EdadConductor3",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "07",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4894",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:EstadoAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "07",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2220",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:EstadoCirculacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3334",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:FactorDM",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4644",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:FactorRC",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8262",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:FactorRT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4551",
+        "InputFieldName": "fechaMovimiento",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM/dd/yyyy)",
+        "OutputFieldName": "Poliza:Certificado:FecIng",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom9546",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:GenVersion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom740",
+        "InputFieldName": "gpoEstRc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:GpoEstRC",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5827",
+        "InputFieldName": "gpoEstBg",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:GpoEstSB",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "000",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5198",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:IndicadorPrograma",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "019",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8420",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:MunicipioAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "019",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6057",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:MunicipioCirculacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5439",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:NumCert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1962",
+        "InputFieldName": "cantidadPasajeros",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:NumeroPasajeros",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom972",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:NumsinAutos",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "052",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3384",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PaisAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "052",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8611",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PaisCirculacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6288",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Poliza:Certificado:Paquete",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7900",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2066",
+        "InputFieldName": "coverages:BaseDeducible",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:BaseDeducible",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4183",
+        "InputFieldName": "coverages:CoberturaSeleccionada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:CoberturaSeleccionada",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4624",
+        "InputFieldName": "coverages:CoberturaVisible",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:CoberturaVisible",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6123",
+        "InputFieldName": "coverages:CodCobert",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:CodCobert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom9126",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:CodRamo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2942",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:FinVigCob",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3020",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:IndCobPrima",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2467",
+        "InputFieldName": "coverages:IndCobertOblig",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:IndCobertOblig",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom9228",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:IniVigCob",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5444",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:NumDiasDed",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1221",
+        "InputFieldName": "coverages:NumDiasEmi",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:NumDiasEmi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8109",
+        "InputFieldName": "coverages:PorcDed",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:PorcDed",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4198",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:SubRamo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4876",
+        "InputFieldName": "coverages:SumaAseg",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:SumaAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom416",
+        "InputFieldName": "coverages:TipoDeducible",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Cobertura:TipoDeducible",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6873",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:CodRecaDctoBE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom140",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:CodRecaDctoDis",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8143",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:CodRecaDctoVol",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3067",
+        "InputFieldName": "codePlan",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:Codplan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3864",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Plan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7566",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:PorcRecaDctoBE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7925",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:PorcRecaDctoDis",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6855",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:PorcRecaDctoVol",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "000",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1983",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:Revplan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3024",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:TipoRecaDctoBE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1272",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Paquete:TipoRecaDctoDis",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3574",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Paquete:TipoRecaDctoVol",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom9356",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PlazoCreditoAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5176",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PlazoSeguroAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8020",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PorcRecDisc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2996",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PorcRecVol",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4857",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PorcentajeFinAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5436",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PrimaAnterior",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1172",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:PuertaEntrada",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6232",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:SegmentoBancaAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4143",
+        "InputFieldName": "autoDriver.Gender",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:SexoAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8532",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Poliza:Certificado:Siniestro",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7722",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:CodCobertSin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7885",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:IdeSin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6184",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:MtoRecup",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6067",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:MtoSin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7888",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:NumRenSin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6245",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:NumSin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6073",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:Siniestro:Responsable",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom1959",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:SumaAseguradaEE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom338",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:TipoBancaAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2697",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:TipoCarga",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8694",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:TipoRemolque",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "01",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2982",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:TipoValor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "01",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4923",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:TipoValorVehiculo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4087",
+        "InputFieldName": "autoVehicle.Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:TipoVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4111",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Tonelaje",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4342",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:Uso",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom9560",
+        "InputFieldName": "mtoValorNuevo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:V1",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom5194",
+        "InputFieldName": "mtoValorComercial",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:V2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0.00",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom9965",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:V3",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6050",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:ValorBote",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3642",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:ValorRemolque",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0.00",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2628",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Certificado:ValorTonelaje",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom197",
+        "InputFieldName": "mtoValorComercial",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:Certificado:ValorVehiculo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto40916290630087016",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:CodFormaPago",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "19995",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7943",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:CodInter",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto2097560668266718",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:CodMoneda",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "A003",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom8408",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:CodProd",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "P",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto9464877230764401",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:CodTipoCalcVig",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "A",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto7995360208994375",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:CodTipoVig",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto36526940768892",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:ContratanteCP",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto5476793330208614",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:ContratanteRfc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto29347437490539385",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Cotizacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto4866952712343353",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:EAProductId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3381",
+        "InputFieldName": "ruleId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:EARuleId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto014233120618796002",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:FechaEmisionPoliza",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7230",
+        "InputFieldName": "fechaMovimiento",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:FechaMovimiento",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7141",
+        "InputFieldName": "fechaVigencia",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:FinVigencia",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom850",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:FormaPago",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "N",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6423",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:IndValidaCob",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom6170",
+        "InputFieldName": "fechaInicio",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Poliza:InicioVigencia",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "T01",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto8766822387816453",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Linea",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "01",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4669",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Moneda",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto7063967931424378",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:NumRen",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto312247815287098",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:NumVehiculos",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "7J8",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom4886",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Oficina",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "OPERADOR",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2816",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Perfil",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom643",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Producto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "001",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom774",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:SisOrigen",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "011",
+        "GlobalKey": "ClbInsDRTRatingRequestAuto13747994244671613",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:SubCanal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2695",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:TipoMovimiento",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "I",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom3728",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:TipoSusc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "8025821",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom7558",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:Usuario",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTRatingRequestAutoCustom2105",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTRatingRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTRatingRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTRatingRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Poliza:VigenciaId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

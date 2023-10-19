@@ -1,0 +1,18 @@
+{
+    "input": {
+        "userInputs": {
+            "INS_ITEM_CONTENIDOS.CONT_VALOR_DESTRUCTIBLE": "Currency",
+            "INS_ITEM_CONTENIDOS.instanceKey": "Text",
+            "INS_ITEM_CONTENIDOS.isPrimary": "Boolean",
+            "INS_ITEM_EDIFICIO.EDI_VALOR_DESTRUCTIBLE": "Currency",
+            "INS_ITEM_EDIFICIO.instanceKey": "Text",
+            "INS_ITEM_EDIFICIO.isPrimary": "Boolean",
+            "SEGURO_HIPOTECARIO_DAÑOS_ROOT.CNT_DIAS_VIGENCIA": "Number",
+            "SEGURO_HIPOTECARIO_DAÑOS_ROOT.EDI_VALOR_DESTRUCTIBLE": "Currency",
+            "SEGURO_HIPOTECARIO_DAÑOS_ROOT.PLAN_SELECCIONADO": "Text"
+        }
+    },
+    "output": {
+        "result": "JSONResult"
+    }
+}

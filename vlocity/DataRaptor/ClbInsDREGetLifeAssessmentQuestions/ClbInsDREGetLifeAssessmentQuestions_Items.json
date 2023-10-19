@@ -1,0 +1,151 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Health'",
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom3015",
+        "InputFieldName": "QuestionCategory",
+        "InputObjectName": "AssessmentQuestion",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Question",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Question:Id",
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom6483",
+        "InputFieldName": "AssessmentQuestionId",
+        "InputObjectName": "AssessmentQuestionVersion",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Question:Version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Active'",
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom7926",
+        "InputFieldName": "Status",
+        "InputObjectName": "AssessmentQuestionVersion",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Question:Version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom2810",
+        "InputFieldName": "Question:DeveloperName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "question:apiName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom5187",
+        "InputFieldName": "Question:DataType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "question:dataType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom6368",
+        "InputFieldName": "Question:QuestionText",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "question:text",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetLifeAssessmentQuestionsCustom7785",
+        "InputFieldName": "Question:Version:Tooltips__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetLifeAssessmentQuestions",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetLifeAssessmentQuestions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Object",
+        "OutputFieldName": "question:tooltips",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

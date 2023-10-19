@@ -1,0 +1,218 @@
+{
+    "ResponseIfErrorsStatus": false,
+    "Settings": {
+        "quoteType": "Damage"
+    },
+    "SettingsStatus": true,
+    "Step1": {
+        "BirthDate": "1979-04-05",
+        "CURP": "PESJ790405HHGRLN07",
+        "Email": "mipruebaQA40@hotmail.com",
+        "FirstName": "JUAN JOSE",
+        "LastName": "PEREZ SOLIS",
+        "PhoneNumber": "5585419712",
+        "RFC": "PESJ790405B72"
+    },
+    "Step2": {
+        "Address": {
+            "City": "Mazatlán",
+            "Country": "México",
+            "ExternalNumber": 23,
+            "InternalNumber": 22,
+            "PostalCode": "82300",
+            "State": "Sinaloa",
+            "Street": "AV CENTRO NORTE",
+            "Town": "Amapas"
+        }
+    },
+    "Step3": {
+        "BuildingInformation": {
+            "Address": {
+                "City": "Mazatlán",
+                "Country": "México",
+                "ExternalNumber": 23,
+                "InternalNumber": 22,
+                "PostalCode": "82300",
+                "State": "Sinaloa",
+                "Street": "AV CENTRO NORTE",
+                "Town": "Amapas"
+            },
+            "BuildingAge": "<=50",
+            "ContentsInsuredAmount": 20,
+            "Levels": "1",
+            "MarDistance": true,
+            "Value": 3000000
+        },
+        "ContentsInformation": {
+            "Value": 3000000
+        }
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 3241.16,
+            "Code": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+            "EndDate": "2024-10-06",
+            "StartDate": "2023-10-06",
+            "branch": "CAHA",
+            "expense": 300,
+            "expenseOnFirstInstallment": false,
+            "installmentAmount": 342.31,
+            "numInstallments": "012",
+            "priceWithExpense": 3541.16,
+            "taxAmount": 566.59,
+            "total": 4107.75
+        },
+        "PackageCoverage": [
+            {
+                "code": "RCF1",
+                "insuredAmount": 1000000,
+                "name": "RCGE-PROPIO-FAMILIAR",
+                "price": 80.7
+            },
+            {
+                "code": "RB03",
+                "insuredAmount": 100000,
+                "name": "DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO",
+                "price": 338.2
+            },
+            {
+                "code": "RB15",
+                "insuredAmount": 4500,
+                "name": "DMRB-PROPIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                "price": 0.45
+            },
+            {
+                "code": "I005E",
+                "insuredAmount": 3000000,
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 113.18
+            },
+            {
+                "code": "I013E",
+                "insuredAmount": 300000,
+                "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 22.62
+            },
+            {
+                "code": "I001E",
+                "insuredAmount": 3000000,
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 135.81
+            },
+            {
+                "code": "I003E",
+                "insuredAmount": 3000000,
+                "name": "INCE-EDIFICIO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "price": 67.91
+            },
+            {
+                "code": "I004E",
+                "insuredAmount": 3000000,
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 67.91
+            },
+            {
+                "code": "I002E",
+                "insuredAmount": 3000000,
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 67.91
+            },
+            {
+                "code": "I011E",
+                "insuredAmount": 135000,
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 13.5
+            },
+            {
+                "code": "TE01E",
+                "insuredAmount": 3000000,
+                "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 2007.33
+            },
+            {
+                "code": "TE02E",
+                "insuredAmount": 60000,
+                "name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 22.62
+            },
+            {
+                "code": "I005C",
+                "insuredAmount": 600000,
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 22.64
+            },
+            {
+                "code": "I013C",
+                "insuredAmount": 60000,
+                "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 4.52
+            },
+            {
+                "code": "I001C",
+                "insuredAmount": 600000,
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 27.16
+            },
+            {
+                "code": "I003C",
+                "insuredAmount": 600000,
+                "name": "INCE-CONTENIDO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "price": 13.58
+            },
+            {
+                "code": "I004C",
+                "insuredAmount": 600000,
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 13.58
+            },
+            {
+                "code": "I002C",
+                "insuredAmount": 600000,
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 13.58
+            },
+            {
+                "code": "I011C",
+                "insuredAmount": 27000,
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 2.7
+            },
+            {
+                "code": "TE01C",
+                "insuredAmount": 600000,
+                "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 200.74
+            },
+            {
+                "code": "TE02C",
+                "insuredAmount": 60000,
+                "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 4.52
+            }
+        ]
+    },
+    "Step5": {
+        "Amount": 3241.16,
+        "Bank": "072",
+        "CardCVV": "989",
+        "CardMonth": 4,
+        "CardNumber": 5101910203349540,
+        "CardYear": 2030,
+        "FirstName": "GUILLERMO",
+        "IsRecurringPayment": true,
+        "LastName": "ROMO",
+        "PaymentPeriod": "001",
+        "TypeOfCard": "04"
+    },
+    "Validations": {
+        "errors": null
+    },
+    "ValidationsStatus": true,
+    "options": {
+        "chainable": false,
+        "ignoreCache": true,
+        "queueableChainable": false,
+        "resetCache": false,
+        "useQueueableApexRemoting": false
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "options": {
+        "ignoreCache": false
+    },
+    "propio": {
+        "aplicaContenidos": true,
+        "aplicaDmed": true,
+        "aplicaDmrb": true,
+        "aplicaRcge": true,
+        "aplicaRhmt": true,
+        "aplicaTeev": true,
+        "codigoPostal": "64000",
+        "porcentajeContenidos": "40",
+        "valorInmueble": 4000000
+    },
+    "rentado": {
+        "aplicaDmed": true,
+        "aplicaDmrb": true,
+        "aplicaRcge": true,
+        "aplicaRhmt": true,
+        "aplicaTeev": true,
+        "codigoPostal": "64000",
+        "valorContenidos": 1600000
+    }
+}

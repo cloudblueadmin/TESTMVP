@@ -1,0 +1,45 @@
+{
+    "Birthdate": "1976-10-31T04:00:00.000Z",
+    "HHName": "Drew Breezer Household",
+    "children": [
+        {
+            "amountCollege": 0,
+            "childAge": 24,
+            "childContactId": null,
+            "childDOB": "1994-12-25T05:00:00.000Z",
+            "childFirstName": "Sam",
+            "childLastName": "Breezer",
+            "yearsTilCollege": -6
+        },
+        {
+            "amountCollege": 0,
+            "childAge": 19,
+            "childContactId": null,
+            "childDOB": "1999-12-31T05:00:00.000Z",
+            "childFirstName": "Todd",
+            "childLastName": "Breezer",
+            "yearsTilCollege": -1
+        },
+        {
+            "amountCollege": 0,
+            "childAge": 54,
+            "childContactId": null,
+            "childDOB": "1964-09-12T04:00:00.000Z",
+            "childFirstName": "Pat",
+            "childLastName": "Little",
+            "yearsTilCollege": -36
+        }
+    ],
+    "children_Y/N": "yes",
+    "clientAge": 42,
+    "clientIntents": null,
+    "clientName": "Drew Breezer",
+    "spouse": {
+        "spouseAge": 0,
+        "spouseContactId": null,
+        "spouseDOB": null,
+        "spouseFirstName": null,
+        "spouseLastName": null
+    },
+    "spouse_Y/N": "yes"
+}

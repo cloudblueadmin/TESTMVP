@@ -1,0 +1,238 @@
+[
+    {
+        "FormulaExpression": "\"A003\"",
+        "FormulaResultPath": "branchCode",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem1",
+        "InputFieldName": "branchCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:branchCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem5",
+        "InputFieldName": "records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "''",
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem2",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|1:description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:NumDiasEmi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem7",
+        "InputFieldName": "records:childProducts:records:childProducts:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "''",
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem10",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|5:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:deductibleValue",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "''",
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem9",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|4:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:deductiveBase",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "''",
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem11",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|3:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:deductiveType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem6",
+        "InputFieldName": "records:childProducts:records:childProducts:records:isOptional",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:isOptional",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem4",
+        "InputFieldName": "records:childProducts:records:childProducts:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Amparada",
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem8",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|1:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:sumaAsegurada",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTVehiclePackagesCustom0jIDO00000001EA2AYItem3",
+        "InputFieldName": "records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTVehiclePackages",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTVehiclePackages",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTVehiclePackages",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,55 @@
+{
+    "CreateQuote": {
+        "ActualTime": 627,
+        "CpuTime": 583,
+        "Quote_1": [
+            {
+                "%vlocity_namespace%__EffectiveDate__c": null,
+                "Id": "0Q0DO0000008lWC0AY",
+                "Name": "ALBERTO BRIONES ZEPEDA Tue Aug 08 00:00:00 GMT 2023",
+                "OpportunityId": "006DO000003WAKjYAO",
+                "Pricebook2Id": "01sDn000006cxArIAI",
+                "UpsertSuccess": true
+            }
+        ],
+        "error": "OK",
+        "responseType": "SObject"
+    },
+    "DRGetAccByCURP": {
+        "accountId": "001DO000009pIMxYAM",
+        "birthDate": "1970-12-30",
+        "contactId": "003DO00000805MQYAY",
+        "curp": "BIZA701230HDFRPL04",
+        "firstName": "ALBERTO",
+        "gender": "Male",
+        "lastName": "BRIONES ZEPEDA",
+        "rfc": "BIZA701230DK3",
+        "status": "Active"
+    },
+    "Settings": {
+        "beneficiaryCode": "INS_PARTY_BENEFICIARIO",
+        "insuredCode": "INS_PARTY_ASEGURADO"
+    },
+    "Step3": {
+        "BenificiaryInformation": [
+            {
+                "Address": {
+                    "City": "",
+                    "Country": "",
+                    "ExternalNumber": 0,
+                    "InternalNumber": 0,
+                    "PostalCode": "",
+                    "State": "",
+                    "Street": "Calle A",
+                    "Town": ""
+                },
+                "BirthDate": "1990-01-01",
+                "FirstName": "Persona A",
+                "KinshipExternalCode": "",
+                "LastName": "Apellido A",
+                "Percentage": 0,
+                "email": "personaa@gmail.com"
+            }
+        ]
+    }
+}

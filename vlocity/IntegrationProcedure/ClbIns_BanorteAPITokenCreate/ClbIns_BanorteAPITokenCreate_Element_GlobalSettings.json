@@ -1,0 +1,34 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GlobalSettings",
+    "OmniProcessId": {
+        "Name": "BanorteAPITokenCreate",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/BanorteAPITokenCreate/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "client_id": "f1763b16-8660-11ea-bc55-0242ac130003",
+            "client_secret": "kJOyjfamHnt74DJc2G6FKW8OFuHNqRQPliSDCcxbH93GJlpT+dyqHVY+g9d38P1F",
+            "grant_type": "client_credentials",
+            "scope": "LDAP"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/BanorteAPITokenCreate/Procedure/GlobalSettings"
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "GlobalKey": "DR_HIPOTECARIO_VIDA_V1Custom9231",
+        "InputFieldName": "Step1:VIDA_CLIENTE_SUMA_ASEGURADA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_HIPOTECARIO_VIDA_V1",
+        "OmniDataTransformationId": {
+            "Name": "DR_HIPOTECARIO_VIDA_V1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_HIPOTECARIO_VIDA_V1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_PARTY_ASEGURADO.MensualidadCredito",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_HIPOTECARIO_VIDA_V1Custom9242",
+        "InputFieldName": "Step1:VIDA_BANCO_SUMA_ASEGURADA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_HIPOTECARIO_VIDA_V1",
+        "OmniDataTransformationId": {
+            "Name": "DR_HIPOTECARIO_VIDA_V1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_HIPOTECARIO_VIDA_V1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_PARTY_BANCO.MensualidadCredito",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_HIPOTECARIO_VIDA_V1Custom7379",
+        "InputFieldName": "Step1:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_HIPOTECARIO_VIDA_V1",
+        "OmniDataTransformationId": {
+            "Name": "DR_HIPOTECARIO_VIDA_V1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_HIPOTECARIO_VIDA_V1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_VH_HIPOTECARIO_ROOT.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_HIPOTECARIO_VIDA_V1Custom6585",
+        "InputFieldName": "Step1:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_HIPOTECARIO_VIDA_V1",
+        "OmniDataTransformationId": {
+            "Name": "DR_HIPOTECARIO_VIDA_V1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_HIPOTECARIO_VIDA_V1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_VH_HIPOTECARIO_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

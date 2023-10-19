@@ -1,0 +1,18 @@
+{
+    "userInputs": {
+        "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+        "INS_PARTY_ASEGURADO.Asegurado_FechaNacimiento": "Date",
+        "INS_PARTY_ASEGURADO.Asegurado_Fuma": "Boolean",
+        "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+        "INS_PARTY_ASEGURADO.MensualidadCredito": "Currency",
+        "INS_PARTY_ASEGURADO.instanceKey": "Text",
+        "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+        "INS_PARTY_ASEGURADO.saldoInsoluto": "Currency",
+        "SEGURO_VIDA_INDIVIDUAL_ROOT01.Asegurado_Edad": "Number",
+        "SEGURO_VIDA_INDIVIDUAL_ROOT01.Asegurado_Fuma": "Boolean",
+        "SEGURO_VIDA_INDIVIDUAL_ROOT01.Asegurado_Genero": "Text",
+        "SEGURO_VIDA_INDIVIDUAL_ROOT01.PLAN_SELECCIONADO": "Text",
+        "SEGURO_VIDA_INDIVIDUAL_ROOT01.PORCENTAJE_DESCUENTO": "Percent",
+        "SEGURO_VIDA_INDIVIDUAL_ROOT01.SUMA_ASEGURADA": "Currency"
+    }
+}

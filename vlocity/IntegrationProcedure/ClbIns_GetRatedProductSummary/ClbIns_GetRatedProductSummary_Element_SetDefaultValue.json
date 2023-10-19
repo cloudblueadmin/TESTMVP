@@ -1,0 +1,46 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetDefaultValue",
+    "OmniProcessId": {
+        "Name": "ClbInsGetRatedProductSummary",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetRatedProductSummary/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CNT_DIAS_VIGENCIA": "%CNT_DIAS_VIGENCIA%",
+            "EDAD": "%EDAD%",
+            "FUMA_ASEGURADO": "%FUMA_ASEGURADO%",
+            "GENERO_ASEGURADO": "%GENERO_ASEGURADO%",
+            "PLAN_SELECCIONADO": "%PLAN_SELECCIONADO%",
+            "PORCENTAJE_DESCUENTO": "%PORCENTAJE_DESCUENTO%",
+            "TEMPORALIDAD_SELECCIONADA": "%TEMPORALIDAD_SELECCIONADA%",
+            "VALOR_CONTENIDOS": "%VALOR_CONTENIDOS%",
+            "VALOR_EDIFICIO": "%VALOR_EDIFICIO%",
+            "VALOR_EDI_DESTRUCTIBLE": "%VALOR_EDI_DESTRUCTIBLE%",
+            "VIDA_BANCO_SUMA_ASEGURADA": "%VIDA_BANCO_SUMA_ASEGURADA%",
+            "VIDA_CLIENTE_SUMA_ASEGURADA": "%VIDA_CLIENTE_SUMA_ASEGURADA%",
+            "VIDA_IND_PORCENTAJE_DESCUENTO": "%VIDA_IND_PORCENTAJE_DESCUENTO%",
+            "VIDA_IND_SUMA_ASEGURADA": "%VIDA_IND_SUMA_ASEGURADA%",
+            "ZONA_RHMT": "%ZONA_RHMT%",
+            "ZONA_SELECCIONADA": "%ZONA_SELECCIONADA%",
+            "ZONA_TEEV": "%ZONA_TEEV%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetRatedProductSummary/Procedure/SetDefaultValue"
+}

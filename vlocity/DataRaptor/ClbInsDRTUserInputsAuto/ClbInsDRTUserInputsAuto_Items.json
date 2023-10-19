@@ -1,0 +1,253 @@
+[
+    {
+        "FormulaExpression": "CONCAT(%vehicle:driver:firstName%, \" \", %vehicle:driver:lastName%)",
+        "FormulaResultPath": "DriverInstanceKey",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom9654",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(%vehicle:year%, \" \", %vehicle:make%, \" \", %vehicle:model%)",
+        "FormulaResultPath": "VehicleInstanceKey",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom5305",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom7525",
+        "InputFieldName": "vehicle:driver:firstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoDriver.FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom2690",
+        "InputFieldName": "vehicle:driver:gender",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoDriver.Gender",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom734",
+        "InputFieldName": "vehicle:driver:gender",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoDriver.Gender",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom6685",
+        "InputFieldName": "vehicle:driver:lastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoDriver.LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom9093",
+        "InputFieldName": "DriverInstanceKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoDriver.instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom1284",
+        "InputFieldName": "vehicle:make",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoVehicle.Make",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom5700",
+        "InputFieldName": "vehicle:model",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoVehicle.Model",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom8729",
+        "InputFieldName": "vehicle:modelDesc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoVehicle.ModelDesc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom326",
+        "InputFieldName": "vehicle:type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoVehicle.Type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom8173",
+        "InputFieldName": "vehicle:year",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoVehicle.Year",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsAutoCustom8196",
+        "InputFieldName": "VehicleInstanceKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:autoVehicle.instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

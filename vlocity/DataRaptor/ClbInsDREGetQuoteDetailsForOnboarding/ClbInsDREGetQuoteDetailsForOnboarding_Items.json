@@ -1,0 +1,316 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "quoteId",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem3",
+        "InputFieldName": "Id",
+        "InputObjectName": "Quote",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Quote",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "curp",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom4554",
+        "InputFieldName": "clbinsCURP__pc",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Account",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom2050",
+        "InputFieldName": "Account:PersonBirthdate",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:birthDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom2218",
+        "InputFieldName": "Account:clbinsCURP__pc",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:curp",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom4085",
+        "InputFieldName": "Account:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:firstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom9830",
+        "InputFieldName": "Account:%vlocity_namespace%__Gender__pc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:gender",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom6033",
+        "InputFieldName": "Account:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:lastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom9777",
+        "InputFieldName": "Account:clbinsRFC__pc",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:rfc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom6364",
+        "InputFieldName": "Account:%vlocity_namespace%__Status__c",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:account:status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem4",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step1:Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:customerEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem12",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step1:PhoneNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:customerPhoneNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem5",
+        "InputFieldName": "Quote:%vlocity_namespace%__EffectiveDate__c",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem7",
+        "InputFieldName": "Quote:%vlocity_namespace%__EndDate__c",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:expirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem6",
+        "InputFieldName": "Quote:clbinsQuoteNumber__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:number",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom0jIDO00000001Tt2AIItem8",
+        "InputFieldName": "Quote:TotalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsForOnboardingCustom4674",
+        "InputFieldName": "Quote:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsForOnboarding",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "GlobalKey": "TestRatedProductsVidaAbiertoCustom5664",
+        "InputFieldName": "Step0:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestRatedProductsVidaAbierto",
+        "OmniDataTransformationId": {
+            "Name": "TestRatedProductsVidaAbierto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestRatedProductsVidaAbierto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT_1.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestRatedProductsVidaAbiertoCustom8698",
+        "InputFieldName": "Step0:EDI_VALOR_DESTRUCTIBLE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestRatedProductsVidaAbierto",
+        "OmniDataTransformationId": {
+            "Name": "TestRatedProductsVidaAbierto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestRatedProductsVidaAbierto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT_1.EDI_VALOR_DESTRUCTIBLE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestRatedProductsVidaAbiertoCustom4746",
+        "InputFieldName": "Step0:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestRatedProductsVidaAbierto",
+        "OmniDataTransformationId": {
+            "Name": "TestRatedProductsVidaAbierto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestRatedProductsVidaAbierto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT_1.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestRatedProductsVidaAbiertoCustom4331",
+        "InputFieldName": "Step0:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestRatedProductsVidaAbierto",
+        "OmniDataTransformationId": {
+            "Name": "TestRatedProductsVidaAbierto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestRatedProductsVidaAbierto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT_2.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestRatedProductsVidaAbiertoCustom6087",
+        "InputFieldName": "Step0:EDI_VALOR_DESTRUCTIBLE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestRatedProductsVidaAbierto",
+        "OmniDataTransformationId": {
+            "Name": "TestRatedProductsVidaAbierto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestRatedProductsVidaAbierto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT_2.EDI_VALOR_DESTRUCTIBLE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestRatedProductsVidaAbiertoCustom6672",
+        "InputFieldName": "Step0:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestRatedProductsVidaAbierto",
+        "OmniDataTransformationId": {
+            "Name": "TestRatedProductsVidaAbierto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestRatedProductsVidaAbierto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT_2.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "ContextId": null,
+    "Step1": {
+        "CNT_DIAS_VIGENCIA": 30,
+        "PLAN_SELECCIONADO": null,
+        "VIDA_BANCO_SUMA_ASEGURADA": 2000000,
+        "VIDA_CLIENTE_SUMA_ASEGURADA": 20000
+    },
+    "Step2": {
+    },
+    "Step3": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "Step1": null,
+        "Step2": null,
+        "Step3": null
+    }
+}

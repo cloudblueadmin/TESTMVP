@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "ClbIns_createCoveragesToQuote_SampleInput.json",
+    "Description": "modif index coverage list",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsCreateCoveragesToQuote",
+    "OmniProcessElement": [
+        "ClbIns_createCoveragesToQuote_Element_LoopBlock.json",
+        "ClbIns_createCoveragesToQuote_Element_GetCoverageDetails.json",
+        "ClbIns_createCoveragesToQuote_Element_TransformInputForQuoteLineItems.json",
+        "ClbIns_createCoveragesToQuote_Element_CreateQuoteLineItemsForCoverages.json",
+        "ClbIns_createCoveragesToQuote_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_createCoveragesToQuote",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_createCoveragesToQuote_PropertySetConfig.json",
+    "SubType": "createCoveragesToQuote",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/createCoveragesToQuote/Procedure",
+    "WebComponentKey": "728d7343-ba0d-32e9-0073-2883e3a7ed9d"
+}

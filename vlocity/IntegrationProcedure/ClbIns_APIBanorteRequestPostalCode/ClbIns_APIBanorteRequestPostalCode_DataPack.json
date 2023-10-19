@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "ClbIns_APIBanorteRequestPostalCode_SampleInput.json",
+    "Description": "Consulta el código postal usando el API de Banorte",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "SearchPostalCodeFromBanorteAPI",
+    "OmniProcessElement": [
+        "ClbIns_APIBanorteRequestPostalCode_Element_GlobalSettings.json",
+        "ClbIns_APIBanorteRequestPostalCode_Element_GetAccessToken.json",
+        "ClbIns_APIBanorteRequestPostalCode_Element_RequestBody.json",
+        "ClbIns_APIBanorteRequestPostalCode_Element_RequestPostalCode.json",
+        "ClbIns_APIBanorteRequestPostalCode_Element_PostalCodeResponse.json"
+    ],
+    "OmniProcessKey": "ClbIns_APIBanorteRequestPostalCode",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_APIBanorteRequestPostalCode_PropertySetConfig.json",
+    "SubType": "APIBanorteRequestPostalCode",
+    "Type": "ClbIns",
+    "UniqueName": "ClbIns_APIBanorteRequestPostalCode_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/APIBanorteRequestPostalCode/Procedure",
+    "WebComponentKey": "04c9eaa8-914b-0d6b-6d79-5c0efc1a6628"
+}

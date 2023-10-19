@@ -1,0 +1,38 @@
+{
+    "RHM": "ALFA2",
+    "Step0": {
+        "Datos_Predio": {
+            "CNT_DIAS_VIGENCIA": 360,
+            "HOGAR_PORCENTAJE_DESCUENTO": 0,
+            "PLAN_SELECCIONADO": "FORMULA_HOGAR",
+            "PostalCode": "64000",
+            "ZONA": "UNICA",
+            "ZONA_RHMT": "ALFA2",
+            "ZONA_TEEV": "ZONA A"
+        }
+    },
+    "TEV_IC": "ZONA A",
+    "omniProcessId": "0jNDN000000CbFg2AK",
+    "timeStamp": "2023-05-09T21:19:29.117Z",
+    "userCurrencyCode": "MXN",
+    "userId": "005Dn0000074k2vIAA",
+    "userInputs": {
+        "SEGURO_FORMULA_HOGAR_ROOT.CNT_DIAS_VIGENCIA": 360,
+        "SEGURO_FORMULA_HOGAR_ROOT.PLAN_SELECCIONADO": "FORMULA_HOGAR",
+        "SEGURO_FORMULA_HOGAR_ROOT.PORCENTAJE_DESCUENTO": 0,
+        "SEGURO_FORMULA_HOGAR_ROOT.ZONA": "UNICA",
+        "SEGURO_FORMULA_HOGAR_ROOT.ZONA_RHMT": "ALFA2",
+        "SEGURO_FORMULA_HOGAR_ROOT.ZONA_TEEV": "ZONA A"
+    },
+    "userName": "ivan_hassig@segbanortesfi.com.dev1",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-360",
+    "userTimeZoneName": "America/Mexico_City",
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": 245,
+        "OmniScriptSessionToken": "c893d241-0cd3-4a01-9530-e873221f567f",
+        "PostalCodeTable": 210,
+        "Step0": 4101,
+        "Step1": 16989
+    }
+}

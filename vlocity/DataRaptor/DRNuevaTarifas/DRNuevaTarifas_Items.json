@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "DRNuevaTarifasCustom4439",
+        "InputFieldName": "Step0:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRNuevaTarifas",
+        "OmniDataTransformationId": {
+            "Name": "DRNuevaTarifas",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRNuevaTarifas",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INCE.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRNuevaTarifasCustom2393",
+        "InputFieldName": "Step0:EDIFICIO_VALOR_DESTRUCTIBLE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRNuevaTarifas",
+        "OmniDataTransformationId": {
+            "Name": "DRNuevaTarifas",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRNuevaTarifas",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INCE.EDI_VALOR_DESTRUCTIBLE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRNuevaTarifasCustom1848",
+        "InputFieldName": "Step0:PLAN",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRNuevaTarifas",
+        "OmniDataTransformationId": {
+            "Name": "DRNuevaTarifas",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRNuevaTarifas",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INCE.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

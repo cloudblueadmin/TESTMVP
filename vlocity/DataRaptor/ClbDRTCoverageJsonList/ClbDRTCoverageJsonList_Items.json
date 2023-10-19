@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "ClbDRTCoverageJsonListCustom9850",
+        "InputFieldName": "DREmisionDanos:certificado:cobert_bien",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageJsonList",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageJsonList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageJsonList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cobert_bien",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageJsonListCustom9992",
+        "InputFieldName": "index",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageJsonList",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageJsonList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageJsonList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cobert_bien:idcobert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

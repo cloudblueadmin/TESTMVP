@@ -1,0 +1,333 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'name == \"Beneficiario\"')",
+        "FormulaResultPath": "Beneficiario",
+        "FormulaSequence": 4,
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'name == \"INS-PARTY ASEGURADO\"')",
+        "FormulaResultPath": "Insured",
+        "FormulaSequence": 3,
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"CoverageSpec\"')",
+        "FormulaResultPath": "Coverages",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"Product\"')",
+        "FormulaResultPath": "Product",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem8",
+        "InputFieldName": "Insured",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "asegurado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem5",
+        "InputFieldName": "Beneficiario",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "contractor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem16",
+        "InputFieldName": "Beneficiario:attribute:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "contractorLastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem4",
+        "InputFieldName": "Coverages",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coverages",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem9",
+        "InputFieldName": "quote:effectiveDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem10",
+        "InputFieldName": "quote:expirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "expirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem13",
+        "InputFieldName": "Insured:attribute:CURP",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredCURP",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem11",
+        "InputFieldName": "Insured:attribute:Apellidos",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredLastNames",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem6",
+        "InputFieldName": "Insured:attribute:Nombres",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredNames",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem15",
+        "InputFieldName": "Insured:attribute:address:Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredStreet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem12",
+        "InputFieldName": "quote:price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem14",
+        "InputFieldName": "Product:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformInputForQuoteWelcomeLifeCustom0jIDO000000017i2AAItem7",
+        "InputFieldName": "quote:number",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformInputForQuoteWelcomeLife",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

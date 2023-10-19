@@ -1,0 +1,35 @@
+{
+    "ContextId": null,
+    "Resumen": {
+        "CustomLWC3": null
+    },
+    "Step0": {
+        "Datos_Predio": {
+            "CNT_DIAS_VIGENCIA": null,
+            "HOGAR_PORCENTAJE_DESCUENTO": null,
+            "PLAN_SELECCIONADO": null,
+            "VALOR_CONTENIDOS": null,
+            "VALOR_EDIFICIO": null,
+            "ZONA": null,
+            "ZONA_RHMT": null,
+            "ZONA_TEEV": null,
+            "effectiveDate": null
+        }
+    },
+    "Step1": {
+        "CustomLWC1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "Resumen": null,
+        "Step0": null,
+        "Step1": null
+    }
+}

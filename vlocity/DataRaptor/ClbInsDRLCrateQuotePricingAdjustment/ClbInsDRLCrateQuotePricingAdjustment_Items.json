@@ -1,0 +1,117 @@
+[
+    {
+        "GlobalKey": "ClbInsDRLCrateQuotePricingAdjustmentCustom8810",
+        "InputFieldName": "adjustmentType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AdjustmentType__c",
+        "OutputObjectName": "%vlocity_namespace%__QuotePricingAdjustment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCrateQuotePricingAdjustmentCustom4955",
+        "InputFieldName": "amount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__Amount__c",
+        "OutputObjectName": "%vlocity_namespace%__QuotePricingAdjustment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCrateQuotePricingAdjustmentCustom9356",
+        "InputFieldName": "priceListEntryId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__PriceListEntryId__c",
+        "OutputObjectName": "%vlocity_namespace%__QuotePricingAdjustment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCrateQuotePricingAdjustmentCustom444",
+        "InputFieldName": "quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__QuoteId__c",
+        "OutputObjectName": "%vlocity_namespace%__QuotePricingAdjustment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRLCrateQuotePricingAdjustmentCustom8427",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "%vlocity_namespace%__QuotePricingAdjustment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCrateQuotePricingAdjustmentCustom8293",
+        "InputFieldName": "name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCrateQuotePricingAdjustment",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "%vlocity_namespace%__QuotePricingAdjustment__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

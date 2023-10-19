@@ -1,0 +1,32 @@
+{
+    "userInputs": {
+        "INS_ITEM_CONTENIDOS.CONT_VALOR_DESTRUCTIBLE": "Currency",
+        "INS_ITEM_CONTENIDOS.Contenido_Coaseguro": "Percent",
+        "INS_ITEM_CONTENIDOS.Contenido_Deducible": "Percent",
+        "INS_ITEM_CONTENIDOS.Contenido_Regla_Cuota": "Percent",
+        "INS_ITEM_CONTENIDOS.Contenido_Regla_SA": "Percent",
+        "INS_ITEM_CONTENIDOS.Contenido_Valor_Aseguro": "Currency",
+        "INS_ITEM_CONTENIDOS.instanceKey": "Text",
+        "INS_ITEM_CONTENIDOS.isPrimary": "Boolean",
+        "INS_ITEM_EDIFICIO.EDI_VALOR_DESTRUCTIBLE": "Currency",
+        "INS_ITEM_EDIFICIO.Edificio deducible": "Percent",
+        "INS_ITEM_EDIFICIO.Edificio_Coaseguro": "Currency",
+        "INS_ITEM_EDIFICIO.Edificio_Codigo_Postal": "Text",
+        "INS_ITEM_EDIFICIO.Edificio_Regla_Cuota": "Percent",
+        "INS_ITEM_EDIFICIO.Edificio_Regla_SA": "Percent",
+        "INS_ITEM_EDIFICIO.Edificio_Suma_Asegurada": "Currency",
+        "INS_ITEM_EDIFICIO.Edificio_Total_Avaluo": "Currency",
+        "INS_ITEM_EDIFICIO.instanceKey": "Text",
+        "INS_ITEM_EDIFICIO.isPrimary": "Boolean",
+        "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+        "INS_PARTY_ASEGURADO.Asegurado_FechaNacimiento": "Date",
+        "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+        "INS_PARTY_ASEGURADO.MensualidadCredito": "Currency",
+        "INS_PARTY_ASEGURADO.instanceKey": "Text",
+        "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+        "INS_PARTY_ASEGURADO.saldoInsoluto": "Currency",
+        "SEGURO_HIPOTECARIO_DAÑOS_ROOTCLONED.CNT_DIAS_VIGENCIA": "Number",
+        "SEGURO_HIPOTECARIO_DAÑOS_ROOTCLONED.EDI_VALOR_DESTRUCTIBLE": "Currency",
+        "SEGURO_HIPOTECARIO_DAÑOS_ROOTCLONED.PLAN_SELECCIONADO": "Text"
+    }
+}

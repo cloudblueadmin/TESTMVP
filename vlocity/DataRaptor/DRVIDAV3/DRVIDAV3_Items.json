@@ -1,0 +1,78 @@
+[
+    {
+        "GlobalKey": "DRVIDAV3Custom6333",
+        "InputFieldName": "Step1:VIDA_BANCO_SUMA_ASEGURADA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRVIDAV3",
+        "OmniDataTransformationId": {
+            "Name": "DRVIDAV3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRVIDAV3",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_PARTY_ASEGURADO.MensualidadCredito",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRVIDAV3Custom6150",
+        "InputFieldName": "Step1:VIDA_CLIENTE_SUMA_ASEGURADA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRVIDAV3",
+        "OmniDataTransformationId": {
+            "Name": "DRVIDAV3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRVIDAV3",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_PARTY_ASEGURADO.saldoInsoluto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRVIDAV3Custom5317",
+        "InputFieldName": "Step1:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRVIDAV3",
+        "OmniDataTransformationId": {
+            "Name": "DRVIDAV3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRVIDAV3",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:LevelTerm.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRVIDAV3Custom9862",
+        "InputFieldName": "Step1:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRVIDAV3",
+        "OmniDataTransformationId": {
+            "Name": "DRVIDAV3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRVIDAV3",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:LevelTerm.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

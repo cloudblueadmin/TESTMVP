@@ -1,0 +1,45 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Settings'",
+        "GlobalKey": "ClbInsGetOnboardingURLCustom0jIDO00000001Ty2AIItem0",
+        "InputFieldName": "Label",
+        "InputObjectName": "ClbInsBanorteSystemSetting__mdt",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetOnboardingURL",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetOnboardingURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetOnboardingURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "ClbBanSS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetOnboardingURLCustom0jIDO00000001Ty2AIItem6",
+        "InputFieldName": "ClbBanSS:UrlOnboarding__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetOnboardingURL",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetOnboardingURL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetOnboardingURL",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ClbBanSS:urlOnboarding",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

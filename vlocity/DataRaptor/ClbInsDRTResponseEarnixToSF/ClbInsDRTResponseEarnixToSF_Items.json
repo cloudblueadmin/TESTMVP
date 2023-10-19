@@ -1,0 +1,672 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A001\"')",
+        "FormulaResultPath": "CoberturaA001",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom8533",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A002\"')",
+        "FormulaResultPath": "CoberturaA002",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom1840",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A003\"')",
+        "FormulaResultPath": "CoberturaA003",
+        "FormulaSequence": 3,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom233",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A004\"')",
+        "FormulaResultPath": "CoberturaA004",
+        "FormulaSequence": 4,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom9259",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A005\"')",
+        "FormulaResultPath": "CoberturaA005",
+        "FormulaSequence": 5,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom5043",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A006\"')",
+        "FormulaResultPath": "CoberturaA006",
+        "FormulaSequence": 6,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom8861",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A009\"')",
+        "FormulaResultPath": "CoberturaA009",
+        "FormulaSequence": 7,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom5163",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A010\"')",
+        "FormulaResultPath": "CoberturaA010",
+        "FormulaSequence": 8,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom7893",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A014\"')",
+        "FormulaResultPath": "CoberturaA014",
+        "FormulaSequence": 9,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom7437",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A015\"')",
+        "FormulaResultPath": "CoberturaA015",
+        "FormulaSequence": 10,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom9675",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A016\"')",
+        "FormulaResultPath": "CoberturaA016",
+        "FormulaSequence": 11,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom7618",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(Poliza:Certificado:Paquete:Cobertura), 'CodCobert == \"A017\"')",
+        "FormulaResultPath": "CoberturaA017",
+        "FormulaSequence": 12,
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom9693",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom7124",
+        "InputFieldName": "CoberturaA009:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_ASIST_JURID",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom2321",
+        "InputFieldName": "CoberturaA010:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_ASIST_VEHI",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3832",
+        "InputFieldName": "CoberturaA001:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_DANOS_MATERIALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3200",
+        "InputFieldName": "CoberturaA016:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3501",
+        "InputFieldName": "CoberturaA017:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3233",
+        "InputFieldName": "CoberturaA006:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_GASTOS_MEDI_OCUPANTES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom8015",
+        "InputFieldName": "CoberturaA005:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_RC_TERCEROS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom2784",
+        "InputFieldName": "CoberturaA004:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_ROBO_TOTAL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom6922",
+        "InputFieldName": "CoberturaA002:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_ROTURA_CRISTALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom2804",
+        "InputFieldName": "CoberturaA014:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_PR_SUSTIT_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3193",
+        "InputFieldName": "CoberturaA009:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_ASIST_JURID",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3049",
+        "InputFieldName": "CoberturaA010:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_ASIST_VEHI",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom3981",
+        "InputFieldName": "CoberturaA001:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_DANOS_MATERIALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom4939",
+        "InputFieldName": "CoberturaA016:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom4505",
+        "InputFieldName": "CoberturaA017:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom8915",
+        "InputFieldName": "CoberturaA006:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_GASTOS_MEDI_OCUPANTES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom5259",
+        "InputFieldName": "CoberturaA005:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_RC_TERCEROS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom7393",
+        "InputFieldName": "CoberturaA004:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_ROBO_TOTAL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom7685",
+        "InputFieldName": "CoberturaA002:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_ROTURA_CRISTALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom2648",
+        "InputFieldName": "CoberturaA015:MtoPrimaCob",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_SUSTIT_PERD_TOT_DANOS_MAT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom286",
+        "InputFieldName": "CoberturaA015:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_SUSTIT_PERD_TOT_DANOS_MAT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponseEarnixToSFCustom1769",
+        "InputFieldName": "CoberturaA014:SumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponseEarnixToSF",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponseEarnixToSF",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponseEarnixToSF",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AUTO_SA_SUSTIT_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

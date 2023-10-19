@@ -1,0 +1,47 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateQuote",
+    "OmniProcessId": {
+        "Name": "ClbInsInitQuote",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/InitQuote/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "effectiveDate": "=%Step4:Package:StartDate%",
+            "paymentPeriod": "=%Step5:PaymentPeriod%",
+            "quoteExpirationDate": "=%Step4:Package:EndDate%",
+            "quoteNumber": "=%DRGetQuoteNumber:quoteNumber%",
+            "term": "=%PeriodosPago:valor%",
+            "totalSum": "=%Step4:Package:Amount%",
+            "type": "=%Settings:quoteType%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "ClbInsDRPCreateQuote",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorPostAction2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/InitQuote/Procedure/CreateQuote"
+}

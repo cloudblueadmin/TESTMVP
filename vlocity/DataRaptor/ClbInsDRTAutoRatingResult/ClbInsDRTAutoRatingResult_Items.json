@@ -1,0 +1,534 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom3404",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_ROTURA_CRISTALES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ouput:calculationResults:AUTO_SA_ROTURA_CRISTALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom102",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "output",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom4883",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "output:aggregationResults",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom4859",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "output:calculationResults",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom6178",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_ASIST_JURID",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_ASIST_JURID",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom9686",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_ASIST_VEHI",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_ASIST_VEHI",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom6573",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_DANOS_MATERIALES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_DANOS_MATERIALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom1532",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom7451",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom1061",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_GASTOS_MEDI_OCUPANTES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_GASTOS_MEDI_OCUPANTES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom3615",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_RC_TERCEROS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_RC_TERCEROS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom123",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_ROBO_TOTAL",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_ROBO_TOTAL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom9193",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_ROTURA_CRISTALES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_ROTURA_CRISTALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom1780",
+        "InputFieldName": "GetCoverageValues:AUTO_PR_SUSTIT_ROBO_TOT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_PR_SUSTIT_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom6467",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_ASIST_JURID",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_ASIST_JURID",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom2828",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_ASIST_VEHI",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_ASIST_VEHI",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom8578",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_DANOS_MATERIALES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_DANOS_MATERIALES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom208",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom4091",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom8451",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_GASTOS_MEDI_OCUPANTES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_GASTOS_MEDI_OCUPANTES",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom12",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_RC_TERCEROS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_RC_TERCEROS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom8015",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_ROBO_TOTAL",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_ROBO_TOTAL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom4227",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_SUSTIT_PERD_TOT_DANOS_MAT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_SUSTIT_PERD_TOT_DANOS_MAT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom4249",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_SUSTIT_PERD_TOT_DANOS_MAT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_SUSTIT_PERD_TOT_DANOS_MAT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom9078",
+        "InputFieldName": "GetCoverageValues:AUTO_SA_SUSTIT_ROBO_TOT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:AUTO_SA_SUSTIT_ROBO_TOT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom9673",
+        "InputFieldName": "input_1:autoVehicle.instanceKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:autoVehicle.instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom9471",
+        "InputFieldName": "input_1:parentProdKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:parentProdKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultCustom2096",
+        "InputFieldName": "input_1:productKey",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResult",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "output:calculationResults:productKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

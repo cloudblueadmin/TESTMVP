@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "ClbIns_ValidateCURP_SampleInput.json",
+    "Description": "IH: Se incluye mensaje de error.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsValidateCURP",
+    "OmniProcessElement": [
+        "ClbIns_ValidateCURP_Element_IsValidCurp.json",
+        "ClbIns_ValidateCURP_Element_ResponseCurpIsNotValid.json",
+        "ClbIns_ValidateCURP_Element_DRValidateCURP.json",
+        "ClbIns_ValidateCURP_Element_ResponseValidateCURPSuccess.json",
+        "ClbIns_ValidateCURP_Element_ResponseValidateCURPError.json"
+    ],
+    "OmniProcessKey": "ClbIns_ValidateCURP",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_ValidateCURP_PropertySetConfig.json",
+    "SubType": "ValidateCURP",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/ValidateCURP/Procedure",
+    "WebComponentKey": "af818979-dc5b-33c9-815a-1acde05c4a5c"
+}

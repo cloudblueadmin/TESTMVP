@@ -1,0 +1,251 @@
+[
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem6",
+        "InputFieldName": "beneficiary",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AttributeSelectedValues__c",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem3",
+        "InputFieldName": "building",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AttributeSelectedValues__c",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem2",
+        "InputFieldName": "contents",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AttributeSelectedValues__c",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem1",
+        "InputFieldName": "coverage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AttributeSelectedValues__c",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem9",
+        "InputFieldName": "insured",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AttributeSelectedValues__c",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem11",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem12",
+        "InputFieldName": "Price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ListPrice",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem4",
+        "InputFieldName": "PricebookEntryId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PricebookEntryId",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem8",
+        "InputFieldName": "ProductId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Product2Id",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem10",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "Quantity",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem5",
+        "InputFieldName": "quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteId",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem7",
+        "InputFieldName": "Price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrice",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLCreateQuoteLineItemVehicleCustom0jIDO00000001C42AIItem13",
+        "InputFieldName": "Price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLCreateQuoteLineItemVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UnitPrice",
+        "OutputObjectName": "QuoteLineItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

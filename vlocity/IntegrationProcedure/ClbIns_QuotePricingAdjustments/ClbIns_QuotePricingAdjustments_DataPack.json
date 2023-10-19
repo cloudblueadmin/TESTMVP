@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "ClbIns_QuotePricingAdjustments_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsQuotePricingAdjustments",
+    "OmniProcessElement": [
+        "ClbIns_QuotePricingAdjustments_Element_PriceListEntries.json",
+        "ClbIns_QuotePricingAdjustments_Element_PLEntryTax.json",
+        "ClbIns_QuotePricingAdjustments_Element_PLEntryExpense.json",
+        "ClbIns_QuotePricingAdjustments_Element_svTax.json",
+        "ClbIns_QuotePricingAdjustments_Element_svExpense.json",
+        "ClbIns_QuotePricingAdjustments_Element_TaxesAndFeesList.json",
+        "ClbIns_QuotePricingAdjustments_Element_CrateQuotePricingAdjustments.json",
+        "ClbIns_QuotePricingAdjustments_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_QuotePricingAdjustments",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_QuotePricingAdjustments_PropertySetConfig.json",
+    "SubType": "QuotePricingAdjustments",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/QuotePricingAdjustments/Procedure",
+    "WebComponentKey": "77873ca8-880d-46ea-7d2a-7581ddbd133b"
+}

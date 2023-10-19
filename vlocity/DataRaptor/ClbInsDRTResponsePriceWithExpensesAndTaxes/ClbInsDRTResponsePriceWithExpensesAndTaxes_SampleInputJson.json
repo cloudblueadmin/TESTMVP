@@ -1,0 +1,79 @@
+{
+    "coverages": [
+        {
+            "BaseDeducible": "S",
+            "CodCobert": "A004",
+            "Deducible": 5,
+            "MtoPrimaCob": 884.79,
+            "MtoPrimaFactCob": 884.79,
+            "NumDiasDed": 0,
+            "NumDiasEmi": "",
+            "PorcDed": 5,
+            "SumaAsegurada": 23365
+        },
+        {
+            "BaseDeducible": "M",
+            "CodCobert": "A005",
+            "Deducible": 0,
+            "MtoPrimaCob": 1236.16,
+            "MtoPrimaFactCob": 1236.16,
+            "NumDiasDed": 0,
+            "NumDiasEmi": "",
+            "PorcDed": 0,
+            "SumaAsegurada": 4000000
+        },
+        {
+            "BaseDeducible": "M",
+            "CodCobert": "A006",
+            "Deducible": 0,
+            "MtoPrimaCob": 499.65,
+            "MtoPrimaFactCob": 499.65,
+            "NumDiasDed": 0,
+            "NumDiasEmi": "",
+            "PorcDed": "",
+            "SumaAsegurada": 50000
+        },
+        {
+            "BaseDeducible": "",
+            "CodCobert": "A010",
+            "Deducible": "",
+            "MtoPrimaCob": 147.85,
+            "MtoPrimaFactCob": 147.85,
+            "NumDiasDed": 0,
+            "NumDiasEmi": "",
+            "PorcDed": "",
+            "SumaAsegurada": 750000
+        },
+        {
+            "BaseDeducible": "",
+            "CodCobert": "A009",
+            "Deducible": "",
+            "MtoPrimaCob": 258,
+            "MtoPrimaFactCob": 258,
+            "NumDiasDed": 0,
+            "NumDiasEmi": "",
+            "PorcDed": "",
+            "SumaAsegurada": 1000000
+        }
+    ],
+    "expensesAndTaxesResults": {
+        "error": "OK",
+        "errorCode": "INVOKE-200",
+        "output": [
+            {
+                "aggregationResults": {
+                },
+                "calculationResults": [
+                    {
+                        "ID": "input",
+                        "expense": 500,
+                        "priceWithExpense": 3526.45,
+                        "taxAmount": 564.23,
+                        "total": 4090.68
+                    }
+                ]
+            }
+        ]
+    },
+    "price": 3026.45
+}

@@ -1,0 +1,252 @@
+[
+    {
+        "FormulaExpression": "GastosMedicosOcupantes * CantidadPasajeros",
+        "FormulaResultPath": "CoberturasGastosOcupantes",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom957",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom5296",
+        "InputFieldName": "anoVeh",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "anoVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom1947",
+        "InputFieldName": "CantidadPasajeros",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "cantidadPasajeros",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom6726",
+        "InputFieldName": "ClaseVeh",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "claseVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom8631",
+        "InputFieldName": "claveBG",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "claveBG",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom4385",
+        "InputFieldName": "CoberturasGastosOcupantes",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coberturasGastosOcupantes",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom2532",
+        "InputFieldName": "codMarca",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "codMarca",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom4803",
+        "InputFieldName": "codModDetalle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "codModDetalle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom4172",
+        "InputFieldName": "codModelo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "codModelo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom9220",
+        "InputFieldName": "DescModeloDetalle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "descModeloDetalle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom5558",
+        "InputFieldName": "GastosOcupantes",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "gastosMedicosOcupantes",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom1869",
+        "InputFieldName": "mtoValorComercial",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "mtoValorComercial",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetValorDetailsAddGastosOcupanteCustom271",
+        "InputFieldName": "tipoVeh",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetValorDetailsAddGastosOcupante",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "tipoVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

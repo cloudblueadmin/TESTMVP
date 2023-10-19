@@ -1,0 +1,48 @@
+{
+    "Description": "This runs if no source is passed in. This DR extracts the context of the source record (producer or person account).",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "getContextType",
+    "OmniProcessId": {
+        "Name": "GetContextDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Ins/EstablishContext/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "insExtRecordType",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "ContextId",
+                "inputParam": "Id"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISBLANK(%Source%)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": true,
+        "label": "DataRaptorExtractAction1",
+        "responseJSONNode": "Source",
+        "responseJSONPath": "Source",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Ins/EstablishContext/Procedure/getContextType"
+}

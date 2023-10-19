@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "PRIMAEDIFICIO(%quote%,\" \",\"cambio\")",
+        "FormulaResultPath": "SafeName",
+        "FormulaSequence": 1,
+        "GlobalKey": "DRTestCusmtonFucnCustom3143",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRTestCusmtonFucn",
+        "OmniDataTransformationId": {
+            "Name": "DRTestCusmtonFucn",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRTestCusmtonFucn",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRTestCusmtonFucnCustom5064",
+        "InputFieldName": "SafeName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRTestCusmtonFucn",
+        "OmniDataTransformationId": {
+            "Name": "DRTestCusmtonFucn",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRTestCusmtonFucn",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SafeName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

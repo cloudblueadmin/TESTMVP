@@ -1,0 +1,576 @@
+[
+    {
+        "FormulaExpression": "CLBINSGETAPMATERNO(GetQuoteDetails:quote:account:lastName)",
+        "FormulaResultPath": "MATERNO",
+        "FormulaSequence": 4,
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom1404",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CLBINSGETAPPATERNO(GetQuoteDetails:quote:account:lastName)",
+        "FormulaResultPath": "PATERNO",
+        "FormulaSequence": 3,
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom3281",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(GetQuoteDetails:quote:account:gender==\"Female\", \"F\", \"M\")",
+        "FormulaResultPath": "GENDER",
+        "FormulaSequence": 6,
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom7935",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(GetQuoteDetails:quote:type==\"Vehicle\",\"APF_Auto\", IF(GetQuoteDetails:quote:type==\"Life\", \"APF_Vida\", \"APF_Danos\" ))",
+        "FormulaResultPath": "SUBPROCESS",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom9862",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(GetQuoteDetails:quote:type==\"Vehicle\",\"AUTO\", IF(GetQuoteDetails:quote:type==\"Life\", \"VIDA\", \"DANOS\" ))",
+        "FormulaResultPath": "PROCESS",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom2747",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"APF_Poliza_\" + GetQuoteDetails:quote:number + \".pdf\"",
+        "FormulaResultPath": "DOC_NAME",
+        "FormulaSequence": 5,
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom5165",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "APP_SEGUROS",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom2191",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "application",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom7862",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "attachedFiles",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom1698",
+        "InputFieldName": "DOC_NAME",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "attachedFiles:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom246",
+        "InputFieldName": "GetContentDocument:response:contentVersion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "attachedFiles:value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom8948",
+        "InputFieldName": "GetQuoteDetails:quote:customerPhoneNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "client:celphone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom5254",
+        "InputFieldName": "GetQuoteDetails:quote:customerEmail",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "client:email",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom2088",
+        "InputFieldName": "GetQuoteDetails:quote:account:firstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "client:firstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom6953",
+        "InputFieldName": "GENDER",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "client:gender",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom4630",
+        "InputFieldName": "MATERNO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "client:lastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom9136",
+        "InputFieldName": "PATERNO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "client:surName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1000030_APF",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom7380",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "correlationId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "ACSEL",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom4986",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "origin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom1236",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "poliza:acsel:certificate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom1320",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "poliza:acsel:idPolizaAcsel",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "7JB",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom4865",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "poliza:acsel:office",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom8556",
+        "InputFieldName": "GetQuoteDetails:quote:number",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "poliza:acsel:poliza",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "ESMI",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom9669",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "poliza:acsel:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom5193",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "poliza:acsel:serie",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom8832",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "poliza:centralType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom3115",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Integer",
+        "OutputFieldName": "poliza:flowType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom3414",
+        "InputFieldName": "PROCESS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "process",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom1495",
+        "InputFieldName": "SUBPROCESS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "subprocess",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Salesforce_APF",
+        "GlobalKey": "ClbInsDRTransformInputforOnboardingRequestCustom5455",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputforOnboardingRequest",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputforOnboardingRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "system",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "PriceWithExpensesAndTaxes",
+    "Namespace": "",
+    "UniqueName": "PriceWithExpensesAndTaxes",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/PriceWithExpensesAndTaxes"
+}

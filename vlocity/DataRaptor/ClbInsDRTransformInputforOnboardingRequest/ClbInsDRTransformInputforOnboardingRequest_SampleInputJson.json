@@ -1,0 +1,32 @@
+{
+    "GetCurpDetails": {
+        "birthDate": "1990-01-01",
+        "curp": "BIZA701230HDFRPL04",
+        "firstName": "ALBERTO",
+        "gender": "Male",
+        "lastName": "BRIONES",
+        "rfc": "BIZA701230DK3",
+        "status": "Active"
+    },
+    "GetQuoteDetails": {
+        "quote": {
+            "customerEmail": "prueba@gmail.com",
+            "customerPhoneNumber": "+5212334218",
+            "effectiveDate": "2023-09-01",
+            "expirationDate": "2024-09-01",
+            "number": "1000233",
+            "price": 17393.2,
+            "productCode": "SEGURO_VI_APF2_ROOT",
+            "productId": "01tDO000000KpXWYA0",
+            "productName": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 2",
+            "productType": "Life"
+        }
+    },
+    "svDocSettings": {
+        "docName": "APF_Poliza_.pdf",
+        "lastNames": [
+            "BRIONES",
+            "ZEPEDA"
+        ]
+    }
+}

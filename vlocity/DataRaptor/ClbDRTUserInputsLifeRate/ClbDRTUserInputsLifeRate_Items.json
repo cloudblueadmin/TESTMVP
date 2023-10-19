@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "ClbDRTUserInputsLifeRateCustom4797",
+        "InputFieldName": "product:code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTUserInputsLifeRate",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTUserInputsLifeRate",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTUserInputsLifeRate",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_VI_APF_ROOT.PLAN_SELECCIONADO\"",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

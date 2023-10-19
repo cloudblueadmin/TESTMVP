@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ClbGetSystemSettings",
+    "DataRaptor/ClbInsDRTInputDataForJsonRequestAuto",
+    "DataRaptor/ClbInsDRTRatingRequestAuto",
+    "DataRaptor/ClbInsDRTranformVehicleRateResponse",
+    "DataRaptor/ClbInsGetAutoDetailsForRatingNew",
+    "IntegrationProcedure/ClbIns_CalculateExpensesAndTaxes"
+]

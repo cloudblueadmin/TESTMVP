@@ -1,0 +1,399 @@
+{
+    "quote": {
+        "effectiveDate": "2023-08-15",
+        "expirationDate": "2024-08-15",
+        "number": "1000012",
+        "price": 13222500,
+        "qli": [
+            {
+                "id": "0QLDO0000004maJ4AQ",
+                "lineNumber": "00002100",
+                "name": "SEGURO de CASA HABITACION APF - PROPIO",
+                "price": 2500,
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Apellidos": "Briones Zepeda",
+                    "CURP": "BIZA701230HDFRPL04",
+                    "Nombres": "Alberto",
+                    "address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+                        "Town": ""
+                    }
+                },
+                "id": "0QLDO0000004maK4AQ",
+                "lineNumber": "00002101",
+                "name": "INS-PARTY ASEGURADO",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+                        "Town": ""
+                    },
+                    "BuildingAge": "20 años",
+                    "ContentsInsuredAmount": 20,
+                    "Levels": "1 a 5 niveles",
+                    "MarDistance": true,
+                    "Value": 1000000
+                },
+                "id": "0QLDO0000004maL4AQ",
+                "lineNumber": "00002102",
+                "name": "INS-ITEM EDIFICIO",
+                "price": 0,
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 500
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004maM4AQ",
+                "lineNumber": "00002103",
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 500
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004maN4AQ",
+                "lineNumber": "00002104",
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 500
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004maO4AQ",
+                "lineNumber": "00002105",
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 500
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004maP4AQ",
+                "lineNumber": "00002106",
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN",
+                    "price": 3850
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                "id": "0QLDO0000004maQ4AQ",
+                "lineNumber": "00002107",
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN",
+                    "price": 3850
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                "id": "0QLDO0000004maR4AQ",
+                "lineNumber": "00002108",
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN",
+                    "price": 3850
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXPLOSION",
+                "id": "0QLDO0000004maS4AQ",
+                "lineNumber": "00002109",
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN",
+                    "price": 3850
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXPLOSION",
+                "id": "0QLDO0000004maT4AQ",
+                "lineNumber": "00002110",
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 100000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO",
+                    "price": 866
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004maU4AQ",
+                "lineNumber": "00002111",
+                "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                "price": 100000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 100000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO",
+                    "price": 866
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004maV4AQ",
+                "lineNumber": "00002112",
+                "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                "price": 100000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 100000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO",
+                    "price": 866
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004maW4AQ",
+                "lineNumber": "00002113",
+                "name": "INCE-CONTENIDO-HUELGAS Y VANDALISMO (S)",
+                "price": 100000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 100000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO",
+                    "price": 866
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004maX4AQ",
+                "lineNumber": "00002114",
+                "name": "INCE-CONTENIDO-HUELGAS Y VANDALISMO (S)",
+                "price": 100000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 5000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA",
+                    "price": 2741.2
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004maY4AQ",
+                "lineNumber": "00002115",
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 5000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 5000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA",
+                    "price": 2741.2
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004maZ4AQ",
+                "lineNumber": "00002116",
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 5000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 5000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA",
+                    "price": 2741.2
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004maa4AA",
+                "lineNumber": "00002117",
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 5000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 5000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA",
+                    "price": 2741.2
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004mab4AA",
+                "lineNumber": "00002118",
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 5000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO",
+                    "price": 8130
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                "id": "0QLDO0000004mac4AA",
+                "lineNumber": "00002119",
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO",
+                    "price": 8130
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                "id": "0QLDO0000004mad4AA",
+                "lineNumber": "00002120",
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO",
+                    "price": 8130
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO",
+                "id": "0QLDO0000004mae4AA",
+                "lineNumber": "00002121",
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO",
+                    "price": 8130
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO",
+                "id": "0QLDO0000004maf4AA",
+                "lineNumber": "00002122",
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 200000,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                    "price": 1306
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION",
+                "id": "0QLDO0000004mag4AA",
+                "lineNumber": "00002123",
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 200000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 200000,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                    "price": 1306
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION",
+                "id": "0QLDO0000004mah4AA",
+                "lineNumber": "00002124",
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 200000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 200000,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                    "price": 1306
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INFLACION",
+                "id": "0QLDO0000004mai4AA",
+                "lineNumber": "00002125",
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 200000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 200000,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                    "price": 1306
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INFLACION",
+                "id": "0QLDO0000004maj4AA",
+                "lineNumber": "00002126",
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 200000,
+                "type": "CoverageSpec"
+            }
+        ]
+    }
+}

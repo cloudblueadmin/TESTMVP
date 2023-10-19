@@ -1,0 +1,474 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "SEGURO-FORMULA-HOGAR_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "CNT_DIAS_VIGENCIA": 360,
+        "PLAN_SELECCIONADO": "FORMULA_HOGAR",
+        "PORCENTAJE_DESCUENTO": 0,
+        "VALOR_CONTENIDOS": null,
+        "VALOR_EDIFICIO": null,
+        "ZONA": "UNICA",
+        "ZONA_RHMT": "ALFA2",
+        "ZONA_TEEV": "ZONA A"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "Atributos-Cov-Otras",
+                "Name": "Atributos-Cov-Otras",
+                "displaySequence": 0,
+                "id": "a0qDN000000CdfqYAC",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDN000000GoTUYA0",
+                            "cloneable": true,
+                            "code": "PLAN_SELECCIONADO",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PLAN_SELECCIONADO",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "FORMULA HOGAR",
+                                    "readonly": false,
+                                    "value": "FORMULA_HOGAR"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GogJYAS",
+                            "cloneable": true,
+                            "code": "CNT_DIAS_VIGENCIA",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "CNT_DIAS_VIGENCIA",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GpCTYA0",
+                            "cloneable": true,
+                            "code": "ZONA",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "ZONA",
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "id": "6",
+                                    "label": "UNICA",
+                                    "readonly": true,
+                                    "value": "UNICA"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GpCYYA0",
+                            "cloneable": true,
+                            "code": "ZONA_TEEV",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "ZONA_TEEV",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "ZONA A",
+                                    "readonly": false,
+                                    "value": "ZONA A"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "ZONA B",
+                                    "readonly": false,
+                                    "value": "ZONA B"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "ZONA B1",
+                                    "readonly": false,
+                                    "value": "ZONA B1"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "ZONA C",
+                                    "readonly": false,
+                                    "value": "ZONA C"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "ZONA D",
+                                    "readonly": false,
+                                    "value": "ZONA D"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "ZONA E",
+                                    "readonly": false,
+                                    "value": "ZONA E"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "ZONA F",
+                                    "readonly": false,
+                                    "value": "ZONA F"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "ZONA G",
+                                    "readonly": false,
+                                    "value": "ZONA G"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "ZONA H1",
+                                    "readonly": false,
+                                    "value": "ZONA H1"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "ZONA H2",
+                                    "readonly": false,
+                                    "value": "ZONA H2"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "10",
+                                    "label": "ZONA I",
+                                    "readonly": false,
+                                    "value": "ZONA I"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "11",
+                                    "label": "ZONA J",
+                                    "readonly": false,
+                                    "value": "ZONA J"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GpCdYAK",
+                            "cloneable": true,
+                            "code": "ZONA_RHMT",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "ZONA_RHMT",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "12",
+                                    "label": "ALFA2",
+                                    "readonly": false,
+                                    "value": "ALFA2"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "ALFA3",
+                                    "readonly": false,
+                                    "value": "ALFA3"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "ALFA1 GOLFO DE MEXICO",
+                                    "readonly": false,
+                                    "value": "ALFA1 GOLFO DE MEXICO"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "ALFA1 INTERIOR DE LA REPUBLICA",
+                                    "readonly": false,
+                                    "value": "ALFA1 INTERIOR DE LA REPUBLICA"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "ALFA1 PACIFICO SUR",
+                                    "readonly": false,
+                                    "value": "ALFA1 PACIFICO SUR"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "ALFA1 PENINSULA YUCATAN",
+                                    "readonly": false,
+                                    "value": "ALFA1 PENINSULA YUCATAN"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GoyrYAC",
+                            "cloneable": true,
+                            "code": "PORCENTAJE_DESCUENTO",
+                            "dataType": "percentage",
+                            "disabled": false,
+                            "displaySequence": 7,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "range",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PORCENTAJE_DESCUENTO",
+                            "max": 100,
+                            "min": 0,
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "step": 1,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 6
+                }
+            },
+            {
+                "Code__c": "Atributos-Cov-Edificio",
+                "Name": "Atributos-Cov-Edificio",
+                "displaySequence": 2,
+                "id": "a0qDN000000CdfNYAS",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDN000000GoEyYAK",
+                            "cloneable": true,
+                            "code": "VALOR_EDIFICIO",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "VALOR_EDIFICIO",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "Atributos-Cov-Contenidos",
+                "Name": "Atributos-Cov-Contenidos",
+                "displaySequence": 3,
+                "id": "a0qDN000000CdfSYAS",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDN000000GoFwYAK",
+                            "cloneable": true,
+                            "code": "VALOR_CONTENIDOS",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "VALOR_CONTENIDOS",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 3
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "2b2d3d61-b1e5-8f65-114c-c49a226621a3",
+    "%vlocity_namespace%__GlobalKey__c": "0e424179-b67b-4e47-7013-b5c0d272675e",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"04/12/23\"},\"inputs\":{\"01tDN000000AohoYAC\":{\"a0oDN000000GpN9YAK\":{\"count\":8,\"attributeCode\":\"VALOR_CONTENIDOS\",\"attributeLabel\":\"VALOR_CONTENIDOS\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"VALOR_CONTENIDOS\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"Atributos-Cov-Contenidos\",\"categoryName\":\"Atributos-Cov-Contenidos\",\"attributeDefaultValue\":\"270000\"},\"productName\":\"SEGURO FORMULA HOGAR\",\"productRecordType\":\"Product\",\"productCode\":\"SEGURO_FORMULA_HOGAR_ROOTV1\",\"isRoot\":true,\"a0oDN000000GpN8YAK\":{\"count\":7,\"attributeCode\":\"VALOR_EDIFICIO\",\"attributeLabel\":\"VALOR_EDIFICIO\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"VALOR_EDIFICIO\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"Atributos-Cov-Edificio\",\"categoryName\":\"Atributos-Cov-Edificio\",\"attributeDefaultValue\":\"800000\"},\"a0oDN000000GpN3YAK\":{\"count\":6,\"attributeCode\":\"PLAN_SELECCIONADO\",\"attributeLabel\":\"PLAN_SELECCIONADO\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"PLAN_SELECCIONADO\",\"attributeDataType\":\"Text\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"FORMULA_HOGAR\"},\"a0oDN000000GpNAYA0\":{\"count\":5,\"attributeCode\":\"PORCENTAJE_DESCUENTO\",\"attributeLabel\":\"PORCENTAJE_DESCUENTO\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"PORCENTAJE_DESCUENTO\",\"attributeDataType\":\"Percent\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"20\"},\"a0oDN000000GpN7YAK\":{\"count\":4,\"attributeCode\":\"ZONA_RHMT\",\"attributeLabel\":\"ZONA_RHMT\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"ZONA_RHMT\",\"attributeDataType\":\"Text\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"ALFA2\"},\"a0oDN000000GpN6YAK\":{\"count\":3,\"attributeCode\":\"ZONA_TEEV\",\"attributeLabel\":\"ZONA_TEEV\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"ZONA_TEEV\",\"attributeDataType\":\"Text\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"ZONA A\"},\"a0oDN000000GpN5YAK\":{\"count\":2,\"attributeCode\":\"ZONA\",\"attributeLabel\":\"ZONA\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"ZONA_SELECCIONADA\",\"attributeDataType\":\"Text\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"UNICA\"},\"a0oDN000000GpN4YAK\":{\"count\":1,\"attributeCode\":\"CNT_DIAS_VIGENCIA\",\"attributeLabel\":\"CNT_DIAS_VIGENCIA\",\"objectId\":\"01tDN000000AohoYAC\",\"ratingInput\":\"CNT_DIAS_VIGENCIA\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"360\"}},\"01tDN000000AZ1iYAG\":{\"a0oDN000000Go9sYAC\":{\"count\":2,\"attributeCode\":\"VALOR_DESTRUCTIBLE_EDIFICIO\",\"attributeLabel\":\"Edificio Valor Destructible\",\"objectId\":\"01tDN000000AZ1iYAG\",\"ratingInput\":\"VALOR_EDI_DESTRUCTIBLE\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"Atributos-Cov-Edificio\",\"categoryName\":\"Atributos-Cov-Edificio\",\"attributeDefaultValue\":null},\"productName\":\"INS-ITEM EDIFICIO\",\"productRecordType\":\"InsuredItemSpec\",\"productCode\":\"INS_ITEM_EDIFICIO\",\"isOptional\":false,\"pciId\":\"a53DN0000004CkAYAU\",\"instanceKey\":\"\"}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Property & Casualty",
+    "%vlocity_namespace%__MarketSegment__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "SUM(INCE_PRIMA, TEEV_PRIMA, RHMT_PRIMA,RCGE_PRIMA, DMCR_PRIMA, DMRB_PRIMA, DMDV_PRIMA, DMED_PRIMA, SAP1_PRIMA)",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "SEGURO-FORMULA-HOGAR_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "HOGAR-Maestro-Paquete-Completo",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "SEGURO FORMULA HOGAR",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "SEGURO_FORMULA_HOGAR_ROOTV1",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/0e424179-b67b-4e47-7013-b5c0d272675e",
+    "clbinsBanorteCode__c": ""
+}

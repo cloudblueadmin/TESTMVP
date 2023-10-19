@@ -1,0 +1,41 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "JsonInputQuoteLifeSingleBenef",
+    "OmniProcessId": {
+        "Name": "ClbInsCreateQuoteLife",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/createQuoteLife/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "ClbInsDRTJsonInputQuoteLifeSingleBenef",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "IF(ISBLANK(Step3:BenificiaryInformation),0,LISTSIZE(Step3:BenificiaryInformation)) == 1",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataRaptorTransformAction3",
+        "responseJSONNode": "quote",
+        "responseJSONPath": "quote",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "JsonLifeUpdatedCoverages",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Transform Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/createQuoteLife/Procedure/JsonInputQuoteLifeSingleBenef"
+}

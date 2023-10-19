@@ -1,0 +1,121 @@
+{
+    "GetElegibleProducts": {
+        "Product": [
+            {
+                "Id": "01tDo000001VXkyIAG"
+            },
+            {
+                "Id": "01tDo000001Won1IAC"
+            }
+        ]
+    },
+    "GetElegibleProductsStatus": true,
+    "LoopBlock": [
+        {
+            "GetProductCoveragesStatus": true,
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "TransformOutput": {
+                "package": {
+                    "coverages": [
+                        {
+                            "name": "Indemnización Hospitalaria por Accidente",
+                            "sumaAsegurada": 200000
+                        },
+                        {
+                            "name": "Indemnización Diaria por Hospitalización",
+                            "sumaAsegurada": 10000
+                        },
+                        {
+                            "name": "Fallecimiento",
+                            "sumaAsegurada": 1500000
+                        },
+                        {
+                            "name": "Enfermedades Graves",
+                            "sumaAsegurada": 100000
+                        }
+                    ],
+                    "name": "VI APF - Package 1500000",
+                    "productCode": "BAN-VIDIND-APF-1500000",
+                    "requirements": [
+                        {
+                            "name": "Tener entre 18 y 70 años"
+                        },
+                        {
+                            "name": "Gozar de buena salud"
+                        },
+                        {
+                            "name": "No tener una ocupación considerada de alto riesgo"
+                        },
+                        {
+                            "name": "Ser empleado de la Administración Pública Federal"
+                        }
+                    ]
+                }
+            },
+            "TransformOutputStatus": true,
+            "svPIDStatus": true
+        },
+        {
+            "GetProductCoveragesStatus": true,
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true,
+            "TransformOutput": {
+                "package": {
+                    "coverages": [
+                        {
+                            "name": "Indemnización Hospitalaria por Accidente",
+                            "sumaAsegurada": 200000
+                        },
+                        {
+                            "name": "Indemnización Diaria por Hospitalización",
+                            "sumaAsegurada": 10000
+                        },
+                        {
+                            "name": "Fallecimiento",
+                            "sumaAsegurada": 1000000
+                        },
+                        {
+                            "name": "Enfermedades Graves",
+                            "sumaAsegurada": 100000
+                        }
+                    ],
+                    "name": "VI APF - Package 1000000",
+                    "productCode": "BAN-VIDIND-APF-1000000"
+                }
+            },
+            "TransformOutputStatus": true,
+            "svPIDStatus": true
+        }
+    ],
+    "LoopBlockStatus": true,
+    "ProductType": "Life",
+    "ResponseStatus": true,
+    "options": {
+        "OmniAnalyticsTrackingDebug": false,
+        "ParentInteractionToken": null,
+        "chainable": false,
+        "continuationStepResult": null,
+        "disableMetadataCache": false,
+        "forceQueueable": false,
+        "ignoreCache": true,
+        "isDebug": true,
+        "isTestProcedure": false,
+        "mockHttpResponse": null,
+        "queueableChainable": false,
+        "resetCache": false,
+        "shouldCommit": false,
+        "useContinuation": false,
+        "useFuture": false,
+        "useHttpCalloutMock": false,
+        "useQueueable": false,
+        "useQueueableApexRemoting": false,
+        "vlcCacheKey": null,
+        "vlcFilesMap": null,
+        "vlcIPData": null,
+        "vlcTestSuiteUniqueKey": null,
+        "vlcTestUniqueKey": null
+    },
+    "response": {
+    }
+}

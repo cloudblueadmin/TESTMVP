@@ -1,0 +1,154 @@
+[
+    {
+        "GlobalKey": "DRFormulaHogarCustom9304",
+        "InputFieldName": "Step0:Datos_Predio:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom2039",
+        "InputFieldName": "Step0:Datos_Predio:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom8754",
+        "InputFieldName": "Step0:Datos_Predio:HOGAR_PORCENTAJE_DESCUENTO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.PORCENTAJE_DESCUENTO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom9985",
+        "InputFieldName": "Step0:Datos_Predio:VALOR_CONTENIDOS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.VALOR_CONTENIDOS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom3372",
+        "InputFieldName": "Step0:Datos_Predio:VALOR_EDIFICIO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.VALOR_EDIFICIO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom7556",
+        "InputFieldName": "Step0:Datos_Predio:ZONA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.ZONA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom21",
+        "InputFieldName": "Step0:Datos_Predio:ZONA_RHMT",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.ZONA_RHMT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRFormulaHogarCustom440",
+        "InputFieldName": "Step0:Datos_Predio:ZONA_TEEV",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRFormulaHogar",
+        "OmniDataTransformationId": {
+            "Name": "DRFormulaHogar",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRFormulaHogar",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_FORMULA_HOGAR_ROOT.ZONA_TEEV",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

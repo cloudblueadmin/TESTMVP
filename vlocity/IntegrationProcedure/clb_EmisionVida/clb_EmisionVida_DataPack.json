@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "clb_EmisionVida_SampleInput.json",
+    "Description": "Add URL from urlSettings",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "clbIPEmisionVida",
+    "OmniProcessElement": [
+        "clb_EmisionVida_Element_IP_BanorteAPITokenCreate.json",
+        "clb_EmisionVida_Element_DREmisionVida.json",
+        "clb_EmisionVida_Element_HTTPActionPolicy.json",
+        "clb_EmisionVida_Element_ResponseEmisionVidaSucess.json"
+    ],
+    "OmniProcessKey": "clb_EmisionVida",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "clb_EmisionVida_PropertySetConfig.json",
+    "SubType": "EmisionVida",
+    "Type": "clb",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/clb/EmisionVida/Procedure",
+    "WebComponentKey": "54ef38dd-3a5a-ec9d-3f88-b44a4ac2772f"
+}

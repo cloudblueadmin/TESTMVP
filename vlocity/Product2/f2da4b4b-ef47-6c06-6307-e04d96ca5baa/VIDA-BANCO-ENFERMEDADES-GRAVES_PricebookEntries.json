@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "VIDA-BANCO-ENFERMEDADES-GRAVES",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "f2da4b4b-ef47-6c06-6307-e04d96ca5baa",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "f2da4b4b-ef47-6c06-6307-e04d96ca5baa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/f2da4b4b-ef47-6c06-6307-e04d96ca5baa",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VIDA_BANCO_ENFERMEDADES_GRAVES",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/f2da4b4b-ef47-6c06-6307-e04d96ca5baa"
+    }
+]

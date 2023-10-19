@@ -1,0 +1,29 @@
+{
+    "ContextId": null,
+    "Step1": {
+        "EDAD_ASEGURADO": null,
+        "FUMA_ASEGURADO": null,
+        "GENERO_ASEGURADO": null,
+        "PLAN_SELECCIONADO": null,
+        "VIDA_IND_PORCENTAJE_DESCUENTO": null,
+        "VIDA_IND_SUMA_ASEGURADA": null
+    },
+    "Step2": {
+    },
+    "Step3": {
+        "CustomLWC2": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "Step1": null,
+        "Step2": null,
+        "Step3": null
+    }
+}

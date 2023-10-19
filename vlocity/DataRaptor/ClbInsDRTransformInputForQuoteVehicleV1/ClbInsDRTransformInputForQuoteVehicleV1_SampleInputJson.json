@@ -1,0 +1,238 @@
+{
+    "quote": {
+        "createdDate": "2023-08-17T16:58:44.000Z",
+        "effectiveDate": "2023-08-17",
+        "expirationDate": "2024-08-17",
+        "number": "1000046",
+        "price": 16149.15,
+        "qli": [
+            {
+                "attribute": {
+                    "ProductCode": "A009",
+                    "insuredAmount": 129.69,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_ASIST_JURID",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0S4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00002611",
+                "name": "Asistencia jurídica",
+                "price": 129.69,
+                "type": "CoverageSpec"
+            },
+            {
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0F4AQ",
+                "lineNumber": "00002598",
+                "name": "INTEGRAL",
+                "price": 2500,
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Apellidos": "Briones Zepeda",
+                    "CURP": "BIZA701230HDFRPL04",
+                    "Nombres": "Alberto",
+                    "address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64c",
+                        "Town": "Colonia Centro, Cuauhtémoc"
+                    }
+                },
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0G4AQ",
+                "lineNumber": "00002599",
+                "name": "Driver",
+                "price": 2500,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "AcceptanceInformation": true,
+                    "AcceptanceLaw": true,
+                    "Brand": "FO",
+                    "EngineNumber": "6749504",
+                    "Model": "019",
+                    "ModelDesc": "FO400",
+                    "NumberPlate": "SRS",
+                    "PostalCode": "1010",
+                    "SerialNumber": "NVFRTS",
+                    "Type": "001",
+                    "Year": "2009",
+                    "isParticular": true
+                },
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0H4AQ",
+                "lineNumber": "00002600",
+                "name": "Vehicle",
+                "price": 2500,
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A004",
+                    "insuredAmount": 5725.27,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_ROBO_TOTAL",
+                "deductible": "5%",
+                "id": "0QLDO0000004n0I4AQ",
+                "limit": "VALOR COMERCIAL + 10",
+                "lineNumber": "00002601",
+                "name": "Robo total",
+                "price": 5725.27,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A005",
+                    "insuredAmount": 990.74,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_RC_TERCEROS",
+                "deductible": "0 UMA",
+                "id": "0QLDO0000004n0J4AQ",
+                "limit": "$4,000,000",
+                "lineNumber": "00002602",
+                "name": "Responsabilidad civil terceros",
+                "price": 990.74,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A006",
+                    "insuredAmount": 120.29,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_GASTOS_MEDI_OCUPANTES",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0K4AQ",
+                "lineNumber": "00002603",
+                "name": "Gastos médicos ocupantes",
+                "price": 120.29,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A017",
+                    "insuredAmount": 1262.7,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+                "deductible": "5%",
+                "id": "0QLDO0000004n0L4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00002604",
+                "name": "Elim ded y dev de prima por robo total",
+                "price": 1262.7,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A016",
+                    "insuredAmount": 0,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+                "deductible": "3%",
+                "id": "0QLDO0000004n0M4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00002605",
+                "name": "Elim ded y dev de prima pérdida total daños mat",
+                "price": 0,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A002",
+                    "insuredAmount": 0,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_ROTURA_CRISTALES",
+                "deductible": "20%",
+                "id": "0QLDO0000004n0Q4AQ",
+                "limit": "V. CRISTAL",
+                "lineNumber": "00002609",
+                "name": "Rotura cristales",
+                "price": 0,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A010",
+                    "insuredAmount": 259,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_ASIST_VEHI",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0R4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00002610",
+                "name": "Asistencia vehicular",
+                "price": 259,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A001",
+                    "insuredAmount": 0,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_DANOS_MATERIALES",
+                "deductible": "3%",
+                "id": "0QLDO0000004n0N4AQ",
+                "limit": "VALOR COMERCIAL + 10",
+                "lineNumber": "00002606",
+                "name": "Daños materiales",
+                "price": 0,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A014",
+                    "insuredAmount": 161.46,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_SUSTIT_ROBO_TOT",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0O4AQ",
+                "lineNumber": "00002607",
+                "name": "Auto sustituto por robo total",
+                "price": 161.46,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A015",
+                    "insuredAmount": 0,
+                    "price": "0",
+                    "tasa": null
+                },
+                "code": "AUTO_PR_SUSTIT_PERD_TOT_DANOS_MAT",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004n0P4AQ",
+                "limit": "15 días",
+                "lineNumber": "00002608",
+                "name": "Auto sustituto por pérdida total daños materiales",
+                "price": 0,
+                "type": "CoverageSpec"
+            }
+        ]
+    }
+}

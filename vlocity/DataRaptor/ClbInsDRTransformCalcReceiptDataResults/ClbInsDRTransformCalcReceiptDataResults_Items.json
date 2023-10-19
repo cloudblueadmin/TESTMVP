@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTransformCalcReceiptDataResultsCustom3119",
+        "InputFieldName": "calcResults:output:calculationResults:firstInstallmentAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformCalcReceiptDataResults",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformCalcReceiptDataResults",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformCalcReceiptDataResults",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "firstInstallmentAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformCalcReceiptDataResultsCustom1492",
+        "InputFieldName": "calcResults:output:calculationResults:installmentAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformCalcReceiptDataResults",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformCalcReceiptDataResults",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformCalcReceiptDataResults",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "installmentAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformCalcReceiptDataResultsCustom1926",
+        "InputFieldName": "calcResults:output:calculationResults:totalNew",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformCalcReceiptDataResults",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformCalcReceiptDataResults",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformCalcReceiptDataResults",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "totalNew",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

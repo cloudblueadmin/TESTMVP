@@ -1,0 +1,44 @@
+[
+    {
+        "GlobalKey": "3daa68a5-859a-4121-aa2f-f0c88b076fb7",
+        "InputFieldName": "ContextId",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "CreateContractVersion",
+        "OmniDataTransformationId": {
+            "Name": "CreateContractVersion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateContractVersion",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__ContractId__c",
+        "OutputObjectName": "%vlocity_namespace%__ContractVersion__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "a776a171-c7f4-4bbc-9537-72d5673d44ba",
+        "InputFieldName": "ContractType",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "CreateContractVersion",
+        "OmniDataTransformationId": {
+            "Name": "CreateContractVersion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateContractVersion",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__Type__c",
+        "OutputObjectName": "%vlocity_namespace%__ContractVersion__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

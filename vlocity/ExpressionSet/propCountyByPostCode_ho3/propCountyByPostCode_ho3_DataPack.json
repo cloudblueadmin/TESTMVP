@@ -1,0 +1,9 @@
+{
+    "Description": "",
+    "Name": "propCountyByPostCode_ho3",
+    "Namespace": "",
+    "UniqueName": "propCountyByPostCode_ho3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/propCountyByPostCode_ho3"
+}

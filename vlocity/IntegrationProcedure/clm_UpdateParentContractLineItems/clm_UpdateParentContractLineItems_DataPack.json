@@ -1,0 +1,23 @@
+{
+    "CustomJavaScript": "{}",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CLM - Update Parent Contract Line Items",
+    "OmniProcessElement": "clm_UpdateParentContractLineItems_Element_UpdateContractLineItems.json",
+    "OmniProcessKey": "clm_UpdateParentContractLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "clm_UpdateParentContractLineItems_PropertySetConfig.json",
+    "SubType": "UpdateParentContractLineItems",
+    "Type": "clm",
+    "UniqueName": "clm_UpdateParentContractLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/clm/UpdateParentContractLineItems/Procedure",
+    "WebComponentKey": "02cdd034-7e57-5d89-fa9f-2c36f0a38689"
+}

@@ -1,0 +1,77 @@
+{
+    "ContextId": null,
+    "Generate Document": {
+        "GenerateDocumentWord": null
+    },
+    "PersonAccountDetails": {
+        "FirstName": null,
+        "LastName": null,
+        "PersonBirthdate": null,
+        "PersonEmail": null,
+        "Phone": null,
+        "contactPreference": null,
+        "opptyName": null
+    },
+    "TuitionIncreaseRate": 0.06,
+    "configureCoverages": {
+        "configureProduct": null
+    },
+    "quotedata": {
+        "CNT_DIAS_VIGENCIA": null,
+        "EDAD": null,
+        "FUMA_ASEGURADO": null,
+        "GENERO_ASEGURADO": null,
+        "PLAN_SELECCIONADO": null,
+        "VIDA_IND_PORCENTAJE_DESCUENTO": null,
+        "VIDA_IND_SUMA_ASEGURADA": null,
+        "effectiveDate": null,
+        "yourDetails": {
+            "Gender": null,
+            "Smoker": null,
+            "insuredBirthdate": null
+        },
+        "yourHealth": {
+            "BMI": null,
+            "HealthQuote": null,
+            "Messaging1": null,
+            "Messaging2": null,
+            "feet": null,
+            "inches": null,
+            "weight": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "DisplayGenerationOptions": null,
+        "Generate Document": null,
+        "GetDocumentTemplateById": null,
+        "GetDocumentTemplates": null,
+        "InitialConfig": null,
+        "PersonAccountDetails": null,
+        "Set Generation Options": null,
+        "SetValues": null,
+        "TemplatePicker": null,
+        "configureCoverages": null,
+        "createUpdatePersonAccount": null,
+        "createUpdateQuote": null,
+        "getContextRecordDetails": null,
+        "getPersonAccountDetails": null,
+        "quotedata": null,
+        "setAccountId": null,
+        "tranformLead": null,
+        "transform": null,
+        "transformLead": null,
+        "transformPersonAccount": null,
+        "transformPersonAccount1": null,
+        "transformPersonAccountDetails": null,
+        "transforminsuredItems": null,
+        "transformnewQuoteJson": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "userInputs": {
+            "INS_ITEM_CONTENIDOS.CONT_VALOR_DESTRUCTIBLE": "Currency",
+            "INS_ITEM_CONTENIDOS.instanceKey": "Text",
+            "INS_ITEM_CONTENIDOS.isPrimary": "Boolean",
+            "INS_ITEM_EDIFICIO.VALOR_DESTRUCTIBLE_EDIFICIO": "Currency",
+            "INS_ITEM_EDIFICIO.instanceKey": "Text",
+            "INS_ITEM_EDIFICIO.isPrimary": "Boolean",
+            "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+            "INS_PARTY_ASEGURADO.Asegurado_FechaNacimiento": "Date",
+            "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+            "INS_PARTY_ASEGURADO.MensualidadCredito": "Currency",
+            "INS_PARTY_ASEGURADO.instanceKey": "Text",
+            "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+            "INS_PARTY_ASEGURADO.saldoInsoluto": "Currency",
+            "SEGURO_HIPOTECARIO_DAÑOS_ROOT_1.CNT_DIAS_VIGENCIA": "Number",
+            "SEGURO_HIPOTECARIO_DAÑOS_ROOT_1.PLAN_SELECCIONADO": "Text",
+            "SEGURO_HIPOTECARIO_DAÑOS_ROOT_1.VALOR_DESTRUCTIBLE_EDIFICIO": "Currency"
+        }
+    },
+    "output": {
+        "result": "JSONResult"
+    }
+}

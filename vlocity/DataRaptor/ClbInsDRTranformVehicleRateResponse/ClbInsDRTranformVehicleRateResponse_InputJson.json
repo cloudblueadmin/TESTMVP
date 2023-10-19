@@ -1,0 +1,17 @@
+{
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "output": [
+        {
+            "aggregationResults": {
+            },
+            "calculationResults": [
+                {
+                    "ANNUAL_PRICE": 3510.68,
+                    "ID": "input",
+                    "MONTHLY_PRICE": 292.56
+                }
+            ]
+        }
+    ]
+}

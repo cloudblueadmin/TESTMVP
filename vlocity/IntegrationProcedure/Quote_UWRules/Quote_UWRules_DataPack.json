@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "Quote_UWRules_SampleInput.json",
+    "Description": "Version Oct 6 20, true rules for both UW Rules and Requirements.  This version creates 2 nodes with true rules, separating the types of rules.  Matches change in sign of UW rules to trap true rules.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "QuoteCheckUWRules",
+    "OmniProcessElement": [
+        "Quote_UWRules_Element_UWReqCheck.json",
+        "Quote_UWRules_Element_UWRulesCheck.json",
+        "Quote_UWRules_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "Quote_UWRules",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Quote_UWRules_PropertySetConfig.json",
+    "SubType": "UWRules",
+    "Type": "Quote",
+    "UniqueName": "Quote_UWRules_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Quote/UWRules/Procedure",
+    "WebComponentKey": "1f90403a-85c0-96f0-e933-65ce3e8dbccc"
+}

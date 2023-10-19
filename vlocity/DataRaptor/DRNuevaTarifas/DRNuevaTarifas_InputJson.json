@@ -1,0 +1,27 @@
+{
+    "ContextId": null,
+    "Step0": {
+        "CNT_DIAS_VIGENCIA": null,
+        "EDIFICIO_VALOR_DESTRUCTIBLE": null,
+        "PLAN": null
+    },
+    "Step1": {
+        "CustomLWC1": null
+    },
+    "Step3": {
+        "CustomLWC3": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "Step0": null,
+        "Step1": null,
+        "Step3": null
+    }
+}

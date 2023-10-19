@@ -1,0 +1,26 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DANOSMaestroBlindajePlusTryCatchBlock",
+    "OmniProcessId": {
+        "Name": "ClbInsGetRatedProductSummary",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetRatedProductSummary/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "SetDefaultValue:PLAN_SELECCIONADO=\"CLASICO\"",
+        "failOnBlockError": false,
+        "failureResponse": {
+        },
+        "label": "TryCatchBlock1",
+        "remoteClass": "",
+        "remoteMethod": "",
+        "show": null
+    },
+    "Type": "Try Catch Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetRatedProductSummary/Procedure/DANOSMaestroBlindajePlusTryCatchBlock"
+}

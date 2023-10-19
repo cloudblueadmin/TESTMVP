@@ -1,0 +1,232 @@
+[
+    {
+        "FormulaExpression": "(LoopBlock:TransformOutput:package:price)/12",
+        "FormulaResultPath": "monthlyPrice",
+        "FormulaSequence": 1,
+        "GlobalKey": "BANElegibleProductsResponseCustom1797",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom7407",
+        "InputFieldName": "LoopBlock:TransformOutput:package:branchCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:branchCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom9774",
+        "InputFieldName": "LoopBlock:TransformOutput:package:productCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom5355",
+        "InputFieldName": "LoopBlock:TransformOutput:package:coverages:code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:coverages:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom7593",
+        "InputFieldName": "LoopBlock:TransformOutput:package:coverages:sumaAsegurada",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:coverages:insuredAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom3304",
+        "InputFieldName": "LoopBlock:TransformOutput:package:coverages:isOptional",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:coverages:isOptional",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom2568",
+        "InputFieldName": "LoopBlock:TransformOutput:package:coverages:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:coverages:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom5269",
+        "InputFieldName": "LoopBlock:TransformOutput:package:coverages:price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:coverages:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom1922",
+        "InputFieldName": "LoopBlock:TransformOutput:package:monthlyPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:monthlyPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom4679",
+        "InputFieldName": "LoopBlock:TransformOutput:package:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom3822",
+        "InputFieldName": "LoopBlock:TransformOutput:package:price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "BANElegibleProductsResponseCustom4281",
+        "InputFieldName": "LoopBlock:TransformOutput:package:requirements:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "BANElegibleProductsResponse",
+        "OmniDataTransformationId": {
+            "Name": "BANElegibleProductsResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/BANElegibleProductsResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "packages:requirements:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

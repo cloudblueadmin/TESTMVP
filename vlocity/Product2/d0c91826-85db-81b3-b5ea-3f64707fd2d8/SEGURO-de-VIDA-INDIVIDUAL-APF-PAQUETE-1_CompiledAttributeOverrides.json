@@ -1,0 +1,664 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Apellidos": null,
+            "Asegurado_Edad": null,
+            "Asegurado_FechaNacimiento": null,
+            "Asegurado_Genero": "MUJER",
+            "Nombres": null
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "Atributos-Cov-Asegurado",
+                    "Name": "Atributos-Cov-Asegurado",
+                    "displaySequence": 4,
+                    "id": "a0qDN000000CdfIYAS",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDN000000GoCDYA0",
+                                "cloneable": true,
+                                "code": "Asegurado_Edad",
+                                "dataType": "number",
+                                "disabled": true,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Edad",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoCIYA0",
+                                "cloneable": true,
+                                "code": "Asegurado_Genero",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Genero",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Femenino",
+                                        "readonly": false,
+                                        "value": "MUJER"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Masculino",
+                                        "readonly": false,
+                                        "value": "HOMBRE"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoC8YAK",
+                                "cloneable": true,
+                                "code": "Asegurado_FechaNacimiento",
+                                "dataType": "date",
+                                "disabled": true,
+                                "displaySequence": 2,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "date",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Fecha Nacimiento",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FoMyYAK",
+                                "cloneable": true,
+                                "code": "Nombres",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Nombres",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FoN3YAK",
+                                "cloneable": true,
+                                "code": "Apellidos",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Apellidos",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": {
+            "Asegurado_Edad": {
+                "attributeRules": [
+                    {
+                        "actions": {
+                            "Message": {
+                                "client": {
+                                    "params": {
+                                    }
+                                },
+                                "remote": {
+                                    "params": {
+                                    }
+                                },
+                                "rest": {
+                                    "link": null,
+                                    "method": null,
+                                    "params": {
+                                    }
+                                }
+                            }
+                        },
+                        "expression": "%INS_PARTY_ASEGURADO.Asegurado_Edad% < 18 || %INS_PARTY_ASEGURADO.Asegurado_Edad% > 70",
+                        "messages": [
+                            {
+                                "code": "EDAD NO PERMITIDA PARA EL INGRESO AL SEGURO",
+                                "message": "EDAD NO PERMITIDA PARA EL INGRESO AL SEGURO",
+                                "severity": "ERROR"
+                            }
+                        ],
+                        "ruleType": "Message"
+                    }
+                ]
+            }
+        },
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f685e56-b813-024a-e578-01a5b2c6c3a8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/5f685e56-b813-024a-e578-01a5b2c6c3a8",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1971932654"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "VIDA_IND_PR_ENFERMEDADES_GRAVES": null,
+            "VIDA_IND_SA_ENFERMEDADES_GRAVES": 100000
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                    "Name": "Atributos Ramo Vida Individual",
+                    "displaySequence": 5,
+                    "id": "a0qDN000000Cdj1YAC",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FUohYAG",
+                                "cloneable": true,
+                                "code": "VIDA_IND_SA_ENFERMEDADES_GRAVES",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA_IND_SA_ENFERMEDADES_GRAVES",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FUoiYAG",
+                                "cloneable": true,
+                                "code": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7281ac52-687b-adb3-459b-ebc56f306f56",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/7281ac52-687b-adb3-459b-ebc56f306f56",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-941411396"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "VIDA_IND_PR_FALLECIMIENTO_INDEMNIZACION_HOSP_ACCIDENTE": null,
+            "VIDA_IND_SA_INDEMNIZACION_HOSP_ACCIDENTE": 50000
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                    "Name": "Atributos Ramo Vida Individual",
+                    "displaySequence": 5,
+                    "id": "a0qDN000000Cdj1YAC",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FUoDYAW",
+                                "cloneable": true,
+                                "code": "VIDA_IND_SA_INDEMNIZACION_HOSP_ACCIDENTE",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA_IND_SA_INDEMNIZACION_HOSP_ACCIDENTE",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FUoIYAW",
+                                "cloneable": true,
+                                "code": "VIDA_IND_PR_FALLECIMIENTO_INDEMNIZACION_HOSP_ACCIDENTE",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA _IND_PR_INDEMNIZACION_HOSP_ACCIDENTE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "6e22e3dc-93ec-88c4-5143-b238624e2336",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/6e22e3dc-93ec-88c4-5143-b238624e2336",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated2119502195"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "VIDA_IND_PR_INDEMNIZACION_DIARIA_ACCIDENTE": null,
+            "VIDA_IND_SA_INDEMNIZACION_DIARIA_ACCIDENTE": 2500
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                    "Name": "Atributos Ramo Vida Individual",
+                    "displaySequence": 5,
+                    "id": "a0qDN000000Cdj1YAC",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FUoXYAW",
+                                "cloneable": true,
+                                "code": "VIDA_IND_SA_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA_IND_SA_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FUocYAG",
+                                "cloneable": true,
+                                "code": "VIDA_IND_PR_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": true,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA_IND_PR_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b80f513e-21ff-11dc-4e5e-43f88d4b11b8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/b80f513e-21ff-11dc-4e5e-43f88d4b11b8",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1679489354"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "VIDA_IND_PR_INVALIDEZ_TOTAL_Y_PERMANENTE": null,
+            "VIDA_IND_SA_INVALIDEZ_TOTAL_Y_PERMANENTE": 500000
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                    "Name": "Atributos Ramo Vida Individual",
+                    "displaySequence": 5,
+                    "id": "a0qDN000000Cdj1YAC",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FXMUYA4",
+                                "cloneable": true,
+                                "code": "VIDA_IND_SA_INVALIDEZ_TOTAL_Y_PERMANENTE",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA IND SUMA ASEGURADA INVALIDEZ TOTAL Y PERMANENTE",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FXMZYA4",
+                                "cloneable": true,
+                                "code": "VIDA_IND_PR_INVALIDEZ_TOTAL_Y_PERMANENTE",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": true,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA IND PRIMA INVALIDEZ TOTAL Y PERMANENTE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4ce0ebaf-5556-24a3-3d0e-0a73c458a5bb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/4ce0ebaf-5556-24a3-3d0e-0a73c458a5bb",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1766768558"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "VIDA_IND_PR_MUERTE_ACCIDENTAL": null,
+            "VIDA_IND_SA_MUERTE_ACCIDENTAL": 500000
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                    "Name": "Atributos Ramo Vida Individual",
+                    "displaySequence": 5,
+                    "id": "a0qDN000000Cdj1YAC",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDN000000GovIYAS",
+                                "cloneable": true,
+                                "code": "VIDA_IND_SA_MUERTE_ACCIDENTAL",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA IND SUMA ASEGURADA MUERTE ACCIDENTAL",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GovNYAS",
+                                "cloneable": true,
+                                "code": "VIDA_IND_PR_MUERTE_ACCIDENTAL",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": true,
+                                "hidden": true,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "VIDA IND PRIMA MUERTE ACCIDENTAL",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b655f662-87e1-579f-102c-ee07bf97e367",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/b655f662-87e1-579f-102c-ee07bf97e367",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d0c91826-85db-81b3-b5ea-3f64707fd2d8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated801216422"
+    }
+]

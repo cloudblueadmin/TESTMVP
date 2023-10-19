@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "ClbDRTKitBanorteTestV1Custom0jIDO00000000tA2AQItem1",
+        "InputFieldName": "policy:insured",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTKitBanorteTestV1",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTKitBanorteTestV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTKitBanorteTestV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTKitBanorteTestV1Custom0jIDO00000000tA2AQItem0",
+        "InputFieldName": "policy:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTKitBanorteTestV1",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTKitBanorteTestV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTKitBanorteTestV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "policyNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

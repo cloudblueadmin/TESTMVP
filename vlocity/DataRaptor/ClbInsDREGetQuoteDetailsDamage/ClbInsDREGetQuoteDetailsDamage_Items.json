@@ -1,0 +1,636 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem1",
+        "InputFieldName": "Id",
+        "InputObjectName": "Quote",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Quote",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem0",
+        "InputFieldName": "QuoteId",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "QuoteLineItem",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'INS-PARTY ASEGURADO'",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom9785",
+        "InputFieldName": "%vlocity_namespace%__ProductName__c",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 3,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsuredList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'InsuredPartySpec'",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom7906",
+        "InputFieldName": "%vlocity_namespace%__RecordTypeName__c",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 3,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsuredList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom3668",
+        "InputFieldName": "QuoteId",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 3,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsuredList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom116",
+        "InputFieldName": "DanoMateriales",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "danoMateriales",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom4469",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:City",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:City",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom6908",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:ExternalNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:ExtNum",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom8357",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:InternalNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:IntNum",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom643",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:PostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:PostalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom7272",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:State",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:State",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom9150",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:Street",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom9659",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step3:BuildingInformation:Address:Town",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:Property:Address:Town",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom7346",
+        "InputFieldName": "InsuredList:%vlocity_namespace%__AttributeSelectedValues__c:Apellidos",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:asegurado:apellido",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom1720",
+        "InputFieldName": "InsuredList:%vlocity_namespace%__AttributeSelectedValues__c:CURP",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:asegurado:curp",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom1097",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step1:Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:asegurado:email",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom8658",
+        "InputFieldName": "InsuredList:%vlocity_namespace%__AttributeSelectedValues__c:Nombres",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:asegurado:nombres",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom2804",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step1:PhoneNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:asegurado:phone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom5703",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step1:RFC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:asegurado:rfc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem2",
+        "InputFieldName": "Quote:%vlocity_namespace%__EffectiveDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem4",
+        "InputFieldName": "Quote:%vlocity_namespace%__EndDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:expirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom9493",
+        "InputFieldName": "Quote:ClbInsQuoteInputData__c:Step5:PaymentPeriod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:paymentPeriod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem6",
+        "InputFieldName": "Quote:clbinsPremiumAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem8",
+        "InputFieldName": "QuoteLineItem:%vlocity_namespace%__AttributeSelectedValues__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Object",
+        "OutputFieldName": "quote:qli:attribute",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem9",
+        "InputFieldName": "QuoteLineItem:%vlocity_namespace%__PricingSource__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem5",
+        "InputFieldName": "QuoteLineItem:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem10",
+        "InputFieldName": "QuoteLineItem:LineNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:lineNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem7",
+        "InputFieldName": "QuoteLineItem:%vlocity_namespace%__ProductName__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem11",
+        "InputFieldName": "QuoteLineItem:TotalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom7643",
+        "InputFieldName": "QuoteLineItem:Product2:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem12",
+        "InputFieldName": "QuoteLineItem:%vlocity_namespace%__RecordTypeName__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:qli:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDREGetQuoteDetailsDamageCustom0jIDO000000018R2AQItem3",
+        "InputFieldName": "Quote:clbinsQuoteNumber__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDREGetQuoteDetailsDamage",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDREGetQuoteDetailsDamage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDREGetQuoteDetailsDamage",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:quoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

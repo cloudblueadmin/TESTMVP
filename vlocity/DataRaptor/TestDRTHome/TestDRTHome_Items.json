@@ -1,0 +1,1924 @@
+[
+    {
+        "FormulaExpression": "12",
+        "FormulaResultPath": "ATT_PROD_PLAN_CANTCUOTAS_VALUE",
+        "FormulaSequence": 5,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem20",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "1500",
+        "FormulaResultPath": "ATT_PROD_PRECIO_MENSUAL_VALUE",
+        "FormulaSequence": 7,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem17",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "AGE(Step1:BirthDate)",
+        "FormulaResultPath": "ATT_INSURED_AGE_VALUE",
+        "FormulaSequence": 1,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem31",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(Step4:Package:Code==\"SEGURO_VI_APF2_ROOT\", \"PAQUETE 1\", IF(Step4:Package:Code==\"SEGURO_V2_APF2_ROOT\", \"PAQUETE 2\", \"PAQUETE 3\"))",
+        "FormulaResultPath": "ATT_PROD_PLAN_SELECCIONADO_VALUE",
+        "FormulaSequence": 2,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem7",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Step1:BirthDate",
+        "FormulaResultPath": "ATT_INSURED_FECHANAC_VALUE",
+        "FormulaSequence": 14,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem18",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Step1:FirstName",
+        "FormulaResultPath": "ATT_INSURED_NOMBRES_VALUE",
+        "FormulaSequence": 16,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem32",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Step1:LastName",
+        "FormulaResultPath": "ATT_INSURED_APELLIDOS_VALUE",
+        "FormulaSequence": 18,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"Apellidos\"",
+        "FormulaResultPath": "ATT_INSURED_APELLIDOS",
+        "FormulaSequence": 17,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"Asegurado_Edad\"",
+        "FormulaResultPath": "ATT_INSURED_AGE",
+        "FormulaSequence": 10,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem14",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"Asegurado_FechaNacimiento\"",
+        "FormulaResultPath": "ATT_INSURED_FECHANAC",
+        "FormulaSequence": 13,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem19",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"Asegurado_Genero\"",
+        "FormulaResultPath": "ATT_INSURED_GENDER",
+        "FormulaSequence": 11,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem28",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"CANTIDAD_CUOTAS\"",
+        "FormulaResultPath": "ATT_PROD_PLAN_CANTCUOTAS",
+        "FormulaSequence": 4,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem16",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"CoverageSpec\"",
+        "FormulaResultPath": "COVERAGE_SPEC",
+        "FormulaSequence": 21,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem6",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"HOMBRE\"",
+        "FormulaResultPath": "ATT_INSURED_GENDER_VALUE",
+        "FormulaSequence": 12,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem27",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"INS_PARTY_ASEGURADO\"",
+        "FormulaResultPath": "ATT_INSURED_PROD_CODE",
+        "FormulaSequence": 8,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem5",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"INS_PARTY_BENEFICIARIO\"",
+        "FormulaResultPath": "ATT_BENEFICIARIO_PROD_CODE",
+        "FormulaSequence": 19,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem23",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"INS_PARTY_PAGADOR\"",
+        "FormulaResultPath": "ATT_PAGADOR_PROD_CODE",
+        "FormulaSequence": 20,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem12",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"InsuredPartySpec\"",
+        "FormulaResultPath": "INSURED_PARTY_SPEC",
+        "FormulaSequence": 9,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem11",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"Nombres\"",
+        "FormulaResultPath": "ATT_INSURED_NOMBRES",
+        "FormulaSequence": 15,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"PLAN_SELECCIONADO\"",
+        "FormulaResultPath": "ATT_PROD_PLAN_SELECCIONADO",
+        "FormulaSequence": 3,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"PRECIO_MENSUAL\"",
+        "FormulaResultPath": "ATT_PROD_PRECIO_MENSUAL",
+        "FormulaSequence": 6,
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem15",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem121",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem132",
+        "InputFieldName": "InitQuote:quoteName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem110",
+        "InputFieldName": "InitQuote:opportunityId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:opportunityId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem65",
+        "InputFieldName": "InitQuote:pricebookId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:priceBookId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem96",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLine:records:attributeCategories:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem78",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem120",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:additionalFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem51",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem90",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem129",
+        "InputFieldName": "ATT_PROD_PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records|1:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem79",
+        "InputFieldName": "ATT_PROD_PLAN_SELECCIONADO_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records|1:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem68",
+        "InputFieldName": "ATT_PROD_PLAN_CANTCUOTAS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records|2:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem123",
+        "InputFieldName": "ATT_PROD_PLAN_CANTCUOTAS_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records|2:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem141",
+        "InputFieldName": "ATT_PROD_PRECIO_MENSUAL",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records|3:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem137",
+        "InputFieldName": "ATT_PROD_PRECIO_MENSUAL_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:attributeCategories:records:productAttributes:records|3:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem76",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem119",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records:attributeCategories:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem109",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records:childLines:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem138",
+        "InputFieldName": "ATT_INSURED_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem72",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:additionalFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem95",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem61",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem122",
+        "InputFieldName": "ATT_INSURED_AGE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|1:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem124",
+        "InputFieldName": "ATT_INSURED_AGE_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|1:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem139",
+        "InputFieldName": "ATT_INSURED_GENDER",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|2:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem117",
+        "InputFieldName": "ATT_INSURED_GENDER_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|2:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem112",
+        "InputFieldName": "ATT_INSURED_FECHANAC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|3:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem93",
+        "InputFieldName": "ATT_INSURED_FECHANAC_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|3:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem140",
+        "InputFieldName": "ATT_INSURED_NOMBRES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|4:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem101",
+        "InputFieldName": "ATT_INSURED_NOMBRES_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|4:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem102",
+        "InputFieldName": "ATT_INSURED_APELLIDOS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|5:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem54",
+        "InputFieldName": "ATT_INSURED_APELLIDOS_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:attributeCategories:records:productAttributes:records|5:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom764",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem115",
+        "InputFieldName": "Step4:PackageCoverage:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem98",
+        "InputFieldName": "COVERAGE_SPEC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records:lineRecordType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom9138",
+        "InputFieldName": "Step4:PackageCoverage:code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem50",
+        "InputFieldName": "InitQuote:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records:sourceSystemIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem75",
+        "InputFieldName": "Step4:PackageCoverage:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records|1:instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem145",
+        "InputFieldName": "Step4:PackageCoverage:price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records|1:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom5349",
+        "InputFieldName": "Step4:PackageCoverage:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:childLines:records|1:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem99",
+        "InputFieldName": "ATT_INSURED_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem100",
+        "InputFieldName": "INSURED_PARTY_SPEC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:lineRecordType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem92",
+        "InputFieldName": "Step4:Package:Amount",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem134",
+        "InputFieldName": "ATT_INSURED_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem91",
+        "InputFieldName": "ATT_INSURED_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem69",
+        "InputFieldName": "InitQuote:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|1:sourceSystemIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem104",
+        "InputFieldName": "ATT_BENEFICIARIO_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem114",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Object",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:additionalFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem118",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem105",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem131",
+        "InputFieldName": "ATT_INSURED_GENDER",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records|1:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem143",
+        "InputFieldName": "ATT_INSURED_GENDER_VALUE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records|1:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem125",
+        "InputFieldName": "ATT_INSURED_NOMBRES",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records|2:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem136",
+        "InputFieldName": "Step3:BenificiaryInformation|1:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records|2:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem106",
+        "InputFieldName": "ATT_INSURED_APELLIDOS",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records|3:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem127",
+        "InputFieldName": "Step3:BenificiaryInformation|1:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:attributeCategories:records:productAttributes:records|3:userValues",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem62",
+        "InputFieldName": "ATT_BENEFICIARIO_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem130",
+        "InputFieldName": "INSURED_PARTY_SPEC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:lineRecordType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem113",
+        "InputFieldName": "ATT_BENEFICIARIO_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem55",
+        "InputFieldName": "ATT_BENEFICIARIO_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem135",
+        "InputFieldName": "InitQuote:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|2:sourceSystemIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem73",
+        "InputFieldName": "ATT_PAGADOR_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem57",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Object",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:additionalFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem111",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:attributeCategories:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem63",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:attributeCategories:records:productAttributes:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem94",
+        "InputFieldName": "ATT_PAGADOR_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem103",
+        "InputFieldName": "INSURED_PARTY_SPEC",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:lineRecordType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem77",
+        "InputFieldName": "ATT_PAGADOR_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem56",
+        "InputFieldName": "ATT_PAGADOR_PROD_CODE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem49",
+        "InputFieldName": "InitQuote:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:childLines:records|3:sourceSystemIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem60",
+        "InputFieldName": "Step4:Package:Code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem108",
+        "InputFieldName": "Step4:Package:Amount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem116",
+        "InputFieldName": "Step4:Package:Code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem128",
+        "InputFieldName": "Step4:Package:Code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem66",
+        "InputFieldName": "InitQuote:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:quoteLines:records:sourceSystemIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem107",
+        "InputFieldName": "InitQuote:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:sourceSystemIdentifier",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Draft",
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem133",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TestDRTHomeCustom0jIDO00000001Oy2AIItem59",
+        "InputFieldName": "QuoteType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TestDRTHome",
+        "OmniDataTransformationId": {
+            "Name": "TestDRTHome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDRTHome",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quote:records:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "ClbDRTLifeGetSelectedPlanCustom5862",
+        "InputFieldName": "records:attributeCategories:records:productAttributes:records|1:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTLifeGetSelectedPlan",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTLifeGetSelectedPlan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTLifeGetSelectedPlan",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "selectedPlan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

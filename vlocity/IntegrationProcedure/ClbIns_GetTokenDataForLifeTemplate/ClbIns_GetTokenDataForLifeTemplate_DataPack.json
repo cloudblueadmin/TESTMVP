@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "ClbIns_GetTokenDataForLifeTemplate_SampleInput.json",
+    "Description": "Get the data that will be print a TemplateLife document",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetTokenDataForLifeTemplate",
+    "OmniProcessElement": [
+        "ClbIns_GetTokenDataForLifeTemplate_Element_GetQuoteDetailsLife.json",
+        "ClbIns_GetTokenDataForLifeTemplate_Element_DRTransformQuoteLife.json",
+        "ClbIns_GetTokenDataForLifeTemplate_Element_svPriceTotal.json",
+        "ClbIns_GetTokenDataForLifeTemplate_Element_svDRTransformLife.json",
+        "ClbIns_GetTokenDataForLifeTemplate_Element_svTokenData.json",
+        "ClbIns_GetTokenDataForLifeTemplate_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetTokenDataForLifeTemplate",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetTokenDataForLifeTemplate_PropertySetConfig.json",
+    "SubType": "GetTokenDataForLifeTemplate",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetTokenDataForLifeTemplate/Procedure",
+    "WebComponentKey": "00a3d779-4737-18e2-cd24-5ca7862d04aa"
+}

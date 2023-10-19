@@ -1,0 +1,119 @@
+[
+    {
+        "FormulaExpression": "NOW()",
+        "FormulaResultPath": "NOW",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRLSaveAssessmentsOnQuoteCustom0jIDO00000001Gk2AIItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Completed",
+        "GlobalKey": "ClbInsDRLSaveAssessmentsOnQuoteCustom0jIDO00000001Gk2AIItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentStatus",
+        "OutputObjectName": "Assessment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLSaveAssessmentsOnQuoteCustom0jIDO00000001Gk2AIItem5",
+        "InputFieldName": "NOW",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EffectiveDateTime",
+        "OutputObjectName": "Assessment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLSaveAssessmentsOnQuoteCustom0jIDO00000001Gk2AIItem4",
+        "InputFieldName": "assessmentId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Assessment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRLSaveAssessmentsOnQuoteCustom0jIDO00000001Gk2AIItem2",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Assessment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRLSaveAssessmentsOnQuoteCustom0jIDO00000001Gk2AIItem3",
+        "InputFieldName": "quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRLSaveAssessmentsOnQuote",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Quote__c",
+        "OutputObjectName": "Assessment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

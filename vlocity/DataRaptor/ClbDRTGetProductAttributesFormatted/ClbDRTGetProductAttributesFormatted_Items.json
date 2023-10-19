@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "ClbDRTGetProductAttributesFormattedCustom0jIDO00000000sv2AAItem0",
+        "InputFieldName": "products:code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTGetProductAttributesFormatted",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTGetProductAttributesFormatted",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTGetProductAttributesFormatted",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "products:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTGetProductAttributesFormattedCustom0jIDO00000000sv2AAItem2",
+        "InputFieldName": "products:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTGetProductAttributesFormatted",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTGetProductAttributesFormatted",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTGetProductAttributesFormatted",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "products:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTGetProductAttributesFormattedCustom0jIDO00000000sv2AAItem1",
+        "InputFieldName": "products:attributes:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTGetProductAttributesFormatted",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTGetProductAttributesFormatted",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTGetProductAttributesFormatted",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "products:plan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

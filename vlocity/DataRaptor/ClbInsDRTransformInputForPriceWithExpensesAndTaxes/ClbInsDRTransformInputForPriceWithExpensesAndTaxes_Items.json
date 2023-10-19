@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes5470061445318088",
+        "InputFieldName": "input_1:codePlan",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "input:codProd",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes9620867943466194",
+        "InputFieldName": "GetIvaForProduct:Percent",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "input:iva_percent",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes5022451621891619",
+        "InputFieldName": "PostEarnix:data:results:Poliza:SumPrimaPoliza",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForPriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "input:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": true,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetLifePackages",
+    "OmniProcessElement": [
+        "ClbIns_GetLifePackages_Element_InitialSettings.json",
+        "ClbIns_GetLifePackages_Element_GetElegibleProducts.json",
+        "ClbIns_GetLifePackages_Element_GetProductAttributesFormatted.json",
+        "ClbIns_GetLifePackages_Element_LoopBlock.json",
+        "ClbIns_GetLifePackages_Element_GetRate.json",
+        "ClbIns_GetLifePackages_Element_TransformOutput.json",
+        "ClbIns_GetLifePackages_Element_DRTResponse.json",
+        "ClbIns_GetLifePackages_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetLifePackages",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetLifePackages_PropertySetConfig.json",
+    "SubType": "GetLifePackages",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetLifePackages/Procedure",
+    "WebComponentKey": "d385d244-1df8-a90a-6af0-c94c52a4d97f"
+}

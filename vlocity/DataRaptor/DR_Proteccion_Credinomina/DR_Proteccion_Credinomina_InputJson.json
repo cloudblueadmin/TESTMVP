@@ -1,0 +1,23 @@
+{
+    "CapturaDatosSeguro": {
+        "EDAD": null,
+        "PLAN_SELECCIONADO": null,
+        "SUMA_ASEGURADA": null,
+        "TEMPORALIDAD": null
+    },
+    "ConfiguraProducto": {
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CapturaDatosSeguro": null,
+        "ConfiguraProducto": null,
+        "TransformaDatosIniciales": null
+    }
+}

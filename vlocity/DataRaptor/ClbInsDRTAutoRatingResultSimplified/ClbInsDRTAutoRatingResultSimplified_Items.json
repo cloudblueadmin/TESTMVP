@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTAutoRatingResultSimplifiedCustom1538",
+        "InputFieldName": "data:results:Poliza:SumPrimaPoliza",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTAutoRatingResultSimplified",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTAutoRatingResultSimplified",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTAutoRatingResultSimplified",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "annualPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

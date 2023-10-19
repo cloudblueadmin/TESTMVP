@@ -1,0 +1,14 @@
+[
+    {
+        "attributeSelectedValues": "{\"insuredAmount\":1000000,\"name\":\"RCGE-RENTADO-FAMILIAR\",\"ProductCode\":\"RCF1\",\"price\":80.7}",
+        "name": "RCGE-RENTADO-FAMILIAR",
+        "productCode": "RCF1",
+        "productName": "RCGE-RENTADO-FAMILIAR"
+    },
+    {
+        "attributeSelectedValues": "{\"insuredAmount\":1000000,\"name\":\"RCGE-RENTADO-ARRENDATARIO\",\"ProductCode\":\"RCF2\",\"price\":12.9}",
+        "name": "RCGE-RENTADO-ARRENDATARIO",
+        "productCode": "RCF2",
+        "productName": "RCGE-RENTADO-ARRENDATARIO"
+    }
+]

@@ -1,0 +1,128 @@
+{
+    "CountyLookup": {
+        "City": "Miami",
+        "County": "Miami-dade",
+        "ID": "input"
+    },
+    "ProductCode": "propHO4",
+    "contents": {
+        "cbBikes": true,
+        "cbCameras": true,
+        "cbFineArts": true,
+        "cbJewelry": true,
+        "cbMusic": true,
+        "ptLimitCTS": 50000,
+        "ptPercentLimitCTS": null,
+        "schdBikes": [
+            {
+                "itemNameBIKE": "Schwin 1",
+                "itemTypeBIKE": "Bike",
+                "itemValueBIKE": 2000
+            },
+            {
+                "itemNameBIKE": "Schwin 2",
+                "itemTypeBIKE": "Bike",
+                "itemValueBIKE": 1500
+            }
+        ],
+        "schdCameras": [
+            {
+                "itemNameCAMERA": "Nikon",
+                "itemTypeCAMERA": "Camera",
+                "itemValueCAMERA": 5000
+            },
+            {
+                "itemNameCAMERA": "Wide Angle Lens",
+                "itemTypeCAMERA": "Camera",
+                "itemValueCAMERA": 52500
+            }
+        ],
+        "schdFineArts": [
+            {
+                "itemNameFA": "Renoir",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 400000
+            },
+            {
+                "itemNameFA": "statue",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 20000
+            }
+        ],
+        "schdJewelry": [
+            {
+                "itemNameJWY": "Dimond ring",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 4000
+            },
+            {
+                "itemNameJWY": "Rolex",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 35000
+            }
+        ],
+        "schdMusic": [
+            {
+                "itemNameMUSICEQP": "Piano",
+                "itemTypeMUSICEQP": "Musical Instrument",
+                "itemValueMUSICEQP": 15000
+            },
+            {
+                "itemNameMUSICEQP": "Guitar",
+                "itemTypeMUSICEQP": "Musical Instrument",
+                "itemValueMUSICEQP": 5000
+            }
+        ],
+        "sumBikes": 3500,
+        "sumCameras": 57500,
+        "sumFineArts": 420000,
+        "sumJewelry": 39000,
+        "sumMusic": 20000
+    },
+    "docTitle": null,
+    "home": {
+        "plBrushClearance": null,
+        "plBurglarAlarm": "Local",
+        "plConstType": "ISO Class 1- Frame",
+        "plFireAlarm": "Battery operated detectors",
+        "plNumBath": null,
+        "plNumBed": null,
+        "plPropType": "Single-Family Home",
+        "plRoofType": null,
+        "plSprinklers": null,
+        "plUsageType": null,
+        "plValue": null,
+        "plYrBuilt": null,
+        "plYrOwned": null
+    },
+    "intro": {
+        "propertyType": "Rent"
+    },
+    "isdtp": "p1",
+    "layout": "newport",
+    "location": {
+        "effectiveDate": "2020-06-07",
+        "propertyAddress-Block": {
+            "plCity": "Miami",
+            "plPostCode": "33133",
+            "plState": "FL",
+            "plStreet": "2280 Taquesta Ln"
+        },
+        "ratingEffectiveDate": "2020-06-07 00:00:00"
+    },
+    "lwc": "propertyHomeQuoteHO3English",
+    "ns": "c",
+    "plCountry": "US",
+    "quoteConfirm": null,
+    "quoteId": null,
+    "selectedTemplate": null,
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://nosoftware-agility-274.lightning.force.com",
+    "timeStamp": "2020-06-08T00:10:07.913Z",
+    "trueRules": null,
+    "userCurrencyCode": "USD",
+    "userId": "0053i000000koRTAAY",
+    "userName": "vex_personal_lines@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

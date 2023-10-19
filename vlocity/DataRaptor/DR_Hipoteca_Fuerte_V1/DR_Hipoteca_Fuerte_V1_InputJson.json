@@ -1,0 +1,51 @@
+{
+    "ContextId": null,
+    "Resumen": {
+        "CustomLWC3": null
+    },
+    "Step0": {
+        "Block1": {
+            "Calle_Numero_Asegurado": null,
+            "Email3": null,
+            "Nombre_Asegurado": null,
+            "Number1": null,
+            "Telephone": null,
+            "Text1": null
+        },
+        "Block2": {
+            "Number2": null,
+            "Text2": null,
+            "Text3": null
+        },
+        "CNT_DIAS_VIGENCIA": null,
+        "Date1": null,
+        "Datos_Contratante": {
+            "Calle_Numero": null,
+            "Cod_Postal": null,
+            "Colonia": null,
+            "Email1": null,
+            "Email2": null,
+            "Estado": null,
+            "Nombre_Razon_Social": null,
+            "RFC": null
+        },
+        "EDI_VALOR_DESTRUCTIBLE": null,
+        "PLAN_SELECCIONADO": null
+    },
+    "Step1": {
+        "CustomLWC1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "Resumen": null,
+        "Step0": null,
+        "Step1": null
+    }
+}

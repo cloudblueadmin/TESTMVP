@@ -1,0 +1,1075 @@
+{
+    "executionId": "9QMDN0000008OKB4A2_20230326_153711_f0dcb56f",
+    "output": {
+        "aggregationResults": {
+        },
+        "calculationResults": [
+            {
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_EXPLOSION": 73.27,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA": 91.93,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_GASTOS_EXTRAORDINARIOS": 7.33,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS": 73.27,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO": 367.27,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_INFLACION": 3.8,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS": 7.33,
+                "INCE_Primas_Contenidos__INCE_CONTE_PR_TODO_RIESGO": 110.13,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_EXPLOSION": 560000,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_EXTENSION_CUBIERTA": 560000,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_GASTOS_EXTRAORDINARIOS": 56000,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_HUELGAS_ALBOROTOS": 560000,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_INCENDIO_RAYO": 560000,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_INFLACION": 25200,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_REMOCION_ESCOMBROS": 56000,
+                "INCE_Primas_Contenidos__INCE_CONTE_SA_TODO_RIESGO": 560000,
+                "INCE_Primas_Contenidos__VALOR_PRIMA_INCE_CONTENIDOS": 734.32,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_EXPLOSION": 735,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA": 735,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_GASTOS_EXTRAORDINARIOS": 73.5,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS": 735,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO": 3672.67,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_INFLACION": 38.01,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS": 73.5,
+                "INCE_Primas_Edificio__INCE_EDIFI_PR_TODO_RIESGO": 1101.33,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_EXPLOSION": 2800000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_EXTENSION_CUBIERTA": 2800000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_GASTOS_EXTRAORDINARIOS": 280000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_HUELGAS_ALBOROTOS": 2800000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_INCENDIO_RAYO": 2800000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_INFLACION": 126000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_REMOCION_ESCOMBROS": 280000,
+                "INCE_Primas_Edificio__INCE_EDIFI_SA_TODO_RIESGO": 2800000,
+                "INCE_Primas_Edificio__VALOR_PRIMA_INCE_EDIFICIO": 7164.01,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_PR_GASTOS_EXTRAORDINARIOS": 23.19,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_PR_INFLACION": 9.47,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_PR_REMOCION_ESCOMBROS": 24.97,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_PR_RIESGOS_HIDRO": 178.27,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_SA_GASTOS_EXTRAORDINARIOS": 56000,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_SA_INFLACION": 25200,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_SA_REMOCION_ESCOMBROS": 56000,
+                "RHMT_Primas_Contenidos__RHMT_CONTE_SA_RIESGOS_HIDRO": 560000,
+                "RHMT_Primas_Contenidos__VALOR_PRIMA_RHMT_CONTENIDOS": 235.9,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_PR_GASTOS_EXTRAORDINARIOS": 115.97,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_PR_INFLACION": 47.36,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS": 124.83,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_PR_RIESGOS_HIDRO": 1785,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_SA_GASTOS_EXTRAORDINARIOS": 280000,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_SA_INFLACION": 126000,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_SA_REMOCION_ESCOMBROS": 280000,
+                "RHMT_Primas_Edificio__RHMT_EDIFI_SA_RIESGOS_HIDRO": 2800000,
+                "RHMT_Primas_Edificio__VALOR_PRIIMA_RHMT_EDIFICIO": 2073.16,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_PR_GASTOS_EXTRAORDINARIOS": 6.25,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_PR_INFLACION": 3,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS": 6.25,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION": 89.13,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_SA_GASTOS_EXTRAORDINARIOS": 56000,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_SA_INFLACION": 25200,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_SA_REMOCION_ESCOMBROS": 56000,
+                "TEEV_Primas_Contenidos__TEEV_CONTE_SA_TERREMOTO_ERUPCION": 560000,
+                "TEEV_Primas_Contenidos__VALOR_PRIMA_TEEV_CONTENIDOS": 104.64,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_PR_GASTOS_EXTRAORDINARIOS": 62.53,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_PR_INFLACION": 30.14,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_PR_REMOCION_ESCOMBROS": 62.53,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION": 891.33,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_SA_GASTOS_EXTRAORDINARIOS": 280000,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_SA_INFLACION": 126000,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_SA_REMOCION_ESCOMBROS": 280000,
+                "TEEV_Primas_Edificio__TEEV_EDIFI_SA_TERREMOTO_ERUPCION": 2800000,
+                "TEEV_Primas_Edificio__VALOR_PRIMA_TEEV_EDIFICIO": 1046.53
+            }
+        ]
+    },
+    "simulationResults": [
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_EXTENSION_CUBIERTA",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_EXPLOSION",
+            "precision": 2,
+            "value": "735.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "280000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_HUELGAS_ALBOROTOS",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_INFLACION",
+            "precision": 2,
+            "value": "126000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "280000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_INFLACION",
+            "precision": 2,
+            "value": "38.01"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "73.50"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_INCENDIO_RAYO",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__VALOR_PRIMA_INCE_EDIFICIO",
+            "precision": 2,
+            "value": "7164.01"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+            "precision": 2,
+            "value": "735.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+            "precision": 2,
+            "value": "1101.33"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+            "precision": 2,
+            "value": "3672.67"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+            "precision": 2,
+            "value": "735.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_TODO_RIESGO",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "73.50"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_EXPLOSION",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "7.33"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_INFLACION",
+            "precision": 2,
+            "value": "3.80"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS",
+            "precision": 2,
+            "value": "73.27"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__VALOR_PRIMA_INCE_CONTENIDOS",
+            "precision": 2,
+            "value": "734.32"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "56000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_EXTENSION_CUBIERTA",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_EXPLOSION",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "56000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_TODO_RIESGO",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_HUELGAS_ALBOROTOS",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_INCENDIO_RAYO",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA",
+            "precision": 2,
+            "value": "91.93"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO",
+            "precision": 2,
+            "value": "367.27"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_EXPLOSION",
+            "precision": 2,
+            "value": "73.27"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "7.33"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_INFLACION",
+            "precision": 2,
+            "value": "25200.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_TODO_RIESGO",
+            "precision": 2,
+            "value": "110.13"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "280000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__VALOR_PRIIMA_RHMT_EDIFICIO",
+            "precision": 2,
+            "value": "2073.16"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_INFLACION",
+            "precision": 2,
+            "value": "47.36"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "124.83"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_INFLACION",
+            "precision": 2,
+            "value": "126000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "115.97"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_RIESGOS_HIDRO",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_RIESGOS_HIDRO",
+            "precision": 2,
+            "value": "1785.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "280000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "23.19"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_INFLACION",
+            "precision": 2,
+            "value": "9.47"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_INFLACION",
+            "precision": 2,
+            "value": "25200.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "24.97"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "56000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_RIESGOS_HIDRO",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "56000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_RIESGOS_HIDRO",
+            "precision": 2,
+            "value": "178.27"
+        },
+        {
+            "datatype": "Currency",
+            "name": "RHMT_Primas_Contenidos__VALOR_PRIMA_RHMT_CONTENIDOS",
+            "precision": 2,
+            "value": "235.90"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "62.53"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__VALOR_PRIMA_TEEV_EDIFICIO",
+            "precision": 2,
+            "value": "1046.53"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "280000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_TERREMOTO_ERUPCION",
+            "precision": 2,
+            "value": "2800000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_INFLACION",
+            "precision": 2,
+            "value": "126000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "280000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_INFLACION",
+            "precision": 2,
+            "value": "30.14"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "62.53"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION",
+            "precision": 2,
+            "value": "891.33"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_INFLACION",
+            "precision": 2,
+            "value": "25200.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "6.25"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "6.25"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__VALOR_PRIMA_TEEV_CONTENIDOS",
+            "precision": 2,
+            "value": "104.64"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_TERREMOTO_ERUPCION",
+            "precision": 2,
+            "value": "560000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_INFLACION",
+            "precision": 2,
+            "value": "3.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_REMOCION_ESCOMBROS",
+            "precision": 2,
+            "value": "56000.00"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION",
+            "precision": 2,
+            "value": "89.13"
+        },
+        {
+            "datatype": "Currency",
+            "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_GASTOS_EXTRAORDINARIOS",
+            "precision": 2,
+            "value": "56000.00"
+        }
+    ],
+    "simulationStepResults": {
+        "CalculationPlanSeleccionado": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Text",
+                    "name": "PLAN_SELECCIONADO",
+                    "value": "HIPOTECA_FUERTE"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Text",
+                    "name": "PLAN",
+                    "value": "HIPOTECA_FUERTE"
+                }
+            ]
+        },
+        "INCEPrimasContenidos": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Text",
+                    "name": "PLAN",
+                    "value": "HIPOTECA_FUERTE"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "EDI_VALOR_DESTRUCTIBLE",
+                    "precision": 4,
+                    "value": "2800000.0000"
+                },
+                {
+                    "datatype": "Number",
+                    "name": "CNT_DIAS_VIGENCIA",
+                    "precision": 0,
+                    "value": "30"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "7.33"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_INFLACION",
+                    "precision": 2,
+                    "value": "3.80"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS",
+                    "precision": 2,
+                    "value": "73.27"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__VALOR_PRIMA_INCE_CONTENIDOS",
+                    "precision": 2,
+                    "value": "734.32"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "56000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_EXTENSION_CUBIERTA",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_EXPLOSION",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "56000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_TODO_RIESGO",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_HUELGAS_ALBOROTOS",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_INCENDIO_RAYO",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA",
+                    "precision": 2,
+                    "value": "91.93"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO",
+                    "precision": 2,
+                    "value": "367.27"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_EXPLOSION",
+                    "precision": 2,
+                    "value": "73.27"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "7.33"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_SA_INFLACION",
+                    "precision": 2,
+                    "value": "25200.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Contenidos__INCE_CONTE_PR_TODO_RIESGO",
+                    "precision": 2,
+                    "value": "110.13"
+                }
+            ]
+        },
+        "INCEPrimasEdificio": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Number",
+                    "name": "CNT_DIAS_VIGENCIA",
+                    "precision": 0,
+                    "value": "30"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "EDI_VALOR_DESTRUCTIBLE",
+                    "precision": 4,
+                    "value": "2800000.0000"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_EXTENSION_CUBIERTA",
+                    "precision": 2,
+                    "value": "2800000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                    "precision": 2,
+                    "value": "735.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "280000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_HUELGAS_ALBOROTOS",
+                    "precision": 2,
+                    "value": "2800000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_INFLACION",
+                    "precision": 2,
+                    "value": "126000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "280000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_INFLACION",
+                    "precision": 2,
+                    "value": "38.01"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "73.50"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_INCENDIO_RAYO",
+                    "precision": 2,
+                    "value": "2800000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__VALOR_PRIMA_INCE_EDIFICIO",
+                    "precision": 2,
+                    "value": "7164.01"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                    "precision": 2,
+                    "value": "735.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                    "precision": 2,
+                    "value": "1101.33"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                    "precision": 2,
+                    "value": "3672.67"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                    "precision": 2,
+                    "value": "735.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_TODO_RIESGO",
+                    "precision": 2,
+                    "value": "2800000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "73.50"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "INCE_Primas_Edificio__INCE_EDIFI_SA_EXPLOSION",
+                    "precision": 2,
+                    "value": "2800000.00"
+                }
+            ]
+        },
+        "RHMTPrimasContenidos": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Currency",
+                    "name": "EDI_VALOR_DESTRUCTIBLE",
+                    "precision": 4,
+                    "value": "2800000.0000"
+                },
+                {
+                    "datatype": "Number",
+                    "name": "CNT_DIAS_VIGENCIA",
+                    "precision": 0,
+                    "value": "30"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "23.19"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_INFLACION",
+                    "precision": 2,
+                    "value": "9.47"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_INFLACION",
+                    "precision": 2,
+                    "value": "25200.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "24.97"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "56000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_RIESGOS_HIDRO",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_SA_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "56000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__RHMT_CONTE_PR_RIESGOS_HIDRO",
+                    "precision": 2,
+                    "value": "178.27"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Contenidos__VALOR_PRIMA_RHMT_CONTENIDOS",
+                    "precision": 2,
+                    "value": "235.90"
+                }
+            ]
+        },
+        "RHMTPrimasEdificio": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Currency",
+                    "name": "EDI_VALOR_DESTRUCTIBLE",
+                    "precision": 4,
+                    "value": "2800000.0000"
+                },
+                {
+                    "datatype": "Number",
+                    "name": "CNT_DIAS_VIGENCIA",
+                    "precision": 0,
+                    "value": "30"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "280000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__VALOR_PRIIMA_RHMT_EDIFICIO",
+                    "precision": 2,
+                    "value": "2073.16"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_INFLACION",
+                    "precision": 2,
+                    "value": "47.36"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "124.83"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_INFLACION",
+                    "precision": 2,
+                    "value": "126000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "115.97"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_RIESGOS_HIDRO",
+                    "precision": 2,
+                    "value": "2800000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_PR_RIESGOS_HIDRO",
+                    "precision": 2,
+                    "value": "1785.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "RHMT_Primas_Edificio__RHMT_EDIFI_SA_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "280000.00"
+                }
+            ]
+        },
+        "TEEVPrimasContenidos": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Currency",
+                    "name": "EDI_VALOR_DESTRUCTIBLE",
+                    "precision": 4,
+                    "value": "2800000.0000"
+                },
+                {
+                    "datatype": "Number",
+                    "name": "CNT_DIAS_VIGENCIA",
+                    "precision": 0,
+                    "value": "30"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_INFLACION",
+                    "precision": 2,
+                    "value": "25200.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "6.25"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "6.25"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__VALOR_PRIMA_TEEV_CONTENIDOS",
+                    "precision": 2,
+                    "value": "104.64"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_TERREMOTO_ERUPCION",
+                    "precision": 2,
+                    "value": "560000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_INFLACION",
+                    "precision": 2,
+                    "value": "3.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "56000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION",
+                    "precision": 2,
+                    "value": "89.13"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Contenidos__TEEV_CONTE_SA_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "56000.00"
+                }
+            ]
+        },
+        "TEEVPrimasEdificio": {
+            "isDefaulted": false,
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Number",
+                    "name": "CNT_DIAS_VIGENCIA",
+                    "precision": 0,
+                    "value": "30"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "EDI_VALOR_DESTRUCTIBLE",
+                    "precision": 4,
+                    "value": "2800000.0000"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "62.53"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__VALOR_PRIMA_TEEV_EDIFICIO",
+                    "precision": 2,
+                    "value": "1046.53"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "280000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_TERREMOTO_ERUPCION",
+                    "precision": 2,
+                    "value": "2800000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_INFLACION",
+                    "precision": 2,
+                    "value": "126000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_SA_REMOCION_ESCOMBROS",
+                    "precision": 2,
+                    "value": "280000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_INFLACION",
+                    "precision": 2,
+                    "value": "30.14"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_GASTOS_EXTRAORDINARIOS",
+                    "precision": 2,
+                    "value": "62.53"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "TEEV_Primas_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION",
+                    "precision": 2,
+                    "value": "891.33"
+                }
+            ]
+        }
+    }
+}

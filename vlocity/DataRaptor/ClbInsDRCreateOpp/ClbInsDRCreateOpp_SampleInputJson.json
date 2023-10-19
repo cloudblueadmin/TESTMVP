@@ -1,0 +1,25 @@
+{
+    "DRGetAccByCURP": {
+        "accountId": "001DO000009pIMxYAM",
+        "birthDate": "1970-12-30",
+        "contactId": "003DO00000805MQYAY",
+        "curp": "BIZA701230HDFRPL04",
+        "firstName": "ALBERTO",
+        "gender": "Male",
+        "lastName": "BRIONES ZEPEDA",
+        "rfc": "BIZA701230DK3",
+        "status": "Active"
+    },
+    "beneficiario": [
+        {
+            "curp": "BIZA701230HDFRPL04",
+            "firstName": "Marge",
+            "lastName": "Smith",
+            "personEmail": "margeis@testing.com"
+        }
+    ],
+    "curp": "BIZA701230HDFRPL04",
+    "firstName": "Marge",
+    "lastName": "Smith",
+    "personEmail": "margeis@testing.com"
+}

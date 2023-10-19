@@ -1,0 +1,14 @@
+{
+    "CalculationMatrixColumn": "TasasImpuestos_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "TasasImpuestos",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "TasasImpuestos",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/TasasImpuestos"
+}

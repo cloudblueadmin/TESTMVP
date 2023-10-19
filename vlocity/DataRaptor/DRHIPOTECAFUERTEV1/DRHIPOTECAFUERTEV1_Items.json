@@ -1,0 +1,113 @@
+[
+    {
+        "GlobalKey": "DRHIPOTECAFUERTEV1Custom9600",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHIPOTECAFUERTEV1",
+        "OmniDataTransformationId": {
+            "Name": "DRHIPOTECAFUERTEV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHIPOTECAFUERTEV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_ITEM_CONTENIDOS.instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHIPOTECAFUERTEV1Custom8476",
+        "InputFieldName": "Step1:EDI_VALOR_DESTRUCTIBLE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHIPOTECAFUERTEV1",
+        "OmniDataTransformationId": {
+            "Name": "DRHIPOTECAFUERTEV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHIPOTECAFUERTEV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_ITEM_EDIFICIO.EDI_VALOR_DESTRUCTIBLE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHIPOTECAFUERTEV1Custom7523",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHIPOTECAFUERTEV1",
+        "OmniDataTransformationId": {
+            "Name": "DRHIPOTECAFUERTEV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHIPOTECAFUERTEV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_ITEM_EDIFICIO.instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHIPOTECAFUERTEV1Custom2772",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHIPOTECAFUERTEV1",
+        "OmniDataTransformationId": {
+            "Name": "DRHIPOTECAFUERTEV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHIPOTECAFUERTEV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_PARTY_ASEGURADO.instanceKey",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHIPOTECAFUERTEV1Custom518",
+        "InputFieldName": "Step1:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHIPOTECAFUERTEV1",
+        "OmniDataTransformationId": {
+            "Name": "DRHIPOTECAFUERTEV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHIPOTECAFUERTEV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOTCLONED.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHIPOTECAFUERTEV1Custom114",
+        "InputFieldName": "Step1:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHIPOTECAFUERTEV1",
+        "OmniDataTransformationId": {
+            "Name": "DRHIPOTECAFUERTEV1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHIPOTECAFUERTEV1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOTCLONED.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

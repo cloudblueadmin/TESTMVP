@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_EmisionAutos_SampleInput.json",
+    "Description": "Add URL from urlSettings",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "clbIPEmisionAutos",
+    "OmniProcessElement": [
+        "ClbIns_EmisionAutos_Element_IP_BanorteAPITokenCreate.json",
+        "ClbIns_EmisionAutos_Element_DREmisionAutos.json",
+        "ClbIns_EmisionAutos_Element_HTTPActionPolicy.json",
+        "ClbIns_EmisionAutos_Element_ResponseEmisionAutosSucess.json"
+    ],
+    "OmniProcessKey": "ClbIns_EmisionAutos",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_EmisionAutos_PropertySetConfig.json",
+    "SubType": "EmisionAutos",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/EmisionAutos/Procedure",
+    "WebComponentKey": "8ba5ea6e-34e8-e4b5-f18f-b1430ea73800"
+}

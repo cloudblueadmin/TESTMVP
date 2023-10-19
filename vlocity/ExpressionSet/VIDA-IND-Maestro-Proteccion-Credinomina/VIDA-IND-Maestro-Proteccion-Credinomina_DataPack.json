@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "VIDA-IND-Maestro-Proteccion-Credinomina",
+    "Namespace": "",
+    "UniqueName": "VIDA-IND-Maestro-Proteccion-Credinomina",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/VIDA-IND-Maestro-Proteccion-Credinomina"
+}

@@ -1,0 +1,279 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Asegurado_Edad": null,
+            "Asegurado_FechaNacimiento": null,
+            "Asegurado_Fuma": "false",
+            "Asegurado_Genero": "MUJER",
+            "MensualidadCredito": null,
+            "saldoInsoluto": null
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "Atributos-Cov-Asegurado",
+                    "Name": "Atributos-Cov-Asegurado",
+                    "displaySequence": 4,
+                    "id": "a0qDN000000CdfIYAS",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDN000000GoCDYA0",
+                                "cloneable": true,
+                                "code": "Asegurado_Edad",
+                                "dataType": "number",
+                                "disabled": true,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Edad",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoCIYA0",
+                                "cloneable": true,
+                                "code": "Asegurado_Genero",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Genero",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Femenino",
+                                        "readonly": false,
+                                        "value": "MUJER"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Masculino",
+                                        "readonly": false,
+                                        "value": "HOMBRE"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoC8YAK",
+                                "cloneable": true,
+                                "code": "Asegurado_FechaNacimiento",
+                                "dataType": "date",
+                                "disabled": true,
+                                "displaySequence": 2,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "date",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Fecha Nacimiento",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoymYAC",
+                                "cloneable": true,
+                                "code": "Asegurado_Fuma",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Fuma",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "NO FUMA",
+                                        "readonly": false,
+                                        "value": "false"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "FUMA",
+                                        "readonly": false,
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoC3YAK",
+                                "cloneable": true,
+                                "code": "saldoInsoluto",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 4,
+                                "filterable": false,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Saldo Insoluto",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoEZYA0",
+                                "cloneable": true,
+                                "code": "MensualidadCredito",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 5,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Mensualidad Credito",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 6
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": {
+            "saldoInsoluto": {
+                "attributeRules": [
+                    {
+                        "actions": {
+                            "Message": {
+                                "client": {
+                                    "params": {
+                                    }
+                                },
+                                "remote": {
+                                    "params": {
+                                    }
+                                },
+                                "rest": {
+                                    "link": null,
+                                    "method": null,
+                                    "params": {
+                                    }
+                                }
+                            }
+                        },
+                        "expression": "%INS_PARTY_ASEGURADO.saldoInsoluto% > 10000000",
+                        "messages": [
+                            {
+                                "code": "LA SUMA ASEGURADA SUPERA EL MONTO AUTOMÁTICO, EN LA SUSCRIPCIÓN SE EVALUARÁN LAS CONDICIONES MÉDICAS",
+                                "message": "LA SUMA ASEGURADA SUPERA EL MONTO AUTOMÁTICO, EN LA SUSCRIPCIÓN SE EVALUARÁN LAS CONDICIONES MÉDICAS",
+                                "severity": "WARN"
+                            }
+                        ],
+                        "ruleType": "Message"
+                    },
+                    {
+                        "actions": {
+                            "Message": {
+                                "client": {
+                                    "params": {
+                                    }
+                                },
+                                "remote": {
+                                    "params": {
+                                    }
+                                },
+                                "rest": {
+                                    "link": null,
+                                    "method": null,
+                                    "params": {
+                                    }
+                                }
+                            }
+                        },
+                        "expression": "%INS_PARTY_ASEGURADO.saldoInsoluto% > 60000000",
+                        "messages": [
+                            {
+                                "code": "LA SUMA ASEGURADA SUPERA EL MONTO MÁXIMO ASEGURABLE",
+                                "message": "LA SUMA ASEGURADA SUPERA EL MONTO MÁXIMO ASEGURABLE",
+                                "severity": "WARN"
+                            }
+                        ],
+                        "ruleType": "Message"
+                    }
+                ]
+            }
+        },
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "cbe57247-38c1-1b59-784d-2fc97738f229",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/cbe57247-38c1-1b59-784d-2fc97738f229",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "42cb70e7-be70-07cd-9ddc-56da5e48543d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/42cb70e7-be70-07cd-9ddc-56da5e48543d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-618677235"
+    }
+]

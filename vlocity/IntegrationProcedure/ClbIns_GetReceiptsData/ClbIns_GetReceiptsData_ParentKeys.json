@@ -1,0 +1,7 @@
+[
+    "DataRaptor/ClbInsDREGetFirstInstallmentByProduct",
+    "DataRaptor/ClbInsDRTransformCalcReceiptDataResults",
+    "DataRaptor/ClbInsDRTransformCalcReceiptsDataInput",
+    "DecisionMatrix/TasasImpuestos",
+    "ExpressionSet/ReceiptsData"
+]

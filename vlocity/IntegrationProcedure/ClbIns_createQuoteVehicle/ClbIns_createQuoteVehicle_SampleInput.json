@@ -1,0 +1,93 @@
+{
+    "AccountData": {
+        "accountId": "001DO000009pIMxYAM",
+        "birthDate": "1990-01-01",
+        "contactId": "003DO00000805MQYAY",
+        "curp": "BIZA701230HDFRPL04",
+        "firstName": "ALBERTO",
+        "gender": "Male",
+        "lastName": "BRIONES ZEPEDA",
+        "rfc": "BIZA701230DK3",
+        "status": "Active"
+    },
+    "InitQuote": {
+        "opportunityId": "006DO000003WhnGYAS",
+        "pricebookId": "01sDn000006cxArIAI",
+        "quoteId": "0Q0DO0000008t7H0AQ",
+        "quoteName": "ALBERTO BRIONES ZEPEDA -CAHA- 9/25/2023"
+    },
+    "Step1": {
+        "CURP": "BIZA701230HDFRPL04",
+        "Driver": {
+            "Email": "BAU@driver.com",
+            "FirstName": "BAUTI",
+            "LastName": "PAREDES PAREDES",
+            "PhoneNumber": "5717859588"
+        },
+        "Email": "bauti@asegurado.com",
+        "FirstName": "ALBERTO",
+        "LastName": "BRIONES ZEPEDA",
+        "PhoneNumber": "5617859520",
+        "RFC": "BIZA701230DK3",
+        "fullName": "ALBERTO BRIONES ZEPEDA",
+        "isDriver": false
+    },
+    "Step2": {
+        "Address": {
+            "City": "03",
+            "Country": "052",
+            "ExternalNumber": 7080,
+            "InternalNumber": 250,
+            "PostalCode": "44450",
+            "State": "14",
+            "Street": "187 HARRISON ROAD",
+            "Town": "039"
+        }
+    },
+    "Step3": {
+        "VehicleInformation": {
+            "AcceptanceInformation": true,
+            "AcceptanceLaw": true,
+            "Brand": "FO",
+            "EngineNumber": "3GCUKSEC6EG529837",
+            "Model": "009",
+            "ModelDesc": "FO955",
+            "NumberPlate": "351FGC",
+            "PostalCode": "44450",
+            "SerieNumber": "3GCUKSEC6EG529837",
+            "Type": "002",
+            "Year": "2012",
+            "isParticular": true
+        }
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 5211.6,
+            "Code": "B05",
+            "EndDate": "2024-09-11",
+            "StartDate": "2023-09-11",
+            "branch": "A003"
+        },
+        "PackageCoverage": {
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "IndCobertOblig": "S",
+            "code": "A009",
+            "insuredAmount": 1000000,
+            "price": 204.06
+        }
+    },
+    "Step5": {
+        "Amount": 5211.6,
+        "Bank": "Universal",
+        "CardCVV": "121",
+        "CardMonth": 12,
+        "CardNumber": 1245632586451231,
+        "CardYear": 2026,
+        "FirstName": "Camilo",
+        "IsRecurringPayment": false,
+        "LastName": "Lugo",
+        "PaymentPeriod": "001",
+        "TypeOfCard": "03"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0": {
+        "FirstName": "Persona A",
+        "Id": "001DO000009pIMoYAM",
+        "LastName": "Apellido A",
+        "PersonBirthdate": "1990-01-01",
+        "UpsertSuccess": true,
+        "clbinsCURP__pc": "JUCA811217KJFNGI04"
+    },
+    "1": {
+        "FirstName": "Persona A",
+        "Id": "001DN000004BrdCYAS",
+        "LastName": "Apellido A",
+        "PersonBirthdate": "1990-01-01",
+        "UpsertSuccess": true,
+        "clbinsCURP__pc": "JUCA811217KJFNGI04"
+    }
+}

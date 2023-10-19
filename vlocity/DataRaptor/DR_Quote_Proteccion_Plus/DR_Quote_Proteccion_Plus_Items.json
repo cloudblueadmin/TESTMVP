@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "DR_Quote_Proteccion_PlusCustom6729",
+        "InputFieldName": "Step0:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Quote_Proteccion_Plus",
+        "OmniDataTransformationId": {
+            "Name": "DR_Quote_Proteccion_Plus",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Quote_Proteccion_Plus",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_PROTECCION_INTEGRAL_PLUS_ROOT.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Quote_Proteccion_PlusCustom6179",
+        "InputFieldName": "Step0:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Quote_Proteccion_Plus",
+        "OmniDataTransformationId": {
+            "Name": "DR_Quote_Proteccion_Plus",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Quote_Proteccion_Plus",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_PROTECCION_INTEGRAL_PLUS_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Quote_Proteccion_PlusCustom4258",
+        "InputFieldName": "Step0:PORCENTAJE_DESCUENTO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Quote_Proteccion_Plus",
+        "OmniDataTransformationId": {
+            "Name": "DR_Quote_Proteccion_Plus",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Quote_Proteccion_Plus",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_PROTECCION_INTEGRAL_PLUS_ROOT.PORCENTAJE_DESCUENTO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

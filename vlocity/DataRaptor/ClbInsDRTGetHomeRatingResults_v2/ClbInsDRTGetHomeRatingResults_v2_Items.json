@@ -1,0 +1,371 @@
+[
+    {
+        "FormulaExpression": "IF(records:childProducts:records:Name = \"INS-ITEM EDIFICIO\", records:childProducts:records:childProducts:records:Name, records:childProducts:records:Name)",
+        "FormulaResultPath": "prueba",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom406",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"VI47\"",
+        "FormulaResultPath": "branchCode",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom1945",
+        "InputFieldName": "pruebalista",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "lista",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "package",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem7",
+        "InputFieldName": "records:childProducts:records:childProducts:records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem9",
+        "InputFieldName": "records:childProducts:records:childProducts:records:isOptional",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:isOptional",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom3663",
+        "InputFieldName": "records:childProducts:records:isOptional",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:isOptional",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom5802",
+        "InputFieldName": "records:childProducts:records:attributeCategories:records:productAttributes:records|3:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:isPrincipal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom1494",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|3:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:isPrincipal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom6781",
+        "InputFieldName": "records:childProducts:records:Name",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem5",
+        "InputFieldName": "records:childProducts:records:childProducts:records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom7831",
+        "InputFieldName": "records:childProducts:records:Price",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem3",
+        "InputFieldName": "records:childProducts:records:childProducts:records:Price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "no funciono",
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom7276",
+        "InputFieldName": "prueba",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:prueba",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Amparada",
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom4167",
+        "InputFieldName": "records:childProducts:records:attributeCategories:records:productAttributes:records|2:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:sumaAsegurada",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Amparada",
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem1",
+        "InputFieldName": "records:childProducts:records:childProducts:records:attributeCategories:records:productAttributes:records|2:userValues",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:coverages:sumaAsegurada",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "\"\"",
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem4",
+        "InputFieldName": "records:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem6",
+        "InputFieldName": "records:Price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTGetHomeRatingResults_v2Custom0jIDO000000011f2AAItem2",
+        "InputFieldName": "records:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTGetHomeRatingResults_v2",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTGetHomeRatingResults_v2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "package:productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

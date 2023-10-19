@@ -1,0 +1,316 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "PROTECCION-CREDINOMINA_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "PLAN_SELECCIONADO": "PROTECCION_CREDINOMINA",
+        "SUMA_ASEGURADA": null,
+        "TEMPORALIDAD_SELECCIONADA": "3"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "Atributos-Cov-Otras",
+                "Name": "Atributos-Cov-Otras",
+                "displaySequence": 0,
+                "id": "a0qDN000000CdfqYAC",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0rDN000000GoTUYA0",
+                            "cloneable": true,
+                            "code": "PLAN_SELECCIONADO",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": true,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "PLAN",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "PROTECCCION CREDINOMINA",
+                                    "readonly": false,
+                                    "value": "PROTECCION_CREDINOMINA"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GoulYAC",
+                            "cloneable": true,
+                            "code": "SUMA_ASEGURADA",
+                            "dataType": "currency",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "SUMA ASEGURADA",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0rDN000000GpjQYAS",
+                            "cloneable": true,
+                            "code": "TEMPORALIDAD_SELECCIONADA",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "TEMPORALIDAD",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "3 MESES",
+                                    "readonly": false,
+                                    "value": "3"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "6 MESES",
+                                    "readonly": false,
+                                    "value": "6"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "9 MESES",
+                                    "readonly": false,
+                                    "value": "9"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "12 MESES",
+                                    "readonly": false,
+                                    "value": "12"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "18 MESES",
+                                    "readonly": false,
+                                    "value": "18"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "24 MESES",
+                                    "readonly": false,
+                                    "value": "24"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "30 MESES",
+                                    "readonly": false,
+                                    "value": "30"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "36 MESES",
+                                    "readonly": false,
+                                    "value": "36"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "42 MESES",
+                                    "readonly": false,
+                                    "value": "42"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "48 MESES",
+                                    "readonly": false,
+                                    "value": "48"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "10",
+                                    "label": "54 MESES",
+                                    "readonly": false,
+                                    "value": "54"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "11",
+                                    "label": "60 MESES",
+                                    "readonly": false,
+                                    "value": "60"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "PROTECCION-CREDINOMINA_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "cf3f4914-30aa-d571-ce70-99033df2702c",
+    "%vlocity_namespace%__GlobalKey__c": "2ac74207-05d3-4e75-abe4-f2409284f2f8",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"04/29/23\"},\"inputs\":{\"01tDN000000AsP0YAK\":{\"a0oDN000000Gpp7YAC\":{\"count\":3,\"attributeCode\":\"TEMPORALIDAD_SELECCIONADA\",\"attributeLabel\":\"TEMPORALIDAD\",\"objectId\":\"01tDN000000AsP0YAK\",\"ratingInput\":\"TEMPORALIDAD_SELECCIONADA\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"18\"},\"productName\":\"PROTECCIÓN CREDINÓMINA\",\"productRecordType\":\"Product\",\"productCode\":\"SEGURO_PROTECCION_CREDINOMINA_ROOT\",\"isRoot\":true,\"a0oDN000000Gpp2YAC\":{\"count\":2,\"attributeCode\":\"PLAN_SELECCIONADO\",\"attributeLabel\":\"PLAN\",\"objectId\":\"01tDN000000AsP0YAK\",\"ratingInput\":\"PLAN_SELECCIONADO\",\"attributeDataType\":\"Text\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"PROTECCION_CREDINOMINA\"},\"a0oDN000000GppCYAS\":{\"count\":1,\"attributeCode\":\"SUMA_ASEGURADA\",\"attributeLabel\":\"SUMA ASEGURADA\",\"objectId\":\"01tDN000000AsP0YAK\",\"ratingInput\":\"VIDA_IND_SUMA_ASEGURADA\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"Atributos-Cov-Otras\",\"categoryName\":\"Atributos-Cov-Otras\",\"attributeDefaultValue\":\"20500\"}},\"01tDN000000AZ1dYAG\":{\"a0oDN000000GoA7YAK\":{\"count\":7,\"attributeCode\":\"Asegurado_Edad\",\"attributeLabel\":\"Asegurado Edad\",\"objectId\":\"01tDN000000AZ1dYAG\",\"ratingInput\":\"EDAD\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Atributos-Cov-Asegurado\",\"categoryName\":\"Atributos-Cov-Asegurado\",\"attributeDefaultValue\":\"70\"},\"productName\":\"INS-PARTY ASEGURADO\",\"productRecordType\":\"InsuredPartySpec\",\"productCode\":\"INS_PARTY_ASEGURADO\",\"isOptional\":false,\"pciId\":\"a53DN0000004CmXYAU\",\"instanceKey\":\"\",\"a0oDN000000GoACYA0\":{\"count\":6,\"attributeCode\":\"Asegurado_FechaNacimiento\",\"attributeLabel\":\"Asegurado Fecha Nacimiento\",\"objectId\":\"01tDN000000AZ1dYAG\",\"ratingInput\":null,\"attributeDataType\":\"Date\",\"categoryCode\":\"Atributos-Cov-Asegurado\",\"categoryName\":\"Atributos-Cov-Asegurado\",\"attributeDefaultValue\":null},\"a0oDN000000GoOJYA0\":{\"count\":5,\"attributeCode\":\"Asegurado_Genero\",\"attributeLabel\":\"Asegurado Genero\",\"objectId\":\"01tDN000000AZ1dYAG\",\"ratingInput\":\"GENERO_ASEGURADO\",\"attributeDataType\":\"Text\",\"categoryCode\":\"Atributos-Cov-Asegurado\",\"categoryName\":\"Atributos-Cov-Asegurado\",\"attributeDefaultValue\":\"MUJER\"},\"a0oDN000000Gp2kYAC\":{\"count\":4,\"attributeCode\":\"Asegurado_Fuma\",\"attributeLabel\":\"Asegurado Fuma\",\"objectId\":\"01tDN000000AZ1dYAG\",\"ratingInput\":\"FUMA_ASEGURADO\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"Atributos-Cov-Asegurado\",\"categoryName\":\"Atributos-Cov-Asegurado\",\"attributeDefaultValue\":false},\"a0oDN000000Gp73YAC\":{\"count\":3,\"attributeCode\":\"saldoInsoluto\",\"attributeLabel\":\"Saldo Insoluto\",\"objectId\":\"01tDN000000AZ1dYAG\",\"ratingInput\":\"VIDA_CLIENTE_SUMA_ASEGURADA\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"Atributos-Cov-Asegurado\",\"categoryName\":\"Atributos-Cov-Asegurado\",\"attributeDefaultValue\":null},\"a0oDN000000Gp78YAC\":{\"count\":2,\"attributeCode\":\"MensualidadCredito\",\"attributeLabel\":\"Mensualidad Credito\",\"objectId\":\"01tDN000000AZ1dYAG\",\"ratingInput\":\"VIDA_BANCO_SUMA_ASEGURADA\",\"attributeDataType\":\"Currency\",\"categoryCode\":\"Atributos-Cov-Asegurado\",\"categoryName\":\"Atributos-Cov-Asegurado\",\"attributeDefaultValue\":null}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "",
+    "%vlocity_namespace%__MarketSegment__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "PROTECCION-CREDINOMINA_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "SUM ( VIDA_IND_Primas_Fallecimiento__VIDA_IND_PR_FALLECIMIENTO, VIDA_IND_Primas_Desempleo__VIDA_IND_PR_DESEMPLEO_INVOLUNTARIO_INDIVIDUAL )",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "PROTECCION-CREDINOMINA_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "VIDA-IND-Maestro-Proteccion-Credinomina",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "PROTECCIÓN CREDINÓMINA",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "PROTECCION-CREDINOMINA_PricebookEntries.json",
+    "ProductCode": "SEGURO_PROTECCION_CREDINOMINA_ROOT",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "PROTECCIÓN CREDINÓMINA",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "2ac74207-05d3-4e75-abe4-f2409284f2f8",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "2ac74207-05d3-4e75-abe4-f2409284f2f8",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/2ac74207-05d3-4e75-abe4-f2409284f2f8",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "SEGURO_PROTECCION_CREDINOMINA_ROOT",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/2ac74207-05d3-4e75-abe4-f2409284f2f8"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/2ac74207-05d3-4e75-abe4-f2409284f2f8",
+    "clbinsBanorteCode__c": ""
+}

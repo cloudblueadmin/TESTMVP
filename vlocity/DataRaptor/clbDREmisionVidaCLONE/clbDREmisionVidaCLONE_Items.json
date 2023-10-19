@@ -1,0 +1,153 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'InsuredPartySpec'",
+        "GlobalKey": "clbDREmisionVidaCLONECustom6588",
+        "InputFieldName": "%vlocity_namespace%__RecordTypeName__c",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsuredList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Beneficiario'",
+        "GlobalKey": "clbDREmisionVidaCLONECustom2158",
+        "InputFieldName": "Product2.Name",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsuredList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "quoteId",
+        "GlobalKey": "clbDREmisionVidaCLONECustom4745",
+        "InputFieldName": "QuoteId",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsuredList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "%InsuredList|0:%vlocity_namespace%__AttributeSelectedValues__c:FirstName% + ' ' + %InsuredList|0:%vlocity_namespace%__AttributeSelectedValues__c:LastName%",
+        "FormulaResultPath": "nomben",
+        "FormulaSequence": 1,
+        "GlobalKey": "clbDREmisionVidaCLONECustom5697",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "clbDREmisionVidaCLONECustom2337",
+        "InputFieldName": "InsuredList",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Data:Benef",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "clbDREmisionVidaCLONECustom8764",
+        "InputFieldName": "InsuredList:%vlocity_namespace%__AttributeSelectedValues__c:fullName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Data:Benef_Asegurado:nomben",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "clbDREmisionVidaCLONECustom9352",
+        "InputFieldName": "nomben",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "clbDREmisionVidaCLONE",
+        "OmniDataTransformationId": {
+            "Name": "clbDREmisionVidaCLONE",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/clbDREmisionVidaCLONE",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "test",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

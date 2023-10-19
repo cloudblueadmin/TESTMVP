@@ -1,0 +1,211 @@
+{
+    "CountyLookup": {
+        "City": "Bostwick",
+        "County": "Putnam",
+        "ID": "input"
+    },
+    "ProductCode": "propHO3",
+    "accountId": null,
+    "brokerId": null,
+    "contents": {
+        "cbBikes": true,
+        "cbCameras": true,
+        "cbFineArts": true,
+        "cbJewelry": true,
+        "cbMusic": true,
+        "ptLimitCTS": 750000,
+        "schdBikes": [
+            {
+                "itemNameBIKE": "Schwin 1",
+                "itemTypeBIKE": "Bike",
+                "itemValueBIKE": 2000
+            },
+            {
+                "itemNameBIKE": "Schwin 2",
+                "itemTypeBIKE": "Bike",
+                "itemValueBIKE": 1500
+            }
+        ],
+        "schdCameras": [
+            {
+                "itemNameCAMERA": "Nikon",
+                "itemTypeCAMERA": "Camera",
+                "itemValueCAMERA": 5000
+            },
+            {
+                "itemNameCAMERA": "Wide Angle Lens",
+                "itemTypeCAMERA": "Camera",
+                "itemValueCAMERA": 52500
+            }
+        ],
+        "schdFineArts": [
+            {
+                "itemNameFA": "Renoir",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 400000
+            },
+            {
+                "itemNameFA": "statue",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 20000
+            }
+        ],
+        "schdJewelry": [
+            {
+                "itemNameJWY": "Dimond ring",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 4000
+            },
+            {
+                "itemNameJWY": "Rolex",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 35000
+            }
+        ],
+        "schdMusic": [
+            {
+                "itemNameMUSICEQP": "Piano",
+                "itemTypeMUSICEQP": "Musical Instrument",
+                "itemValueMUSICEQP": 15000
+            },
+            {
+                "itemNameMUSICEQP": "Guitar",
+                "itemTypeMUSICEQP": "Musical Instrument",
+                "itemValueMUSICEQP": 5000
+            }
+        ],
+        "sumBikes": 3500,
+        "sumCameras": 57500,
+        "sumFineArts": 420000,
+        "sumJewelry": 39000,
+        "sumMusic": 20000
+    },
+    "home": {
+        "plBrushClearance": "501",
+        "plBurglarAlarm": "Local",
+        "plConstType": "ISO Class 1- Frame",
+        "plFireAlarm": "Battery operated detectors",
+        "plNumBath": "2",
+        "plNumBed": "2",
+        "plPropType": "Condo",
+        "plRoofType": "Wood Shingles",
+        "plSprinklers": "None",
+        "plUsageType": "Main Residence",
+        "plValue": 1500000,
+        "plYrBuilt": 2010,
+        "plYrOwned": 2
+    },
+    "id": "a3F3i000000Tu4jEAC",
+    "insuredItems": {
+        "propHome": {
+            "instanceKey": "1124 Elm Dr",
+            "plBrushClearance": "501",
+            "plBurglarAlarm": "Local",
+            "plCity": "Los Angeles",
+            "plConstType": "ISO Class 1- Frame",
+            "plCounty": "Putnam",
+            "plFireAlarm": "Battery operated detectors",
+            "plNumBath": "2",
+            "plNumBed": "2",
+            "plPostCode": "32007",
+            "plPropType": "Condo",
+            "plRoofType": "Wood Shingles",
+            "plSprinklers": "None",
+            "plState": "CA",
+            "plStreet": "1124 Elm Dr",
+            "plUsageType": "Main Residence",
+            "plValue": 1500000,
+            "plYrBuilt": 2010,
+            "plYrOwned": 2
+        },
+        "propItem": [
+            {
+                "instanceKey": "Renoir",
+                "piName": "Renoir",
+                "piType": "Fine Arts",
+                "piValue": 400000
+            },
+            {
+                "instanceKey": "statue",
+                "piName": "statue",
+                "piType": "Fine Arts",
+                "piValue": 20000
+            },
+            {
+                "instanceKey": "Schwin 1",
+                "piName": "Schwin 1",
+                "piType": "Bike",
+                "piValue": 2000
+            },
+            {
+                "instanceKey": "Schwin 2",
+                "piName": "Schwin 2",
+                "piType": "Bike",
+                "piValue": 1500
+            },
+            {
+                "instanceKey": "Nikon",
+                "piName": "Nikon",
+                "piType": "Camera",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Wide Angle Lens",
+                "piName": "Wide Angle Lens",
+                "piType": "Camera",
+                "piValue": 52500
+            },
+            {
+                "instanceKey": "Piano",
+                "piName": "Piano",
+                "piType": "Musical Instrument",
+                "piValue": 15000
+            },
+            {
+                "instanceKey": "Guitar",
+                "piName": "Guitar",
+                "piType": "Musical Instrument",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Dimond ring",
+                "piName": "Dimond ring",
+                "piType": "Jewelry",
+                "piValue": 4000
+            },
+            {
+                "instanceKey": "Rolex",
+                "piName": "Rolex",
+                "piType": "Jewelry",
+                "piValue": 35000
+            }
+        ]
+    },
+    "intro": {
+        "propertyType": "Own"
+    },
+    "isNewAccount": false,
+    "isdtp": "p1",
+    "layout": "newport",
+    "location": {
+        "effectiveDate": "2020-06-02",
+        "propertyAddress-Block": {
+            "plCity": "Los Angeles",
+            "plPostCode": "32007",
+            "plState": "CA",
+            "plStreet": "1124 Elm Dr"
+        },
+        "ratingEffectiveDate": "2020-06-02 00:00:00"
+    },
+    "lwc": "omniscriptPreview",
+    "ns": "%vlocity_namespace%",
+    "plCountry": "US",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://nosoftware-agility-274.lightning.force.com",
+    "timeStamp": "2020-06-02T22:53:44.076Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053i000000koRTAAY",
+    "userName": "vex_personal_lines@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

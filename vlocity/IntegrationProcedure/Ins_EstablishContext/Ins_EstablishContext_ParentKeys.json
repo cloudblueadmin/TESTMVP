@@ -1,0 +1,8 @@
+[
+    "DataRaptor/InsReadProducer",
+    "DataRaptor/getBusinessAccount",
+    "DataRaptor/getContactFromUserDemo",
+    "DataRaptor/getLead",
+    "DataRaptor/getPersonAccountDetails2",
+    "DataRaptor/insExtRecordType"
+]

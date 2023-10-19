@@ -1,0 +1,18 @@
+{
+    "LoopBeneficiary": [
+        {
+            "DRCreateContatStatus": true,
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "beneficiary": {
+                "Birthdate": "1940-12-30",
+                "Id": "003DO000008EiynYAC",
+                "LastName": "Jimenes",
+                "MailingCountry": "Mexico",
+                "MailingState": "DF",
+                "MailingStreet": "Libertador",
+                "UpsertSuccess": true
+            }
+        }
+    ]
+}

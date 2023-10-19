@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ClbIns_RateLife_SampleInput.json",
+    "Description": "VIP that returns a Rate for a Life Product",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsRateLife",
+    "OmniProcessElement": [
+        "ClbIns_RateLife_Element_svUserInputs.json",
+        "ClbIns_RateLife_Element_GetRateForLife.json",
+        "ClbIns_RateLife_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_RateLife",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_RateLife_PropertySetConfig.json",
+    "SubType": "RateLife",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/RateLife/Procedure",
+    "WebComponentKey": "062ff839-1b72-6f32-ac31-694cb07da941"
+}

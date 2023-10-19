@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "{}",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "InsRecordHeaderDetails",
+    "OmniProcessElement": [
+        "InsRecordHeader_getDetails_Element_GetAccountDR.json",
+        "InsRecordHeader_getDetails_Element_SetAPIKeys.json",
+        "InsRecordHeader_getDetails_Element_WeatherApiRequest.json",
+        "InsRecordHeader_getDetails_Element_SetStatus.json",
+        "InsRecordHeader_getDetails_Element_SetStatusColorsActive.json",
+        "InsRecordHeader_getDetails_Element_SetStatusColorsInactive.json",
+        "InsRecordHeader_getDetails_Element_SetResponseValues.json",
+        "InsRecordHeader_getDetails_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "InsRecordHeader_getDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "InsRecordHeader_getDetails_PropertySetConfig.json",
+    "SubType": "getDetails",
+    "Type": "InsRecordHeader",
+    "UniqueName": "InsRecordHeader_getDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/InsRecordHeader/getDetails/Procedure",
+    "WebComponentKey": "36736c84-805c-a749-c4a9-55917117e45b"
+}

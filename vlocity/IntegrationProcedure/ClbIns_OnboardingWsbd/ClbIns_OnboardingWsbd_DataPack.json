@@ -1,0 +1,33 @@
+{
+    "CustomJavaScript": "ClbIns_OnboardingWsbd_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsOnboardingWsbd",
+    "OmniProcessElement": [
+        "ClbIns_OnboardingWsbd_Element_DecryptQuoteId.json",
+        "ClbIns_OnboardingWsbd_Element_GetDocumentFromQuote.json",
+        "ClbIns_OnboardingWsbd_Element_GetContentDocument.json",
+        "ClbIns_OnboardingWsbd_Element_IfNotContentVersion.json",
+        "ClbIns_OnboardingWsbd_Element_ResponseError.json",
+        "ClbIns_OnboardingWsbd_Element_ClbBanSystemSettings.json",
+        "ClbIns_OnboardingWsbd_Element_GetQuoteDetails.json",
+        "ClbIns_OnboardingWsbd_Element_OnboardingRequest.json",
+        "ClbIns_OnboardingWsbd_Element_TokenBanorte.json",
+        "ClbIns_OnboardingWsbd_Element_PostOnboarding.json",
+        "ClbIns_OnboardingWsbd_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_OnboardingWsbd",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_OnboardingWsbd_PropertySetConfig.json",
+    "SubType": "OnboardingWsbd",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/OnboardingWsbd/Procedure",
+    "WebComponentKey": "f3183e61-fc93-c94b-ad13-531772888978"
+}

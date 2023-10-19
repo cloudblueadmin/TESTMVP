@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsApexDemo1",
+    "OmniProcessElement": [
+        "ClbIns_RemoteConnection_Element_GetRelatedContentDocumentsByQuoteId.json",
+        "ClbIns_RemoteConnection_Element_RelatedDocuments.json",
+        "ClbIns_RemoteConnection_Element_GetContentDocumentById.json",
+        "ClbIns_RemoteConnection_Element_ContentDocument.json",
+        "ClbIns_RemoteConnection_Element_SetBodyMap.json",
+        "ClbIns_RemoteConnection_Element_SetBodyString.json",
+        "ClbIns_RemoteConnection_Element_SendToRemoteService.json",
+        "ClbIns_RemoteConnection_Element_ResponseAll.json"
+    ],
+    "OmniProcessKey": "ClbIns_RemoteConnection",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_RemoteConnection_PropertySetConfig.json",
+    "SubType": "RemoteConnection",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/RemoteConnection/Procedure",
+    "WebComponentKey": "27d5775e-a5e9-1b81-a206-3763e39dfc96"
+}

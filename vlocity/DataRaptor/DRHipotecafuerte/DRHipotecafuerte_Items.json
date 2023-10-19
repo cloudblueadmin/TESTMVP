@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "DRHipotecafuerteCustom8063",
+        "InputFieldName": "Step1:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHipotecafuerte",
+        "OmniDataTransformationId": {
+            "Name": "DRHipotecafuerte",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHipotecafuerte",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHipotecafuerteCustom2052",
+        "InputFieldName": "Step1:EDI_VALOR_DESTRUCTIBLE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHipotecafuerte",
+        "OmniDataTransformationId": {
+            "Name": "DRHipotecafuerte",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHipotecafuerte",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT.EDI_VALOR_DESTRUCTIBLE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRHipotecafuerteCustom8318",
+        "InputFieldName": "Step1:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRHipotecafuerte",
+        "OmniDataTransformationId": {
+            "Name": "DRHipotecafuerte",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRHipotecafuerte",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

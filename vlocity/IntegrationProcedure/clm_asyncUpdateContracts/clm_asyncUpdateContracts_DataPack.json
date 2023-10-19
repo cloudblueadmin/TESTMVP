@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "clm_asyncUpdateContracts_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CLM - Async Update Contracts",
+    "OmniProcessElement": [
+        "clm_asyncUpdateContracts_Element_UpdateParentContract.json",
+        "clm_asyncUpdateContracts_Element_UpdateAllParentContractLineItems.json",
+        "clm_asyncUpdateContracts_Element_UpdateAllSubContractsThenLines.json"
+    ],
+    "OmniProcessKey": "clm_asyncUpdateContracts",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "clm_asyncUpdateContracts_PropertySetConfig.json",
+    "SubType": "asyncUpdateContracts",
+    "Type": "clm",
+    "UniqueName": "clm_asyncUpdateContracts_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/clm/asyncUpdateContracts/Procedure",
+    "WebComponentKey": "2c84adc8-9058-7350-4c1e-238225b5b7a3"
+}

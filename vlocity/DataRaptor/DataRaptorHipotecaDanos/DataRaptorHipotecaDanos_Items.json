@@ -1,0 +1,99 @@
+[
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "DataRaptorHipotecaDanosCustom2708",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptorHipotecaDanos",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptorHipotecaDanos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptorHipotecaDanos",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "userInputs:INS_ITEM_CONTENIDOS.isPrimary",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "true",
+        "GlobalKey": "DataRaptorHipotecaDanosCustom7148",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptorHipotecaDanos",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptorHipotecaDanos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptorHipotecaDanos",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "userInputs:INS_ITEM_EDIFICIO.isPrimary",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DataRaptorHipotecaDanosCustom6893",
+        "InputFieldName": "Datos:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptorHipotecaDanos",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptorHipotecaDanos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptorHipotecaDanos",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DataRaptorHipotecaDanosCustom4054",
+        "InputFieldName": "Datos:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptorHipotecaDanos",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptorHipotecaDanos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptorHipotecaDanos",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DataRaptorHipotecaDanosCustom7878",
+        "InputFieldName": "Datos:EDI_VALOR_DESTRUCTIBLE",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptorHipotecaDanos",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptorHipotecaDanos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptorHipotecaDanos",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_HIPOTECARIO_DAÑOS_ROOT.VALOR_ASEGURADO_DESTRUCTIBLE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "InsAccount_GetStories_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "InsCustomerFeed",
+    "OmniProcessElement": [
+        "InsAccount_GetStories_Element_activities.json",
+        "InsAccount_GetStories_Element_ListAction2.json",
+        "InsAccount_GetStories_Element_ResponseAction2.json"
+    ],
+    "OmniProcessKey": "InsAccount_GetStories",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "InsAccount_GetStories_PropertySetConfig.json",
+    "SubType": "GetStories",
+    "Type": "InsAccount",
+    "UniqueName": "InsAccount_GetStories_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/InsAccount/GetStories/Procedure",
+    "WebComponentKey": "ce9ff3a4-f583-769f-ab0e-d19bdd45dcfc"
+}

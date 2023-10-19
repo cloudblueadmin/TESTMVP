@@ -1,0 +1,23 @@
+{
+    "INS_ITEM_CONTENIDOS.CONT_VALOR_DESTRUCTIBLE": "Currency",
+    "INS_ITEM_CONTENIDOS.Contenido_Coaseguro": "Percent",
+    "INS_ITEM_CONTENIDOS.Contenido_Deducible": "Percent",
+    "INS_ITEM_CONTENIDOS.Contenido_Regla_Cuota": "Percent",
+    "INS_ITEM_CONTENIDOS.Contenido_Regla_SA": "Percent",
+    "INS_ITEM_CONTENIDOS.Contenido_Valor_Aseguro": "Currency",
+    "INS_ITEM_CONTENIDOS.instanceKey": "Text",
+    "INS_ITEM_CONTENIDOS.isPrimary": "Boolean",
+    "INS_ITEM_EDIFICIO.EDI_VALOR_DESTRUCTIBLE": "Currency",
+    "INS_ITEM_EDIFICIO.Edificio deducible": "Percent",
+    "INS_ITEM_EDIFICIO.Edificio_Coaseguro": "Currency",
+    "INS_ITEM_EDIFICIO.Edificio_Codigo_Postal": "Text",
+    "INS_ITEM_EDIFICIO.Edificio_Regla_Cuota": "Percent",
+    "INS_ITEM_EDIFICIO.Edificio_Regla_SA": "Percent",
+    "INS_ITEM_EDIFICIO.Edificio_Suma_Asegurada": "Currency",
+    "INS_ITEM_EDIFICIO.Edificio_Total_Avaluo": "Currency",
+    "INS_ITEM_EDIFICIO.instanceKey": "Text",
+    "INS_ITEM_EDIFICIO.isPrimary": "Boolean",
+    "SEGURO_HIPOTECARIO_DAÑOS_ROOT.CNT_DIAS_VIGENCIA": "Number",
+    "SEGURO_HIPOTECARIO_DAÑOS_ROOT.EDI_VALOR_DESTRUCTIBLE": "Number",
+    "SEGURO_HIPOTECARIO_DAÑOS_ROOT.PLAN_SELECCIONADO": "Text"
+}

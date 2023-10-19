@@ -1,0 +1,45 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GetPriceWithExpensesAndTaxes",
+    "OmniProcessId": {
+        "Name": "ClbInsCalculateExpensesAndTaxes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/CalculateExpensesAndTaxes/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "ExpressionSetAction1",
+        "remoteClass": "%vlocity_namespace%.PricingMatrixCalculationService",
+        "remoteMethod": "calculate",
+        "remoteOptions": {
+            "configurationName": "PriceWithExpensesAndTaxes",
+            "includeRawCalculationResult": true
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "InputGetPriceWithExpenseAndTaxes",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Calculation Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/CalculateExpensesAndTaxes/Procedure/GetPriceWithExpensesAndTaxes"
+}

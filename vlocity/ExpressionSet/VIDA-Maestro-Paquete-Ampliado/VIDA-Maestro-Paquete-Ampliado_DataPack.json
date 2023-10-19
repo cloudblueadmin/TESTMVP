@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "VIDA-Maestro-Paquete-Ampliado",
+    "Namespace": "",
+    "UniqueName": "VIDA-Maestro-Paquete-Ampliado",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/VIDA-Maestro-Paquete-Ampliado"
+}

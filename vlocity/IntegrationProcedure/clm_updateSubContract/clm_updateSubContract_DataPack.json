@@ -1,0 +1,23 @@
+{
+    "CustomJavaScript": "{}",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Update Sub Contract",
+    "OmniProcessElement": "clm_updateSubContract_Element_UpdateSubContract.json",
+    "OmniProcessKey": "clm_updateSubContract",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "clm_updateSubContract_PropertySetConfig.json",
+    "SubType": "updateSubContract",
+    "Type": "clm",
+    "UniqueName": "clm_updateSubContract_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/clm/updateSubContract/Procedure",
+    "WebComponentKey": "017a21f1-f5b7-e14f-c8ed-5af0eb3d4749"
+}

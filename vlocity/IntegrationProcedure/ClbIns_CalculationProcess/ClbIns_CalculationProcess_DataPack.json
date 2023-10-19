@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "New Integration Procedure",
+    "OmniProcessElement": [
+        "ClbIns_CalculationProcess_Element_ExpressionSetAction1.json",
+        "ClbIns_CalculationProcess_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ClbIns_CalculationProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_CalculationProcess_PropertySetConfig.json",
+    "SubType": "CalculationProcess",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/CalculationProcess/Procedure",
+    "WebComponentKey": "0a3b36b8-fa92-58cb-94e9-0fd684229387"
+}

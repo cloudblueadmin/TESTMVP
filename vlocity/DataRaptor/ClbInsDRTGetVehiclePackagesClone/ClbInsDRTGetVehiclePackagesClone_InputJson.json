@@ -1,0 +1,616 @@
+{
+    "errorCode": "INVOKE-200",
+    "records": [
+        {
+            "Id": "01tDo000001VXkyIAG",
+            "IsConfigurable__c": false,
+            "IsRecommended__c": false,
+            "LineOfBusiness__c": "Individual Life",
+            "Name": "VI APF - Package 1500000",
+            "Price": "",
+            "PricingFormula__c": "PrimaFallecimiento+PrimaInvTotPerm+PrimaMuerteAcc+PrimaIndemHospAcc+PrimaIndDiaHosp+PrimaEnfGrav",
+            "ProductCode": "BAN-VIDIND-APF-500",
+            "RecordTypeName__c": "Product",
+            "Type__c": "Life",
+            "attributeCategories": {
+                "records": [
+                    {
+                        "Code__c": "BAN-VidIndTerms",
+                        "Name": "Vida Individual Terms",
+                        "displaySequence": 6000,
+                        "id": "a0UDo000002E7LvMAK",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a0VDo000000ynWbMAI",
+                                    "cloneable": true,
+                                    "code": "VIReqEdad",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 0,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "Requisito Edad",
+                                    "max": null,
+                                    "min": null,
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "step": null,
+                                    "userValues": "Tener entre 18 y 70 años",
+                                    "values": [
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": true,
+                                            "readonly": true,
+                                            "value": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0VDo000000ynWgMAI",
+                                    "cloneable": true,
+                                    "code": "VIReqSalud",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "Requisito Salud",
+                                    "max": null,
+                                    "min": null,
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "step": null,
+                                    "userValues": "Gozar de buena salud",
+                                    "values": [
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": true,
+                                            "readonly": true,
+                                            "value": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0VDo000000ynWlMAI",
+                                    "cloneable": true,
+                                    "code": "VIReqOcup",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "Requisito Ocupacion",
+                                    "max": null,
+                                    "min": null,
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "step": null,
+                                    "userValues": "No tener una ocupación considerada de alto riesgo",
+                                    "values": [
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": true,
+                                            "readonly": true,
+                                            "value": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0VDo000000ynWqMAI",
+                                    "cloneable": true,
+                                    "code": "VIReqEmpleo",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "Requsito Empleo",
+                                    "max": null,
+                                    "min": null,
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "step": null,
+                                    "userValues": "Ser empleado de la Administración Pública Federal",
+                                    "values": [
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": true,
+                                            "readonly": true,
+                                            "value": null
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 4
+                        }
+                    }
+                ],
+                "totalSize": 1
+            },
+            "childProducts": {
+                "records": [
+                    {
+                        "Id": "01tDo000001VXssIAG",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "LineOfBusiness__c": "Individual Life",
+                        "Name": "Indemnización Hospitalaria por Accidente",
+                        "PricingSource__c": "PrimaIndemHospAcc",
+                        "ProductCode": "BAN-IndHospAcc",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "BAN-VidIndTerms",
+                                    "Name": "Vida Individual Terms",
+                                    "displaySequence": 6000,
+                                    "id": "a0UDo000002E7LvMAK",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0VDo000000ycODMAY",
+                                                "cloneable": true,
+                                                "code": "SumAseg",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Suma Asegurada",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": 200000,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "readonly": false,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycP6MAI",
+                                                "cloneable": true,
+                                                "code": "Prima",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Prima",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycSFMAY",
+                                                "cloneable": true,
+                                                "code": "IncludeCoverage",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "checkbox",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "IncludeCoverage",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": true,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "readonly": false,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 4,
+                        "isOptional": false,
+                        "isSelected": true,
+                        "pciId": "a4fDo0000004TJXIA2",
+                        "productId": "01tDo000001VXssIAG"
+                    },
+                    {
+                        "Id": "01tDo000001VXsjIAG",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "LineOfBusiness__c": "Individual Life",
+                        "Name": "Indemnización Diaria por Hospitalización",
+                        "PricingSource__c": "PrimaIndDiaHosp",
+                        "ProductCode": "BAN-IndDiaHosp",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "BAN-VidIndTerms",
+                                    "Name": "Vida Individual Terms",
+                                    "displaySequence": 6000,
+                                    "id": "a0UDo000002E7LvMAK",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0VDo000000ycODMAY",
+                                                "cloneable": true,
+                                                "code": "SumAseg",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Suma Asegurada",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": 10000,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "readonly": false,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycP6MAI",
+                                                "cloneable": true,
+                                                "code": "Prima",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Prima",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycSFMAY",
+                                                "cloneable": true,
+                                                "code": "IncludeCoverage",
+                                                "dataType": "text",
+                                                "disabled": true,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "checkbox",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "IncludeCoverage",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": true,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 3,
+                        "isOptional": false,
+                        "isSelected": true,
+                        "pciId": "a4fDo0000004TJWIA2",
+                        "productId": "01tDo000001VXsjIAG"
+                    },
+                    {
+                        "Id": "01tDo000001VXl3IAG",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "LineOfBusiness__c": "Individual Life",
+                        "Name": "Fallecimiento",
+                        "PricingSource__c": "PrimaFallecimiento",
+                        "ProductCode": "BAN-Fallecimiento",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "BAN-VidIndTerms",
+                                    "Name": "Vida Individual Terms",
+                                    "displaySequence": 6000,
+                                    "id": "a0UDo000002E7LvMAK",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0VDo000000ycODMAY",
+                                                "cloneable": true,
+                                                "code": "SumAseg",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Suma Asegurada",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": 1500000,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "readonly": false,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycP6MAI",
+                                                "cloneable": true,
+                                                "code": "Prima",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Prima",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 2
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 1,
+                        "isOptional": false,
+                        "isSelected": true,
+                        "pciId": "a4fDo0000004TJMIA2",
+                        "productId": "01tDo000001VXl3IAG"
+                    },
+                    {
+                        "Id": "01tDo000001VXtHIAW",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "LineOfBusiness__c": "Individual Life",
+                        "Name": "Enfermedades Graves",
+                        "PricingSource__c": "PrimaEnfGrav",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "BAN-VidIndTerms",
+                                    "Name": "Vida Individual Terms",
+                                    "displaySequence": 6000,
+                                    "id": "a0UDo000002E7LvMAK",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0VDo000000ycODMAY",
+                                                "cloneable": true,
+                                                "code": "SumAseg",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Suma Asegurada",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": 100000,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "readonly": false,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycP6MAI",
+                                                "cloneable": true,
+                                                "code": "Prima",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Prima",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0VDo000000ycSFMAY",
+                                                "cloneable": true,
+                                                "code": "IncludeCoverage",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "checkbox",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "IncludeCoverage",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": true,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "readonly": false,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 2,
+                        "isOptional": false,
+                        "isSelected": true,
+                        "pciId": "a4fDo0000004TJRIA2",
+                        "productId": "01tDo000001VXtHIAW"
+                    }
+                ],
+                "totalSize": 4
+            },
+            "currencyCode": "USD",
+            "currencySymbol": "$",
+            "displaySequence": -1,
+            "productId": "01tDo000001VXkyIAG"
+        }
+    ],
+    "totalSize": 1
+}

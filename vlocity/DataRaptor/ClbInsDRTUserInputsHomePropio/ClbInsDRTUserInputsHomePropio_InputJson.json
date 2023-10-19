@@ -1,0 +1,12 @@
+{
+    "aplicaContenidos": false,
+    "aplicaDmed": false,
+    "aplicaDmrb": false,
+    "aplicaRcge": false,
+    "aplicaRhmt": false,
+    "aplicaTeev": false,
+    "code": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+    "codigoPostal": "64000",
+    "porcentajeContenidos": "20",
+    "valorInmueble": 4000000
+}

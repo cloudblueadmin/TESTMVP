@@ -1,0 +1,82 @@
+[
+    {
+        "FormulaExpression": "currentNumber+1",
+        "FormulaResultPath": "newNumber",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRUpdateQuoteNumber9520251908397672",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRUpdateQuoteNumber",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUpdateQuoteNumber",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUpdateQuoteNumber",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRUpdateQuoteNumber10305435445717648",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRUpdateQuoteNumber",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUpdateQuoteNumber",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUpdateQuoteNumber",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "clbinsQuoteNumber__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRUpdateQuoteNumber7816428528011763",
+        "InputFieldName": "branch",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "Name": "ClbInsDRUpdateQuoteNumber",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUpdateQuoteNumber",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUpdateQuoteNumber",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "clbinsQuoteNumber__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "1000000",
+        "GlobalKey": "ClbInsDRUpdateQuoteNumber2791358778816735",
+        "InputFieldName": "newNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRUpdateQuoteNumber",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUpdateQuoteNumber",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUpdateQuoteNumber",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "clbinsQuoteNumber__c",
+        "OutputObjectName": "clbinsQuoteNumber__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,2392 @@
+{
+    "ClbBanSystemSettings": {
+        "ClbBanSS": {
+            "ruleId": "1",
+            "urlRatingEarnix": "https://earnix.com/1/rating"
+        }
+    },
+    "ClbBanSystemSettingsDebug": {
+        "ElapsedTime": 68,
+        "ElapsedTimeCPU": 39,
+        "Input": {
+            "coverages": [
+                {
+                    "BaseDeducible": "S",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A004",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "10",
+                    "SumaAseg": "598428.00",
+                    "TipoDeducible": "PO"
+                },
+                {
+                    "BaseDeducible": "M",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A005",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "4000000.00",
+                    "TipoDeducible": "DI"
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A007",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A006",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "150000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A009",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "1000000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A010",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "750000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A014",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "6000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A012",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A023",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A017",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A022",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "300000.00",
+                    "TipoDeducible": ""
+                }
+            ],
+            "input_1": {
+                "Availability__c": null,
+                "ParentClassCode__c": null,
+                "ParentClassId__c": null,
+                "ProductCode": "AutoP1",
+                "SubType__c": null,
+                "Type__c": null,
+                "autoDriver.FirstName": "Alberto",
+                "autoDriver.Gender": "M",
+                "autoDriver.LastName": "Juarez",
+                "autoDriver.instanceKey": "Alberto Juarez",
+                "autoDriver.isPrimary": "Boolean",
+                "autoVehicle.Make": "FO",
+                "autoVehicle.Model": "019",
+                "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+                "autoVehicle.Type": "001",
+                "autoVehicle.Year": "2009",
+                "autoVehicle.instanceKey": "2009 FO 019",
+                "parentProdKey": "01tDO000000L0TRYA0",
+                "productKey": "01tDO000000L0TRYA0"
+            },
+            "methodOfPayment": "TC",
+            "options": {
+                "chainable": false,
+                "ignoreCache": true,
+                "queueableChainable": false,
+                "resetCache": false,
+                "useQueueableApexRemoting": false
+            },
+            "profile": "OPERADOR",
+            "user": "8025821"
+        },
+        "Status": true,
+        "Type": "DataRaptor Extract Action"
+    },
+    "GetClaveBG": {
+        "cModeloAuto": {
+            "claveBG": "FO000364"
+        }
+    },
+    "GetClaveBGDebug": {
+        "ElapsedTime": 35,
+        "ElapsedTimeCPU": 28,
+        "Input": {
+            "codModDetalle": "FO400",
+            "tipoVeh": "001"
+        },
+        "Status": true,
+        "Type": "DataRaptor Extract Action"
+    },
+    "GetCodModeloDetalle": {
+        "cAuto": {
+            "codModDetalle": "FO400"
+        }
+    },
+    "GetCodModeloDetalleDebug": {
+        "ElapsedTime": 40,
+        "ElapsedTimeCPU": 32,
+        "Input": {
+            "codMarca": "FO",
+            "codModelo": "019",
+            "descModelo": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ"
+        },
+        "Status": true,
+        "Type": "DataRaptor Extract Action"
+    },
+    "GetCoverageValues": {
+        "AUTO_PR_RC_TERCEROS": 990.74,
+        "AUTO_PR_ROBO_TOTAL": 5725.27
+    },
+    "GetCoverageValuesDebug": {
+        "ElapsedTime": 113,
+        "ElapsedTimeCPU": 94,
+        "Input": {
+            "CodError": 200,
+            "DescError": "",
+            "FriendlyMessage": "",
+            "Poliza": {
+                "Certificado": [
+                    {
+                        "CodErrorCert": 0,
+                        "IndicadorPrograma": "000",
+                        "NumCert": 1,
+                        "Paquete": [
+                            {
+                                "Cobertura": [
+                                    {
+                                        "BaseDeducible": "S",
+                                        "CodCobert": "A004",
+                                        "Deducible": 10,
+                                        "MtoPrimaCob": 5725.27,
+                                        "MtoPrimaFactCob": 5725.27,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": 10,
+                                        "SumaAsegurada": 598428
+                                    },
+                                    {
+                                        "BaseDeducible": "M",
+                                        "CodCobert": "A005",
+                                        "Deducible": 0,
+                                        "MtoPrimaCob": 990.74,
+                                        "MtoPrimaFactCob": 990.74,
+                                        "NumDiasDed": 0,
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 4000000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A006",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 120.29,
+                                        "MtoPrimaFactCob": 120.29,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 150000
+                                    },
+                                    {
+                                        "BaseDeducible": "M",
+                                        "CodCobert": "A007",
+                                        "Deducible": 0,
+                                        "MtoPrimaCob": 148.61,
+                                        "MtoPrimaFactCob": 148.61,
+                                        "NumDiasDed": 0,
+                                        "NumDiasEmi": "",
+                                        "PorcDed": 0,
+                                        "SumaAsegurada": 4000000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A009",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 129.69,
+                                        "MtoPrimaFactCob": 129.69,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 1000000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A010",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 259,
+                                        "MtoPrimaFactCob": 259,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 750000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A014",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 161.46,
+                                        "MtoPrimaFactCob": 161.46,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": 15,
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 6000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A012",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 34.58,
+                                        "MtoPrimaFactCob": 34.58,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 100000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A023",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 38,
+                                        "MtoPrimaFactCob": 38,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 100
+                                    },
+                                    {
+                                        "BaseDeducible": "S",
+                                        "CodCobert": "A017",
+                                        "Deducible": 10,
+                                        "MtoPrimaCob": 1262.7,
+                                        "MtoPrimaFactCob": 1262.7,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": 10,
+                                        "SumaAsegurada": 63731.768350000006
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A022",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 38.61,
+                                        "MtoPrimaFactCob": 38.61,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 300000
+                                    }
+                                ],
+                                "CodRecaDctoBE": " ",
+                                "CodRecaDctoDis": "",
+                                "CodRecaDctoEarnix": " ",
+                                "CodRecaDctoVol": " ",
+                                "Codplan": "A02",
+                                "MtoRecaDctoEarnix": 0,
+                                "Plan": "1107",
+                                "PorcRecaDctoBE": 0,
+                                "PorcRecaDctoDis": 0,
+                                "PorcRecaDctoEarnix": 0,
+                                "PorcRecaDctoVol": 0,
+                                "Revplan": "000",
+                                "SumPrimaPaq": 8908.95,
+                                "TipoRecaDctoBE": " ",
+                                "TipoRecaDctoDis": "",
+                                "TipoRecaDctoEarnix": " ",
+                                "TipoRecaDctoVol": " "
+                            }
+                        ],
+                        "Siniestro": [
+                            {
+                            }
+                        ],
+                        "SumPrimaCert": 8908.95
+                    }
+                ],
+                "Cotizacion": "",
+                "EAProductId": 30453,
+                "EARuleId": 31372,
+                "EAVersionId": 21955283,
+                "NumVehiculos": 1,
+                "SumPrimaPoliza": 8908.95,
+                "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7"
+            },
+            "Status": "Success",
+            "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7",
+            "data": null,
+            "message": null
+        },
+        "Status": true,
+        "Type": "DataRaptor Transform Action"
+    },
+    "GetValoresAuto": {
+        "cValorAuto": {
+            "mtoValorComercial": 515185,
+            "mtoValorNuevo": 542300
+        }
+    },
+    "GetValoresAutoDebug": {
+        "ElapsedTime": 39,
+        "ElapsedTimeCPU": 30,
+        "Input": {
+            "anoVeh": "2009",
+            "claveBG": "FO000364",
+            "tipoVeh": "001"
+        },
+        "Status": true,
+        "Type": "DataRaptor Extract Action"
+    },
+    "InitialSettings": {
+        "fechaMovimiento": "02/08/2023T10:08:48.708-0600",
+        "finVigencia": "02/08/2024",
+        "inicioVigencia": "02/08/2023"
+    },
+    "InitialSettingsDebug": {
+        "ElapsedTime": 41,
+        "ElapsedTimeCPU": 20,
+        "Input": "Running Set Values",
+        "Status": true,
+        "Type": "Set Values"
+    },
+    "InputDataForJson": {
+        "inputValuesForJsonRequest": {
+            "autoDriver.Gender": "M",
+            "autoVehicle.Make": "FO",
+            "autoVehicle.Model": "019",
+            "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+            "autoVehicle.Type": "001",
+            "autoVehicle.Year": "2009",
+            "claveBG": "FO000364",
+            "codModDetalle": "FO400",
+            "coverages": [
+                {
+                    "BaseDeducible": "S",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A004",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "10",
+                    "SumaAseg": "598428.00",
+                    "TipoDeducible": "PO"
+                },
+                {
+                    "BaseDeducible": "M",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A005",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "4000000.00",
+                    "TipoDeducible": "DI"
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A007",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A006",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "150000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A009",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "1000000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A010",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "750000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A014",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "6000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A012",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A023",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A017",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A022",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "300000.00",
+                    "TipoDeducible": ""
+                }
+            ],
+            "fechaInicio": "02/08/2023",
+            "fechaMovimiento": "02/08/2023T10:08:48.708-0600",
+            "fechaVigencia": "02/08/2024",
+            "methodOfPayment": "TC",
+            "mtoValorComercial": 515185,
+            "mtoValorNuevo": 542300,
+            "profile": "OPERADOR",
+            "ruleId": "1",
+            "user": "8025821"
+        }
+    },
+    "InputDataForJsonDebug": {
+        "ElapsedTime": 44,
+        "ElapsedTimeCPU": 39,
+        "Input": {
+            "ClbBanSystemSettings": {
+                "ClbBanSS": {
+                    "ruleId": "1",
+                    "urlRatingEarnix": "https://earnix.com/1/rating"
+                }
+            },
+            "ClbBanSystemSettingsStatus": true,
+            "GetClaveBG": {
+                "cModeloAuto": {
+                    "claveBG": "FO000364"
+                }
+            },
+            "GetClaveBGStatus": true,
+            "GetCodModeloDetalle": {
+                "cAuto": {
+                    "codModDetalle": "FO400"
+                }
+            },
+            "GetCodModeloDetalleStatus": true,
+            "GetValoresAuto": {
+                "cValorAuto": {
+                    "mtoValorComercial": 515185,
+                    "mtoValorNuevo": 542300
+                }
+            },
+            "GetValoresAutoStatus": true,
+            "InitialSettings": {
+                "fechaMovimiento": "02/08/2023T10:08:48.708-0600",
+                "finVigencia": "02/08/2024",
+                "inicioVigencia": "02/08/2023"
+            },
+            "InitialSettingsStatus": true,
+            "coverages": [
+                {
+                    "BaseDeducible": "S",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A004",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "10",
+                    "SumaAseg": "598428.00",
+                    "TipoDeducible": "PO"
+                },
+                {
+                    "BaseDeducible": "M",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A005",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "4000000.00",
+                    "TipoDeducible": "DI"
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A007",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A006",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "150000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A009",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "1000000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A010",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "750000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A014",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "6000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A012",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A023",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A017",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A022",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "300000.00",
+                    "TipoDeducible": ""
+                }
+            ],
+            "input_1": {
+                "Availability__c": null,
+                "ParentClassCode__c": null,
+                "ParentClassId__c": null,
+                "ProductCode": "AutoP1",
+                "SubType__c": null,
+                "Type__c": null,
+                "autoDriver.FirstName": "Alberto",
+                "autoDriver.Gender": "M",
+                "autoDriver.LastName": "Juarez",
+                "autoDriver.instanceKey": "Alberto Juarez",
+                "autoDriver.isPrimary": "Boolean",
+                "autoVehicle.Make": "FO",
+                "autoVehicle.Model": "019",
+                "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+                "autoVehicle.Type": "001",
+                "autoVehicle.Year": "2009",
+                "autoVehicle.instanceKey": "2009 FO 019",
+                "parentProdKey": "01tDO000000L0TRYA0",
+                "productKey": "01tDO000000L0TRYA0"
+            },
+            "methodOfPayment": "TC",
+            "options": {
+                "chainable": false,
+                "ignoreCache": true,
+                "queueableChainable": false,
+                "resetCache": false,
+                "useQueueableApexRemoting": false
+            },
+            "profile": "OPERADOR",
+            "user": "8025821"
+        },
+        "Status": true,
+        "Type": "DataRaptor Transform Action"
+    },
+    "JsonRequest": {
+        "quotes": [
+            {
+                "Poliza": {
+                    "AutoQuoteType": "0",
+                    "Canal": "001",
+                    "Categoria": "",
+                    "Certificado": [
+                        {
+                            "AnoVeh": "2009",
+                            "CPAseg": "",
+                            "Clase": "C",
+                            "ClaseVeh": "",
+                            "ClaveSB": "",
+                            "ClaveSBCorta": "FO400",
+                            "CodCpto": "",
+                            "CodDestinado": "",
+                            "CodMarca": "FO",
+                            "CodModelo": "019",
+                            "CodRemolque": "",
+                            "CodTipoCarga": "",
+                            "CodTipoRemolque": "",
+                            "CodUso": "",
+                            "CodVersion": "",
+                            "CodigoRemolque": "",
+                            "ColoniaAseg": "",
+                            "EdadConductor": "",
+                            "EdadConductor2": "",
+                            "EdadConductor3": "",
+                            "FecIng": "02/08/2023T10:08:48.708-0600",
+                            "GenVersion": "",
+                            "NumCert": "1",
+                            "PaisAseg": "052",
+                            "PaisCirculacion": "052",
+                            "Paquete": [
+                                {
+                                    "Cobertura": [
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A004",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "S",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "10",
+                                            "SubRamo": "",
+                                            "SumaAseg": "598428.00",
+                                            "TipoDeducible": "PO"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A005",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "S",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "4000000.00",
+                                            "TipoDeducible": "DI"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A007",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "S",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "0.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A006",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "S",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "150000.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A009",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "S",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "1000000.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A010",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "S",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "750000.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A014",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "N",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "6000.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A012",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "N",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "100000.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A023",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "N",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "100.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A017",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "N",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "0.00"
+                                        },
+                                        {
+                                            "CoberturaSeleccionada": "S",
+                                            "CoberturaVisible": "S",
+                                            "CodCobert": "A022",
+                                            "CodRamo": "",
+                                            "FinVigCob": "",
+                                            "IndCobPrima": "",
+                                            "IndCobertOblig": "N",
+                                            "IniVigCob": "",
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "SubRamo": "",
+                                            "SumaAseg": "300000.00"
+                                        }
+                                    ],
+                                    "CodRecaDctoBE": "",
+                                    "CodRecaDctoDis": "",
+                                    "CodRecaDctoVol": "",
+                                    "Codplan": "",
+                                    "PorcRecaDctoBE": "0",
+                                    "PorcRecaDctoDis": "0",
+                                    "PorcRecaDctoVol": "0",
+                                    "Revplan": "",
+                                    "TipoRecaDctoBE": "",
+                                    "TipoRecaDctoDis": "",
+                                    "TipoRecaDctoVol": ""
+                                }
+                            ],
+                            "PlazoCreditoAseg": "",
+                            "PlazoSeguroAseg": "",
+                            "PorcentajeFinAseg": "",
+                            "PuertaEntrada": "",
+                            "SegmentoBancaAseg": "",
+                            "SexoAseg": "M",
+                            "Siniestro": [
+                                {
+                                    "CodCobertSin": "",
+                                    "IdeSin": "",
+                                    "MtoRecup": "",
+                                    "MtoSin": "",
+                                    "NumRenSin": "",
+                                    "NumSin": "",
+                                    "Responsable": ""
+                                }
+                            ],
+                            "SumaAseguradaEE": "",
+                            "TipoBancaAseg": "",
+                            "TipoCarga": "",
+                            "TipoRemolque": "",
+                            "TipoValor": "",
+                            "TipoVeh": "001",
+                            "Tonelaje": "",
+                            "Uso": "1",
+                            "V1": 542300,
+                            "V2": 515185,
+                            "V3": "",
+                            "ValorBote": "",
+                            "ValorRemolque": "",
+                            "ValorVehiculo": 515185
+                        }
+                    ],
+                    "CodFormaPago": "",
+                    "CodInter": "19119",
+                    "CodMoneda": "\"PES\"",
+                    "CodProd": "A003",
+                    "CodTipoCalcVig": "",
+                    "CodTipoVig": "",
+                    "ContratanteCP": "",
+                    "ContratanteRfc": "",
+                    "Cotizacion": "",
+                    "EAProductId": "",
+                    "EARuleId": "1",
+                    "FechaEmisionPoliza": "",
+                    "FechaMovimiento": "02/08/2023T10:08:48.708-0600",
+                    "FinVigencia": "02/08/2024",
+                    "FormaPago": "TC",
+                    "IndValidaCob": "N",
+                    "InicioVigencia": "02/08/2023",
+                    "Linea": "T01",
+                    "Moneda": "01",
+                    "NumRen": "0",
+                    "NumVehiculos": "1",
+                    "Oficina": "75D",
+                    "Producto": "",
+                    "SisOrigen": "002",
+                    "SubCanal": "011",
+                    "TipoMovimiento": "1",
+                    "TipoSusc": "I",
+                    "VigenciaId": "1"
+                }
+            }
+        ]
+    },
+    "JsonRequestDebug": {
+        "ElapsedTime": 80,
+        "ElapsedTimeCPU": 73,
+        "Input": {
+            "autoDriver.Gender": "M",
+            "autoVehicle.Make": "FO",
+            "autoVehicle.Model": "019",
+            "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+            "autoVehicle.Type": "001",
+            "autoVehicle.Year": "2009",
+            "claveBG": "FO000364",
+            "codModDetalle": "FO400",
+            "coverages": [
+                {
+                    "BaseDeducible": "S",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A004",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "10",
+                    "SumaAseg": "598428.00",
+                    "TipoDeducible": "PO"
+                },
+                {
+                    "BaseDeducible": "M",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A005",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "4000000.00",
+                    "TipoDeducible": "DI"
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A007",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A006",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "150000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A009",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "1000000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A010",
+                    "IndCobertOblig": "S",
+                    "PorcDed": "",
+                    "SumaAseg": "750000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A014",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "6000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A012",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100000.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A023",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "100.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A017",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "0.00",
+                    "TipoDeducible": ""
+                },
+                {
+                    "BaseDeducible": "",
+                    "CoberturaSeleccionada": "S",
+                    "CoberturaVisible": "S",
+                    "CodCobert": "A022",
+                    "IndCobertOblig": "N",
+                    "PorcDed": "",
+                    "SumaAseg": "300000.00",
+                    "TipoDeducible": ""
+                }
+            ],
+            "fechaInicio": "02/08/2023",
+            "fechaMovimiento": "02/08/2023T10:08:48.708-0600",
+            "fechaVigencia": "02/08/2024",
+            "methodOfPayment": "TC",
+            "mtoValorComercial": 515185,
+            "mtoValorNuevo": 542300,
+            "profile": "OPERADOR",
+            "ruleId": "1",
+            "user": "8025821"
+        },
+        "Status": true,
+        "Type": "DataRaptor Transform Action"
+    },
+    "Response": {
+        "output": [
+            {
+                "aggregationResults": {
+                },
+                "calculationResults": [
+                    {
+                        "AUTO_PR_RC_TERCEROS": 990.74,
+                        "AUTO_PR_ROBO_TOTAL": 5725.27,
+                        "ID": "0",
+                        "autoVehicle.instanceKey": null,
+                        "parentProdKey": "01tDO000000L0TRYA0",
+                        "productKey": "01tDO000000L0TRYA0"
+                    }
+                ]
+            }
+        ]
+    },
+    "ResponseDebug": {
+        "ElapsedTime": 5,
+        "ElapsedTimeCPU": 1,
+        "Input": {
+            "output": [
+                {
+                    "aggregationResults": {
+                    },
+                    "calculationResults": [
+                        {
+                            "AUTO_PR_RC_TERCEROS": 990.74,
+                            "AUTO_PR_ROBO_TOTAL": 5725.27,
+                            "ID": "0",
+                            "autoVehicle.instanceKey": null,
+                            "parentProdKey": "01tDO000000L0TRYA0",
+                            "productKey": "01tDO000000L0TRYA0"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Status": true,
+        "Type": "Response Action"
+    },
+    "debugLog": [
+        "2023-08-02T10:08:48.630Z: Got From Cache Metadata ClbGetSystemSettings",
+        "2023-08-02T10:08:48.646Z: Query - SELECT id,label,ruleid__c,urlratingearnix__c FROM ClbInsBanorteSystemSetting__mdt WHERE (Label = 'Settings') LIMIT 50000",
+        "2023-08-02T10:08:48.651Z: Query Results Found: 1",
+        "2023-08-02T10:08:48.718Z: Got From Cache Metadata ClbInsDREGetCodModeloDetalle",
+        "2023-08-02T10:08:48.731Z: Query - SELECT id,codmarca__c,codmodelo__c,name,codmodelodetalle__c FROM clbinsAutoCatalogo__c WHERE (CodMarca__c = 'FO' AND CodModelo__c = '019' AND Name = 'EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ') LIMIT 50000",
+        "2023-08-02T10:08:48.740Z: Query Results Found: 1",
+        "2023-08-02T10:08:48.762Z: Got From Cache Metadata ClbInsDREGetClaveBG",
+        "2023-08-02T10:08:48.773Z: Query - SELECT id,codmodelodetalle__c,tipoveh__c,name FROM clbinsModeloAutoCatalogo__c WHERE (CodModeloDetalle__c = 'FO400' AND TipoVeh__c = '001') LIMIT 50000",
+        "2023-08-02T10:08:48.778Z: Query Results Found: 1",
+        "2023-08-02T10:08:48.800Z: Got From Cache Metadata ClbInsDREGetValorAuto",
+        "2023-08-02T10:08:48.812Z: Query - SELECT id,name,tipoveh__c,anoveh__c,mtovalornuevo__c,mtovalorcomercial__c FROM clbinsValorAutoCatalogo__c WHERE (AnoVeh__c = '2009' AND Name = 'FO000364' AND TipoVeh__c = '001') LIMIT 50000",
+        "2023-08-02T10:08:48.820Z: Query Results Found: 1",
+        "2023-08-02T10:08:48.847Z: Got From Cache Metadata ClbInsDRTInputDataForJsonRequestAuto",
+        "2023-08-02T10:08:48.904Z: Got From Cache Metadata ClbInsDRTRatingRequestAuto"
+    ],
+    "elapsedTimeActual": 556,
+    "elapsedTimeCPU": 578,
+    "executionSequence": [
+        "ClbBanSystemSettings",
+        "InitialSettings",
+        "GetCodModeloDetalle",
+        "GetClaveBG",
+        "GetValoresAuto",
+        "InputDataForJson",
+        "JsonRequest",
+        "svResponseEarnix",
+        "GetCoverageValues",
+        "svResponse",
+        "Response"
+    ],
+    "fullDataJson": {
+        "ClbBanSystemSettings": {
+            "ClbBanSS": {
+                "ruleId": "1",
+                "urlRatingEarnix": "https://earnix.com/1/rating"
+            }
+        },
+        "ClbBanSystemSettingsStatus": true,
+        "GetClaveBG": {
+            "cModeloAuto": {
+                "claveBG": "FO000364"
+            }
+        },
+        "GetClaveBGStatus": true,
+        "GetCodModeloDetalle": {
+            "cAuto": {
+                "codModDetalle": "FO400"
+            }
+        },
+        "GetCodModeloDetalleStatus": true,
+        "GetCoverageValues": {
+            "AUTO_PR_RC_TERCEROS": 990.74,
+            "AUTO_PR_ROBO_TOTAL": 5725.27
+        },
+        "GetCoverageValuesStatus": true,
+        "GetValoresAuto": {
+            "cValorAuto": {
+                "mtoValorComercial": 515185,
+                "mtoValorNuevo": 542300
+            }
+        },
+        "GetValoresAutoStatus": true,
+        "InitialSettings": {
+            "fechaMovimiento": "02/08/2023T10:08:48.708-0600",
+            "finVigencia": "02/08/2024",
+            "inicioVigencia": "02/08/2023"
+        },
+        "InitialSettingsStatus": true,
+        "InputDataForJson": {
+            "inputValuesForJsonRequest": {
+                "autoDriver.Gender": "M",
+                "autoVehicle.Make": "FO",
+                "autoVehicle.Model": "019",
+                "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+                "autoVehicle.Type": "001",
+                "autoVehicle.Year": "2009",
+                "claveBG": "FO000364",
+                "codModDetalle": "FO400",
+                "coverages": [
+                    {
+                        "BaseDeducible": "S",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A004",
+                        "IndCobertOblig": "S",
+                        "PorcDed": "10",
+                        "SumaAseg": "598428.00",
+                        "TipoDeducible": "PO"
+                    },
+                    {
+                        "BaseDeducible": "M",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A005",
+                        "IndCobertOblig": "S",
+                        "PorcDed": "",
+                        "SumaAseg": "4000000.00",
+                        "TipoDeducible": "DI"
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A007",
+                        "IndCobertOblig": "S",
+                        "PorcDed": "",
+                        "SumaAseg": "0.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A006",
+                        "IndCobertOblig": "S",
+                        "PorcDed": "",
+                        "SumaAseg": "150000.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A009",
+                        "IndCobertOblig": "S",
+                        "PorcDed": "",
+                        "SumaAseg": "1000000.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A010",
+                        "IndCobertOblig": "S",
+                        "PorcDed": "",
+                        "SumaAseg": "750000.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A014",
+                        "IndCobertOblig": "N",
+                        "PorcDed": "",
+                        "SumaAseg": "6000.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A012",
+                        "IndCobertOblig": "N",
+                        "PorcDed": "",
+                        "SumaAseg": "100000.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A023",
+                        "IndCobertOblig": "N",
+                        "PorcDed": "",
+                        "SumaAseg": "100.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A017",
+                        "IndCobertOblig": "N",
+                        "PorcDed": "",
+                        "SumaAseg": "0.00",
+                        "TipoDeducible": ""
+                    },
+                    {
+                        "BaseDeducible": "",
+                        "CoberturaSeleccionada": "S",
+                        "CoberturaVisible": "S",
+                        "CodCobert": "A022",
+                        "IndCobertOblig": "N",
+                        "PorcDed": "",
+                        "SumaAseg": "300000.00",
+                        "TipoDeducible": ""
+                    }
+                ],
+                "fechaInicio": "02/08/2023",
+                "fechaMovimiento": "02/08/2023T10:08:48.708-0600",
+                "fechaVigencia": "02/08/2024",
+                "methodOfPayment": "TC",
+                "mtoValorComercial": 515185,
+                "mtoValorNuevo": 542300,
+                "profile": "OPERADOR",
+                "ruleId": "1",
+                "user": "8025821"
+            }
+        },
+        "InputDataForJsonStatus": true,
+        "JsonRequest": {
+            "quotes": [
+                {
+                    "Poliza": {
+                        "AutoQuoteType": "0",
+                        "Canal": "001",
+                        "Categoria": "",
+                        "Certificado": [
+                            {
+                                "AnoVeh": "2009",
+                                "CPAseg": "",
+                                "Clase": "C",
+                                "ClaseVeh": "",
+                                "ClaveSB": "",
+                                "ClaveSBCorta": "FO400",
+                                "CodCpto": "",
+                                "CodDestinado": "",
+                                "CodMarca": "FO",
+                                "CodModelo": "019",
+                                "CodRemolque": "",
+                                "CodTipoCarga": "",
+                                "CodTipoRemolque": "",
+                                "CodUso": "",
+                                "CodVersion": "",
+                                "CodigoRemolque": "",
+                                "ColoniaAseg": "",
+                                "EdadConductor": "",
+                                "EdadConductor2": "",
+                                "EdadConductor3": "",
+                                "FecIng": "02/08/2023T10:08:48.708-0600",
+                                "GenVersion": "",
+                                "NumCert": "1",
+                                "PaisAseg": "052",
+                                "PaisCirculacion": "052",
+                                "Paquete": [
+                                    {
+                                        "Cobertura": [
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A004",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "S",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "PorcDed": "10",
+                                                "SubRamo": "",
+                                                "SumaAseg": "598428.00",
+                                                "TipoDeducible": "PO"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A005",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "S",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "4000000.00",
+                                                "TipoDeducible": "DI"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A007",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "S",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "0.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A006",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "S",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "150000.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A009",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "S",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "1000000.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A010",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "S",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "750000.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A014",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "N",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "6000.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A012",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "N",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "100000.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A023",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "N",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "100.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A017",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "N",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "0.00"
+                                            },
+                                            {
+                                                "CoberturaSeleccionada": "S",
+                                                "CoberturaVisible": "S",
+                                                "CodCobert": "A022",
+                                                "CodRamo": "",
+                                                "FinVigCob": "",
+                                                "IndCobPrima": "",
+                                                "IndCobertOblig": "N",
+                                                "IniVigCob": "",
+                                                "NumDiasDed": "",
+                                                "NumDiasEmi": "",
+                                                "SubRamo": "",
+                                                "SumaAseg": "300000.00"
+                                            }
+                                        ],
+                                        "CodRecaDctoBE": "",
+                                        "CodRecaDctoDis": "",
+                                        "CodRecaDctoVol": "",
+                                        "Codplan": "",
+                                        "PorcRecaDctoBE": "0",
+                                        "PorcRecaDctoDis": "0",
+                                        "PorcRecaDctoVol": "0",
+                                        "Revplan": "",
+                                        "TipoRecaDctoBE": "",
+                                        "TipoRecaDctoDis": "",
+                                        "TipoRecaDctoVol": ""
+                                    }
+                                ],
+                                "PlazoCreditoAseg": "",
+                                "PlazoSeguroAseg": "",
+                                "PorcentajeFinAseg": "",
+                                "PuertaEntrada": "",
+                                "SegmentoBancaAseg": "",
+                                "SexoAseg": "M",
+                                "Siniestro": [
+                                    {
+                                        "CodCobertSin": "",
+                                        "IdeSin": "",
+                                        "MtoRecup": "",
+                                        "MtoSin": "",
+                                        "NumRenSin": "",
+                                        "NumSin": "",
+                                        "Responsable": ""
+                                    }
+                                ],
+                                "SumaAseguradaEE": "",
+                                "TipoBancaAseg": "",
+                                "TipoCarga": "",
+                                "TipoRemolque": "",
+                                "TipoValor": "",
+                                "TipoVeh": "001",
+                                "Tonelaje": "",
+                                "Uso": "1",
+                                "V1": 542300,
+                                "V2": 515185,
+                                "V3": "",
+                                "ValorBote": "",
+                                "ValorRemolque": "",
+                                "ValorVehiculo": 515185
+                            }
+                        ],
+                        "CodFormaPago": "",
+                        "CodInter": "19119",
+                        "CodMoneda": "\"PES\"",
+                        "CodProd": "A003",
+                        "CodTipoCalcVig": "",
+                        "CodTipoVig": "",
+                        "ContratanteCP": "",
+                        "ContratanteRfc": "",
+                        "Cotizacion": "",
+                        "EAProductId": "",
+                        "EARuleId": "1",
+                        "FechaEmisionPoliza": "",
+                        "FechaMovimiento": "02/08/2023T10:08:48.708-0600",
+                        "FinVigencia": "02/08/2024",
+                        "FormaPago": "TC",
+                        "IndValidaCob": "N",
+                        "InicioVigencia": "02/08/2023",
+                        "Linea": "T01",
+                        "Moneda": "01",
+                        "NumRen": "0",
+                        "NumVehiculos": "1",
+                        "Oficina": "75D",
+                        "Producto": "",
+                        "SisOrigen": "002",
+                        "SubCanal": "011",
+                        "TipoMovimiento": "1",
+                        "TipoSusc": "I",
+                        "VigenciaId": "1"
+                    }
+                }
+            ]
+        },
+        "JsonRequestStatus": true,
+        "ResponseStatus": true,
+        "coverages": [
+            {
+                "BaseDeducible": "S",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A004",
+                "IndCobertOblig": "S",
+                "PorcDed": "10",
+                "SumaAseg": "598428.00",
+                "TipoDeducible": "PO"
+            },
+            {
+                "BaseDeducible": "M",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A005",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "4000000.00",
+                "TipoDeducible": "DI"
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A007",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "0.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A006",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "150000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A009",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "1000000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A010",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "750000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A014",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "6000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A012",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "100000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A023",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "100.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A017",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "0.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A022",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "300000.00",
+                "TipoDeducible": ""
+            }
+        ],
+        "input_1": {
+            "Availability__c": null,
+            "ParentClassCode__c": null,
+            "ParentClassId__c": null,
+            "ProductCode": "AutoP1",
+            "SubType__c": null,
+            "Type__c": null,
+            "autoDriver.FirstName": "Alberto",
+            "autoDriver.Gender": "M",
+            "autoDriver.LastName": "Juarez",
+            "autoDriver.instanceKey": "Alberto Juarez",
+            "autoDriver.isPrimary": "Boolean",
+            "autoVehicle.Make": "FO",
+            "autoVehicle.Model": "019",
+            "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+            "autoVehicle.Type": "001",
+            "autoVehicle.Year": "2009",
+            "autoVehicle.instanceKey": "2009 FO 019",
+            "parentProdKey": "01tDO000000L0TRYA0",
+            "productKey": "01tDO000000L0TRYA0"
+        },
+        "methodOfPayment": "TC",
+        "options": {
+            "chainable": false,
+            "ignoreCache": true,
+            "queueableChainable": false,
+            "resetCache": false,
+            "useQueueableApexRemoting": false
+        },
+        "profile": "OPERADOR",
+        "response": {
+            "output": [
+                {
+                    "aggregationResults": {
+                    },
+                    "calculationResults": [
+                        {
+                            "AUTO_PR_RC_TERCEROS": 990.74,
+                            "AUTO_PR_ROBO_TOTAL": 5725.27,
+                            "ID": "0",
+                            "autoVehicle.instanceKey": null,
+                            "parentProdKey": "01tDO000000L0TRYA0",
+                            "productKey": "01tDO000000L0TRYA0"
+                        }
+                    ]
+                }
+            ]
+        },
+        "svResponse": {
+            "output": [
+                {
+                    "aggregationResults": {
+                    },
+                    "calculationResults": [
+                        {
+                            "AUTO_PR_RC_TERCEROS": 990.74,
+                            "AUTO_PR_ROBO_TOTAL": 5725.27,
+                            "ID": "0",
+                            "autoVehicle.instanceKey": null,
+                            "parentProdKey": "01tDO000000L0TRYA0",
+                            "productKey": "01tDO000000L0TRYA0"
+                        }
+                    ]
+                }
+            ]
+        },
+        "svResponseEarnix": {
+            "response": {
+                "CodError": 200,
+                "DescError": "",
+                "FriendlyMessage": "",
+                "Poliza": {
+                    "Certificado": [
+                        {
+                            "CodErrorCert": 0,
+                            "IndicadorPrograma": "000",
+                            "NumCert": 1,
+                            "Paquete": [
+                                {
+                                    "Cobertura": [
+                                        {
+                                            "BaseDeducible": "S",
+                                            "CodCobert": "A004",
+                                            "Deducible": 10,
+                                            "MtoPrimaCob": 5725.27,
+                                            "MtoPrimaFactCob": 5725.27,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": 10,
+                                            "SumaAsegurada": 598428
+                                        },
+                                        {
+                                            "BaseDeducible": "M",
+                                            "CodCobert": "A005",
+                                            "Deducible": 0,
+                                            "MtoPrimaCob": 990.74,
+                                            "MtoPrimaFactCob": 990.74,
+                                            "NumDiasDed": 0,
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 4000000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A006",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 120.29,
+                                            "MtoPrimaFactCob": 120.29,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 150000
+                                        },
+                                        {
+                                            "BaseDeducible": "M",
+                                            "CodCobert": "A007",
+                                            "Deducible": 0,
+                                            "MtoPrimaCob": 148.61,
+                                            "MtoPrimaFactCob": 148.61,
+                                            "NumDiasDed": 0,
+                                            "NumDiasEmi": "",
+                                            "PorcDed": 0,
+                                            "SumaAsegurada": 4000000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A009",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 129.69,
+                                            "MtoPrimaFactCob": 129.69,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 1000000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A010",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 259,
+                                            "MtoPrimaFactCob": 259,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 750000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A014",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 161.46,
+                                            "MtoPrimaFactCob": 161.46,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": 15,
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 6000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A012",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 34.58,
+                                            "MtoPrimaFactCob": 34.58,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 100000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A023",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 38,
+                                            "MtoPrimaFactCob": 38,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 100
+                                        },
+                                        {
+                                            "BaseDeducible": "S",
+                                            "CodCobert": "A017",
+                                            "Deducible": 10,
+                                            "MtoPrimaCob": 1262.7,
+                                            "MtoPrimaFactCob": 1262.7,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": 10,
+                                            "SumaAsegurada": 63731.768350000006
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A022",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 38.61,
+                                            "MtoPrimaFactCob": 38.61,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 300000
+                                        }
+                                    ],
+                                    "CodRecaDctoBE": " ",
+                                    "CodRecaDctoDis": "",
+                                    "CodRecaDctoEarnix": " ",
+                                    "CodRecaDctoVol": " ",
+                                    "Codplan": "A02",
+                                    "MtoRecaDctoEarnix": 0,
+                                    "Plan": "1107",
+                                    "PorcRecaDctoBE": 0,
+                                    "PorcRecaDctoDis": 0,
+                                    "PorcRecaDctoEarnix": 0,
+                                    "PorcRecaDctoVol": 0,
+                                    "Revplan": "000",
+                                    "SumPrimaPaq": 8908.95,
+                                    "TipoRecaDctoBE": " ",
+                                    "TipoRecaDctoDis": "",
+                                    "TipoRecaDctoEarnix": " ",
+                                    "TipoRecaDctoVol": " "
+                                }
+                            ],
+                            "Siniestro": [
+                                {
+                                }
+                            ],
+                            "SumPrimaCert": 8908.95
+                        }
+                    ],
+                    "Cotizacion": "",
+                    "EAProductId": 30453,
+                    "EARuleId": 31372,
+                    "EAVersionId": 21955283,
+                    "NumVehiculos": 1,
+                    "SumPrimaPoliza": 8908.95,
+                    "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7"
+                },
+                "Status": "Success",
+                "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7",
+                "data": null,
+                "message": null
+            }
+        },
+        "svResponseEarnixStatus": true,
+        "svResponseStatus": true,
+        "user": "8025821"
+    },
+    "input_1": {
+        "Availability__c": null,
+        "ParentClassCode__c": null,
+        "ParentClassId__c": null,
+        "ProductCode": "AutoP1",
+        "SubType__c": null,
+        "Type__c": null,
+        "autoDriver.FirstName": "Alberto",
+        "autoDriver.Gender": "M",
+        "autoDriver.LastName": "Juarez",
+        "autoDriver.instanceKey": "Alberto Juarez",
+        "autoDriver.isPrimary": "Boolean",
+        "autoVehicle.Make": "FO",
+        "autoVehicle.Model": "019",
+        "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+        "autoVehicle.Type": "001",
+        "autoVehicle.Year": "2009",
+        "autoVehicle.instanceKey": "2009 FO 019",
+        "parentProdKey": "01tDO000000L0TRYA0",
+        "productKey": "01tDO000000L0TRYA0"
+    },
+    "originalInput": {
+        "coverages": [
+            {
+                "BaseDeducible": "S",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A004",
+                "IndCobertOblig": "S",
+                "PorcDed": "10",
+                "SumaAseg": "598428.00",
+                "TipoDeducible": "PO"
+            },
+            {
+                "BaseDeducible": "M",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A005",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "4000000.00",
+                "TipoDeducible": "DI"
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A007",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "0.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A006",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "150000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A009",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "1000000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A010",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "750000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A014",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "6000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A012",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "100000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A023",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "100.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A017",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "0.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A022",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "300000.00",
+                "TipoDeducible": ""
+            }
+        ],
+        "input_1": {
+            "Availability__c": null,
+            "ParentClassCode__c": null,
+            "ParentClassId__c": null,
+            "ProductCode": "AutoP1",
+            "SubType__c": null,
+            "Type__c": null,
+            "autoDriver.FirstName": "Alberto",
+            "autoDriver.Gender": "M",
+            "autoDriver.LastName": "Juarez",
+            "autoDriver.instanceKey": "Alberto Juarez",
+            "autoDriver.isPrimary": "Boolean",
+            "autoVehicle.Make": "FO",
+            "autoVehicle.Model": "019",
+            "autoVehicle.ModelDesc": "EXPEDITION LIMITED MAX 4X4 CA CE PIEL CD CQ",
+            "autoVehicle.Type": "001",
+            "autoVehicle.Year": "2009",
+            "autoVehicle.instanceKey": "2009 FO 019",
+            "parentProdKey": "01tDO000000L0TRYA0",
+            "productKey": "01tDO000000L0TRYA0"
+        },
+        "methodOfPayment": "TC",
+        "profile": "OPERADOR",
+        "user": "8025821"
+    },
+    "response": {
+        "output": [
+            {
+                "aggregationResults": {
+                },
+                "calculationResults": [
+                    {
+                        "AUTO_PR_RC_TERCEROS": 990.74,
+                        "AUTO_PR_ROBO_TOTAL": 5725.27,
+                        "ID": "0",
+                        "autoVehicle.instanceKey": null,
+                        "parentProdKey": "01tDO000000L0TRYA0",
+                        "productKey": "01tDO000000L0TRYA0"
+                    }
+                ]
+            }
+        ]
+    },
+    "svResponse": {
+        "output": [
+            {
+                "aggregationResults": {
+                },
+                "calculationResults": [
+                    {
+                        "AUTO_PR_RC_TERCEROS": 990.74,
+                        "AUTO_PR_ROBO_TOTAL": 5725.27,
+                        "ID": "0",
+                        "autoVehicle.instanceKey": null,
+                        "parentProdKey": "01tDO000000L0TRYA0",
+                        "productKey": "01tDO000000L0TRYA0"
+                    }
+                ]
+            }
+        ]
+    },
+    "svResponseDebug": {
+        "ElapsedTime": 7,
+        "ElapsedTimeCPU": 2,
+        "Input": "Running Set Values",
+        "Status": true,
+        "Type": "Set Values"
+    },
+    "svResponseEarnix": {
+        "response": {
+            "CodError": 200,
+            "DescError": "",
+            "FriendlyMessage": "",
+            "Poliza": {
+                "Certificado": [
+                    {
+                        "CodErrorCert": 0,
+                        "IndicadorPrograma": "000",
+                        "NumCert": 1,
+                        "Paquete": [
+                            {
+                                "Cobertura": [
+                                    {
+                                        "BaseDeducible": "S",
+                                        "CodCobert": "A004",
+                                        "Deducible": 10,
+                                        "MtoPrimaCob": 5725.27,
+                                        "MtoPrimaFactCob": 5725.27,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": 10,
+                                        "SumaAsegurada": 598428
+                                    },
+                                    {
+                                        "BaseDeducible": "M",
+                                        "CodCobert": "A005",
+                                        "Deducible": 0,
+                                        "MtoPrimaCob": 990.74,
+                                        "MtoPrimaFactCob": 990.74,
+                                        "NumDiasDed": 0,
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 4000000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A006",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 120.29,
+                                        "MtoPrimaFactCob": 120.29,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 150000
+                                    },
+                                    {
+                                        "BaseDeducible": "M",
+                                        "CodCobert": "A007",
+                                        "Deducible": 0,
+                                        "MtoPrimaCob": 148.61,
+                                        "MtoPrimaFactCob": 148.61,
+                                        "NumDiasDed": 0,
+                                        "NumDiasEmi": "",
+                                        "PorcDed": 0,
+                                        "SumaAsegurada": 4000000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A009",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 129.69,
+                                        "MtoPrimaFactCob": 129.69,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 1000000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A010",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 259,
+                                        "MtoPrimaFactCob": 259,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 750000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A014",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 161.46,
+                                        "MtoPrimaFactCob": 161.46,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": 15,
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 6000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A012",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 34.58,
+                                        "MtoPrimaFactCob": 34.58,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 100000
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A023",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 38,
+                                        "MtoPrimaFactCob": 38,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 100
+                                    },
+                                    {
+                                        "BaseDeducible": "S",
+                                        "CodCobert": "A017",
+                                        "Deducible": 10,
+                                        "MtoPrimaCob": 1262.7,
+                                        "MtoPrimaFactCob": 1262.7,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": 10,
+                                        "SumaAsegurada": 63731.768350000006
+                                    },
+                                    {
+                                        "BaseDeducible": "",
+                                        "CodCobert": "A022",
+                                        "Deducible": "",
+                                        "MtoPrimaCob": 38.61,
+                                        "MtoPrimaFactCob": 38.61,
+                                        "NumDiasDed": "",
+                                        "NumDiasEmi": "",
+                                        "PorcDed": "",
+                                        "SumaAsegurada": 300000
+                                    }
+                                ],
+                                "CodRecaDctoBE": " ",
+                                "CodRecaDctoDis": "",
+                                "CodRecaDctoEarnix": " ",
+                                "CodRecaDctoVol": " ",
+                                "Codplan": "A02",
+                                "MtoRecaDctoEarnix": 0,
+                                "Plan": "1107",
+                                "PorcRecaDctoBE": 0,
+                                "PorcRecaDctoDis": 0,
+                                "PorcRecaDctoEarnix": 0,
+                                "PorcRecaDctoVol": 0,
+                                "Revplan": "000",
+                                "SumPrimaPaq": 8908.95,
+                                "TipoRecaDctoBE": " ",
+                                "TipoRecaDctoDis": "",
+                                "TipoRecaDctoEarnix": " ",
+                                "TipoRecaDctoVol": " "
+                            }
+                        ],
+                        "Siniestro": [
+                            {
+                            }
+                        ],
+                        "SumPrimaCert": 8908.95
+                    }
+                ],
+                "Cotizacion": "",
+                "EAProductId": 30453,
+                "EARuleId": 31372,
+                "EAVersionId": 21955283,
+                "NumVehiculos": 1,
+                "SumPrimaPoliza": 8908.95,
+                "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7"
+            },
+            "Status": "Success",
+            "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7",
+            "data": null,
+            "message": null
+        }
+    },
+    "svResponseEarnixDebug": {
+        "ElapsedTime": 11,
+        "ElapsedTimeCPU": 8,
+        "Input": "Running Set Values",
+        "Status": true,
+        "Type": "Set Values"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ClbIns_AnioVehiculos_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsAnioVehiculos",
+    "OmniProcessElement": [
+        "ClbIns_AnioVehiculos_Element_GetValorDetalle.json",
+        "ClbIns_AnioVehiculos_Element_AddGastosOcupante.json",
+        "ClbIns_AnioVehiculos_Element_Datalist.json",
+        "ClbIns_AnioVehiculos_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_AnioVehiculos",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_AnioVehiculos_PropertySetConfig.json",
+    "SubType": "AnioVehiculos",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/AnioVehiculos/Procedure",
+    "WebComponentKey": "7eafaad6-e48f-f00b-aae0-db161aca2f79"
+}

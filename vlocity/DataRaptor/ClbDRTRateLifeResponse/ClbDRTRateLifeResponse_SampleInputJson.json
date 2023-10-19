@@ -1,0 +1,969 @@
+{
+    "errorCode": "INVOKE-200",
+    "records": [
+        {
+            "CalculatedPriceData": {
+                "ID": "0",
+                "VIDA_IND_PR_ENFERMEDADES_GRAVES": 1959,
+                "VIDA_IND_PR_FALLECIMIENTO": 12195,
+                "VIDA_IND_PR_INDEM_DIARIA": 4111.8,
+                "VIDA_IND_PR_INDEM_HOSPITALARIA": 1299,
+                "VIDA_IND_PR_INVALIDEZ_TYP": 5775,
+                "VIDA_IND_PR_MUERTE_ACCIDENTAL": 750,
+                "VIDA_IND_SA_ENFERMEDADES_GRAVES": 300000,
+                "VIDA_IND_SA_FALLECIMIENTO": 1500000,
+                "VIDA_IND_SA_INDEM_DIARIA": 7500,
+                "VIDA_IND_SA_INDEM_HOSPITALARIA": 150000,
+                "VIDA_IND_SA_INVALIDEZ_TYP": 1500000,
+                "VIDA_IND_SA_MUERTE_ACCIDENTAL": 1500000,
+                "detailPrice": [
+                    {
+                        "ID": "0",
+                        "VIDA_IND_PR_ENFERMEDADES_GRAVES": 1959,
+                        "VIDA_IND_PR_FALLECIMIENTO": 12195,
+                        "VIDA_IND_PR_INDEM_HOSPITALARIA": 1299,
+                        "VIDA_IND_PR_INVALIDEZ_TYP": 5775,
+                        "VIDA_IND_SA_ENFERMEDADES_GRAVES": 300000,
+                        "VIDA_IND_SA_FALLECIMIENTO": 1500000,
+                        "VIDA_IND_SA_INDEM_HOSPITALARIA": 150000,
+                        "VIDA_IND_SA_INVALIDEZ_TYP": 1500000,
+                        "VIDA_IND_SA_MUERTE_ACCIDENTAL": 1500000
+                    }
+                ]
+            },
+            "Id": "01tDO000000KpXbYAK",
+            "IsConfigurable__c": true,
+            "IsRecommended__c": false,
+            "Name": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 3",
+            "Price": 26089.8,
+            "PricingFormula__c": "SUM( VIDA_IND_PR_FALLECIMIENTO + VIDA_IND_PR_INVALIDEZ_TYP + VIDA_IND_PR_MUERTE_ACCIDENTAL + VIDA_IND_PR_INDEM_HOSPITALARIA + VIDA_IND_PR_INDEM_DIARIA + VIDA_IND_PR_ENFERMEDADES_GRAVES )",
+            "ProductCode": "SEGURO_VI_APF3_ROOT",
+            "RecordTypeName__c": "Product",
+            "Type__c": "Life",
+            "attributeCategories": {
+                "records": [
+                    {
+                        "Code__c": "AtributosProductos",
+                        "Name": "Atributos Productos",
+                        "displaySequence": 1,
+                        "id": "a0qDN000000CdfqYAC",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a0rDN000000GoTUYA0",
+                                    "cloneable": true,
+                                    "code": "PLAN_SELECCIONADO",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 0,
+                                    "filterable": false,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "PAQUETE",
+                                    "max": null,
+                                    "min": null,
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "step": null,
+                                    "userValues": "PAQUETE 3",
+                                    "values": [
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": true,
+                                            "readonly": true,
+                                            "value": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000FUoNYAW",
+                                    "cloneable": true,
+                                    "code": "CANTIDAD_CUOTAS",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "CANTIDAD_CUOTAS",
+                                    "max": null,
+                                    "min": null,
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "step": null,
+                                    "userValues": "1",
+                                    "values": [
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "Anual",
+                                            "readonly": false,
+                                            "value": "1"
+                                        },
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": false,
+                                            "id": "1",
+                                            "label": "Semestral",
+                                            "readonly": false,
+                                            "value": "6"
+                                        },
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": false,
+                                            "id": "2",
+                                            "label": "Trimestral",
+                                            "readonly": false,
+                                            "value": "3"
+                                        },
+                                        {
+                                            "defaultValue": null,
+                                            "disabled": false,
+                                            "id": "3",
+                                            "label": "Mensual",
+                                            "readonly": false,
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    }
+                ],
+                "totalSize": 1
+            },
+            "childProducts": {
+                "records": [
+                    {
+                        "Id": "01tDN000000AZ1dYAG",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "Name": "INS-PARTY ASEGURADO",
+                        "ProductCode": "INS_PARTY_ASEGURADO",
+                        "RecordTypeName__c": "InsuredPartySpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "Atributos-Cov-Asegurado",
+                                    "Name": "Atributos-Cov-Asegurado",
+                                    "displaySequence": 4,
+                                    "id": "a0qDN000000CdfIYAS",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0rDN000000GoCDYA0",
+                                                "cloneable": true,
+                                                "code": "Asegurado_Edad",
+                                                "dataType": "number",
+                                                "disabled": true,
+                                                "displaySequence": 0,
+                                                "filterable": false,
+                                                "hasRules": true,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Asegurado Edad",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "rules": [
+                                                    {
+                                                        "actions": {
+                                                            "Message": {
+                                                                "client": {
+                                                                    "params": {
+                                                                    },
+                                                                    "records": [
+                                                                    ]
+                                                                },
+                                                                "remote": {
+                                                                    "params": {
+                                                                    }
+                                                                },
+                                                                "rest": {
+                                                                    "link": null,
+                                                                    "method": null,
+                                                                    "params": {
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "expression": "%INS_PARTY_ASEGURADO.Asegurado_Edad% < 18 || %INS_PARTY_ASEGURADO.Asegurado_Edad% > 70",
+                                                        "messages": [
+                                                            {
+                                                                "code": "EDAD NO PERMITIDA PARA EL INGRESO AL SEGURO",
+                                                                "message": "EDAD NO PERMITIDA PARA EL INGRESO AL SEGURO",
+                                                                "severity": "ERROR"
+                                                            }
+                                                        ],
+                                                        "ruleType": "Message"
+                                                    }
+                                                ],
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDN000000GoCIYA0",
+                                                "cloneable": true,
+                                                "code": "Asegurado_Genero",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 1,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "dropdown",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Asegurado Genero",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": "MUJER",
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "id": "0",
+                                                        "label": "Femenino",
+                                                        "readonly": false,
+                                                        "value": "MUJER"
+                                                    },
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "id": "1",
+                                                        "label": "Masculino",
+                                                        "readonly": false,
+                                                        "value": "HOMBRE"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDN000000GoC8YAK",
+                                                "cloneable": true,
+                                                "code": "Asegurado_FechaNacimiento",
+                                                "dataType": "date",
+                                                "disabled": true,
+                                                "displaySequence": 2,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "date",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Asegurado Fecha Nacimiento",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDN000000GoymYAC",
+                                                "cloneable": true,
+                                                "code": "Asegurado_Fuma",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 3,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "dropdown",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Asegurado Fuma",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "step": null,
+                                                "userValues": "false",
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "id": "0",
+                                                        "label": "NO FUMA",
+                                                        "readonly": false,
+                                                        "value": "false"
+                                                    },
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": false,
+                                                        "id": "1",
+                                                        "label": "FUMA",
+                                                        "readonly": false,
+                                                        "value": "true"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDN000000GoC3YAK",
+                                                "cloneable": true,
+                                                "code": "saldoInsoluto",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 4,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Saldo Insoluto",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDN000000GoEZYA0",
+                                                "cloneable": true,
+                                                "code": "MensualidadCredito",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 5,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Mensualidad Credito",
+                                                "max": null,
+                                                "min": null,
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "step": null,
+                                                "values": [
+                                                    {
+                                                        "defaultValue": null,
+                                                        "disabled": true,
+                                                        "readonly": true,
+                                                        "value": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 6
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "childProducts": {
+                            "records": [
+                                {
+                                    "Id": "01tDN000000AdliYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "MarketSegment__c": "Individual",
+                                    "Name": "VIDA-IND-MUERTE ACCIDENTAL",
+                                    "Price": 750,
+                                    "PricingSource__c": "VIDA_IND_PR_MUERTE_ACCIDENTAL",
+                                    "ProductCode": "VI10",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                                                "Name": "Atributos Ramo Vida Individual",
+                                                "displaySequence": 5,
+                                                "id": "a0qDN000000Cdj1YAC",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDN000000GovIYAS",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_SA_MUERTE_ACCIDENTAL",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": true,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA IND SUMA ASEGURADA MUERTE ACCIDENTAL",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 1500000,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDN000000GovNYAS",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_PR_MUERTE_ACCIDENTAL",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": true,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA IND PRIMA MUERTE ACCIDENTAL",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 750,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": true,
+                                                                    "readonly": true,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 2,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000Js0XYAS",
+                                    "productId": "01tDN000000AdliYAC"
+                                },
+                                {
+                                    "Id": "01tDN000000AZ1EYAW",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "VIDA-IND-INVALIDEZ-TYP",
+                                    "PricingSource__c": "VIDA_Primas_Cliente_Invalidez__VIDA_CLIENTE_PR_INVALIDEZ",
+                                    "ProductCode": "VI33",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                                                "Name": "Atributos Ramo Vida Individual",
+                                                "displaySequence": 5,
+                                                "id": "a0qDN000000Cdj1YAC",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FXMUYA4",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_SA_INVALIDEZ_TOTAL_Y_PERMANENTE",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA IND SUMA ASEGURADA INVALIDEZ TOTAL Y PERMANENTE",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 1500000,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FXMZYA4",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_PR_INVALIDEZ_TOTAL_Y_PERMANENTE",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA IND PRIMA INVALIDEZ TOTAL Y PERMANENTE",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 1,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000Js0bYAC",
+                                    "productId": "01tDN000000AZ1EYAW"
+                                },
+                                {
+                                    "Id": "01tDO000000KpLLYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "VIDA-IND-INDEMNIZACIÓN HOSPITALARIA POR ACCIDENTE",
+                                    "Price": 7500,
+                                    "PricingSource__c": "VIDA_IND_SA_INDEM_DIARIA",
+                                    "ProductCode": "VI58",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                                                "Name": "Atributos Ramo Vida Individual",
+                                                "displaySequence": 5,
+                                                "id": "a0qDN000000Cdj1YAC",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FUoDYAW",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_SA_INDEMNIZACION_HOSP_ACCIDENTE",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA_IND_SA_INDEMNIZACION_HOSP_ACCIDENTE",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 150000,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FUoIYAW",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_PR_FALLECIMIENTO_INDEMNIZACION_HOSP_ACCIDENTE",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA _IND_PR_INDEMNIZACION_HOSP_ACCIDENTE",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 3,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000Js0YYAS",
+                                    "productId": "01tDO000000KpLLYA0"
+                                },
+                                {
+                                    "Id": "01tDO000000KpLQYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "VIDA-IND-INDEMNIZACIÓN DIARIA POR ACCIDENTE",
+                                    "Price": 4111.8,
+                                    "PricingSource__c": "VIDA_IND_PR_INDEM_DIARIA",
+                                    "ProductCode": "VI67",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                                                "Name": "Atributos Ramo Vida Individual",
+                                                "displaySequence": 5,
+                                                "id": "a0qDN000000Cdj1YAC",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FUoXYAW",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_SA_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA_IND_SA_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 7500,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FUocYAG",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_PR_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA_IND_PR_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": true,
+                                                                    "readonly": true,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 4,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000Js0ZYAS",
+                                    "productId": "01tDO000000KpLQYA0"
+                                },
+                                {
+                                    "Id": "01tDN000000AZ19YAG",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "VIDA-IND-FALLECIMIENTO",
+                                    "PricingSource__c": "VIDA_Primas_Ind_Fallecimiento__VIDA_IND_PR_FALLECIMIENTO",
+                                    "ProductCode": "VI00",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                                                "Name": "Atributos Ramo Vida Individual",
+                                                "displaySequence": 5,
+                                                "id": "a0qDN000000Cdj1YAC",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDN000000GpirYAC",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_SA_FALLECIMIENTO",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA IND SUMA ASEGURADA FALLECIMIENTO",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 1500000,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDN000000GpiwYAC",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_PR_FALLECIMIENTO",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA IND PRIMA FALLECIMIENTO",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 12195,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": true,
+                                                                    "readonly": true,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 0,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000Js0aYAC",
+                                    "productId": "01tDN000000AZ19YAG"
+                                },
+                                {
+                                    "Id": "01tDO000000KpW4YAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "VIDA-IND-ENFERMEDADES-GRAVES",
+                                    "PricingSource__c": "VIDA_Primas_Ind_Enfermedades_Graves__VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                                    "ProductCode": "VI95",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "ATRIBUTOS_RAMO_VIDA_INDIVIDUAL",
+                                                "Name": "Atributos Ramo Vida Individual",
+                                                "displaySequence": 5,
+                                                "id": "a0qDN000000Cdj1YAC",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FUohYAG",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_SA_ENFERMEDADES_GRAVES",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA_IND_SA_ENFERMEDADES_GRAVES",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 300000,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FUoiYAG",
+                                                            "cloneable": true,
+                                                            "code": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                                                            "max": null,
+                                                            "min": null,
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "step": null,
+                                                            "userValues": 1959,
+                                                            "values": [
+                                                                {
+                                                                    "defaultValue": null,
+                                                                    "disabled": false,
+                                                                    "readonly": false,
+                                                                    "value": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 5,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000Js0cYAC",
+                                    "productId": "01tDO000000KpW4YAK"
+                                }
+                            ],
+                            "totalSize": 6
+                        },
+                        "displaySequence": 1,
+                        "isOptional": false,
+                        "maxQuantity": 1,
+                        "minQuantity": 1,
+                        "pciId": "a53DO000000Js0WYAS",
+                        "productId": "01tDN000000AZ1dYAG"
+                    }
+                ],
+                "totalSize": 1
+            },
+            "currencyCode": "MXN",
+            "currencySymbol": "MXN",
+            "displaySequence": -1,
+            "productId": "01tDO000000KpXbYAK"
+        }
+    ],
+    "totalSize": 1
+}

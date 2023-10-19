@@ -1,0 +1,30 @@
+{
+    "userInputs": {
+        "propHome.instanceKey": "Text",
+        "propHome.isPrimary": "Boolean",
+        "propHome.plBrushClearance": "Number",
+        "propHome.plBurglarAlarm": "Text",
+        "propHome.plCity": "Text",
+        "propHome.plConstType": "Text",
+        "propHome.plCountry": "Text",
+        "propHome.plFireAlarm": "Text",
+        "propHome.plNumBath": "Text",
+        "propHome.plNumBed": "Text",
+        "propHome.plPostCode": "Text",
+        "propHome.plPropType": "Text",
+        "propHome.plRoofType": "Text",
+        "propHome.plSprinklers": "Text",
+        "propHome.plState": "Text",
+        "propHome.plStreet": "Text",
+        "propHome.plUsageType": "Text",
+        "propHome.plValue": "Currency",
+        "propHome.plYrBuilt": "Number",
+        "propHome.plYrOwned": "Number",
+        "propItem.instanceKey": "Text",
+        "propItem.isPrimary": "Boolean",
+        "propItem.piDescription": "Text",
+        "propItem.piName": "Text",
+        "propItem.piType": "Text",
+        "propItem.piValue": "Currency"
+    }
+}

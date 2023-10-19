@@ -1,0 +1,441 @@
+{
+    "quote": {
+        "Property": {
+            "Address": {
+                "City": "Álvaro Obregón",
+                "ExtNum": 233,
+                "IntNum": 0,
+                "PostalCode": "01000",
+                "State": "Ciudad de México",
+                "Street": "siempre viva",
+                "Town": "San Angel"
+            }
+        },
+        "asegurado": {
+            "apellido": "ARANDA DE DIOS",
+            "curp": "AADS620501MDFRSN01",
+            "email": "jloaizag@ultrasist.com.mx",
+            "nombres": "ELIZABETH",
+            "phone": "2218538612",
+            "rfc": "AADS6205019RA"
+        },
+        "effectiveDate": "2023-10-17",
+        "expirationDate": "2024-10-17",
+        "paymentPeriod": "001",
+        "price": 451.46,
+        "qli": [
+            {
+                "attribute": {
+                    "ProductCode": "I005E",
+                    "codBien": "001",
+                    "insuredAmount": 480000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                    "price": 18.11
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                "id": "0QLDO0000004vPd4AI",
+                "lineNumber": "00024172",
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 18.11,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I013E",
+                    "codBien": "001",
+                    "insuredAmount": 48000,
+                    "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 3.62
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004vPe4AI",
+                "lineNumber": "00024173",
+                "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 3.62,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001E",
+                    "codBien": "001",
+                    "insuredAmount": 480000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 21.73
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004vPf4AI",
+                "lineNumber": "00024174",
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 21.73,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003E",
+                    "codBien": "001",
+                    "insuredAmount": 480000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                    "price": 10.86
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004vPg4AI",
+                "lineNumber": "00024175",
+                "name": "INCE-EDIFICIO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "price": 10.86,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004E",
+                    "codBien": "001",
+                    "insuredAmount": 480000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 10.86
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004vPh4AI",
+                "lineNumber": "00024176",
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 10.86,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002E",
+                    "codBien": "001",
+                    "insuredAmount": 480000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                    "price": 10.86
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                "id": "0QLDO0000004vPi4AI",
+                "lineNumber": "00024177",
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 10.86,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011E",
+                    "codBien": "001",
+                    "insuredAmount": 21600,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 2.16
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION",
+                "id": "0QLDO0000004vPj4AI",
+                "lineNumber": "00024178",
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 2.16,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "PORCENTAJE_CONTENIDOS": 20,
+                    "VALOR_CONTENIDOS": 480000,
+                    "VALOR_EDIFICIO": 480000
+                },
+                "id": "0QLDO0000004vPF4AY",
+                "lineNumber": "00024148",
+                "name": "SEGURO de CASA HABITACION APF - PROPIO",
+                "price": 451.46,
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Álvaro Obregón",
+                        "Country": "México",
+                        "ExternalNumber": 233,
+                        "InternalNumber": 0,
+                        "PostalCode": "01000",
+                        "State": "Ciudad de México",
+                        "Street": "siempre viva",
+                        "Town": "San Angel"
+                    },
+                    "Apellidos": "ARANDA DE DIOS",
+                    "Asegurado_Edad": 61,
+                    "Asegurado_Genero": "Female",
+                    "BirthDate": "1962-05-01",
+                    "CURP": "AADS620501MDFRSN01",
+                    "Email": "jloaizag@ultrasist.com.mx",
+                    "Nombres": "ELIZABETH",
+                    "PhoneNumber": 2218538612,
+                    "RFC": "AADS6205019RA",
+                    "fullName": "ELIZABETH ARANDA DE DIOS",
+                    "indasegurado": "N",
+                    "indcontratante": "S",
+                    "indresppago": "S"
+                },
+                "id": "0QLDO0000004vPG4AY",
+                "lineNumber": "00024149",
+                "name": "INS-PARTY ASEGURADO",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Álvaro Obregón",
+                        "Country": "México",
+                        "ExternalNumber": 233,
+                        "InternalNumber": 0,
+                        "PostalCode": "01000",
+                        "State": "Ciudad de México",
+                        "Street": "siempre viva",
+                        "Town": "San Angel"
+                    },
+                    "BuildingAge": "<=50",
+                    "ContentsInsuredAmount": 20,
+                    "Levels": 2,
+                    "MarDistance": true
+                },
+                "id": "0QLDO0000004vPH4AY",
+                "lineNumber": "00024150",
+                "name": "INS-ITEM EDIFICIO",
+                "price": 402.99,
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "ContentsValue": 480000
+                },
+                "id": "0QLDO0000004vPI4AY",
+                "lineNumber": "00024151",
+                "name": "INS-ITEM CONTENIDOS",
+                "price": 48.47,
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Álvaro Obregón",
+                        "Country": "México",
+                        "ExternalNumber": 233,
+                        "InternalNumber": 0,
+                        "PostalCode": "01000",
+                        "State": "Ciudad de México",
+                        "Street": "siempre viva",
+                        "Town": "San Angel"
+                    },
+                    "Apellidos": "ARANDA DE DIOS",
+                    "Asegurado_Edad": 61,
+                    "Asegurado_Genero": "Female",
+                    "BirthDate": "1962-05-01",
+                    "CURP": "AADS620501MDFRSN01",
+                    "Email": "jloaizag@ultrasist.com.mx",
+                    "Nombres": "ELIZABETH",
+                    "PhoneNumber": 2218538612,
+                    "RFC": "AADS6205019RA",
+                    "fullName": "ELIZABETH ARANDA DE DIOS",
+                    "indasegurado": "N",
+                    "indcontratante": "S",
+                    "indresppago": "S"
+                },
+                "id": "0QLDO0000004vPJ4AY",
+                "lineNumber": "00024152",
+                "name": "INS-PARTY PAGADOR",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Álvaro Obregón",
+                        "Country": "México",
+                        "ExternalNumber": 233,
+                        "InternalNumber": 0,
+                        "PostalCode": "01000",
+                        "State": "Ciudad de México",
+                        "Street": "siempre viva",
+                        "Town": "San Angel"
+                    },
+                    "Apellidos": "ARANDA DE DIOS",
+                    "Asegurado_Edad": 61,
+                    "Asegurado_Genero": "Female",
+                    "BirthDate": "1962-05-01",
+                    "CURP": "AADS620501MDFRSN01",
+                    "Email": "jloaizag@ultrasist.com.mx",
+                    "Nombres": "ELIZABETH",
+                    "PhoneNumber": 2218538612,
+                    "RFC": "AADS6205019RA",
+                    "fullName": "ELIZABETH ARANDA DE DIOS",
+                    "indasegurado": "S",
+                    "indcontratante": "N",
+                    "indresppago": "N"
+                },
+                "id": "0QLDO0000004vPK4AY",
+                "lineNumber": "00024153",
+                "name": "Beneficiario",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE01E",
+                    "codBien": "001",
+                    "insuredAmount": 480000,
+                    "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                    "price": 321.17
+                },
+                "code": "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION",
+                "id": "0QLDO0000004vPk4AI",
+                "lineNumber": "00024179",
+                "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 321.17,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE02E",
+                    "codBien": "001",
+                    "insuredAmount": 9600,
+                    "name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 3.62
+                },
+                "code": "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004vPl4AI",
+                "lineNumber": "00024180",
+                "name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 3.62,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005C",
+                    "codBien": "002",
+                    "insuredAmount": 96000,
+                    "name": "INCE-CONTENIDOS-TODO RIESGO (S)",
+                    "price": 3.62
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO",
+                "id": "0QLDO0000004vPm4AI",
+                "lineNumber": "00024181",
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 3.62,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I013C",
+                    "codBien": "002",
+                    "insuredAmount": 9600,
+                    "name": "INCE-CONTENIDOS-REMOCIÓN DE ESCOMBROS",
+                    "price": 0.72
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004vPn4AI",
+                "lineNumber": "00024182",
+                "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 0.72,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001C",
+                    "codBien": "002",
+                    "insuredAmount": 96000,
+                    "name": "INCE-CONTENIDOS-INCENDIO Y/O RAYO",
+                    "price": 4.35
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004vPo4AI",
+                "lineNumber": "00024183",
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 4.35,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003C",
+                    "codBien": "002",
+                    "insuredAmount": 96000,
+                    "name": "INCE-CONTENIDOS-HUELGAS Y ALBOROTOS POPULARES (S)",
+                    "price": 2.17
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004vPp4AI",
+                "lineNumber": "00024184",
+                "name": "INCE-CONTENIDO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "price": 2.17,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004C",
+                    "codBien": "002",
+                    "insuredAmount": 96000,
+                    "name": "INCE-CONTENIDOS-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 2.17
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004vPq4AI",
+                "lineNumber": "00024185",
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 2.17,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002C",
+                    "codBien": "002",
+                    "insuredAmount": 96000,
+                    "name": "INCE-CONTENIDOS-EXPLOSIÓN (S)",
+                    "price": 2.17
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXPLOSION",
+                "id": "0QLDO0000004vPr4AI",
+                "lineNumber": "00024186",
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 2.17,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011C",
+                    "codBien": "002",
+                    "insuredAmount": 4320,
+                    "name": "INCE-CONTENIDOS-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 0.43
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INFLACION",
+                "id": "0QLDO0000004vPs4AI",
+                "lineNumber": "00024187",
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 0.43,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE01C",
+                    "codBien": "002",
+                    "insuredAmount": 96000,
+                    "name": "TEEV-CONTENIDOS-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                    "price": 32.12
+                },
+                "code": "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION",
+                "id": "0QLDO0000004vPt4AI",
+                "lineNumber": "00024188",
+                "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 32.12,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE02C",
+                    "codBien": "002",
+                    "insuredAmount": 9600,
+                    "name": "TEEV-CONTENIDOS-REMOCIÓN DE ESCOMBROS",
+                    "price": 0.72
+                },
+                "code": "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004vPu4AI",
+                "lineNumber": "00024189",
+                "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 0.72,
+                "type": "CoverageSpec"
+            }
+        ],
+        "quoteNumber": "1000559"
+    }
+}

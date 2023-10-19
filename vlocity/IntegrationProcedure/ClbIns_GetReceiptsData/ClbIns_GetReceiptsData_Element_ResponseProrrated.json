@@ -1,0 +1,57 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ResponseProrrated",
+    "OmniProcessId": {
+        "Name": "ClbInsGetReceiptsData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetReceiptsData/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "IFNOTexpenseOnFirstInstallment",
+        "OmniProcessId": {
+            "Name": "ClbInsGetReceiptsData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetReceiptsData/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetReceiptsData/Procedure/IFNOTexpenseOnFirstInstallment",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "IFNOTexpenseOnFirstInstallment",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "expense": "=%expense%",
+            "expenseOnFirstInstallment": "=%DRE_GetFirstInstallmentByProduct:expenseOnFirstInstallment%",
+            "installmentAmount": "=%AmountsProrrated:installmentAmount%",
+            "numInstallments": "=%numInstallments%",
+            "price": "=%price%",
+            "priceWithExpense": "=%priceWithExpense%",
+            "taxAmount": "=%taxAmount%",
+            "total": "=%total%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetReceiptsData/Procedure/ResponseProrrated"
+}

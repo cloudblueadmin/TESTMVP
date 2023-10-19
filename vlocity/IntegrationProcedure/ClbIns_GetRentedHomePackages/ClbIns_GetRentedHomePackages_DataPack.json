@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_GetRentedHomePackages_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetRentedHomePackages",
+    "OmniProcessElement": [
+        "ClbIns_GetRentedHomePackages_Element_GetRateRentado.json",
+        "ClbIns_GetRentedHomePackages_Element_TransformHomeRentadoResponse.json",
+        "ClbIns_GetRentedHomePackages_Element_ListAction.json",
+        "ClbIns_GetRentedHomePackages_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetRentedHomePackages",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetRentedHomePackages_PropertySetConfig.json",
+    "ResponseCacheType": "Org Cache",
+    "SubType": "GetRentedHomePackages",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetRentedHomePackages/Procedure",
+    "WebComponentKey": "1aac1698-21dc-1036-8fca-0409490fd8e2"
+}

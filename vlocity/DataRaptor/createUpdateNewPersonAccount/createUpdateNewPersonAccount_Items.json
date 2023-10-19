@@ -1,0 +1,199 @@
+[
+    {
+        "GlobalKey": "c07fba20-58f5-410b-bdd0-2badf7e36033",
+        "InputFieldName": "PersonAccount:AgencyId",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "%vlocity_namespace%__AccountId__c",
+        "LookupObjectName": "%vlocity_namespace%__Party__c",
+        "LookupReturnedFieldName": "Id",
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__PrimaryAgencyBrokeragePartyId__pc",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "3382bc9c-e44e-40e3-b815-544974d3869d",
+        "InputFieldName": "PersonAccount:ProducerId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__PrimaryBroker__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "e38cf8d7-d5cc-4166-8bbd-54a5200bf31e",
+        "InputFieldName": "PersonAccount:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FirstName",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "3f3bb824-d6a5-4527-93d7-960a6ccc1aa6",
+        "InputFieldName": "PersonAccount:PersonAccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "bba88a42-5114-4c9f-86eb-2d2675f0d25d",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "d68a0e5c-3a2a-4e5d-8cc0-d78aad044323",
+        "InputFieldName": "PersonAccount:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LastName",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "a9b0fed4-29dd-4ccc-93d2-34f025887e04",
+        "InputFieldName": "PersonAccount:PersonBirthdate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonBirthdate",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "49f6d2f8-c420-4d61-af73-c9022111d14b",
+        "InputFieldName": "PersonAccount:PersonEmail",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonEmail",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "8b83beca-8fa4-4b54-9bca-d5bc4e1f5463",
+        "InputFieldName": "PersonAccount:PersonPhone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Phone",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "FSC Person Account",
+        "GlobalKey": "753537d1-f858-4912-896e-d45e99fd722a",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "RecordType",
+        "LookupReturnedFieldName": "Id",
+        "Name": "createUpdateNewPersonAccount",
+        "OmniDataTransformationId": {
+            "Name": "createUpdateNewPersonAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/createUpdateNewPersonAccount",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RecordTypeId",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

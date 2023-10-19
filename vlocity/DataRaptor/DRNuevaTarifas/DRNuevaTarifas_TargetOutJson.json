@@ -1,0 +1,15 @@
+{
+    "input": {
+        "userInputs": {
+            "INCE.CNT_DIAS_VIGENCIA": "Number",
+            "INCE.EDI_VALOR_DESTRUCTIBLE": "Currency",
+            "INCE.PLAN_SELECCIONADO": "Text",
+            "INS_ITEM_CONTENIDOS.CONT_VALOR_DESTRUCTIBLE": "Currency",
+            "INS_ITEM_CONTENIDOS.instanceKey": "Text",
+            "INS_ITEM_CONTENIDOS.isPrimary": "Boolean"
+        }
+    },
+    "output": {
+        "result": "JSONResult"
+    }
+}

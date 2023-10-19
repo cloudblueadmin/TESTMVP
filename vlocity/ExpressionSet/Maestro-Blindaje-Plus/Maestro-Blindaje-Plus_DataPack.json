@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "Maestro-Blindaje-Plus",
+    "Namespace": "",
+    "UniqueName": "Maestro-Blindaje-Plus",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/Maestro-Blindaje-Plus"
+}

@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ClbIns_GEtLifeAssessmentResponses_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbinsGetLifeAssessmentResponses",
+    "OmniProcessElement": [
+        "ClbIns_GEtLifeAssessmentResponses_Element_GetLifeAssessmentResponses.json",
+        "ClbIns_GEtLifeAssessmentResponses_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GEtLifeAssessmentResponses",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GEtLifeAssessmentResponses_PropertySetConfig.json",
+    "SubType": "GEtLifeAssessmentResponses",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GEtLifeAssessmentResponses/Procedure",
+    "WebComponentKey": "150a9a90-cf3f-ac27-2ef1-835cb89c5b6f"
+}

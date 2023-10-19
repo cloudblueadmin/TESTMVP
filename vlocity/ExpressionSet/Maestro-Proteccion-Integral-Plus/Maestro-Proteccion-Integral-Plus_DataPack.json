@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "Maestro-Proteccion-Integral-Plus",
+    "Namespace": "",
+    "UniqueName": "Maestro-Proteccion-Integral-Plus",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/Maestro-Proteccion-Integral-Plus"
+}

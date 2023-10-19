@@ -1,0 +1,564 @@
+[
+    {
+        "FormulaExpression": "ADDMONTH(quoteEffectiveDate,12)",
+        "FormulaResultPath": "quoteExpirationDate",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(%DRGetAccByCURP:firstName%, \" \", %DRGetAccByCURP:lastName%, \" -\", %Step4:Package:branch%, \"- \", MONTH(TODAY()),\"/\", DAY(TODAY()),\"/\",YEAR(TODAY()))",
+        "FormulaResultPath": "quoteName",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Step2:Address:Street+' '+Step2:Address:ExternalNumber+' '+Step2:Address:InternalNumber+' '+Step2:Address:City+' '+Step2:Address:Country+' '+Step2:Address:State+' '+Step2:Address:Town+' '+Step2:Address:PostalCode",
+        "FormulaResultPath": "fullAddress",
+        "FormulaSequence": 5,
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "TODAY()",
+        "FormulaResultPath": "quoteEffectiveDate",
+        "FormulaSequence": 3,
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "totalPrice/12",
+        "FormulaResultPath": "monthlyPremium",
+        "FormulaSequence": 4,
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem22",
+        "InputFieldName": "effectiveDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__EffectiveDate__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem19",
+        "InputFieldName": "quoteExpirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__EndDate__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem16",
+        "InputFieldName": "monthlyPremium",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__MonthlyPremium__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem24",
+        "InputFieldName": "totalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__TotalAmount__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem26",
+        "InputFieldName": "type",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__Type__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem20",
+        "InputFieldName": "DRGetAccByCURP:accountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountId",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem5",
+        "InputFieldName": "Step2:Address:City",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingCity",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem12",
+        "InputFieldName": "Step2:Address:Country",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingCountry",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem6",
+        "InputFieldName": "Step2:Address:Town",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingName",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem13",
+        "InputFieldName": "Step2:Address:PostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingPostalCode",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem9",
+        "InputFieldName": "Step2:Address:State",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingState",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem11",
+        "InputFieldName": "Step2:Address:Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingStreet",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem23",
+        "InputFieldName": "DRGetAccByCURP:contactId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ContactId",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem28",
+        "InputFieldName": "quoteExpirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ExpirationDate",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem15",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem21",
+        "InputFieldName": "quoteName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem27",
+        "InputFieldName": "DRCreateOpp:Opportunity_1:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "OpportunityId",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem25",
+        "InputFieldName": "GetStandardPricebookId:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Pricebook2Id",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem17",
+        "InputFieldName": "totalPrice",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrice",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem7",
+        "InputFieldName": "totalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPrice",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem10",
+        "InputFieldName": "Step2:Address:ExternalNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "clbinsNumExt__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem14",
+        "InputFieldName": "Step2:Address:InternalNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "clbinsNumInt__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem8",
+        "InputFieldName": "Step5:Amount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "clbinsPremiumAmount__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRPCreateQuoteCloneCustom0jIDO00000001E52AIItem18",
+        "InputFieldName": "quoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRPCreateQuoteClone",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRPCreateQuoteClone",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRPCreateQuoteClone",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "clbinsQuoteNumber__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

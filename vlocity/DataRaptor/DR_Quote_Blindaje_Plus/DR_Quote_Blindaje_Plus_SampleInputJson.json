@@ -1,0 +1,28 @@
+{
+    "ContextId": null,
+    "Resumen": {
+        "CustomLWC3": null
+    },
+    "Step0": {
+        "CNT_DIAS_VIGENCIA": null,
+        "Date1": null,
+        "PLAN_SELECCIONADO": null,
+        "PORCENTAJE_DESCUENTO": null
+    },
+    "Step1": {
+        "CustomLWC1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "Resumen": null,
+        "Step0": null,
+        "Step1": null
+    }
+}

@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ClbGetSystemSettings",
+    "DataRaptor/ClbInsDREGetQuoteDetails",
+    "DataRaptor/ClbInsDRUpdateQuoteStatus",
+    "IntegrationProcedure/ClbIns_EmisionAutos",
+    "IntegrationProcedure/ClbIns_EmisionDanos",
+    "IntegrationProcedure/clb_EmisionVida"
+]

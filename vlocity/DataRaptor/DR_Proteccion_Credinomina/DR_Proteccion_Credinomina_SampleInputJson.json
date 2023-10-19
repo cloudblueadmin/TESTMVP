@@ -1,0 +1,23 @@
+{
+    "CapturaDatosSeguro": {
+        "EDAD": 18,
+        "PLAN_SELECCIONADO": "PROTECCION_CREDINOMINA",
+        "SUMA_ASEGURADA": 90000,
+        "TEMPORALIDAD": 3
+    },
+    "ConfiguraProducto": {
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CapturaDatosSeguro": null,
+        "ConfiguraProducto": null,
+        "TransformaDatosIniciales": null
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "InitQuote": {
+        "opportunityId": "006DO000003WljKYAS",
+        "pricebookId": "01sDn000006cxArIAI",
+        "quoteId": "0Q0DO0000008vAY0AY",
+        "quoteName": "JUAN JOSE PEREZ SOLIS -CAHA- 10/6/2023",
+        "quoteTerm": "Annual"
+    },
+    "Package": {
+        "Amount": 3241.16,
+        "Code": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+        "EndDate": "2024-10-06",
+        "StartDate": "2023-10-06",
+        "branch": "CAHA",
+        "expense": 300,
+        "expenseOnFirstInstallment": false,
+        "installmentAmount": 342.31,
+        "numInstallments": "012",
+        "priceWithExpense": 3541.16,
+        "taxAmount": 566.59,
+        "total": 4107.75
+    }
+}

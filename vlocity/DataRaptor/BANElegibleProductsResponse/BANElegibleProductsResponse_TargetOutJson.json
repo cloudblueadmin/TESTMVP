@@ -1,0 +1,40 @@
+{
+    "packages": [
+        {
+            "coverages": [
+                {
+                    "name": "Indemnización Hospitalaria por Accidente",
+                    "sumaAsegurada": 200000
+                },
+                {
+                    "name": "Indemnización Diaria por Hospitalización",
+                    "sumaAsegurada": 10000
+                },
+                {
+                    "name": "Fallecimiento",
+                    "sumaAsegurada": 1000000
+                },
+                {
+                    "name": "Enfermedades Graves",
+                    "sumaAsegurada": 100000
+                }
+            ],
+            "name": "VI APF - Package 1000000",
+            "productCode": "BAN-VIDIND-APF-1000000",
+            "requirements": [
+                {
+                    "name": "Tener entre 18 y 70 años"
+                },
+                {
+                    "name": "Gozar de buena salud"
+                },
+                {
+                    "name": "No tener una ocupación considerada de alto riesgo"
+                },
+                {
+                    "name": "Ser empleado de la Administración Pública Federal"
+                }
+            ]
+        }
+    ]
+}

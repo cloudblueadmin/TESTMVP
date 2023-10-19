@@ -1,0 +1,117 @@
+{
+    "ContextId": null,
+    "Offers": {
+        "intelligence": null,
+        "issueConfirmation": null
+    },
+    "configure": {
+        "QuoteOrIssue": null,
+        "configureProduct": null
+    },
+    "confirm": {
+    },
+    "confirmQuote": {
+        "InputBlock2": null,
+        "generateDocument": null
+    },
+    "home": {
+        "effectiveDate": null,
+        "expirationDate": null,
+        "plBrushClearance": null,
+        "plBurglarAlarm": null,
+        "plConstType": null,
+        "plFireAlarm": null,
+        "plNumBath": null,
+        "plNumBed": null,
+        "plPropType": null,
+        "plRoofType": null,
+        "plSprinklers": null,
+        "plUsageType": null,
+        "plValue": null,
+        "plYrBuilt": null,
+        "plYrOwned": null,
+        "policyholderName": null,
+        "propertyAddress-Block": {
+            "plCity": null,
+            "plCountry": null,
+            "plPostCode": null,
+            "plState": null,
+            "plStreet": null,
+            "plUnitNum": null,
+            "propertyAddress": null
+        },
+        "proposalName": null
+    },
+    "intro": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "valuables": {
+        "cbCollections": null,
+        "cbFineArts": null,
+        "cbFurs": null,
+        "cbGuns": null,
+        "cbJewelry": null,
+        "schdCollections": {
+            "itemNameCOLL": null,
+            "itemTypeCOLL": null,
+            "itemValueCOLL": null
+        },
+        "schdFineArts": {
+            "itemNameFA": null,
+            "itemTypeFA": null,
+            "itemValueFA": null
+        },
+        "schdFurs": {
+            "itemNameFUR": null,
+            "itemTypeFUR": null,
+            "itemValueFUR": null
+        },
+        "schdGuns": {
+            "itemNameGUN": null,
+            "itemTypeGUN": null,
+            "itemValueGUN": null
+        },
+        "schdJewelry": {
+            "itemNameJWY": null,
+            "itemTypeJWY": null,
+            "itemValueJWY": null
+        },
+        "sumCollections": null,
+        "sumFineArts": null,
+        "sumFurs": null,
+        "sumGuns": null,
+        "sumJewelry": null
+    },
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Done": null,
+        "DoneQuote": null,
+        "GetDocumentTemplateId": null,
+        "GetOffers": null,
+        "Offers": null,
+        "configure": null,
+        "confirm": null,
+        "confirmQuote": null,
+        "createInsuredItems": null,
+        "createObjDoc": null,
+        "createOpportunity": null,
+        "createPolicy": null,
+        "createQuote": null,
+        "getRatedProducts": null,
+        "home": null,
+        "intro": null,
+        "readAccount": null,
+        "readPolicyConfirmation": null,
+        "readQuoteConfirmation": null,
+        "setInitalData": null,
+        "setProposalValues": null,
+        "transformForPolicyCreation": null,
+        "transformForQuoteCreation": null,
+        "valuables": null
+    }
+}

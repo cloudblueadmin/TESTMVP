@@ -1,0 +1,338 @@
+{
+    "CountyLookup": {
+        "City": "Miami",
+        "County": "Miami-dade",
+        "ID": "input"
+    },
+    "ProductCode": "propHO4",
+    "ResponseHO3Status": false,
+    "contents": {
+        "cbBikes": true,
+        "cbCameras": true,
+        "cbFineArts": true,
+        "cbJewelry": true,
+        "cbMusic": true,
+        "ptLimitCTS": 50000,
+        "ptPercentLimitCTS": null,
+        "schdBikes": [
+            {
+                "itemNameBIKE": "Schwin 1",
+                "itemTypeBIKE": "Bike",
+                "itemValueBIKE": 2000
+            },
+            {
+                "itemNameBIKE": "Schwin 2",
+                "itemTypeBIKE": "Bike",
+                "itemValueBIKE": 1500
+            }
+        ],
+        "schdCameras": [
+            {
+                "itemNameCAMERA": "Nikon",
+                "itemTypeCAMERA": "Camera",
+                "itemValueCAMERA": 5000
+            },
+            {
+                "itemNameCAMERA": "Wide Angle Lens",
+                "itemTypeCAMERA": "Camera",
+                "itemValueCAMERA": 52500
+            }
+        ],
+        "schdFineArts": [
+            {
+                "itemNameFA": "Renoir",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 400000
+            },
+            {
+                "itemNameFA": "statue",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 20000
+            }
+        ],
+        "schdJewelry": [
+            {
+                "itemNameJWY": "Dimond ring",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 4000
+            },
+            {
+                "itemNameJWY": "Rolex",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 35000
+            }
+        ],
+        "schdMusic": [
+            {
+                "itemNameMUSICEQP": "Piano",
+                "itemTypeMUSICEQP": "Musical Instrument",
+                "itemValueMUSICEQP": 15000
+            },
+            {
+                "itemNameMUSICEQP": "Guitar",
+                "itemTypeMUSICEQP": "Musical Instrument",
+                "itemValueMUSICEQP": 5000
+            }
+        ],
+        "sumBikes": 3500,
+        "sumCameras": 57500,
+        "sumFineArts": 420000,
+        "sumJewelry": 39000,
+        "sumMusic": 20000
+    },
+    "docTitle": null,
+    "drTransHO3UserInputsStatus": false,
+    "drTransInsuredItemsHO3Status": false,
+    "drTransInsuredItemsHO4": {
+        "propHomeRental": {
+            "plBCEGrade": "4",
+            "plBurglarAlarm": "Local",
+            "plConstType": "ISO Class 1- Frame",
+            "plCounty": "Miami-dade",
+            "plFireAlarm": "Battery operated detectors",
+            "plPPC": "4",
+            "plPropType": "Single-Family Home"
+        },
+        "propItem": [
+            {
+                "instanceKey": "Renoir",
+                "piName": "Renoir",
+                "piType": "Fine Arts",
+                "piValue": 400000
+            },
+            {
+                "instanceKey": "statue",
+                "piName": "statue",
+                "piType": "Fine Arts",
+                "piValue": 20000
+            },
+            {
+                "instanceKey": "Schwin 1",
+                "piName": "Schwin 1",
+                "piType": "Bike",
+                "piValue": 2000
+            },
+            {
+                "instanceKey": "Schwin 2",
+                "piName": "Schwin 2",
+                "piType": "Bike",
+                "piValue": 1500
+            },
+            {
+                "instanceKey": "Nikon",
+                "piName": "Nikon",
+                "piType": "Camera",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Wide Angle Lens",
+                "piName": "Wide Angle Lens",
+                "piType": "Camera",
+                "piValue": 52500
+            },
+            {
+                "instanceKey": "Piano",
+                "piName": "Piano",
+                "piType": "Musical Instrument",
+                "piValue": 15000
+            },
+            {
+                "instanceKey": "Guitar",
+                "piName": "Guitar",
+                "piType": "Musical Instrument",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Dimond ring",
+                "piName": "Dimond ring",
+                "piType": "Jewelry",
+                "piValue": 4000
+            },
+            {
+                "instanceKey": "Rolex",
+                "piName": "Rolex",
+                "piType": "Jewelry",
+                "piValue": 35000
+            }
+        ]
+    },
+    "drTransInsuredItemsHO4Status": true,
+    "home": {
+        "plBrushClearance": null,
+        "plBurglarAlarm": "Local",
+        "plConstType": "ISO Class 1- Frame",
+        "plFireAlarm": "Battery operated detectors",
+        "plNumBath": null,
+        "plNumBed": null,
+        "plPropType": "Single-Family Home",
+        "plRoofType": null,
+        "plSprinklers": null,
+        "plUsageType": null,
+        "plValue": null,
+        "plYrBuilt": null,
+        "plYrOwned": null
+    },
+    "insuredItems": {
+        "propHomeRental": {
+            "plBCEGrade": "4",
+            "plBurglarAlarm": "Local",
+            "plConstType": "ISO Class 1- Frame",
+            "plCounty": "Miami-dade",
+            "plFireAlarm": "Battery operated detectors",
+            "plPPC": "4",
+            "plPropType": "Single-Family Home"
+        },
+        "propItem": [
+            {
+                "instanceKey": "Renoir",
+                "piName": "Renoir",
+                "piType": "Fine Arts",
+                "piValue": 400000
+            },
+            {
+                "instanceKey": "statue",
+                "piName": "statue",
+                "piType": "Fine Arts",
+                "piValue": 20000
+            },
+            {
+                "instanceKey": "Schwin 1",
+                "piName": "Schwin 1",
+                "piType": "Bike",
+                "piValue": 2000
+            },
+            {
+                "instanceKey": "Schwin 2",
+                "piName": "Schwin 2",
+                "piType": "Bike",
+                "piValue": 1500
+            },
+            {
+                "instanceKey": "Nikon",
+                "piName": "Nikon",
+                "piType": "Camera",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Wide Angle Lens",
+                "piName": "Wide Angle Lens",
+                "piType": "Camera",
+                "piValue": 52500
+            },
+            {
+                "instanceKey": "Piano",
+                "piName": "Piano",
+                "piType": "Musical Instrument",
+                "piValue": 15000
+            },
+            {
+                "instanceKey": "Guitar",
+                "piName": "Guitar",
+                "piType": "Musical Instrument",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Dimond ring",
+                "piName": "Dimond ring",
+                "piType": "Jewelry",
+                "piValue": 4000
+            },
+            {
+                "instanceKey": "Rolex",
+                "piName": "Rolex",
+                "piType": "Jewelry",
+                "piValue": 35000
+            }
+        ]
+    },
+    "intro": {
+        "propertyType": "Rent"
+    },
+    "isdtp": "p1",
+    "layout": "newport",
+    "location": {
+        "effectiveDate": "2020-06-07",
+        "propertyAddress-Block": {
+            "plCity": "Miami",
+            "plPostCode": "33133",
+            "plState": "FL",
+            "plStreet": "2280 Taquesta Ln"
+        },
+        "ratingEffectiveDate": "2020-06-07 00:00:00"
+    },
+    "lwc": "propertyHomeQuoteHO3English",
+    "mergeSchedules": [
+        {
+            "itemNameFA": "Renoir",
+            "itemTypeFA": "Fine Arts",
+            "itemValueFA": 400000
+        },
+        {
+            "itemNameFA": "statue",
+            "itemTypeFA": "Fine Arts",
+            "itemValueFA": 20000
+        },
+        {
+            "itemNameBIKE": "Schwin 1",
+            "itemTypeBIKE": "Bike",
+            "itemValueBIKE": 2000
+        },
+        {
+            "itemNameBIKE": "Schwin 2",
+            "itemTypeBIKE": "Bike",
+            "itemValueBIKE": 1500
+        },
+        {
+            "itemNameCAMERA": "Nikon",
+            "itemTypeCAMERA": "Camera",
+            "itemValueCAMERA": 5000
+        },
+        {
+            "itemNameCAMERA": "Wide Angle Lens",
+            "itemTypeCAMERA": "Camera",
+            "itemValueCAMERA": 52500
+        },
+        {
+            "itemNameMUSICEQP": "Piano",
+            "itemTypeMUSICEQP": "Musical Instrument",
+            "itemValueMUSICEQP": 15000
+        },
+        {
+            "itemNameMUSICEQP": "Guitar",
+            "itemTypeMUSICEQP": "Musical Instrument",
+            "itemValueMUSICEQP": 5000
+        },
+        {
+            "itemNameJWY": "Dimond ring",
+            "itemTypeJWY": "Jewelry",
+            "itemValueJWY": 4000
+        },
+        {
+            "itemNameJWY": "Rolex",
+            "itemTypeJWY": "Jewelry",
+            "itemValueJWY": 35000
+        }
+    ],
+    "mergeSchedulesStatus": true,
+    "ns": "c",
+    "options": {
+        "chainable": false,
+        "ignoreCache": true,
+        "queueableChainable": false,
+        "resetCache": false,
+        "useQueueableApexRemoting": false
+    },
+    "plCountry": "US",
+    "quoteConfirm": null,
+    "quoteId": null,
+    "selectedTemplate": null,
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://nosoftware-agility-274.lightning.force.com",
+    "timeStamp": "2020-06-08T00:10:07.913Z",
+    "trueRules": null,
+    "userCurrencyCode": "USD",
+    "userId": "0053i000000koRTAAY",
+    "userName": "vex_personal_lines@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

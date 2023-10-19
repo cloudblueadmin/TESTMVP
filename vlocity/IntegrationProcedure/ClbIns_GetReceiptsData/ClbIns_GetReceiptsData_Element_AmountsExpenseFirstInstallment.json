@@ -1,0 +1,45 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "AmountsExpenseFirstInstallment",
+    "OmniProcessId": {
+        "Name": "ClbInsGetReceiptsData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetReceiptsData/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ExpenseOnFirstInstallment",
+        "OmniProcessId": {
+            "Name": "ClbInsGetReceiptsData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetReceiptsData/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetReceiptsData/Procedure/ExpenseOnFirstInstallment",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ExpenseOnFirstInstallment",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "firstInstallmentAmount": "=ROUND (  ( ( price / numInstallments ) + expense ) + ( ( price / numInstallments ) + expense ) * (GetTasaImpuesto:tasaImpuesto/100) , 2 )",
+            "installmentAmount": "=ROUND ( ( price / numInstallments ) + ( price / numInstallments * (GetTasaImpuesto:tasaImpuesto/100) ) , 2 )"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetReceiptsData/Procedure/AmountsExpenseFirstInstallment"
+}

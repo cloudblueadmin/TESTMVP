@@ -1,0 +1,332 @@
+{
+    "quote": {
+        "records": [
+            {
+                "Name": "%InitQuote:quoteName%",
+                "additionalFields": {
+                },
+                "opportunityId": "%InitQuote:opportunityId%",
+                "priceBookId": "%InitQuote:pricebookId%",
+                "quoteLines": {
+                    "records": [
+                        {
+                            "additionalFields": {
+                            },
+                            "attributeCategories": {
+                                "records": [
+                                    {
+                                        "productAttributes": {
+                                            "records": [
+                                                {
+                                                    "code": "PLAN_SELECCIONADO",
+                                                    "userValues": "PAQUETE 1"
+                                                },
+                                                {
+                                                    "code": "CANTIDAD_CUOTAS",
+                                                    "userValues": 6
+                                                },
+                                                {
+                                                    "code": "PRECIO_MENSUAL",
+                                                    "userValues": 1500
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "childLines": {
+                                "records": [
+                                    {
+                                        "Name": "Asegurado",
+                                        "additionalFields": {
+                                        },
+                                        "attributeCategories": {
+                                            "records": [
+                                                {
+                                                    "productAttributes": {
+                                                        "records": [
+                                                            {
+                                                                "code": "Asegurado_Edad",
+                                                                "userValues": 28
+                                                            },
+                                                            {
+                                                                "code": "Asegurado_Genero",
+                                                                "userValues": "HOMBRE"
+                                                            },
+                                                            {
+                                                                "code": "Asegurado_FechaNacimiento",
+                                                                "userValues": "12/17/1981"
+                                                            },
+                                                            {
+                                                                "code": "Nombres",
+                                                                "userValues": "Alberto"
+                                                            },
+                                                            {
+                                                                "code": "Apellidos",
+                                                                "userValues": "Briones Zepeda"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "childLines": {
+                                            "records": [
+                                                {
+                                                    "Name": "Fallecimiento",
+                                                    "attributeCategories": {
+                                                        "records": [
+                                                            {
+                                                                "productAttributes": {
+                                                                    "records": [
+                                                                        {
+                                                                            "code": "VIDA_IND_SA_FALLECIMIENTO",
+                                                                            "userValues": 146
+                                                                        },
+                                                                        {
+                                                                            "code": "VIDA_IND_PR_FALLECIMIENTO",
+                                                                            "userValues": 120
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "feeAmount": 24,
+                                                    "instanceKey": "Fallecimiento VI00",
+                                                    "lineRecordType": "CoverageSpec",
+                                                    "price": 114,
+                                                    "productCode": "VI00",
+                                                    "productName": "Fallecimiento",
+                                                    "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                                    "taxAmount": 8
+                                                },
+                                                {
+                                                    "Name": "Riesgos de Invalidez",
+                                                    "attributeCategories": {
+                                                        "records": [
+                                                            {
+                                                                "productAttributes": {
+                                                                    "records": [
+                                                                        {
+                                                                            "code": "VIDA_IND_SA_INVALIDEZ_TOTAL_Y_PERMANENTE",
+                                                                            "userValues": 120
+                                                                        },
+                                                                        {
+                                                                            "code": "VIDA_IND_PR_INVALIDEZ_TOTAL_Y_PERMANENTE",
+                                                                            "userValues": 120
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "feeAmount": 25,
+                                                    "instanceKey": "Riesgos de Invalidez VI33",
+                                                    "lineRecordType": "CoverageSpec",
+                                                    "price": 115,
+                                                    "productCode": "VI33",
+                                                    "productName": "Riesgos de Invalidez",
+                                                    "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                                    "taxAmount": 9
+                                                },
+                                                {
+                                                    "Name": "Muerte Accidental",
+                                                    "attributeCategories": {
+                                                        "records": [
+                                                            {
+                                                                "productAttributes": {
+                                                                    "records": [
+                                                                        {
+                                                                            "code": "VIDA_IND_SA_MUERTE_ACCIDENTAL",
+                                                                            "userValues": 150
+                                                                        },
+                                                                        {
+                                                                            "code": "VIDA_IND_PR_MUERTE_ACCIDENTAL",
+                                                                            "userValues": 120
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "feeAmount": 25,
+                                                    "instanceKey": "Muerte Accidental VI10",
+                                                    "lineRecordType": "CoverageSpec",
+                                                    "price": 115,
+                                                    "productCode": "VI10",
+                                                    "productName": "Muerte Accidental",
+                                                    "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                                    "taxAmount": 9
+                                                },
+                                                {
+                                                    "Name": "Indemnización Hospitalaria por Accidente",
+                                                    "attributeCategories": {
+                                                        "records": [
+                                                            {
+                                                                "productAttributes": {
+                                                                    "records": [
+                                                                        {
+                                                                            "code": "VIDA_IND_SA_INDEMNIZACION_HOSP_ACCIDENTE",
+                                                                            "userValues": 150
+                                                                        },
+                                                                        {
+                                                                            "code": "VIDA_IND_PR_FALLECIMIENTO_INDEMNIZACION_HOSP_ACCIDENTE",
+                                                                            "userValues": 120
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "feeAmount": 25,
+                                                    "instanceKey": "Indemnización Hospitalaria por Accidente",
+                                                    "lineRecordType": "CoverageSpec",
+                                                    "price": 115,
+                                                    "productCode": "VI58",
+                                                    "productName": "Indemnización Hospitalaria por Accidente",
+                                                    "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                                    "taxAmount": 9
+                                                },
+                                                {
+                                                    "Name": "Indemnización Diaria por Hospitalización",
+                                                    "attributeCategories": {
+                                                        "records": [
+                                                            {
+                                                                "productAttributes": {
+                                                                    "records": [
+                                                                        {
+                                                                            "code": "VIDA_IND_SA_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                                                            "userValues": 150
+                                                                        },
+                                                                        {
+                                                                            "code": "VIDA_IND_PR_INDEMNIZACION_DIARIA_ACCIDENTE",
+                                                                            "userValues": 120
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "feeAmount": 25,
+                                                    "instanceKey": "Indemnización Diaria por Hospitalización",
+                                                    "lineRecordType": "CoverageSpec",
+                                                    "price": 115,
+                                                    "productCode": "VI67",
+                                                    "productName": "Indemnización Diaria por Hospitalización",
+                                                    "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                                    "taxAmount": 9
+                                                },
+                                                {
+                                                    "Name": "Enfermedades Graves",
+                                                    "attributeCategories": {
+                                                        "records": [
+                                                            {
+                                                                "productAttributes": {
+                                                                    "records": [
+                                                                        {
+                                                                            "code": "VIDA_IND_SA_ENFERMEDADES_GRAVES",
+                                                                            "userValues": 150
+                                                                        },
+                                                                        {
+                                                                            "code": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                                                                            "userValues": 120
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "feeAmount": 25,
+                                                    "instanceKey": "Enfermedades Graves",
+                                                    "lineRecordType": "CoverageSpec",
+                                                    "price": 115,
+                                                    "productCode": "VI95",
+                                                    "productName": "Enfermedades Graves",
+                                                    "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                                    "taxAmount": 9
+                                                }
+                                            ]
+                                        },
+                                        "feeAmount": 0,
+                                        "instanceKey": "Asegurado",
+                                        "lineRecordType": "InsuredPartySpec",
+                                        "price": "%Step4:Package:Amount%",
+                                        "productCode": "INS_PARTY_ASEGURADO",
+                                        "productName": "INS-PARTY ASEGURADO",
+                                        "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                        "taxAmount": 0
+                                    },
+                                    {
+                                        "Name": "Beneficiario",
+                                        "additionalFields": {
+                                        },
+                                        "attributeCategories": {
+                                            "records": [
+                                                {
+                                                    "productAttributes": {
+                                                        "records": [
+                                                            {
+                                                                "code": "Asegurado_Genero",
+                                                                "userValues": "HOMBRE"
+                                                            },
+                                                            {
+                                                                "code": "Nombres",
+                                                                "userValues": "Beneficiario Nombre"
+                                                            },
+                                                            {
+                                                                "code": "Apellidos",
+                                                                "userValues": "Beneficiario Apellido"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "feeAmount": 0,
+                                        "instanceKey": "Beneficiario",
+                                        "lineRecordType": "InsuredPartySpec",
+                                        "price": 0,
+                                        "productCode": "INS_PARTY_BENEFICIARIO",
+                                        "productName": "Beneficiario",
+                                        "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                        "taxAmount": 0
+                                    },
+                                    {
+                                        "Name": "Pagador",
+                                        "additionalFields": {
+                                        },
+                                        "attributeCategories": {
+                                            "records": [
+                                                {
+                                                    "productAttributes": {
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "feeAmount": 0,
+                                        "instanceKey": "Pagador",
+                                        "lineRecordType": "InsuredPartySpec",
+                                        "price": 0,
+                                        "productCode": "INS_PARTY_PAGADOR",
+                                        "productName": "INS-PARTY PAGADOR",
+                                        "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                                        "taxAmount": 0
+                                    }
+                                ]
+                            },
+                            "instanceKey": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 1",
+                            "price": "%Step4:Package:Amount%",
+                            "productCode": "SEGURO_VI_APF1_ROOTCLONED",
+                            "productName": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 1",
+                            "sourceSystemIdentifier": "%InitQuote:quoteId%"
+                        }
+                    ]
+                },
+                "sourceSystemIdentifier": "%InitQuote:quoteId%",
+                "status": "Draft",
+                "type": "Quote"
+            }
+        ]
+    }
+}

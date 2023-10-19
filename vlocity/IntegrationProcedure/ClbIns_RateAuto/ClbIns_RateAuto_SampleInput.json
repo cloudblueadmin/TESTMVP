@@ -1,0 +1,122 @@
+{
+    "selectedPlan": "A03",
+    "vehicle": {
+        "coverages": [
+            {
+                "BaseDeducible": "S",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A004",
+                "IndCobertOblig": "S",
+                "PorcDed": "10",
+                "SumaAseg": "598428.00",
+                "TipoDeducible": "PO"
+            },
+            {
+                "BaseDeducible": "M",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A005",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "4000000.00",
+                "TipoDeducible": "DI"
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A007",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "0.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A006",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "150000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A009",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "1000000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A010",
+                "IndCobertOblig": "S",
+                "PorcDed": "",
+                "SumaAseg": "750000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A014",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "6000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A012",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "100000.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A023",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "100.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A017",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "0.00",
+                "TipoDeducible": ""
+            },
+            {
+                "BaseDeducible": "",
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "CodCobert": "A022",
+                "IndCobertOblig": "N",
+                "PorcDed": "",
+                "SumaAseg": "300000.00",
+                "TipoDeducible": ""
+            }
+        ],
+        "make": "FO",
+        "model": "019",
+        "modelDesc": "FO400",
+        "type": "001",
+        "year": "2009"
+    }
+}

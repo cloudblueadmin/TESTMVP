@@ -1,0 +1,57 @@
+{
+    "Billing State/Province": "CDMX",
+    "Billing Zip/Postal Code": "06010",
+    "BillingCity": "CDMX",
+    "BillingStreet": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+    "Detailed_Coverages": [
+        {
+            "CoverageName": "SEGURO VIDA HIPOTECARIO CLONE",
+            "price": 2226.41
+        },
+        {
+            "CoverageName": "VIDA-CLIENTE-INVALIDEZ",
+            "price": 515
+        },
+        {
+            "CoverageName": "VIDA-CLIENTE-FALLECIMIENTO",
+            "price": 1201.67
+        },
+        {
+            "CoverageName": "VIDA-BANCO-MOMENTOS-VIDA",
+            "price": 22.67
+        },
+        {
+            "CoverageName": "VIDA-BANCO-INVALIDEZ",
+            "price": 1.45
+        },
+        {
+            "CoverageName": "VIDA-BANCO-FALLECIMIENTO",
+            "price": 3.4
+        },
+        {
+            "CoverageName": "VIDA-BANCO-ENFERMEDADES-GRAVES",
+            "price": 1.87
+        },
+        {
+            "CoverageName": "VIDA-BANCO-DESEMPLEO-MANCOMUNADO-9-MESES",
+            "price": 319.57
+        },
+        {
+            "CoverageName": "VIDA-BANCO-DESEMPLEO-INDIVIDUAL-9-MESES",
+            "price": 160.78
+        }
+    ],
+    "EffectiveDate": "2023-04-10",
+    "Email": "radams@example.com",
+    "ExpirationDate": "2023-05-09",
+    "GrandTotal": 4452.82,
+    "PersonAccount": {
+        "PrimaryProducerName": "ProducerId"
+    },
+    "PersonAccountDetails": {
+        "FirstName": "Rachel",
+        "LastName": "Adams"
+    },
+    "QuoteNumber": "00000013",
+    "TAX": 0
+}

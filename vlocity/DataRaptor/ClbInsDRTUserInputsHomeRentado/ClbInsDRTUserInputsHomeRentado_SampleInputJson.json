@@ -1,0 +1,13 @@
+{
+    "aplicaContenidos": false,
+    "aplicaDmed": false,
+    "aplicaDmrb": false,
+    "aplicaRcge": false,
+    "aplicaRhmt": false,
+    "aplicaTeev": false,
+    "code": "SEGURO_CASA_HABITACION_APF_RENTADO_ROOT",
+    "codigoPostal": "64000",
+    "porcentajeContenidos": "20",
+    "valorContenidos": 1600000,
+    "valorInmueble": 4000000
+}

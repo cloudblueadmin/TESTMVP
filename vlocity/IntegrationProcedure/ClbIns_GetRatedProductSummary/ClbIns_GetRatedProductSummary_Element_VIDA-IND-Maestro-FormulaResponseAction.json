@@ -1,0 +1,52 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "VIDA-IND-Maestro-FormulaResponseAction",
+    "OmniProcessId": {
+        "Name": "ClbInsGetRatedProductSummary",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetRatedProductSummary/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "VIDAINDMaestroFormulaTryCatchBlock",
+        "OmniProcessId": {
+            "Name": "ClbInsGetRatedProductSummary",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetRatedProductSummary/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetRatedProductSummary/Procedure/VIDAINDMaestroFormulaTryCatchBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "VIDAINDMaestroFormulaTryCatchBlock",
+    "ParentElementType": "Try Catch Block",
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "data": "%ApplyVIDAINDMaestroFormula:output%",
+            "error": "OK",
+            "success": true
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetRatedProductSummary/Procedure/VIDA-IND-Maestro-FormulaResponseAction"
+}

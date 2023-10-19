@@ -1,0 +1,171 @@
+{
+    "AccountData": {
+        "accountId": "001DO000009pIMxYAM",
+        "birthDate": "1990-01-01",
+        "contactId": "003DO00000805MQYAY",
+        "curp": "BIZA701230HDFRPL04",
+        "firstName": "ALBERTO",
+        "gender": "Male",
+        "lastName": "BRIONES ZEPEDA",
+        "rfc": "BIZA701230DK3",
+        "status": "Active"
+    },
+    "InitQuote": {
+        "opportunityId": "006DO000003WhnGYAS",
+        "pricebookId": "01sDn000006cxArIAI",
+        "quoteId": "0Q0DO0000008t7H0AQ",
+        "quoteName": "ALBERTO BRIONES ZEPEDA -CAHA- 9/25/2023"
+    },
+    "Step1": {
+        "BirthDate": "1979-04-05",
+        "CURP": "PESJ790405HHGRLN07",
+        "Email": "mipruebaQA40@hotmail.com",
+        "FirstName": "JUAN JOSE",
+        "LastName": "PEREZ SOLIS",
+        "PhoneNumber": "5585419712",
+        "RFC": "PESJ790405B72"
+    },
+    "Step2": {
+        "Address": {
+            "City": "Escuinapa",
+            "Country": "México",
+            "ExternalNumber": 23,
+            "InternalNumber": 11,
+            "PostalCode": "82500",
+            "State": "Sinaloa",
+            "Street": "AV CENTRO",
+            "Town": "Rincón Del Verde"
+        }
+    },
+    "Step3": {
+        "BuildingInformation": {
+            "Address": {
+                "City": "Escuinapa",
+                "Country": "México",
+                "ExternalNumber": 23,
+                "InternalNumber": 11,
+                "PostalCode": "82500",
+                "State": "Sinaloa",
+                "Street": "AV CENTRO",
+                "Town": "Rincón Del Verde"
+            },
+            "BuildingAge": "<=50",
+            "ContentsInsuredAmount": 20,
+            "Levels": "1",
+            "MarDistance": true,
+            "Value": 3000000
+        },
+        "ContentsInformation": {
+            "Value": 3000000
+        }
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 5707.16,
+            "Code": "SEGURO_CASA_HABITACION_APF_RENTADO_ROOT",
+            "EndDate": "2024-10-09",
+            "StartDate": "2023-10-09",
+            "branch": "CAHA",
+            "expense": 300,
+            "expenseOnFirstInstallment": false,
+            "installmentAmount": 580.69,
+            "numInstallments": "012",
+            "priceWithExpense": 6007.16,
+            "taxAmount": 961.15,
+            "total": 6968.31
+        },
+        "PackageCoverage": [
+            {
+                "code": "RH01C",
+                "insuredAmount": 3000000,
+                "name": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS",
+                "price": 4075.8
+            },
+            {
+                "code": "RH02C",
+                "insuredAmount": 300000,
+                "name": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 22.62
+            },
+            {
+                "code": "RCF1",
+                "insuredAmount": 1000000,
+                "name": "RCGE-RENTADO-FAMILIAR",
+                "price": 80.7
+            },
+            {
+                "code": "RCF2",
+                "insuredAmount": 1000000,
+                "name": "RCGE-RENTADO-ARRENDATARIO",
+                "price": 12.9
+            },
+            {
+                "code": "I005C",
+                "insuredAmount": 3000000,
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 113.18
+            },
+            {
+                "code": "I013C",
+                "insuredAmount": 300000,
+                "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 22.62
+            },
+            {
+                "code": "I001C",
+                "insuredAmount": 3000000,
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 135.81
+            },
+            {
+                "code": "I003C",
+                "insuredAmount": 3000000,
+                "name": "INCE-CONTENIDO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "price": 67.91
+            },
+            {
+                "code": "I004C",
+                "insuredAmount": 3000000,
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 67.91
+            },
+            {
+                "code": "I002C",
+                "insuredAmount": 3000000,
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 67.91
+            },
+            {
+                "code": "I011C",
+                "insuredAmount": 135000,
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 13.5
+            },
+            {
+                "code": "TE01C",
+                "insuredAmount": 3000000,
+                "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 1003.68
+            },
+            {
+                "code": "TE02C",
+                "insuredAmount": 300000,
+                "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 22.62
+            }
+        ]
+    },
+    "Step5": {
+        "Amount": 5707.16,
+        "Bank": "072",
+        "CardCVV": "878",
+        "CardMonth": 5,
+        "CardNumber": 5101910203349540,
+        "CardYear": 2029,
+        "FirstName": "GUILLERMO",
+        "IsRecurringPayment": true,
+        "LastName": "ROMO",
+        "PaymentPeriod": "012",
+        "TypeOfCard": "04"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_RateHome_SampleInput.json",
+    "Description": "VIP that returns a Rate for a Home Product",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsRateHome",
+    "OmniProcessElement": [
+        "ClbIns_RateHome_Element_UserInputsPropio.json",
+        "ClbIns_RateHome_Element_UserInputsRentado.json",
+        "ClbIns_RateHome_Element_GetRateForHome.json",
+        "ClbIns_RateHome_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_RateHome",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_RateHome_PropertySetConfig.json",
+    "SubType": "RateHome",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/RateHome/Procedure",
+    "WebComponentKey": "82a927f4-cecb-f246-bd49-009fa7053018"
+}

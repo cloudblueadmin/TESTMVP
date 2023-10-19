@@ -1,0 +1,45 @@
+{
+    "propHome": [
+        {
+            "instanceKey": null,
+            "isParent": true,
+            "plBCEGrade": "1",
+            "plBrushClearance": "0",
+            "plBurglarAlarm": "None",
+            "plCity": null,
+            "plConstType": "ISO Class 1- Frame",
+            "plCountry": null,
+            "plCounty": null,
+            "plFireAlarm": "None",
+            "plNumBath": null,
+            "plNumBed": null,
+            "plPPC": "1",
+            "plPostCode": null,
+            "plPropType": "Single-Family Home",
+            "plRoofType": "Wood Shake",
+            "plSprinklers": "None",
+            "plState": null,
+            "plStreet": null,
+            "plUsageType": "Main Residence",
+            "plValue": 0,
+            "plYrBuilt": "",
+            "plYrOwned": "",
+            "productCode": "propHome",
+            "productId": "01t3i000000VQ5zAAG"
+        }
+    ],
+    "propItem": [
+        {
+            "additionalFields": {
+            },
+            "instanceKey": null,
+            "isParent": false,
+            "piDescription": null,
+            "piName": null,
+            "piType": "Art",
+            "piValue": null,
+            "productCode": "propItem",
+            "productId": "01t3i000000VQ5cAAG"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "userInputs": {
+            "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+            "INS_PARTY_ASEGURADO.Asegurado_FechaNacimiento": "Date",
+            "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+            "INS_PARTY_ASEGURADO.MensualidadCredito": "Currency",
+            "INS_PARTY_ASEGURADO.instanceKey": "Text",
+            "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+            "INS_PARTY_ASEGURADO.saldoInsoluto": "Currency",
+            "INS_PARTY_BANCO.MensualidadCredito": "Currency",
+            "INS_PARTY_BANCO.instanceKey": "Text",
+            "INS_PARTY_BANCO.isPrimary": "Boolean",
+            "SEGURO_VH_HIPOTECARIO_ROOT_1.CNT_DIAS_VIGENCIA": "Number",
+            "SEGURO_VH_HIPOTECARIO_ROOT_1.PLAN_SELECCIONADO": "Text"
+        }
+    },
+    "output": {
+        "result": "JSONResult"
+    }
+}

@@ -1,0 +1,440 @@
+[
+    {
+        "DefaultValue": "M",
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom3243",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "inputValuesForJsonRequest:autoDriver.Gender",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom6036",
+        "InputFieldName": "input_1:autoVehicle.Make",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:autoVehicle.Make",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom546",
+        "InputFieldName": "input_1:autoVehicle.Model",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:autoVehicle.Model",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom3259",
+        "InputFieldName": "input_1:autoVehicle.ModelDesc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:autoVehicle.ModelDesc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom6963",
+        "InputFieldName": "input_1:autoVehicle.Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:autoVehicle.Type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom7710",
+        "InputFieldName": "input_1:autoVehicle.Year",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:autoVehicle.Year",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom3244",
+        "InputFieldName": "GetAutoDetails:cAuto:cantidadPasajeros",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:cantidadPasajeros",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom7153",
+        "InputFieldName": "GetAutoDetails:cAuto:claseVeh",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:claseVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom6637",
+        "InputFieldName": "GetAutoDetails:cAuto:claveBG",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:claveBG",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom2316",
+        "InputFieldName": "GetAutoDetails:cAuto:codModeloDetalle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:codModDetalle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom6347",
+        "InputFieldName": "input_1:codePlan",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:codePlan",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom2899",
+        "InputFieldName": "coverages",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:coverages",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom8266",
+        "InputFieldName": "InitialSettings:inicioVigencia",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:fechaInicio",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom9440",
+        "InputFieldName": "InitialSettings:fechaMovimiento",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:fechaMovimiento",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom3411",
+        "InputFieldName": "InitialSettings:finVigencia",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:fechaVigencia",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom2813",
+        "InputFieldName": "GetAutoDetails:cAuto:gpoEstBg",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:gpoEstBg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom2334",
+        "InputFieldName": "GetAutoDetails:cAuto:gpoEstRc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:gpoEstRc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom3351",
+        "InputFieldName": "methodOfPayment",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:methodOfPayment",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom4323",
+        "InputFieldName": "GetAutoDetails:cAuto:mtoValorComercial",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:mtoValorComercial",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom5122",
+        "InputFieldName": "GetAutoDetails:cAuto:mtoValorNuevo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:mtoValorNuevo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom1491",
+        "InputFieldName": "profile",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:profile",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom6045",
+        "InputFieldName": "ClbBanSystemSettings:ClbBanSS:ruleId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:ruleId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInputDataForJsonRequestAutoCustom9753",
+        "InputFieldName": "user",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInputDataForJsonRequestAuto",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "inputValuesForJsonRequest:user",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

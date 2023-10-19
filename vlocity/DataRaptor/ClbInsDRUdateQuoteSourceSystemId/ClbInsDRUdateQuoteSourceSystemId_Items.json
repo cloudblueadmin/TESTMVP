@@ -1,0 +1,60 @@
+[
+    {
+        "GlobalKey": "ClbInsDRUdateQuoteSourceSystemIdCustom4904",
+        "InputFieldName": "CreateQuote:Quote_1:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRUdateQuoteSourceSystemId",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUdateQuoteSourceSystemId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUdateQuoteSourceSystemId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__SourceSystemIdentifier__c",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRUdateQuoteSourceSystemIdCustom4458",
+        "InputFieldName": "CreateQuote:Quote_1:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "Name": "ClbInsDRUdateQuoteSourceSystemId",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUdateQuoteSourceSystemId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUdateQuoteSourceSystemId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRUdateQuoteSourceSystemIdCustom7284",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRUdateQuoteSourceSystemId",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRUdateQuoteSourceSystemId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRUdateQuoteSourceSystemId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Quote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

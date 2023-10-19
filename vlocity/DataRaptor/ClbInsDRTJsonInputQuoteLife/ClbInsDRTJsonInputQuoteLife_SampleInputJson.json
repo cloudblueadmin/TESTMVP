@@ -1,0 +1,143 @@
+{
+    "AccountData": {
+        "accountId": "001DO00000EsJjvYAF",
+        "birthDate": "1981-08-15",
+        "contactId": "003DO000008HhUCYA0",
+        "curp": "FOVC810815MHGLLH04",
+        "firstName": "MARIA CHANTAL",
+        "gender": "Female",
+        "lastName": "FLORES VILLALBA",
+        "rfc": "FOVC810815TW0",
+        "status": "Active"
+    },
+    "InitQuote": {
+        "opportunityId": "006DO000003WnVAYA0",
+        "pricebookId": "01sDn000006cxArIAI",
+        "quoteId": "0Q0DO0000008vZT0AY",
+        "quoteName": "MARIA CHANTAL FLORES VILLALBA -VI47- 10/12/2023",
+        "quoteTerm": "Annual"
+    },
+    "Step1": {
+        "BirthDate": "1981-08-15",
+        "CURP": "FOVC810815MHGLLH04",
+        "Email": "gromoa@desarrollo-ultrasist.com.mx",
+        "FirstName": "MARIA CHANTAL",
+        "LastName": "FLORES VILLALBA",
+        "PhoneNumber": "5585419712",
+        "RFC": "FOVC810815TW0"
+    },
+    "Step2": {
+        "Address": {
+            "City": "Mazatlán",
+            "Country": "México",
+            "ExternalNumber": 245,
+            "InternalNumber": 1,
+            "PostalCode": "82000",
+            "State": "Sinaloa",
+            "Street": "AV CENTRAL NORTE",
+            "Town": "Balcones de Loma Linda"
+        }
+    },
+    "Step3": {
+        "BenificiaryInformation": [
+            {
+                "Address": {
+                    "City": "Balcones de Loma Linda",
+                    "Country": "México",
+                    "ExternalNumber": 245,
+                    "InternalNumber": 1,
+                    "PostalCode": "82000",
+                    "State": "Sinaloa",
+                    "Street": "AV CENTRAL NORTE",
+                    "Town": "Mazatlán"
+                },
+                "BirthDate": "1983-10-18",
+                "FirstName": "Erik",
+                "KinshipExternalCode": "0041",
+                "LastName": "Aranda",
+                "NumBen": 1,
+                "Percentage": 100,
+                "email": ""
+            }
+        ]
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 26089.8,
+            "Code": "SEGURO_VI_APF3_ROOT",
+            "EndDate": "2024-10-12",
+            "StartDate": "2023-10-12",
+            "branch": "VI47",
+            "expense": 0,
+            "expenseOnFirstInstallment": false,
+            "installmentAmount": 26089.8,
+            "numInstallments": "001",
+            "priceWithExpense": 26089.8,
+            "taxAmount": 0,
+            "total": 26089.8
+        },
+        "PackageCoverage": [
+            {
+                "codRamo": "Ries",
+                "code": "VI33",
+                "insuredAmount": 1500000,
+                "name": "Riesgos de Invalidez",
+                "price": 5775,
+                "tasa": 3.85
+            },
+            {
+                "codRamo": "Muer",
+                "code": "VI10",
+                "insuredAmount": 1500000,
+                "name": "Muerte Accidental",
+                "price": 750,
+                "tasa": 0.5
+            },
+            {
+                "codRamo": "Inde",
+                "code": "VI58",
+                "insuredAmount": 150000,
+                "name": "Indemnización Hospitalaria por Accidente",
+                "price": 1299,
+                "tasa": 8.66
+            },
+            {
+                "codRamo": "Inde",
+                "code": "VI67",
+                "insuredAmount": 7500,
+                "name": "Indemnización Diaria por Hospitalización",
+                "price": 4111.8,
+                "tasa": 548.24
+            },
+            {
+                "codRamo": "Fall",
+                "code": "VI00",
+                "insuredAmount": 1500000,
+                "name": "Fallecimiento",
+                "price": 12195,
+                "tasa": 8.13
+            },
+            {
+                "codRamo": "Enfe",
+                "code": "VI95",
+                "insuredAmount": 300000,
+                "name": "Enfermedades Graves",
+                "price": 1959,
+                "tasa": 6.53
+            }
+        ]
+    },
+    "Step5": {
+        "Amount": 26089.8,
+        "Bank": "062",
+        "CardCVV": "998",
+        "CardMonth": 5,
+        "CardNumber": 5101910203349540,
+        "CardYear": 2029,
+        "FirstName": "Guillermo ",
+        "IsRecurringPayment": true,
+        "LastName": "Romo",
+        "PaymentPeriod": "001",
+        "TypeOfCard": "04"
+    }
+}

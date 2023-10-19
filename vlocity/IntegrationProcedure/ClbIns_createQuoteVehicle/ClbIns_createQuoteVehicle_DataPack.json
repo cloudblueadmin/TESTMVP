@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ClbIns_createQuoteVehicle_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsCreateQuoteVehicle",
+    "OmniProcessElement": [
+        "ClbIns_createQuoteVehicle_Element_JsonInputQuoteVehicle.json",
+        "ClbIns_createQuoteVehicle_Element_CreateUpdateQuote.json",
+        "ClbIns_createQuoteVehicle_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_createQuoteVehicle",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_createQuoteVehicle_PropertySetConfig.json",
+    "SubType": "createQuoteVehicle",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/createQuoteVehicle/Procedure",
+    "WebComponentKey": "47527efc-1017-ce8f-0c1d-f4c84e474511"
+}

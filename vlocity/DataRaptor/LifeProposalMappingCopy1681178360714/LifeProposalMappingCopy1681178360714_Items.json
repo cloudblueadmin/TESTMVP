@@ -1,0 +1,249 @@
+[
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem4",
+        "InputFieldName": "Billing State/Province",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Billing State/Province",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem5",
+        "InputFieldName": "Billing Zip/Postal Code",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Billing Zip/Postal Code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem11",
+        "InputFieldName": "BillingStreet",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BillingStreet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem2",
+        "InputFieldName": "PersonAccount:PrimaryProducerName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BrokerName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem3",
+        "InputFieldName": "EffectiveDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EffectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem7",
+        "InputFieldName": "Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Email",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem6",
+        "InputFieldName": "ExpirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ExpirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem0",
+        "InputFieldName": "PersonAccountDetails:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem9",
+        "InputFieldName": "GrandTotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "GrandTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem1",
+        "InputFieldName": "PersonAccountDetails:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem8",
+        "InputFieldName": "Phone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Phone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem12",
+        "InputFieldName": "QuoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "LifeProposalMappingCopy1681178360714Custom0jIDN000000Gmtf2ACItem10",
+        "InputFieldName": "TAX",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "LifeProposalMappingCopy1681178360714",
+        "OmniDataTransformationId": {
+            "Name": "LifeProposalMappingCopy1681178360714",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LifeProposalMappingCopy1681178360714",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TAX",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

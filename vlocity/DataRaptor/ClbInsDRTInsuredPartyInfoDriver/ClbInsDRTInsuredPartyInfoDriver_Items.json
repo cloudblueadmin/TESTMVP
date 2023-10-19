@@ -1,0 +1,211 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem5",
+        "InputFieldName": "GetIsuredProductDetails:PricebookEntryId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PricebookEntryId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem6",
+        "InputFieldName": "GetIsuredProductDetails:ProductId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProductId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem2",
+        "InputFieldName": "GetIsuredProductDetails:SumaAseg",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SumaAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem1",
+        "InputFieldName": "driverInfo:Address",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:Address",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem4",
+        "InputFieldName": "driverInfo:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:Apellidos",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem3",
+        "InputFieldName": "driverInfo:CURP",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:CURP",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem0",
+        "InputFieldName": "driverInfo:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:Nombres",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "S",
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:indasegurado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "N",
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem10",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:indcontratante",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "N",
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem9",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured:indresppago",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTInsuredPartyInfoDriverCustom0jIDO00000001N22AIItem7",
+        "InputFieldName": "GetIsuredProductDetails:quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTInsuredPartyInfoDriver",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTInsuredPartyInfoDriver",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

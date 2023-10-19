@@ -1,0 +1,15 @@
+{
+    "Step4": {
+        "PackageCoverage": [
+            {
+                "NombreComercial": "Terremoto y erupción volcánica",
+                "code": "TE01",
+                "insuredAmount": 4000000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 642.8
+            }
+        ]
+    }
+}

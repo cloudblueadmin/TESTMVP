@@ -1,0 +1,75 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'Active'",
+        "FormulaSequence": 0,
+        "GlobalKey": "7380e166-01c1-4abd-9362-d0cbe2b5392b",
+        "InputFieldName": "%vlocity_namespace%__Status__c",
+        "InputObjectName": "%vlocity_namespace%__DocumentTemplate__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "VPLGetDocumentTemplateId1011",
+        "OmniDataTransformationId": {
+            "Name": "VPLGetDocumentTemplateId1011",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLGetDocumentTemplateId1011",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "template",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "templateName",
+        "FormulaSequence": 0,
+        "GlobalKey": "8dc5bd83-f48d-4023-8c89-7261e3f0162f",
+        "InputFieldName": "Name",
+        "InputObjectName": "%vlocity_namespace%__DocumentTemplate__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "VPLGetDocumentTemplateId1011",
+        "OmniDataTransformationId": {
+            "Name": "VPLGetDocumentTemplateId1011",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLGetDocumentTemplateId1011",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "template",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "bcd28dc6-f2b5-430f-b78f-f4cd644f0652",
+        "InputFieldName": "template:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "VPLGetDocumentTemplateId1011",
+        "OmniDataTransformationId": {
+            "Name": "VPLGetDocumentTemplateId1011",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VPLGetDocumentTemplateId1011",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "templateId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

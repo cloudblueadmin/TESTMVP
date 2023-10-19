@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ResponseIdQuoteIdEmpty",
+    "OmniProcessId": {
+        "Name": "ClbInsSaveLifeAssessmentResponses",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/SaveLifeAssessmentResponses/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "message": "=\"Lo sentimos al declarar tener alguna Enfermedad o padecimiento preexistente, no es posible contratar este seguro, puedes continuar adquiriendo Otro seguro de tu preferencia\""
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "(%quoteId%==\"\" OR %quoteId%==$Vlocity.NULL) AND %responses:preexisting_diseases%==false",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/SaveLifeAssessmentResponses/Procedure/ResponseIdQuoteIdEmpty"
+}

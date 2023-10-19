@@ -1,0 +1,20 @@
+{
+    "DRE_GetFirstInstallmentByProduct": {
+        "expenseOnFirstInstallment": false
+    },
+    "DRE_GetFirstInstallmentByProductStatus": true,
+    "expense": 500,
+    "numInstallments": "12",
+    "options": {
+        "chainable": false,
+        "ignoreCache": true,
+        "queueableChainable": false,
+        "resetCache": false,
+        "useQueueableApexRemoting": false
+    },
+    "price": "1500",
+    "priceWithExpense": "200",
+    "productCode": "SEGURO_VI_APF1_ROOT",
+    "taxAmount": "320",
+    "total": "2320"
+}

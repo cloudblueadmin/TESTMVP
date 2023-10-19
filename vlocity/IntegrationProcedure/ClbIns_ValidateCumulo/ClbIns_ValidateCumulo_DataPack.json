@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "ClbIns_ValidateCumulo_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsValidateCumulo",
+    "OmniProcessElement": [
+        "ClbIns_ValidateCumulo_Element_ValidateCurp.json",
+        "ClbIns_ValidateCumulo_Element_ResponseCurpInvalid.json",
+        "ClbIns_ValidateCumulo_Element_ClbBanSystemSettings.json",
+        "ClbIns_ValidateCumulo_Element_TokenBanorte.json",
+        "ClbIns_ValidateCumulo_Element_TransformRequestCumulo.json",
+        "ClbIns_ValidateCumulo_Element_PostCumulo.json",
+        "ClbIns_ValidateCumulo_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_ValidateCumulo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_ValidateCumulo_PropertySetConfig.json",
+    "SubType": "ValidateCumulo",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/ValidateCumulo/Procedure",
+    "WebComponentKey": "fe0971b0-ad9a-fc3d-403d-b2ae385f750a"
+}

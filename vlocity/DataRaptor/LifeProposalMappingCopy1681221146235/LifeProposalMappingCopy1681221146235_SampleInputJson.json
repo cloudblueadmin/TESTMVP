@@ -1,0 +1,19 @@
+{
+    "Billing State/Province": "CDMX",
+    "Billing Zip/Postal Code": "06010",
+    "BillingCity": "CDMX",
+    "BillingStreet": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+    "EffectiveDate": "2023-04-10",
+    "Email": "radams@example.com",
+    "ExpirationDate": "2023-05-09",
+    "GrandTotal": 4452.82,
+    "PersonAccount": {
+        "PrimaryProducerName": "ProducerId"
+    },
+    "PersonAccountDetails": {
+        "FirstName": "Rachel",
+        "LastName": "Adams"
+    },
+    "QuoteNumber": "00000013",
+    "TAX": 0
+}

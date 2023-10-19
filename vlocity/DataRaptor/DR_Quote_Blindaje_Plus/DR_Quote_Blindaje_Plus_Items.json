@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "DR_Quote_Blindaje_PlusCustom7615",
+        "InputFieldName": "Step0:CNT_DIAS_VIGENCIA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Quote_Blindaje_Plus",
+        "OmniDataTransformationId": {
+            "Name": "DR_Quote_Blindaje_Plus",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Quote_Blindaje_Plus",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_BLINDAJE_PLUS_ROOT.CNT_DIAS_VIGENCIA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Quote_Blindaje_PlusCustom8182",
+        "InputFieldName": "Step0:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Quote_Blindaje_Plus",
+        "OmniDataTransformationId": {
+            "Name": "DR_Quote_Blindaje_Plus",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Quote_Blindaje_Plus",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_BLINDAJE_PLUS_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Quote_Blindaje_PlusCustom4792",
+        "InputFieldName": "Step0:PORCENTAJE_DESCUENTO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Quote_Blindaje_Plus",
+        "OmniDataTransformationId": {
+            "Name": "DR_Quote_Blindaje_Plus",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Quote_Blindaje_Plus",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_BLINDAJE_PLUS_ROOT.PORCENTAJE_DESCUENTO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

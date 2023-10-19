@@ -1,0 +1,268 @@
+[
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom1486",
+        "InputFieldName": "getQuoteDetail:quoteDetail:%vlocity_namespace%__RootItemTotal__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:annualPremium",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom2416",
+        "InputFieldName": "getQuoteDetail:quoteDetail:%vlocity_namespace%__EffectiveDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom2654",
+        "InputFieldName": "getQuoteDetail:quoteDetail:%vlocity_namespace%__EndDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:expirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom5831",
+        "InputFieldName": "getQuoteDetail:quoteDetail:ExpirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:expirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom2663",
+        "InputFieldName": "getQuoteDetail:quoteDetail:%vlocity_namespace%__TotalFeeAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:feeAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom4269",
+        "InputFieldName": "getProducerDetail:producer:producerEmail",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:producerEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom2256",
+        "InputFieldName": "getProducerDetail:producer:producerName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:producerName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom1282",
+        "InputFieldName": "getProducerDetail:producer:producerPhone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:producerPhone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom134",
+        "InputFieldName": "getQuoteDetail:productConfigurationDetail:records:productName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom5960",
+        "InputFieldName": "getQuoteDetail:quoteDetail:QuoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:recordNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom282",
+        "InputFieldName": "getQuoteDetail:quoteDetail:Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom8464",
+        "InputFieldName": "getQuoteDetail:quoteDetail:%vlocity_namespace%__TotalTaxAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:taxAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom6294",
+        "InputFieldName": "getQuoteDetail:quoteDetail:%vlocity_namespace%__TotalAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteConfirm:totalAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "transAutoQuoteConfirm_OSCustom652",
+        "InputFieldName": "getQuoteDetail:quoteDetail:QuoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "transAutoQuoteConfirm_OS",
+        "OmniDataTransformationId": {
+            "Name": "transAutoQuoteConfirm_OS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/transAutoQuoteConfirm_OS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

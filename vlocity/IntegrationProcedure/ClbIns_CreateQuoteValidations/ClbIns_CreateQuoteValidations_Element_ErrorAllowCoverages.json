@@ -1,0 +1,30 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ErrorAllowCoverages",
+    "OmniProcessId": {
+        "Name": "ClbInsCreateQuoteValidations",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/CreateQuoteValidations/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "message": "Algunas coberturas no corresponden a este producto"
+        },
+        "executionConditionalFormula": "=PrepareCoverages:AllowCoverages:code != null",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues18",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/CreateQuoteValidations/Procedure/ErrorAllowCoverages"
+}

@@ -1,0 +1,14 @@
+{
+    "userInputs": {
+        "autoDriver.FirstName": "Alberto",
+        "autoDriver.Gender": "M",
+        "autoDriver.LastName": "Juarez",
+        "autoDriver.instanceKey": "Alberto Juarez",
+        "autoDriver.isPrimary": "Boolean",
+        "autoVehicle.Make": "Nissan",
+        "autoVehicle.Model": "Sentra",
+        "autoVehicle.Type": "PASSENGER CAR",
+        "autoVehicle.Year": "2023",
+        "autoVehicle.instanceKey": "2023 Nissan Sentra"
+    }
+}

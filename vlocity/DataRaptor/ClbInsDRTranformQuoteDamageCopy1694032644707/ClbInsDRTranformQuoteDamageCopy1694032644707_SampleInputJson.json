@@ -1,0 +1,500 @@
+{
+    "quote": {
+        "asegurado": {
+            "apellido": "Martinez",
+            "curp": "BIZA701230HDFRPL10",
+            "email": "personaa@gmail.com",
+            "nombres": "Claudia",
+            "phone": "5645634534",
+            "rfc": "BIZA701230DK4"
+        },
+        "effectiveDate": "2023-09-05",
+        "expirationDate": "2024-09-05",
+        "number": "1000104",
+        "price": 2899.87,
+        "qli": [
+            {
+                "attribute": {
+                    "ProductCode": "I013",
+                    "insuredAmount": 160000,
+                    "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                    "price": 12.06,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004pH04AI",
+                "lineNumber": "00008161",
+                "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 12.06,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 1600000,
+                    "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                    "price": 72.43,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004pH14AI",
+                "lineNumber": "00008162",
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 72.43,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 1600000,
+                    "name": "INCE-CONTENIDO-HUELGAS Y VANDALISMO (S)",
+                    "price": 36.22,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004pH24AI",
+                "lineNumber": "00008163",
+                "name": "INCE-CONTENIDO-HUELGAS Y VANDALISMO (S)",
+                "price": 36.22,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 1600000,
+                    "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 36.22,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004pH34AI",
+                "lineNumber": "00008164",
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 36.22,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 1600000,
+                    "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                    "price": 36.22,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXPLOSION",
+                "id": "0QLDO0000004pH44AI",
+                "lineNumber": "00008165",
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 36.22,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 72000,
+                    "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 7.2,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INFLACION",
+                "id": "0QLDO0000004pH54AI",
+                "lineNumber": "00008166",
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 7.2,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RCF2",
+                    "insuredAmount": 1000000,
+                    "name": "RCGE-RENTADO-ARRENDATARIO",
+                    "price": 0,
+                    "tasa": null
+                },
+                "code": "OTROS_Calculo_Prima__RCGE_ASEG_PR_ARRENDATARIO",
+                "id": "0QLDO0000004pH64AI",
+                "lineNumber": "00008167",
+                "name": "RCGE-RENTADO-ARRENDATARIO",
+                "price": 0,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RCF1",
+                    "insuredAmount": 1000000,
+                    "name": "RCGE-PROPIO-FAMILIAR",
+                    "price": 80.7,
+                    "tasa": null
+                },
+                "code": "OTROS_Calculo_Prima__RCGE_ASEG_PR_FAMILIAR",
+                "id": "0QLDO0000004pH74AI",
+                "lineNumber": "00008168",
+                "name": "RCGE-PROPIO-FAMILIAR",
+                "price": 80.7,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RB03",
+                    "insuredAmount": 100000,
+                    "name": "DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO",
+                    "price": 338.2,
+                    "tasa": null
+                },
+                "code": "OTROS_Calculo_Prima__DMRB_ASEG_PR_ROBO_VIOLENCIA_DENTRO",
+                "id": "0QLDO0000004pH84AI",
+                "lineNumber": "00008169",
+                "name": "DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO",
+                "price": 338.2,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RB15",
+                    "insuredAmount": 4500,
+                    "name": "DMRB-PROPIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                    "price": 0.45,
+                    "tasa": null
+                },
+                "code": "OTROS_Calculo_Prima__DMRB_ASEG_PR_AJUSTE_AUTOMATICO_INFLACION",
+                "id": "0QLDO0000004pH94AI",
+                "lineNumber": "00008170",
+                "name": "DMRB-PROPIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                "price": 0.45,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "MA01",
+                    "insuredAmount": 50000,
+                    "name": "DMED-PROPIO-DAÑOS MATERIALES",
+                    "price": 35.13,
+                    "tasa": null
+                },
+                "code": "OTROS_Calculo_Prima__DMED_ASEG_PR_DANOS_MATERIALES",
+                "id": "0QLDO0000004pHA4AY",
+                "lineNumber": "00008171",
+                "name": "DMED-PROPIO-DAÑOS MATERIALES",
+                "price": 35.13,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE01",
+                    "insuredAmount": 4000000,
+                    "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                    "price": 642.8,
+                    "tasa": null
+                },
+                "code": "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION",
+                "id": "0QLDO0000004pGl4AI",
+                "lineNumber": "00008146",
+                "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 642.8,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RH01",
+                    "insuredAmount": 4000000,
+                    "name": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS",
+                    "price": 505.2,
+                    "tasa": null
+                },
+                "code": "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_RIESGOS_HIDRO",
+                "id": "0QLDO0000004pGm4AI",
+                "lineNumber": "00008147",
+                "name": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS",
+                "price": 505.2,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RH02",
+                    "insuredAmount": 400000,
+                    "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 30.16,
+                    "tasa": null
+                },
+                "code": "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004pGn4AI",
+                "lineNumber": "00008148",
+                "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 30.16,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 4000000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                    "price": 150.9,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                "id": "0QLDO0000004pGo4AI",
+                "lineNumber": "00008149",
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 150.9,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I013",
+                    "insuredAmount": 400000,
+                    "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 30.16,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004pGp4AI",
+                "lineNumber": "00008150",
+                "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 30.16,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 4000000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 181.08,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004pGq4AI",
+                "lineNumber": "00008151",
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 181.08,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 4000000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                    "price": 90.54,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004pGr4AI",
+                "lineNumber": "00008152",
+                "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                "price": 90.54,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 4000000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 90.54,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004pGs4AI",
+                "lineNumber": "00008153",
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 90.54,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 4000000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                    "price": 90.54,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                "id": "0QLDO0000004pGt4AI",
+                "lineNumber": "00008154",
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 90.54,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 180000,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 18,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION",
+                "id": "0QLDO0000004pGu4AI",
+                "lineNumber": "00008155",
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 18,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE01",
+                    "insuredAmount": 1600000,
+                    "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                    "price": 128.56,
+                    "tasa": null
+                },
+                "code": "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION",
+                "id": "0QLDO0000004pGv4AI",
+                "lineNumber": "00008156",
+                "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 128.56,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "TE02",
+                    "insuredAmount": 160000,
+                    "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                    "price": 12.06,
+                    "tasa": null
+                },
+                "code": "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004pGw4AI",
+                "lineNumber": "00008157",
+                "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 12.06,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RH01",
+                    "insuredAmount": 1600000,
+                    "name": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS",
+                    "price": 202.08,
+                    "tasa": null
+                },
+                "code": "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PR_RIESGOS_HIDRO",
+                "id": "0QLDO0000004pGx4AI",
+                "lineNumber": "00008158",
+                "name": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS",
+                "price": 202.08,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RH02",
+                    "insuredAmount": 160000,
+                    "name": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                    "price": 12.06,
+                    "tasa": null
+                },
+                "code": "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004pGy4AI",
+                "lineNumber": "00008159",
+                "name": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 12.06,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 1600000,
+                    "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                    "price": 60.36,
+                    "tasa": null
+                },
+                "code": "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO",
+                "id": "0QLDO0000004pGz4AI",
+                "lineNumber": "00008160",
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 60.36,
+                "type": "CoverageSpec"
+            },
+            {
+                "id": "0QLDO0000004pGG4AY",
+                "lineNumber": "00008116",
+                "name": "SEGURO de CASA HABITACION APF - PROPIO",
+                "price": 0,
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64",
+                        "Town": "Colonia Centro, Juárez, Cuauhtémoc"
+                    },
+                    "Apellidos": "Martinez",
+                    "BirthDate": "1980-01-01",
+                    "CURP": "BIZA701230HDFRPL10",
+                    "Email": "personaa@gmail.com",
+                    "FirstName": "Claudia",
+                    "LastName": "Martinez",
+                    "Nombres": "Claudia",
+                    "PhoneNumber": "5645634534",
+                    "RFC": "BIZA701230DK4",
+                    "indasegurado": "N",
+                    "indcontratante": "S",
+                    "indresppago": "S"
+                },
+                "id": "0QLDO0000004pGH4AY",
+                "lineNumber": "00008117",
+                "name": "INS-PARTY ASEGURADO",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64",
+                        "Town": "Colonia Centro, Juárez, Cuauhtémoc"
+                    },
+                    "BuildingAge": "20 años",
+                    "ContentsInsuredAmount": 20,
+                    "Levels": "1 a 5 niveles",
+                    "MarDistance": true,
+                    "Value": 4000000
+                },
+                "id": "0QLDO0000004pGI4AY",
+                "lineNumber": "00008118",
+                "name": "INS-ITEM EDIFICIO",
+                "price": 0,
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64",
+                        "Town": "Colonia Centro, Juárez, Cuauhtémoc"
+                    },
+                    "BirthDate": "1980-01-01",
+                    "CURP": "BIZA701230HDFRPL10",
+                    "Email": "personaa@gmail.com",
+                    "FirstName": "Claudia",
+                    "LastName": "Martinez",
+                    "PhoneNumber": "5645634534",
+                    "RFC": "BIZA701230DK4",
+                    "fullName": " ",
+                    "indasegurado": "S",
+                    "indcontratante": "N",
+                    "indresppago": "N"
+                },
+                "id": "0QLDO0000004pGJ4AY",
+                "lineNumber": "00008119",
+                "name": "Beneficiario",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            }
+        ]
+    }
+}

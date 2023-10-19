@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "ClbIns_GetTokenDataForDamageTemplate_SampleInput.json",
+    "Description": "Get the data that will be print a TemplateDamage document + Changes in the last template",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetTokenDataForDamageTemplate",
+    "OmniProcessElement": [
+        "ClbIns_GetTokenDataForDamageTemplate_Element_GetQuoteDetailsDamage.json",
+        "ClbIns_GetTokenDataForDamageTemplate_Element_CoveragesWithUpdatedNumbers.json",
+        "ClbIns_GetTokenDataForDamageTemplate_Element_DRTransformQuoteDamage.json",
+        "ClbIns_GetTokenDataForDamageTemplate_Element_svDRTransformDamage.json",
+        "ClbIns_GetTokenDataForDamageTemplate_Element_svTokenData.json",
+        "ClbIns_GetTokenDataForDamageTemplate_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetTokenDataForDamageTemplate",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "tearsheet_%vlocity_namespace%__DocumentGeneration_CreateTearSheet_Procedure_1",
+    "PropertySetConfig": "ClbIns_GetTokenDataForDamageTemplate_PropertySetConfig.json",
+    "SubType": "GetTokenDataForDamageTemplate",
+    "Type": "ClbIns",
+    "UniqueName": "DocumentGeneration_CreateTearSheet_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetTokenDataForDamageTemplate/Procedure",
+    "WebComponentKey": "2e6328b2-9612-9d11-5527-f50e08b99038"
+}

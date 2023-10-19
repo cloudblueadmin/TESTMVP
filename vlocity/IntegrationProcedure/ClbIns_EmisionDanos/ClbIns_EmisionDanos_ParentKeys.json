@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ClbDRTCoveragesWithIndex",
+    "DataRaptor/ClbInsDREGetQuoteCoverages",
+    "DataRaptor/ClbInsDREGetQuoteCoveragesNotBuilding",
+    "DataRaptor/ClbInsDRTCobertCertNode",
+    "DataRaptor/clbDREmisionHome",
+    "IntegrationProcedure/ClbIns_BanorteAPITokenCreate"
+]

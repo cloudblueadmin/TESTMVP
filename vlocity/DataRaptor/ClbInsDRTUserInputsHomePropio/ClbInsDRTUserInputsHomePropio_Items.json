@@ -1,0 +1,175 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom9653",
+        "InputFieldName": "aplicaContenidos",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.APLICA_CONTENIDOS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom3076",
+        "InputFieldName": "aplicaDmed",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.APLICA_DMED",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom918",
+        "InputFieldName": "aplicaDmrb",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.APLICA_DMRB",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "false",
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom8430",
+        "InputFieldName": "aplicaRcge",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.APLICA_RCGE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom5307",
+        "InputFieldName": "aplicaRhmt",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.APLICA_RHMT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom7765",
+        "InputFieldName": "aplicaTeev",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.APLICA_TEEV",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom870",
+        "InputFieldName": "codigoPostal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.CODIGO_POSTAL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom0jIDO00000000xR2AQItem0",
+        "InputFieldName": "porcentajeContenidos",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number",
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.PORCENTAJE_CONTENIDOS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomePropioCustom7117",
+        "InputFieldName": "valorInmueble",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomePropio",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomePropio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomePropio",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_PROPIO_ROOT.VALOR_EDIFICIO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

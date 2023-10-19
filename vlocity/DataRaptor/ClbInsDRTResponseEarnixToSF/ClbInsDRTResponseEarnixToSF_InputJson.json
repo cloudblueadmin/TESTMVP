@@ -1,0 +1,174 @@
+{
+    "CodError": 200,
+    "DescError": "",
+    "FriendlyMessage": "",
+    "Poliza": {
+        "Certificado": [
+            {
+                "CodErrorCert": 0,
+                "IndicadorPrograma": "000",
+                "NumCert": 1,
+                "Paquete": [
+                    {
+                        "Cobertura": [
+                            {
+                                "BaseDeducible": "S",
+                                "CodCobert": "A004",
+                                "Deducible": 10,
+                                "MtoPrimaCob": 5725.27,
+                                "MtoPrimaFactCob": 5725.27,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": 10,
+                                "SumaAsegurada": 598428
+                            },
+                            {
+                                "BaseDeducible": "M",
+                                "CodCobert": "A005",
+                                "Deducible": 0,
+                                "MtoPrimaCob": 990.74,
+                                "MtoPrimaFactCob": 990.74,
+                                "NumDiasDed": 0,
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 4000000
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A006",
+                                "Deducible": "",
+                                "MtoPrimaCob": 120.29,
+                                "MtoPrimaFactCob": 120.29,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 150000
+                            },
+                            {
+                                "BaseDeducible": "M",
+                                "CodCobert": "A007",
+                                "Deducible": 0,
+                                "MtoPrimaCob": 148.61,
+                                "MtoPrimaFactCob": 148.61,
+                                "NumDiasDed": 0,
+                                "NumDiasEmi": "",
+                                "PorcDed": 0,
+                                "SumaAsegurada": 4000000
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A009",
+                                "Deducible": "",
+                                "MtoPrimaCob": 129.69,
+                                "MtoPrimaFactCob": 129.69,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 1000000
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A010",
+                                "Deducible": "",
+                                "MtoPrimaCob": 259,
+                                "MtoPrimaFactCob": 259,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 750000
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A014",
+                                "Deducible": "",
+                                "MtoPrimaCob": 161.46,
+                                "MtoPrimaFactCob": 161.46,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": 15,
+                                "PorcDed": "",
+                                "SumaAsegurada": 6000
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A012",
+                                "Deducible": "",
+                                "MtoPrimaCob": 34.58,
+                                "MtoPrimaFactCob": 34.58,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 100000
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A023",
+                                "Deducible": "",
+                                "MtoPrimaCob": 38,
+                                "MtoPrimaFactCob": 38,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 100
+                            },
+                            {
+                                "BaseDeducible": "S",
+                                "CodCobert": "A017",
+                                "Deducible": 10,
+                                "MtoPrimaCob": 1262.7,
+                                "MtoPrimaFactCob": 1262.7,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": 10,
+                                "SumaAsegurada": 63731.768350000006
+                            },
+                            {
+                                "BaseDeducible": "",
+                                "CodCobert": "A022",
+                                "Deducible": "",
+                                "MtoPrimaCob": 38.61,
+                                "MtoPrimaFactCob": 38.61,
+                                "NumDiasDed": "",
+                                "NumDiasEmi": "",
+                                "PorcDed": "",
+                                "SumaAsegurada": 300000
+                            }
+                        ],
+                        "CodRecaDctoBE": " ",
+                        "CodRecaDctoDis": "",
+                        "CodRecaDctoEarnix": " ",
+                        "CodRecaDctoVol": " ",
+                        "Codplan": "A02",
+                        "MtoRecaDctoEarnix": 0,
+                        "Plan": "1107",
+                        "PorcRecaDctoBE": 0,
+                        "PorcRecaDctoDis": 0,
+                        "PorcRecaDctoEarnix": 0,
+                        "PorcRecaDctoVol": 0,
+                        "Revplan": "000",
+                        "SumPrimaPaq": 8908.95,
+                        "TipoRecaDctoBE": " ",
+                        "TipoRecaDctoDis": "",
+                        "TipoRecaDctoEarnix": " ",
+                        "TipoRecaDctoVol": " "
+                    }
+                ],
+                "Siniestro": [
+                    {
+                    }
+                ],
+                "SumPrimaCert": 8908.95
+            }
+        ],
+        "Cotizacion": "",
+        "EAProductId": 30453,
+        "EARuleId": 31372,
+        "EAVersionId": 21955283,
+        "NumVehiculos": 1,
+        "SumPrimaPoliza": 8908.95,
+        "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7"
+    },
+    "Status": "Success",
+    "UUID": "c30625ea-4c01-4be9-9790-46b0306614d7",
+    "data": null,
+    "message": null
+}

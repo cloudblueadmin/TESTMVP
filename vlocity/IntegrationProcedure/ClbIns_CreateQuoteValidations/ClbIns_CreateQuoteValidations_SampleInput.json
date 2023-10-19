@@ -1,0 +1,101 @@
+{
+    "Step4": {
+        "Package": {
+            "Amount": 4112.76,
+            "Code": "A03",
+            "EndDate": "2024-10-12",
+            "StartDate": "2023-10-12",
+            "branch": "A003",
+            "expense": 500,
+            "expenseOnFirstInstallment": false,
+            "installmentAmount": 5350.8,
+            "numInstallments": "001",
+            "priceWithExpense": 4612.76,
+            "taxAmount": 738.04,
+            "total": 5350.8
+        },
+        "PackageCoverage": [
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "20",
+                "code": "A002",
+                "insuredAmount": "75000",
+                "price": 0
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "5",
+                "code": "A004",
+                "insuredAmount": "197027",
+                "price": 1110.11
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A005",
+                "insuredAmount": "4000000",
+                "price": 495.37
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A006",
+                "insuredAmount": "250000",
+                "price": 86.05
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "3",
+                "code": "A001",
+                "insuredAmount": "197027",
+                "price": 1167.59
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A010",
+                "insuredAmount": "750000",
+                "price": 142.45
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A009",
+                "insuredAmount": "1000000",
+                "price": 71.33
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A016",
+                "insuredAmount": "8230.42",
+                "price": 869.09
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A015",
+                "insuredAmount": "6000",
+                "price": 170.77
+            }
+        ]
+    }
+}

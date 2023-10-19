@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "RHMT-EDIFICIO-GASTOS EXTRAORDINARIOS PARA CASAS HABITACIÓN (S)",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "de3bf879-51c5-672a-d702-c08a6cbdd972",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "de3bf879-51c5-672a-d702-c08a6cbdd972",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/de3bf879-51c5-672a-d702-c08a6cbdd972",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "RHMT_EDIFICIO_GASTOS_EXTRAORDINARIOS",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/de3bf879-51c5-672a-d702-c08a6cbdd972"
+    }
+]

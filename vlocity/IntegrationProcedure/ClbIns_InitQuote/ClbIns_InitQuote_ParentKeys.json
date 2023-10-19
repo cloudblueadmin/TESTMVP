@@ -1,0 +1,11 @@
+[
+    "DataRaptor/ClbDRGetAccByCURP",
+    "DataRaptor/ClbInsDRCreateOpp",
+    "DataRaptor/ClbInsDREGetQuoteNumber",
+    "DataRaptor/ClbInsDREGetStandardPricebookId",
+    "DataRaptor/ClbInsDRPCreateQuote",
+    "DataRaptor/ClbInsDRUdateQuoteSourceSystemId",
+    "DataRaptor/ClbInsDRUpdateQuoteNumber",
+    "DataRaptor/ClbInsUpdateAccount",
+    "DecisionMatrix/PeriodosPago"
+]

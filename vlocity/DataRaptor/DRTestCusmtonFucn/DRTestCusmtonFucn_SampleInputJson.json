@@ -1,0 +1,189 @@
+{
+    "quote": {
+        "effectiveDate": "2023-08-16",
+        "expirationDate": "2024-08-16",
+        "price": 3907500,
+        "qli": [
+            {
+                "id": "0QLDO0000004mq94AA",
+                "lineNumber": "00002485",
+                "name": "SEGURO de CASA HABITACION APF - PROPIO",
+                "price": 2500,
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Apellidos": "Briones Zepeda",
+                    "CURP": "BIZA701230HDFRPL04",
+                    "Nombres": "Alberto",
+                    "address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+                        "Town": ""
+                    }
+                },
+                "id": "0QLDO0000004mqA4AQ",
+                "lineNumber": "00002486",
+                "name": "INS-PARTY ASEGURADO",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+                        "Town": ""
+                    },
+                    "BuildingAge": "20 años",
+                    "ContentsInsuredAmount": 20,
+                    "Levels": "1 a 5 niveles",
+                    "MarDistance": true,
+                    "Value": 1000000
+                },
+                "id": "0QLDO0000004mqB4AQ",
+                "lineNumber": "00002487",
+                "name": "INS-ITEM EDIFICIO",
+                "price": 0,
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I001",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 500
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                "id": "0QLDO0000004mqC4AQ",
+                "lineNumber": "00002488",
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I002",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                    "price": 3850
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                "id": "0QLDO0000004mqD4AQ",
+                "lineNumber": "00002489",
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I003",
+                    "insuredAmount": 100000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                    "price": 866
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                "id": "0QLDO0000004mqE4AQ",
+                "lineNumber": "00002490",
+                "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                "price": 100000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I004",
+                    "insuredAmount": 5000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 2741.2
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                "id": "0QLDO0000004mqF4AQ",
+                "lineNumber": "00002491",
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 5000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I005",
+                    "insuredAmount": 1000000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                    "price": 8130
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                "id": "0QLDO0000004mqG4AQ",
+                "lineNumber": "00002492",
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 1000000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "I011",
+                    "insuredAmount": 200000,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 1306
+                },
+                "code": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION",
+                "id": "0QLDO0000004mqH4AQ",
+                "lineNumber": "00002493",
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 200000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RH02",
+                    "insuredAmount": 200000,
+                    "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 1306
+                },
+                "code": "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS",
+                "id": "0QLDO0000004mqI4AQ",
+                "lineNumber": "00002494",
+                "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 200000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "RB03",
+                    "insuredAmount": 200000,
+                    "name": "DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO",
+                    "price": 1306
+                },
+                "code": "OTROS_Calculo_Prima__DMRB_ASEG_PR_ROBO_VIOLENCIA_DENTRO",
+                "id": "0QLDO0000004mqJ4AQ",
+                "lineNumber": "00002495",
+                "name": "DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO",
+                "price": 200000,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "MA01",
+                    "insuredAmount": 200000,
+                    "name": "DMED-PROPIO-DAÑOS MATERIALES",
+                    "price": 1306
+                },
+                "code": "OTROS_Calculo_Prima__DMED_ASEG_PR_DANOS_MATERIALES",
+                "id": "0QLDO0000004mqK4AQ",
+                "lineNumber": "00002496",
+                "name": "DMED-PROPIO-DAÑOS MATERIALES",
+                "price": 200000,
+                "type": "CoverageSpec"
+            }
+        ]
+    },
+    "test4": false
+}

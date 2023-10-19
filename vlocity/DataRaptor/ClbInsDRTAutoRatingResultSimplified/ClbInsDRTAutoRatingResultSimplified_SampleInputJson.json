@@ -1,0 +1,86 @@
+{
+    "data": {
+        "results": [
+            {
+                "Poliza": {
+                    "Certificado": [
+                        {
+                            "NumCert": 1,
+                            "Paquete": [
+                                {
+                                    "Cobertura": [
+                                        {
+                                            "BaseDeducible": "S",
+                                            "CodCobert": "A004",
+                                            "Deducible": 10,
+                                            "MtoPrimaCob": 897.11,
+                                            "MtoPrimaFactCob": 897.11,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": 10,
+                                            "SumaAsegurada": 434000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A006",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 66.16,
+                                            "MtoPrimaFactCob": 66.16,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 150000
+                                        },
+                                        {
+                                            "BaseDeducible": "",
+                                            "CodCobert": "A009",
+                                            "Deducible": "",
+                                            "MtoPrimaCob": 71.33,
+                                            "MtoPrimaFactCob": 71.33,
+                                            "NumDiasDed": "",
+                                            "NumDiasEmi": "",
+                                            "PorcDed": "",
+                                            "SumaAsegurada": 1000000
+                                        }
+                                    ],
+                                    "CodRecaDctoBE": "",
+                                    "CodRecaDctoDis": "",
+                                    "CodRecaDctoEarnix": "ADL01",
+                                    "CodRecaDctoVol": "ADV02",
+                                    "Codplan": "A02",
+                                    "MtoRecaDctoEarnix": 846.49,
+                                    "Plan": "1107",
+                                    "PorcRecaDctoBE": 0,
+                                    "PorcRecaDctoDis": 0,
+                                    "PorcRecaDctoEarnix": 45,
+                                    "PorcRecaDctoVol": 45,
+                                    "Revplan": "000",
+                                    "SumPrimaPaq": 1034.6,
+                                    "TipoRecaDctoBE": "",
+                                    "TipoRecaDctoDis": "",
+                                    "TipoRecaDctoEarnix": "D",
+                                    "TipoRecaDctoVol": "D"
+                                }
+                            ],
+                            "Siniestro": [
+                                {
+                                }
+                            ],
+                            "SumPrimaCert": 1034.6
+                        }
+                    ],
+                    "Cotizacion": 1,
+                    "EAProductId": 30449,
+                    "NumVehiculos": 1,
+                    "SumPrimaPoliza": 1034.6
+                },
+                "quoteId": "5b2e8d75-b50d-4fe8-807b-d77affb3c024",
+                "versionId": 8195762
+            }
+        ],
+        "ruleId": 30683,
+        "serverIp": "10.43.9.81"
+    },
+    "message": "",
+    "status": "Success"
+}

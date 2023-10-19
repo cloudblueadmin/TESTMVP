@@ -1,0 +1,2125 @@
+{
+    "records": [
+        {
+            "CalculatedPriceData": {
+                "ID": "0",
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PRIMA": 130.35,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXPLOSION": 18.11,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA": 18.11,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS": 18.11,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO": 36.22,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INFLACION": 3.6,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS": 6.03,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO": 30.18,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_EXPLOSION": 800000,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_EXTENSION_CUBIERTA": 800000,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_HUELGAS_ALBOROTOS": 800000,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_INCENDIO_RAYO": 800000,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_INFLACION": 36000,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_REMOCION_ESCOMBROS": 80000,
+                "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_TODO_RIESGO": 800000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PRIMA": 651.76,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION": 90.54,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA": 90.54,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS": 90.54,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO": 181.08,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION": 18,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS": 30.16,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO": 150.9,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_EXPLOSION": 4000000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_EXTENSION_CUBIERTA": 4000000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_HUELGAS_ALBOROTOS": 4000000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_INCENDIO_RAYO": 4000000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_INFLACION": 180000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_REMOCION_ESCOMBROS": 400000,
+                "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_TODO_RIESGO": 4000000,
+                "OTROS_Calculo_Prima__DMED_ASEG_PR_DANOS_MATERIALES": 35.13,
+                "OTROS_Calculo_Prima__DMED_ASEG_SA_DANOS_MATERIALES": 50000,
+                "OTROS_Calculo_Prima__DMED_PRIMA": 35.13,
+                "OTROS_Calculo_Prima__DMRB_ASEG_PR_AJUSTE_AUTOMATICO_INFLACION": 0.45,
+                "OTROS_Calculo_Prima__DMRB_ASEG_PR_ROBO_VIOLENCIA_DENTRO": 338.2,
+                "OTROS_Calculo_Prima__DMRB_ASEG_SA_AJUSTE_AUTOMATICO_INFLACION": 4500,
+                "OTROS_Calculo_Prima__DMRB_ASEG_SA_ROBO_VIOLENCIA_DENTRO": 100000,
+                "OTROS_Calculo_Prima__DMRB_PRIMA": 338.65,
+                "OTROS_Calculo_Prima__RCGE_ASEG_PR_ARRENDATARIO": 0,
+                "OTROS_Calculo_Prima__RCGE_ASEG_PR_FAMILIAR": 80.7,
+                "OTROS_Calculo_Prima__RCGE_ASEG_SA_FAMILIAR": 1000000,
+                "OTROS_Calculo_Prima__RCGE_PRIMA": 80.7,
+                "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PRIMA": 107.07,
+                "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PR_REMOCION_ESCOMBROS": 6.03,
+                "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PR_RIESGOS_HIDRO": 101.04,
+                "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_SA_REMOCION_ESCOMBROS": 80000,
+                "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_SA_RIESGOS_HIDRO": 800000,
+                "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PRIMA": 535.36,
+                "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS": 30.16,
+                "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_RIESGOS_HIDRO": 505.2,
+                "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_SA_REMOCION_ESCOMBROS": 400000,
+                "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_SA_RIESGOS_HIDRO": 4000000,
+                "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PRIMA": 70.31,
+                "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS": 6.03,
+                "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION": 64.28,
+                "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_SA_REMOCION_ESCOMBROS": 80000,
+                "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_SA_TERREMOTO_ERUPCION": 800000,
+                "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PRIMA": 672.96,
+                "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_REMOCION_ESCOMBROS": 30.16,
+                "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION": 642.8,
+                "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_SA_REMOCION_ESCOMBROS": 400000,
+                "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_SA_TERREMOTO_ERUPCION": 4000000,
+                "VALOR_CONTENIDOS": 800000,
+                "VALOR_EDIFICIO": 4000000,
+                "detailPrice": [
+                    {
+                        "ID": "0",
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PRIMA": 130.35,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXPLOSION": 18.11,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA": 18.11,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS": 18.11,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO": 36.22,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INFLACION": 3.6,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_REMOCION_ESCOMBROS": 6.03,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO": 30.18,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_EXPLOSION": 800000,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_EXTENSION_CUBIERTA": 800000,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_HUELGAS_ALBOROTOS": 800000,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_INCENDIO_RAYO": 800000,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_INFLACION": 36000,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_REMOCION_ESCOMBROS": 80000,
+                        "INCE_Calculo_Prima_Contenidos__INCE_CONTE_SA_TODO_RIESGO": 800000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PRIMA": 651.76,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION": 90.54,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA": 90.54,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS": 90.54,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO": 181.08,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION": 18,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_REMOCION_ESCOMBROS": 30.16,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO": 150.9,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_EXPLOSION": 4000000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_EXTENSION_CUBIERTA": 4000000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_HUELGAS_ALBOROTOS": 4000000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_INCENDIO_RAYO": 4000000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_INFLACION": 180000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_REMOCION_ESCOMBROS": 400000,
+                        "INCE_Calculo_Prima_Edificio__INCE_EDIFI_SA_TODO_RIESGO": 4000000,
+                        "OTROS_Calculo_Prima__DMED_ASEG_SA_DANOS_MATERIALES": 50000,
+                        "OTROS_Calculo_Prima__DMED_PRIMA": 35.13,
+                        "OTROS_Calculo_Prima__DMRB_ASEG_SA_AJUSTE_AUTOMATICO_INFLACION": 4500,
+                        "OTROS_Calculo_Prima__DMRB_ASEG_SA_ROBO_VIOLENCIA_DENTRO": 100000,
+                        "OTROS_Calculo_Prima__DMRB_PRIMA": 338.65,
+                        "OTROS_Calculo_Prima__RCGE_ASEG_PR_ARRENDATARIO": 0,
+                        "OTROS_Calculo_Prima__RCGE_ASEG_PR_FAMILIAR": 80.7,
+                        "OTROS_Calculo_Prima__RCGE_PRIMA": 80.7,
+                        "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PRIMA": 107.07,
+                        "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PR_REMOCION_ESCOMBROS": 6.03,
+                        "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PR_RIESGOS_HIDRO": 101.04,
+                        "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_SA_REMOCION_ESCOMBROS": 80000,
+                        "RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_SA_RIESGOS_HIDRO": 800000,
+                        "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PRIMA": 535.36,
+                        "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_SA_REMOCION_ESCOMBROS": 400000,
+                        "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_SA_RIESGOS_HIDRO": 4000000,
+                        "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PRIMA": 70.31,
+                        "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_REMOCION_ESCOMBROS": 6.03,
+                        "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PR_TERREMOTO_ERUPCION": 64.28,
+                        "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_SA_REMOCION_ESCOMBROS": 80000,
+                        "TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_SA_TERREMOTO_ERUPCION": 800000,
+                        "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PRIMA": 672.96,
+                        "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_SA_REMOCION_ESCOMBROS": 400000,
+                        "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_SA_TERREMOTO_ERUPCION": 4000000,
+                        "VALOR_CONTENIDOS": 800000,
+                        "VALOR_EDIFICIO": 4000000
+                    }
+                ]
+            },
+            "Id": "01tDO000000L0BqYAK",
+            "IsConfigurable__c": true,
+            "IsRecommended__c": false,
+            "Name": "SEGURO de CASA HABITACION APF - PROPIO",
+            "Price": 2622.29,
+            "PricingFormula__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PRIMA + INCE_Calculo_Prima_Contenidos__INCE_CONTE_PRIMA + RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PRIMA + RHMT_Calculo_Prima_Contenidos__RHMT_CONTE_PRIMA + TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PRIMA + TEEV_Calculo_Prima_Contenidos__TEEV_CONTE_PRIMA + OTROS_Calculo_Prima__RCGE_PRIMA + OTROS_Calculo_Prima__DMRB_PRIMA + OTROS_Calculo_Prima__DMED_PRIMA",
+            "ProductCode": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+            "RecordTypeName__c": "Product",
+            "Type__c": "Damage",
+            "attributeCategories": {
+                "records": [
+                    {
+                        "Code__c": "AtributosProductos",
+                        "Name": "Atributos Productos",
+                        "displaySequence": 1,
+                        "id": "a0qDN000000CdfqYAC",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a0rDN000000GohbYAC",
+                                    "cloneable": true,
+                                    "code": "VALOR_EDIFICIO",
+                                    "dataType": "currency",
+                                    "disabled": false,
+                                    "displaySequence": 0,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "number",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "VALOR_EDIFICIO",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": 4000000,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "readonly": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg8QYAS",
+                                    "cloneable": true,
+                                    "code": "APLICA_CONTENIDOS",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "APLICA_CONTENIDOS",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": true,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "NO",
+                                            "readonly": false,
+                                            "value": "false"
+                                        },
+                                        {
+                                            "disabled": false,
+                                            "id": "1",
+                                            "label": "SI",
+                                            "readonly": false,
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg81YAC",
+                                    "cloneable": true,
+                                    "code": "PORCENTAJE_CONTENIDOS",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "PORCENTAJE_CONTENIDOS",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": "20",
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "20%",
+                                            "readonly": false,
+                                            "value": "20"
+                                        },
+                                        {
+                                            "disabled": false,
+                                            "id": "1",
+                                            "label": "40%",
+                                            "readonly": false,
+                                            "value": "40"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDN000000GoFwYAK",
+                                    "cloneable": true,
+                                    "code": "VALOR_CONTENIDOS",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "number",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "VALOR_CONTENIDOS",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 800000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000FigIYAS",
+                                    "cloneable": true,
+                                    "code": "CODIGO_POSTAL",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "CODIGO_POSTAL",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": "64000",
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "readonly": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg86YAC",
+                                    "cloneable": true,
+                                    "code": "APLICA_RHMT",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "APLICA_RHMT",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": true,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "NO",
+                                            "readonly": false,
+                                            "value": "false"
+                                        },
+                                        {
+                                            "disabled": false,
+                                            "id": "1",
+                                            "label": "SI",
+                                            "readonly": false,
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg8BYAS",
+                                    "cloneable": true,
+                                    "code": "APLICA_TEEV",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "APLICA_TEEV",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": true,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "NO",
+                                            "readonly": false,
+                                            "value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg8GYAS",
+                                    "cloneable": true,
+                                    "code": "APLICA_RCGE",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 7,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "APLICA_RCGE",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": true,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "NO",
+                                            "readonly": false,
+                                            "value": "false"
+                                        },
+                                        {
+                                            "disabled": false,
+                                            "id": "1",
+                                            "label": "SI",
+                                            "readonly": false,
+                                            "value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg8LYAS",
+                                    "cloneable": true,
+                                    "code": "APLICA_DMRB",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "dropdown",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "APLICA_DMRB",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": true,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "NO",
+                                            "readonly": false,
+                                            "value": "false"
+                                        },
+                                        {
+                                            "disabled": false,
+                                            "id": "1",
+                                            "label": "SI",
+                                            "readonly": false,
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000Fg82YAC",
+                                    "cloneable": true,
+                                    "code": "APLICA_DMED",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 9,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "radio",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "APLICA_DMED",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": true,
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "id": "0",
+                                            "label": "NO",
+                                            "readonly": false,
+                                            "value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a0rDO000000FoNIYA0",
+                                    "cloneable": true,
+                                    "code": "PRINCIPAL_TEST",
+                                    "dataType": "text",
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "filterable": true,
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotAssetizable": false,
+                                    "isNotTranslatable": false,
+                                    "label": "PRINCIPALTEST",
+                                    "multiselect": false,
+                                    "readonly": false,
+                                    "required": false,
+                                    "userValues": "I001, RH01",
+                                    "values": [
+                                        {
+                                            "disabled": false,
+                                            "readonly": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 11
+                        }
+                    }
+                ],
+                "totalSize": 1
+            },
+            "childProducts": {
+                "records": [
+                    {
+                        "Id": "01tDO000000L0fNYAS",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "Name": "RCGE-EDIFICIO-FAMILIAR",
+                        "Price": 1000000,
+                        "PricingSource__c": "OTROS_Calculo_Prima__RCGE_ASEG_SA_FAMILIAR",
+                        "ProductCode": "RCF1",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "AttributesDano",
+                                    "Name": "Atributos Ramo Daño",
+                                    "displaySequence": 19,
+                                    "id": "a0qDO0000008d1AYAQ",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0rDO000000Ffw0YAC",
+                                                "cloneable": true,
+                                                "code": "RCGE_DANO_SA_FAMILIAR",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "RCGE DAÑO SUMA ASEGURADA FAMILIAR",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": 1000000,
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000Ffw5YAC",
+                                                "cloneable": true,
+                                                "code": "RCGE_DANO_PR_FAMILIAR",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "RCGE DAÑO PRIMA FAMILIAR",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": 80.7,
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FoNDYA0",
+                                                "cloneable": true,
+                                                "code": "IS_PRINCIPAL",
+                                                "dataType": "text",
+                                                "disabled": true,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "PRINCIPAL",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": "false",
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 22,
+                        "isOptional": true,
+                        "isSelected": false,
+                        "pciId": "a53DO000000K5xfYAC",
+                        "productId": "01tDO000000L0fNYAS"
+                    },
+                    {
+                        "Id": "01tDO000000L0f9YAC",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "Name": "DMRB-EDIFICIO-ROBO CON VIOLENCIA Y/O ASALTO DENTRO",
+                        "Price": 338.2,
+                        "PricingSource__c": "OTROS_Calculo_Prima__DMRB_ASEG_PR_ROBO_VIOLENCIA_DENTRO",
+                        "ProductCode": "RB03",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "AttributesDano",
+                                    "Name": "Atributos Ramo Daño",
+                                    "displaySequence": 19,
+                                    "id": "a0qDO0000008d1AYAQ",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0rDO000000FfwFYAS",
+                                                "cloneable": true,
+                                                "code": "DMRB_DANO_SA_ROBO_VIOLENCIA_ASALTO_DENTRO",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "DMRB DAÑO SUMA ASEGURADA ROBO CON VIOLENCIA Y/O ASALTO DENTRO",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": 100000,
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FfwKYAS",
+                                                "cloneable": true,
+                                                "code": "DMRB_DANO_PR_ROBO_VIOLENCIA_ASALTO_DENTRO",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "DMRB DAÑO PRIMA ROBO CON VIOLENCIA Y/O ASALTO DENTRO",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": 338.2,
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FoNDYA0",
+                                                "cloneable": true,
+                                                "code": "IS_PRINCIPAL",
+                                                "dataType": "text",
+                                                "disabled": true,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "PRINCIPAL",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": "true",
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 23,
+                        "isOptional": true,
+                        "isSelected": false,
+                        "pciId": "a53DO000000K5xkYAC",
+                        "productId": "01tDO000000L0f9YAC"
+                    },
+                    {
+                        "Id": "01tDO000000L0fXYAS",
+                        "IsConfigurable__c": false,
+                        "IsRecommended__c": false,
+                        "Name": "DMRB-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                        "Price": 0.45,
+                        "PricingSource__c": "OTROS_Calculo_Prima__DMRB_ASEG_PR_AJUSTE_AUTOMATICO_INFLACION",
+                        "ProductCode": "RB15",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "AttributesDano",
+                                    "Name": "Atributos Ramo Daño",
+                                    "displaySequence": 19,
+                                    "id": "a0qDO0000008d1AYAQ",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0rDO000000FfwLYAS",
+                                                "cloneable": true,
+                                                "code": "DMRB_DANO_SA_AJUSTE_AUTOMATICO_INFLACION",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 0,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "DMRB DAÑO SUMA ASEGURADA AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": 4500,
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FfwPYAS",
+                                                "cloneable": true,
+                                                "code": "DMRB_DANO_PR_AJUSTE_AUTOMATICO_INFLACION",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "DMRB DAÑO PRIMA AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": 0.45,
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FoNDYA0",
+                                                "cloneable": true,
+                                                "code": "IS_PRINCIPAL",
+                                                "dataType": "text",
+                                                "disabled": true,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "PRINCIPAL",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": "false",
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 24,
+                        "isOptional": true,
+                        "isSelected": false,
+                        "pciId": "a53DO000000K5xpYAC",
+                        "productId": "01tDO000000L0fXYAS"
+                    },
+                    {
+                        "Id": "01tDO000000L0fEYAS",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "Name": "DMED-EDIFICIO-DAÑOS MATERIALES",
+                        "Price": 35.13,
+                        "PricingSource__c": "OTROS_Calculo_Prima__DMED_ASEG_PR_DANOS_MATERIALES",
+                        "ProductCode": "MA01",
+                        "RecordTypeName__c": "CoverageSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "AttributesDano",
+                                    "Name": "Atributos Ramo Daño",
+                                    "displaySequence": 19,
+                                    "id": "a0qDO0000008d1AYAQ",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0rDO000000Ffw1YAC",
+                                                "cloneable": true,
+                                                "code": "DMED_DANO_SA_DANOS MATERIALES",
+                                                "dataType": "currency",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "DMED DAÑO SUMA ASEGURADA DAÑOS MATERIALES",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": 50000,
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FfwUYAS",
+                                                "cloneable": true,
+                                                "code": "DMED_DANO_PR_DANOS MATERIALES",
+                                                "dataType": "currency",
+                                                "disabled": true,
+                                                "displaySequence": 1,
+                                                "filterable": false,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "number",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "DMED DAÑO PRIMA DAÑOS MATERIALES",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": 35.13,
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FoNDYA0",
+                                                "cloneable": true,
+                                                "code": "IS_PRINCIPAL",
+                                                "dataType": "text",
+                                                "disabled": true,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": true,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "PRINCIPAL",
+                                                "multiselect": false,
+                                                "readonly": true,
+                                                "required": false,
+                                                "userValues": "false",
+                                                "values": [
+                                                    {
+                                                        "disabled": true,
+                                                        "readonly": true
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 3
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "displaySequence": 25,
+                        "isOptional": true,
+                        "isSelected": false,
+                        "pciId": "a53DO000000K5xuYAC",
+                        "productId": "01tDO000000L0fEYAS"
+                    },
+                    {
+                        "Id": "01tDN000000AZ1iYAG",
+                        "IsConfigurable__c": false,
+                        "IsRecommended__c": false,
+                        "Name": "INS-ITEM EDIFICIO",
+                        "Price": 1860.08,
+                        "PricingFormula__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PRIMA + RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PRIMA + TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PRIMA",
+                        "ProductCode": "INS_ITEM_EDIFICIO",
+                        "RecordTypeName__c": "InsuredItemSpec",
+                        "Term__c": "Annual",
+                        "childProducts": {
+                            "records": [
+                                {
+                                    "Id": "01tDO000000L0fDYAS",
+                                    "IsConfigurable__c": false,
+                                    "IsRecommended__c": false,
+                                    "Name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                                    "Price": 642.8,
+                                    "PricingSource__c": "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_TERREMOTO_ERUPCION",
+                                    "ProductCode": "TE01",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvXYAS",
+                                                            "cloneable": true,
+                                                            "code": "TEEV_DANO_PR_TERREMOTO_ERUPCION_VOLCANICA",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "TEEV DAÑO PRIMA TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 642.8,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvqYAC",
+                                                            "cloneable": true,
+                                                            "code": "TEEV_DANO_SA_TERREMOTO_ERUPCION_VOLCANICA",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "TEEV DAÑO SUMA ASEGURADA TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "false",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 18,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000JzDdYAK",
+                                    "productId": "01tDO000000L0fDYAS"
+                                },
+                                {
+                                    "Id": "01tDO000000L0fIYAS",
+                                    "IsConfigurable__c": false,
+                                    "IsRecommended__c": false,
+                                    "Name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                                    "Price": 30.16,
+                                    "PricingSource__c": "TEEV_Calculo_Prima_Edificio__TEEV_EDIFI_PR_REMOCION_ESCOMBROS",
+                                    "ProductCode": "TE02",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvvYAC",
+                                                            "cloneable": true,
+                                                            "code": "TEEV_DANO_PR_REMOCION_ESCOMBROS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "TEEV DAÑO PRIMA REMOCIÓN DE ESCOMBROS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 30.16,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvcYAC",
+                                                            "cloneable": true,
+                                                            "code": "TEEV_DANO_SA_REMOCION_ESCOMBROS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "TEEV DAÑO SUMA ASEGURADA REMOCIÓN DE ESCOMBROS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 400000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 19,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000JzEOYA0",
+                                    "productId": "01tDO000000L0fIYAS"
+                                },
+                                {
+                                    "Id": "01tDO000000L0f8YAC",
+                                    "IsConfigurable__c": false,
+                                    "IsRecommended__c": false,
+                                    "Name": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS",
+                                    "Price": 505.2,
+                                    "PricingSource__c": "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_RIESGOS_HIDRO",
+                                    "ProductCode": "RH01",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvbYAC",
+                                                            "cloneable": true,
+                                                            "code": "RHMT_DANO_PR_RIESGOS_HIDROMETEOROLOGICOS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "RHMT DAÑO PRIMA RIESGOS HIDROMETEOROLÓGICOS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 505.2,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvWYAS",
+                                                            "cloneable": true,
+                                                            "code": "RHMT_DANO_SA_RIESGOS_HIDROMETEOROLOGICOS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "RHMT DAÑO SUMA ASEGURADA RIESGOS HIDROMETEOROLÓGICOS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "true",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 14,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000JzDiYAK",
+                                    "productId": "01tDO000000L0f8YAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0f4YAC",
+                                    "IsConfigurable__c": false,
+                                    "IsRecommended__c": false,
+                                    "Name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                                    "Price": 30.16,
+                                    "PricingSource__c": "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS",
+                                    "ProductCode": "RH02",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvlYAC",
+                                                            "cloneable": true,
+                                                            "code": "RHMT_DANO_PR_REMOCION_ESCOMBROS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "RHMT DAÑO PRIMA REMOCIÓN DE ESCOMBROS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 30.16,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvgYAC",
+                                                            "cloneable": true,
+                                                            "code": "RHMT_DANO_SA_REMOCION_ESCOMBROS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "RHMT DAÑO SUMA ASEGURADA REMOCIÓN DE ESCOMBROS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 400000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "number",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": true,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": [
+                                                                0,
+                                                                "false"
+                                                            ],
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 15,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "pciId": "a53DO000000JzDgYAK",
+                                    "productId": "01tDO000000L0f4YAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0euYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                                    "Price": 150.9,
+                                    "PricingSource__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO",
+                                    "ProductCode": "I005",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000Ffv3YAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_TODO_RIESGO",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA TODO RIESGO",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 150.9,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000Ffv2YAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_TODO_RIESGO",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA TODO RIESGO",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "false",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 4,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000JzDTYA0",
+                                    "productId": "01tDO000000L0euYAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0f3YAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                                    "PricingSource__c": "RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS",
+                                    "ProductCode": "I013",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvRYAS",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_REMOCION_ESCOMBROS",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA REMOCIÓN DE ESCOMBROS",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 400000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvMYAS",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_REMOCION_ESCOMBROS",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA REMOCIÓN DE ESCOMBROS",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 30.16,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "false",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 6,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000JzDVYA0",
+                                    "productId": "01tDO000000L0f3YAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0eeYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                                    "Price": 181.08,
+                                    "PricingSource__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO",
+                                    "ProductCode": "I001",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfudYAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_INCENDIO_RAYO",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA INCENDIO Y/O RAYO",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuTYAS",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_INCENDIO_RAYO",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA INCENDIO Y/O RAYO",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 181.08,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": [
+                                                                "true",
+                                                                "true"
+                                                            ],
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 0,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000JzDXYA0",
+                                    "productId": "01tDO000000L0eeYAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0eoYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                                    "Price": 90.54,
+                                    "PricingSource__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS",
+                                    "ProductCode": "I003",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfunYAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_HUELGAS_ALBOROTOS_POPULARES",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA HUELGAS Y ALBOROTOS POPULARES",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 90.54,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuiYAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_HUELGAS_ALBOROTOS_POPULARES",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA HUELGAS Y ALBOROTOS POPULARES",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "false",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 2,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000JzDWYA0",
+                                    "productId": "01tDO000000L0eoYAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0etYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                                    "Price": 90.54,
+                                    "PricingSource__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA",
+                                    "ProductCode": "I004",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuxYAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_EXTENSION_CUBIERTA",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA EXTENSIÓN DE CUBIERTA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 90.54,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfusYAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_EXTENSION_CUBIERTA",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA EXTENSIÓN DE CUBIERTA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "false",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 3,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000JzDYYA0",
+                                    "productId": "01tDO000000L0etYAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0ejYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                                    "Price": 90.54,
+                                    "PricingSource__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION",
+                                    "ProductCode": "I002",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfueYAC",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_EXPLOSION",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA EXPLOSIÓN",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 90.54,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuYYAS",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_EXPLOSION",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA EXPLOSIÓN",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": [
+                                                                "false",
+                                                                "false"
+                                                            ],
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 1,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000K5xMYAS",
+                                    "productId": "01tDO000000L0ejYAC"
+                                },
+                                {
+                                    "Id": "01tDO000000L0eyYAC",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                                    "Price": 18,
+                                    "PricingSource__c": "INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION",
+                                    "ProductCode": "I011",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesDano",
+                                                "Name": "Atributos Ramo Daño",
+                                                "displaySequence": 19,
+                                                "id": "a0qDO0000008d1AYAQ",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvHYAS",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_PR_AJUSTE_AUTOMATICO_INFLACION",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO PRIMA AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 18,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfvCYAS",
+                                                            "cloneable": true,
+                                                            "code": "INCE_DANO_SA_AJUSTE_AUTOMATICO_INFLACION",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "INCE DAÑO SUMA ASEGURADA AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 180000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FoNDYA0",
+                                                            "cloneable": true,
+                                                            "code": "IS_PRINCIPAL",
+                                                            "dataType": "text",
+                                                            "disabled": true,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "PRINCIPAL",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": "false",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 5,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "pciId": "a53DO000000JzDUYA0",
+                                    "productId": "01tDO000000L0eyYAC"
+                                },
+                                {
+                                    "Id": "01tDN000000AZ1nYAG",
+                                    "IsConfigurable__c": false,
+                                    "IsRecommended__c": false,
+                                    "Name": "INS-ITEM CONTENIDOS",
+                                    "ProductCode": "INS_ITEM_CONTENIDOS",
+                                    "RecordTypeName__c": "InsuredItemSpec",
+                                    "Term__c": "Annual",
+                                    "displaySequence": 2,
+                                    "isOptional": false,
+                                    "maxQuantity": 1,
+                                    "minQuantity": 1,
+                                    "pciId": "a53DO000000JzU4YAK",
+                                    "productId": "01tDN000000AZ1nYAG"
+                                }
+                            ],
+                            "totalSize": 12
+                        },
+                        "displaySequence": 1,
+                        "isOptional": false,
+                        "maxQuantity": 1,
+                        "minQuantity": 1,
+                        "pciId": "a53DO000000JzEjYAK",
+                        "productId": "01tDN000000AZ1iYAG"
+                    }
+                ],
+                "totalSize": 5
+            },
+            "currencyCode": "MXN",
+            "currencySymbol": "MXN",
+            "displaySequence": -1,
+            "productId": "01tDO000000L0BqYAK"
+        }
+    ],
+    "totalSize": 1
+}

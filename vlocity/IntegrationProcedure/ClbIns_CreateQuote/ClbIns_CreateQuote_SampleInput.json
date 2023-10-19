@@ -1,0 +1,157 @@
+{
+    "Step1": {
+        "CURP": "MOMM650904HDFNRR05",
+        "Driver": {
+            "Email": "mcandas87@gmail.com",
+            "FirstName": "MARCO ANTONIO",
+            "LastName": "MONTANO MARTINEZ",
+            "PhoneNumber": "2112121221"
+        },
+        "Email": "mcandas87@gmail.com",
+        "FirstName": "MARCO ANTONIO",
+        "LastName": "MONTANO MARTINEZ",
+        "PhoneNumber": "2112121221",
+        "RFC": "MOMM6509048M7",
+        "isDriver": true
+    },
+    "Step2": {
+        "Address": {
+            "City": "Álvaro Obregón",
+            "Country": "México",
+            "ExternalNumber": 2,
+            "InternalNumber": 0,
+            "PostalCode": "01000",
+            "State": "Ciudad de México",
+            "Street": "Calle1",
+            "Town": "San Angel"
+        }
+    },
+    "Step3": {
+        "VehicleInformation": {
+            "AcceptanceInformation": true,
+            "AcceptanceLaw": true,
+            "Brand": "AR",
+            "EngineNumber": "12321313133313212",
+            "Model": "010",
+            "ModelDesc": "AR025",
+            "NumberPlate": "12312345",
+            "PostalCode": "01000",
+            "SerieNumber": "12345665432223131",
+            "Type": "001",
+            "Year": "2008",
+            "isParticular": true
+        }
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 4112.76,
+            "Code": "A03",
+            "EndDate": "2024-10-12",
+            "StartDate": "2023-10-12",
+            "branch": "A003",
+            "expense": 500,
+            "expenseOnFirstInstallment": false,
+            "installmentAmount": 5350.8,
+            "numInstallments": "001",
+            "priceWithExpense": 4612.76,
+            "taxAmount": 738.04,
+            "total": 5350.8
+        },
+        "PackageCoverage": [
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "20",
+                "code": "A002",
+                "insuredAmount": "75000",
+                "price": 0
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "5",
+                "code": "A004",
+                "insuredAmount": "197027",
+                "price": 1110.11
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A005",
+                "insuredAmount": "4000000",
+                "price": 495.37
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A006",
+                "insuredAmount": "250000",
+                "price": 86.05
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "3",
+                "code": "A001",
+                "insuredAmount": "197027",
+                "price": 1167.59
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A010",
+                "insuredAmount": "750000",
+                "price": 142.45
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A009",
+                "insuredAmount": "1000000",
+                "price": 71.33
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A016",
+                "insuredAmount": "8230.42",
+                "price": 869.09
+            },
+            {
+                "CoberturaSeleccionada": "S",
+                "CoberturaVisible": "S",
+                "IndCobertOblig": "S",
+                "PorcDed": "0",
+                "code": "A015",
+                "insuredAmount": "6000",
+                "price": 170.77
+            }
+        ]
+    },
+    "Step5": {
+        "Amount": 4112.76,
+        "Bank": "072",
+        "CardCVV": "123",
+        "CardMonth": 2,
+        "CardNumber": 1234567899008987,
+        "CardYear": 2025,
+        "FirstName": "Angeles",
+        "IsRecurringPayment": true,
+        "LastName": "Test",
+        "PaymentPeriod": "001",
+        "TypeOfCard": "04"
+    }
+}

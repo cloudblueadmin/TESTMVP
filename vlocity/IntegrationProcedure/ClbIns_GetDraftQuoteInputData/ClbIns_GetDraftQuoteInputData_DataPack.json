@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_GetDraftQuoteInputData_SampleInput.json",
+    "Description": "service that retrieves the latest 5 draft input data quotes (information sent by outsystems)",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetDraftQuoteInputData",
+    "OmniProcessElement": [
+        "ClbIns_GetDraftQuoteInputData_Element_ValidateCurp.json",
+        "ClbIns_GetDraftQuoteInputData_Element_ResponseCurpNotFound.json",
+        "ClbIns_GetDraftQuoteInputData_Element_GetLatestInputDataQuote.json",
+        "ClbIns_GetDraftQuoteInputData_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetDraftQuoteInputData",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetDraftQuoteInputData_PropertySetConfig.json",
+    "SubType": "GetDraftQuoteInputData",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetDraftQuoteInputData/Procedure",
+    "WebComponentKey": "134bf5f0-d334-56a5-cd15-ae83994607ea"
+}

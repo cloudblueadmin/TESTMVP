@@ -1,0 +1,1730 @@
+{
+    "records": [
+        {
+            "CalculatedPriceData": {
+                "AUTO_PR_ASIST_JURID": 129.69,
+                "AUTO_PR_ASIST_VEHI": 259,
+                "AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT": 1262.7,
+                "AUTO_PR_GASTOS_MEDI_OCUPANTES": 120.29,
+                "AUTO_PR_RC_TERCEROS": 990.74,
+                "AUTO_PR_ROBO_TOTAL": 5725.27,
+                "AUTO_PR_SUSTIT_ROBO_TOT": 161.46,
+                "AUTO_SA_ASIST_JURID": 1000000,
+                "AUTO_SA_ASIST_VEHI": 750000,
+                "AUTO_SA_ELIM_DED_DEV_PRIMA_ROBO_TOT": 63731.768350000006,
+                "AUTO_SA_GASTOS_MEDI_OCUPANTES": 150000,
+                "AUTO_SA_RC_TERCEROS": 4000000,
+                "AUTO_SA_ROBO_TOTAL": 598428,
+                "AUTO_SA_SUSTIT_ROBO_TOT": 6000,
+                "autoVehicle.instanceKey": "2009 FO 019",
+                "detailPrice": [
+                    {
+                        "AUTO_PR_ASIST_JURID": 129.69,
+                        "AUTO_PR_ASIST_VEHI": 259,
+                        "AUTO_PR_GASTOS_MEDI_OCUPANTES": 120.29,
+                        "AUTO_PR_RC_TERCEROS": 990.74,
+                        "AUTO_PR_ROBO_TOTAL": 5725.27,
+                        "AUTO_SA_ASIST_JURID": 1000000,
+                        "AUTO_SA_ASIST_VEHI": 750000,
+                        "AUTO_SA_ELIM_DED_DEV_PRIMA_ROBO_TOT": 63731.768350000006,
+                        "AUTO_SA_GASTOS_MEDI_OCUPANTES": 150000,
+                        "AUTO_SA_RC_TERCEROS": 4000000,
+                        "AUTO_SA_ROBO_TOTAL": 598428,
+                        "AUTO_SA_SUSTIT_ROBO_TOT": 6000,
+                        "autoVehicle.instanceKey": "2009 FO 019"
+                    }
+                ]
+            },
+            "Id": "01tDO000000L0TRYA0",
+            "IsConfigurable__c": false,
+            "IsRecommended__c": false,
+            "Name": "INTEGRAL",
+            "Price": 8649.15,
+            "PricingFormula__c": "SUM(AUTO_PR_ASIST_JURID + AUTO_PR_ASIST_VEHI + AUTO_PR_SUSTIT_PERD_TOT_DANOS_MAT + AUTO_PR_SUSTIT_ROBO_TOT + AUTO_PR_DANOS_MATERIALES+AUTO_PR_ELIM_DED_DEV_PRIMA_PERDIDA_TOT+AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT+AUTO_PR_GASTOS_MEDI_OCUPANTES+AUTO_PR_RC_TERCEROS+AUTO_PR_ROBO_TOTAL+AUTO_PR_ROTURA_CRISTALES)",
+            "ProductCode": "A03",
+            "RecordTypeName__c": "Product",
+            "SubType__c": "Auto",
+            "Type__c": "Vehicle",
+            "childProducts": {
+                "records": [
+                    {
+                        "Id": "01tDO000000KqTwYAK",
+                        "IsConfigurable__c": true,
+                        "IsRecommended__c": false,
+                        "Name": "Vehicle",
+                        "ProductCode": "autoVehicle",
+                        "RecordTypeName__c": "InsuredItemSpec",
+                        "Term__c": "Annual",
+                        "attributeCategories": {
+                            "records": [
+                                {
+                                    "Code__c": "VehicleCategory",
+                                    "Name": "VehicleCategory",
+                                    "displaySequence": 16,
+                                    "id": "a0qDO0000008crjYAA",
+                                    "productAttributes": {
+                                        "records": [
+                                            {
+                                                "attributeId": "a0rDO000000Fd4rYAC",
+                                                "cloneable": true,
+                                                "code": "Make",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 0,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Make",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "FO",
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000Fd4wYAC",
+                                                "cloneable": true,
+                                                "code": "Year",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 1,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Year",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "2009",
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000Fd51YAC",
+                                                "cloneable": true,
+                                                "code": "Model",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 2,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Model",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "019",
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000Fd5LYAS",
+                                                "cloneable": true,
+                                                "code": "Type",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 3,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "dropdown",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Type",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "001",
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "id": "0",
+                                                        "label": "Auto",
+                                                        "readonly": false,
+                                                        "value": "001"
+                                                    },
+                                                    {
+                                                        "disabled": false,
+                                                        "id": "1",
+                                                        "label": "Pickup",
+                                                        "readonly": false,
+                                                        "value": "002"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "attributeId": "a0rDO000000FdB9YAK",
+                                                "cloneable": true,
+                                                "code": "ModelDesc",
+                                                "dataType": "text",
+                                                "disabled": false,
+                                                "displaySequence": 4,
+                                                "filterable": true,
+                                                "hasRules": false,
+                                                "hidden": false,
+                                                "inputType": "text",
+                                                "isNotAssetizable": false,
+                                                "isNotTranslatable": false,
+                                                "label": "Model Description",
+                                                "multiselect": false,
+                                                "readonly": false,
+                                                "required": false,
+                                                "userValues": "FO400",
+                                                "values": [
+                                                    {
+                                                        "disabled": false,
+                                                        "readonly": false
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "totalSize": 5
+                                    }
+                                }
+                            ],
+                            "totalSize": 1
+                        },
+                        "childProducts": {
+                            "records": [
+                                {
+                                    "Id": "01tDO000000L0THYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Rotura cristales",
+                                    "PricingSource__c": "AUTO_PR_ROTURA_CRISTALES",
+                                    "ProductCode": "A002",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuEYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_TYPE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "PO",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO TIPO DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "PO",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuJYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_BASE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "S",
+                                                            "disabled": false,
+                                                            "displaySequence": 3,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO BASE DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "S",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuOYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_VALUE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 4,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "dropdown",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO VALOR DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "20",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "id": "0",
+                                                                    "label": "20%",
+                                                                    "readonly": false,
+                                                                    "value": "20"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 5
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 1,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxSYAS",
+                                    "productId": "01tDO000000L0THYA0"
+                                },
+                                {
+                                    "Id": "01tDO000000L0TMYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Robo total",
+                                    "Price": 5725.27,
+                                    "PricingSource__c": "AUTO_PR_ROBO_TOTAL",
+                                    "ProductCode": "A004",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 598428,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 5725.27,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuOYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_VALUE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": false,
+                                                            "hasRules": true,
+                                                            "hidden": false,
+                                                            "inputType": "dropdown",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO VALOR DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "5",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "id": "0",
+                                                                    "label": "5%",
+                                                                    "readonly": false,
+                                                                    "value": "5"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuEYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_TYPE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "PO",
+                                                            "disabled": false,
+                                                            "displaySequence": 3,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO TIPO DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "PO",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuJYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_BASE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "S",
+                                                            "disabled": false,
+                                                            "displaySequence": 4,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO BASE DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "S",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 5
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 2,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxTYAS",
+                                    "productId": "01tDO000000L0TMYA0"
+                                },
+                                {
+                                    "Id": "01tDO000000L0TCYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Responsabilidad civil terceros",
+                                    "Price": 990.74,
+                                    "PricingSource__c": "AUTO_PR_RC_TERCEROS",
+                                    "ProductCode": "A005",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 4000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 990.74,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuEYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_TYPE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "DI",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO TIPO DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "DI",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuJYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_BASE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "M",
+                                                            "disabled": false,
+                                                            "displaySequence": 3,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO BASE DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "M",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuOYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_VALUE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 4,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO VALOR DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "0",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 5
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 3,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxOYAS",
+                                    "productId": "01tDO000000L0TCYA0"
+                                },
+                                {
+                                    "Id": "01tDO000000L0T7YAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Gastos médicos ocupantes",
+                                    "Price": 120.29,
+                                    "PricingSource__c": "AUTO_PR_GASTOS_MEDI_OCUPANTES",
+                                    "ProductCode": "A006",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "dropdown",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 150000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "id": "0",
+                                                                    "label": "50000",
+                                                                    "readonly": false,
+                                                                    "value": 50000
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 120.29,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 4,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxRYAS",
+                                    "productId": "01tDO000000L0T7YAK"
+                                },
+                                {
+                                    "Id": "01tDO000000L0SsYAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Elim ded y dev de prima por robo total",
+                                    "Price": 1262.7,
+                                    "PricingSource__c": "AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+                                    "ProductCode": "A017",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "text",
+                                                            "description": "Amparada",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 63731.768350000006,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 1262.7,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuJYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_BASE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "S",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO BASE DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "S",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuEYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_TYPE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "PO",
+                                                            "disabled": false,
+                                                            "displaySequence": 3,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO TIPO DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "PO",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuOYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_VALUE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 4,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "dropdown",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO VALOR DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "5",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "id": "0",
+                                                                    "label": "5%",
+                                                                    "readonly": false,
+                                                                    "value": "5"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 5
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 10,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxWYAS",
+                                    "productId": "01tDO000000L0SsYAK"
+                                },
+                                {
+                                    "Id": "01tDO000000L0SnYAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Elim ded y dev de prima pérdida total daños mat",
+                                    "PricingSource__c": "AUTO_PR_ELIM_DED_DEV_PRIMA_PERDIDA_TOT",
+                                    "ProductCode": "A016",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "text",
+                                                            "description": "Amparada",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "Amparada",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuEYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_TYPE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "PO",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": false,
+                                                            "hasRules": true,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO TIPO DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "PO",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuJYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_BASE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "S",
+                                                            "disabled": false,
+                                                            "displaySequence": 3,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": true,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO BASE DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "S",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuOYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_VALUE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 4,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "dropdown",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO VALOR DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "3",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "id": "0",
+                                                                    "label": "3%",
+                                                                    "readonly": false,
+                                                                    "value": "3"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 5
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 9,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxPYAS",
+                                    "productId": "01tDO000000L0SnYAK"
+                                },
+                                {
+                                    "Id": "01tDO000000L0SJYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Daños materiales",
+                                    "PricingSource__c": "AUTO_PR_DANOS_MATERIALES",
+                                    "ProductCode": "A001",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "currency",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuEYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_TYPE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "PO",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO TIPO DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "PO",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuJYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_BASE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "description": "S",
+                                                            "disabled": false,
+                                                            "displaySequence": 3,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO BASE DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "S",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfuOYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_VALUE_DEDUCTIBLE",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 4,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "dropdown",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO VALOR DEDUCIBLE",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "3",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "id": "0",
+                                                                    "label": "3%",
+                                                                    "readonly": false,
+                                                                    "value": "3"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 5
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 0,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxXYAS",
+                                    "productId": "01tDO000000L0SJYA0"
+                                },
+                                {
+                                    "Id": "01tDO000000L0SiYAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Auto sustituto por robo total",
+                                    "Price": 161.46,
+                                    "PricingSource__c": "AUTO_PR_SUSTIT_ROBO_TOT",
+                                    "ProductCode": "A014",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 6000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 161.46,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 7,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxUYAS",
+                                    "productId": "01tDO000000L0SiYAK"
+                                },
+                                {
+                                    "Id": "01tDO000000L0T2YAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Auto sustituto por pérdida total daños materiales",
+                                    "PricingSource__c": "AUTO_PR_SUSTIT_PERD_TOT_DANOS_MAT",
+                                    "ProductCode": "A015",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": "15 días",
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 8,
+                                    "isOptional": true,
+                                    "isSelected": false,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxQYAS",
+                                    "productId": "01tDO000000L0T2YAK"
+                                },
+                                {
+                                    "Id": "01tDO000000L0SdYAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Asistencia vehicular",
+                                    "Price": 259,
+                                    "PricingSource__c": "AUTO_PR_ASIST_VEHI",
+                                    "ProductCode": "A010",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 750000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 259,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 6,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxVYAS",
+                                    "productId": "01tDO000000L0SdYAK"
+                                },
+                                {
+                                    "Id": "01tDO000000L0SYYA0",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Asistencia jurídica",
+                                    "Price": 129.69,
+                                    "PricingSource__c": "AUTO_PR_ASIST_JURID",
+                                    "ProductCode": "A009",
+                                    "RecordTypeName__c": "CoverageSpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "AttributesAuto",
+                                                "Name": "Atributos Ramo Auto",
+                                                "displaySequence": 18,
+                                                "id": "a0qDO0000008d0lYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoQYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_SA",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO SUMA ASEGURADA",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": 1000000,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000FfoVYAS",
+                                                            "cloneable": true,
+                                                            "code": "AUTO_PR",
+                                                            "dataType": "currency",
+                                                            "disabled": true,
+                                                            "displaySequence": 1,
+                                                            "filterable": false,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "number",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "AUTO PRIMA",
+                                                            "multiselect": false,
+                                                            "readonly": true,
+                                                            "required": false,
+                                                            "userValues": 129.69,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": true,
+                                                                    "readonly": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 2
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 5,
+                                    "isOptional": false,
+                                    "isSelected": true,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxxNYAS",
+                                    "productId": "01tDO000000L0SYYA0"
+                                },
+                                {
+                                    "Id": "01tDO000000KqU1YAK",
+                                    "IsConfigurable__c": true,
+                                    "IsRecommended__c": false,
+                                    "Name": "Driver",
+                                    "ProductCode": "autoDriver",
+                                    "RecordTypeName__c": "InsuredPartySpec",
+                                    "Term__c": "Annual",
+                                    "attributeCategories": {
+                                        "records": [
+                                            {
+                                                "Code__c": "VehicleDriverCategory",
+                                                "Name": "VehicleDriverCategory",
+                                                "displaySequence": 17,
+                                                "id": "a0qDO0000008croYAA",
+                                                "productAttributes": {
+                                                    "records": [
+                                                        {
+                                                            "attributeId": "a0rDO000000Fd56YAC",
+                                                            "cloneable": true,
+                                                            "code": "FirstName",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 0,
+                                                            "filterable": true,
+                                                            "hasRules": true,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "First Name",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000Fd5BYAS",
+                                                            "cloneable": true,
+                                                            "code": "LastName",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 1,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "Last Name",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "attributeId": "a0rDO000000Fd5GYAS",
+                                                            "cloneable": true,
+                                                            "code": "Gender",
+                                                            "dataType": "text",
+                                                            "disabled": false,
+                                                            "displaySequence": 2,
+                                                            "filterable": true,
+                                                            "hasRules": false,
+                                                            "hidden": false,
+                                                            "inputType": "text",
+                                                            "isNotAssetizable": false,
+                                                            "isNotTranslatable": false,
+                                                            "label": "Gender",
+                                                            "multiselect": false,
+                                                            "readonly": false,
+                                                            "required": false,
+                                                            "userValues": null,
+                                                            "values": [
+                                                                {
+                                                                    "disabled": false,
+                                                                    "readonly": false
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "totalSize": 3
+                                                }
+                                            }
+                                        ],
+                                        "totalSize": 1
+                                    },
+                                    "displaySequence": 2,
+                                    "isOptional": false,
+                                    "maxQuantity": 1,
+                                    "minQuantity": 1,
+                                    "parentInstanceKey": "2009 FO 019",
+                                    "pciId": "a53DO000000JxygYAC",
+                                    "productId": "01tDO000000KqU1YAK"
+                                }
+                            ],
+                            "totalSize": 12
+                        },
+                        "displaySequence": 1,
+                        "instanceKey": "2009 FO 019",
+                        "isOptional": false,
+                        "maxQuantity": 1,
+                        "minQuantity": 1,
+                        "pciId": "a53DO000000JxgWYAS",
+                        "productId": "01tDO000000KqTwYAK"
+                    }
+                ],
+                "totalSize": 1
+            },
+            "currencyCode": "MXN",
+            "currencySymbol": "MXN",
+            "displaySequence": -1,
+            "productId": "01tDO000000L0TRYA0"
+        }
+    ],
+    "totalSize": 1
+}

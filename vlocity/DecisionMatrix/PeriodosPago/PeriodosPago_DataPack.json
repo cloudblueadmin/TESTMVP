@@ -1,0 +1,14 @@
+{
+    "CalculationMatrixColumn": "PeriodosPago_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "PeriodosPago",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "PeriodosPago",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/PeriodosPago"
+}

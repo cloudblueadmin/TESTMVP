@@ -1,0 +1,12 @@
+{
+    "ValidateCurp": {
+        "birthDate": "1990-01-01",
+        "curp": "BIZA701230HDFRPL04",
+        "firstName": "ALBERTO",
+        "gender": "Male",
+        "lastName": "BRIONES",
+        "rfc": "BIZA701230DK3",
+        "status": "Active"
+    },
+    "sumaAsegurada": 1000000
+}

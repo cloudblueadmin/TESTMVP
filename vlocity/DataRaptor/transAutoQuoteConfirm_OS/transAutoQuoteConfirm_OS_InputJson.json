@@ -1,0 +1,162 @@
+{
+    "error": "OK",
+    "insuredItems": {
+        "autoDriver": [
+            {
+                "adAccidentPoints": "1",
+                "adAge": 48,
+                "adAgeLicensed": 16,
+                "adBirthdate": "1974-06-06T18:30:00.000Z",
+                "adFirstName": "Ernie",
+                "adGPA": "0",
+                "adGender": "M",
+                "adInstanceKey": "Ernie Newton",
+                "adLastName": "Newton",
+                "adMVRPoints": "0",
+                "adMaritalStatus": "S",
+                "discountDriverInstanceKey": "Ernie Newton",
+                "instanceKey": "Ernie Newton",
+                "isPrimary": false
+            }
+        ],
+        "autoVehicle": [
+            {
+                "BodyClass": "d",
+                "ProductCode": "autoVehicle",
+                "VehicleType": "PASSENGER CAR",
+                "avAltFuel": false,
+                "avAntiTheft": false,
+                "avBrakes": false,
+                "avColor": "d",
+                "avHistoric": false,
+                "avMake": "d",
+                "avModel": "d",
+                "avRestraints": false,
+                "avStabilization": false,
+                "avValue": 5,
+                "avYear": "2001",
+                "instanceKey": "2002 d d",
+                "isPrimary": true
+            }
+        ]
+    },
+    "productConfigurationDetail": {
+        "records": [
+            {
+                "%vlocity_namespace%__FeeAmount__c": 25,
+                "%vlocity_namespace%__ItemName__c": "Multi Auto",
+                "%vlocity_namespace%__NeedReprice__c": false,
+                "%vlocity_namespace%__PricingFormula__c": "SUM(premiumBIPD + premiumCOLL + premiumCCD + premiumMED + premiumUM+premiumRental)",
+                "%vlocity_namespace%__ProductChildItemSequence__c": 0,
+                "%vlocity_namespace%__ProductName__c": "Multi Auto",
+                "%vlocity_namespace%__RecordTypeName__c": "Product",
+                "%vlocity_namespace%__RelationshipType__c": "Child",
+                "%vlocity_namespace%__TaxAmount__c": 28.53795,
+                "%vlocity_namespace%__TotalAmount__c": 191.13,
+                "%vlocity_namespace%__Type__c": "Auto",
+                "CreatedDate": "2022-09-06T08:55:48.000+0000",
+                "Id": "0QL3i000000AReYGAW",
+                "LastModifiedDate": "2022-09-06T08:55:49.000+0000",
+                "LineNumber": "00000343",
+                "Name": "Multi Auto",
+                "Price": 137.59,
+                "Product2Id": "01t3i000008QkTiAAK",
+                "ProductCode": "autoMulti",
+                "QuoteId": "0Q03i000000EIq9CAG",
+                "TotalPrice": 137.59,
+                "UnitPrice": 137.59,
+                "coverageCount": 0,
+                "currencyCode": "USD",
+                "currencySymbol": "$",
+                "displaySequence": 0,
+                "feeAmount": 25,
+                "hasAttributes": false,
+                "hasCoverages": false,
+                "instanceKey": "Multi Auto",
+                "lineRecordType": "Product",
+                "needReprice": false,
+                "productId": "01t3i000008QkTiAAK",
+                "productName": "Multi Auto",
+                "quoteLineItemId": "0QL3i000000AReYGAW",
+                "recordType": "Product",
+                "taxAmount": 28.53795,
+                "taxesAndFees": [
+                    {
+                        "AdjustmentType__c": "Fee",
+                        "Amount__c": 25,
+                        "Id": "a5M3i0000004hcyEAA",
+                        "PriceListEntryId__c": "a4R3i000000kLrpEAE",
+                        "PriceListEntryName__c": "573608e0-7b1c-9b66-a435-d584218c5305",
+                        "calculatedAmount": 25,
+                        "currencyCode": "USD",
+                        "currencySymbol": "$"
+                    },
+                    {
+                        "AdjustmentType__c": "Tax",
+                        "Amount__c": 27.85,
+                        "Id": "a5M3i0000004hczEAA",
+                        "PriceListEntryId__c": "a4R3i000000kLrqEAE",
+                        "PriceListEntryName__c": "7457f382-f935-3308-3429-24d9dfac88f4",
+                        "calculatedAmount": 27.85,
+                        "currencyCode": "USD",
+                        "currencySymbol": "$"
+                    },
+                    {
+                        "AdjustmentType__c": "Tax",
+                        "Amount__c": 0,
+                        "Id": "a5M3i0000004hd0EAA",
+                        "PriceListEntryId__c": "a4R3i000000kLrrEAE",
+                        "PriceListEntryName__c": "7eee88c5-37d5-3991-02db-37ef3343982f",
+                        "calculatedAmount": 0,
+                        "currencyCode": "USD",
+                        "currencySymbol": "$"
+                    },
+                    {
+                        "AdjustmentType__c": "Tax",
+                        "Amount__c": 0.68795,
+                        "Id": "a5M3i0000004hd1EAA",
+                        "PriceListEntryId__c": "a4R3i000000kLrsEAE",
+                        "PriceListEntryName__c": "93b485fc-a7ce-a358-929d-e0381289b239",
+                        "calculatedAmount": 0.68795,
+                        "currencyCode": "USD",
+                        "currencySymbol": "$"
+                    }
+                ],
+                "totalTaxFeeAmount": 53.53795
+            }
+        ],
+        "totalSize": 1
+    },
+    "quoteDetail": {
+        "%vlocity_namespace%__CommissionAmount__c": 8.96,
+        "%vlocity_namespace%__DaysRemaining__c": 365,
+        "%vlocity_namespace%__EffectiveDate__c": "2022-09-06",
+        "%vlocity_namespace%__EndDate__c": "2023-09-05",
+        "%vlocity_namespace%__GroupCensusId__c": null,
+        "%vlocity_namespace%__ProducerId__c": "0033i00002kfWkvAAE",
+        "%vlocity_namespace%__RatingType__c": null,
+        "%vlocity_namespace%__RecordTypeName__c": "GroupCart",
+        "%vlocity_namespace%__RootItemTotal__c": 137.59,
+        "%vlocity_namespace%__Term__c": "Annual",
+        "%vlocity_namespace%__TotalAmountTermDifference__c": 137.59,
+        "%vlocity_namespace%__TotalAmount__c": 191.13,
+        "%vlocity_namespace%__TotalFeeAmount__c": 25,
+        "%vlocity_namespace%__TotalFeeForTerm__c": 0,
+        "%vlocity_namespace%__TotalFeeTermDifference__c": 0,
+        "%vlocity_namespace%__TotalPremiumTermDifference__c": 137.59,
+        "%vlocity_namespace%__TotalPremiumforTerm__c": 137.59,
+        "%vlocity_namespace%__TotalSumInsured__c": 0,
+        "%vlocity_namespace%__TotalTaxAmount__c": 28.53795,
+        "%vlocity_namespace%__TotalTaxForTerm__c": 0,
+        "%vlocity_namespace%__TotalTaxTermDifference__c": 0,
+        "%vlocity_namespace%__Type__c": "New Business",
+        "%vlocity_namespace%_fsc__PrimaryProducerId__c": "0Yx3i000000kDyrCAE",
+        "%vlocity_namespace%_fsc__ProductionCodeId__c": null,
+        "AccountId": "0013i00002nRdkwAAC",
+        "ExpirationDate": "2022-10-06",
+        "Id": "0Q03i000000EIq9CAG",
+        "QuoteNumber": "00000043",
+        "Status": "Draft",
+        "TotalPrice": 412.77
+    }
+}

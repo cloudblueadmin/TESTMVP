@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "Einstein_GetInsuranceNeedsIntent_SampleInput.json",
+    "Description": "Inputs:  phrase: the text to be analyzed  Outputs:  intent: the most likely intent",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "EinsteinInsIntent",
+    "OmniProcessElement": [
+        "Einstein_GetInsuranceNeedsIntent_Element_raCallEinstein.json",
+        "Einstein_GetInsuranceNeedsIntent_Element_returnSentiment.json"
+    ],
+    "OmniProcessKey": "Einstein_GetInsuranceNeedsIntent",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Einstein_GetInsuranceNeedsIntent_PropertySetConfig.json",
+    "SubType": "GetInsuranceNeedsIntent",
+    "Type": "Einstein",
+    "UniqueName": "Einstein_GetInsuranceNeedsIntent_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Einstein/GetInsuranceNeedsIntent/Procedure",
+    "WebComponentKey": "cffec862-7429-fe65-02cd-811b0d35f8df"
+}

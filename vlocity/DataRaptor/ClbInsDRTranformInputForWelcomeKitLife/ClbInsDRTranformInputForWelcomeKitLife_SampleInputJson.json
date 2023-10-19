@@ -1,0 +1,112 @@
+{
+    "quote": {
+        "effectiveDate": "2023-08-11",
+        "expirationDate": "2024-08-11",
+        "number": "1000038",
+        "price": 19893.2,
+        "qli": [
+            {
+                "id": "0QLDO0000004mAl4AI",
+                "lineNumber": "00001679",
+                "name": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 1",
+                "price": 2500,
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Apellidos": "Briones Zepeda",
+                    "CURP": "BIZA701230HDFRPL04",
+                    "Nombres": "Alberto",
+                    "address": {
+                        "City": "CDMX",
+                        "Country": "Mexico",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 2,
+                        "PostalCode": "06010",
+                        "State": "CDMX",
+                        "Street": "Tolsa 64, Colonia Centro, Juárez, Cuauhtémoc",
+                        "Town": ""
+                    }
+                },
+                "id": "0QLDO0000004mAm4AI",
+                "lineNumber": "00001680",
+                "name": "INS-PARTY ASEGURADO",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            },
+            {
+                "code": "VIDA_IND_Primas_Muerte_Accidental__VIDA_IND_PR_MUERTE_ACCIDENTAL",
+                "id": "0QLDO0000004mAn4AI",
+                "lineNumber": "00001681",
+                "name": "Muerte Accidental",
+                "price": 500,
+                "type": "CoverageSpec"
+            },
+            {
+                "code": "VIDA_IND_PR_INVALIDEZ_TYP",
+                "id": "0QLDO0000004mAo4AI",
+                "lineNumber": "00001682",
+                "name": "Invalidez Total y Permanente",
+                "price": 3850,
+                "type": "CoverageSpec"
+            },
+            {
+                "code": "VIDA_IND_PR_INDEM_HOSPITALARIA",
+                "id": "0QLDO0000004mAp4AI",
+                "lineNumber": "00001683",
+                "name": "Indemnización Hospitalaria por Accidente",
+                "price": 866,
+                "type": "CoverageSpec"
+            },
+            {
+                "code": "VIDA_IND_INDEM_DIARIA",
+                "id": "0QLDO0000004mAq4AI",
+                "lineNumber": "00001684",
+                "name": "Indemnización Diaria por Hospitalización",
+                "price": 2741.2,
+                "type": "CoverageSpec"
+            },
+            {
+                "code": "VIDA_IND_PR_FALLECIMIENTO",
+                "id": "0QLDO0000004mAr4AI",
+                "lineNumber": "00001685",
+                "name": "Fallecimiento",
+                "price": 8130,
+                "type": "CoverageSpec"
+            },
+            {
+                "code": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                "id": "0QLDO0000004mAs4AI",
+                "lineNumber": "00001686",
+                "name": "Enfermedades Graves",
+                "price": 1306,
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "",
+                        "Country": "",
+                        "ExternalNumber": 0,
+                        "InternalNumber": 0,
+                        "PostalCode": "",
+                        "State": "",
+                        "Street": "Calle A",
+                        "Town": ""
+                    },
+                    "BirthDate": "1990-01-01",
+                    "FirstName": "Persona A",
+                    "KinshipExternalCode": "",
+                    "LastName": "Apellido A",
+                    "Percentage": 0,
+                    "email": "personaa@gmail.com"
+                },
+                "id": "0QLDO0000004mAt4AI",
+                "lineNumber": "00001687",
+                "name": "Beneficiario",
+                "price": 0,
+                "type": "InsuredPartySpec"
+            }
+        ]
+    }
+}

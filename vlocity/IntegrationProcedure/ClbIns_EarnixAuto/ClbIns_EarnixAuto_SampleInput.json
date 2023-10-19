@@ -1,0 +1,73 @@
+{
+    "coverages": [
+        {
+            "BaseDeducible": "S",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A004",
+            "IndCobertOblig": "S",
+            "NumDiasDed": "",
+            "NumDiasEmi": "",
+            "PorcDed": "5",
+            "SumaAseg": "822483",
+            "TipoDeducible": "PO"
+        },
+        {
+            "BaseDeducible": "M",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A005",
+            "IndCobertOblig": "S",
+            "NumDiasDed": "0",
+            "NumDiasEmi": "",
+            "PorcDed": "0",
+            "SumaAseg": "4000000",
+            "TipoDeducible": "DI"
+        },
+        {
+            "BaseDeducible": "M",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A006",
+            "IndCobertOblig": "S",
+            "NumDiasDed": "",
+            "NumDiasEmi": "",
+            "PorcDed": "",
+            "SumaAseg": "50000",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A010",
+            "IndCobertOblig": "S",
+            "NumDiasDed": "",
+            "NumDiasEmi": "",
+            "PorcDed": "",
+            "SumaAseg": "0",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A009",
+            "IndCobertOblig": "S",
+            "NumDiasDed": "",
+            "NumDiasEmi": "",
+            "PorcDed": "",
+            "SumaAseg": "0",
+            "TipoDeducible": ""
+        }
+    ],
+    "input_1": {
+        "autoDriver.Gender": "M",
+        "autoVehicle.Make": "VM",
+        "autoVehicle.Model": "025",
+        "autoVehicle.ModelDesc": "VMI42",
+        "autoVehicle.Type": "017",
+        "autoVehicle.Year": "2022",
+        "codePlan": "I01"
+    }
+}

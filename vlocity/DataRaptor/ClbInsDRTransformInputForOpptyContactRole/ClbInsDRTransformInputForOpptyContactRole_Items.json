@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTransformInputForOpptyContactRoleCustom826",
+        "InputFieldName": "ReadAccountContacts",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForOpptyContactRole",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForOpptyContactRole",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForOpptyContactRole",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiaries",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForOpptyContactRoleCustom2048",
+        "InputFieldName": "DRCreateOpp:Opportunity_1:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForOpptyContactRole",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForOpptyContactRole",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForOpptyContactRole",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "opptyId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

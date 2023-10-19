@@ -1,0 +1,137 @@
+[
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "a9f863b8-d58e-4bf1-bb90-e9500b83a408",
+        "InputFieldName": "ContextId",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "postNonHeldPolicies",
+        "OmniDataTransformationId": {
+            "Name": "postNonHeldPolicies",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/postNonHeldPolicies",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__AccountId__c",
+        "OutputObjectName": "%vlocity_namespace%__NonHeldPolicy__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "be89858c-4ddc-49dd-a3c5-fa124b732816",
+        "InputFieldName": "coverageNeeds:policies:policyCarrier",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "Account",
+        "LookupReturnedFieldName": "Id",
+        "Name": "postNonHeldPolicies",
+        "OmniDataTransformationId": {
+            "Name": "postNonHeldPolicies",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/postNonHeldPolicies",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CarrierId__c",
+        "OutputObjectName": "%vlocity_namespace%__NonHeldPolicy__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "e900b395-bb1c-4f97-a86a-db9007ce4b95",
+        "InputFieldName": "coverageNeeds:policies:policyLOB",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "postNonHeldPolicies",
+        "OmniDataTransformationId": {
+            "Name": "postNonHeldPolicies",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/postNonHeldPolicies",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__LOB__c",
+        "OutputObjectName": "%vlocity_namespace%__NonHeldPolicy__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "3792a0e4-0df7-40be-9e78-af580cf6aa2c",
+        "InputFieldName": "coverageNeeds:policies:policyType",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "postNonHeldPolicies",
+        "OmniDataTransformationId": {
+            "Name": "postNonHeldPolicies",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/postNonHeldPolicies",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__PolicyType__c",
+        "OutputObjectName": "%vlocity_namespace%__NonHeldPolicy__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "75561f6a-2319-4a91-865f-699929c8ed2d",
+        "InputFieldName": "coverageNeeds:policies:policyName",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "postNonHeldPolicies",
+        "OmniDataTransformationId": {
+            "Name": "postNonHeldPolicies",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/postNonHeldPolicies",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "%vlocity_namespace%__NonHeldPolicy__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaSequence": 0,
+        "GlobalKey": "a79a653f-507d-4215-8252-05214ec7f8d1",
+        "InputFieldName": "coverageNeeds:policies:faceAmount",
+        "InputObjectName": "json",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "postNonHeldPolicies",
+        "OmniDataTransformationId": {
+            "Name": "postNonHeldPolicies",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/postNonHeldPolicies",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "demo_FaceLimit__c",
+        "OutputObjectName": "%vlocity_namespace%__NonHeldPolicy__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

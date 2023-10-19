@@ -1,0 +1,53 @@
+{
+    "output": [
+        {
+            "aggregationResults": {
+            },
+            "calculationResults": [
+                {
+                    "ID": "0",
+                    "autoBIPD": 1.18,
+                    "autoCCD": 0.37,
+                    "autoCOLL": 0.47,
+                    "autoCarAltFuel__carAltFuelBIPD": 1,
+                    "autoCarAltFuel__carAltFuelCCD": 1,
+                    "autoCarAltFuel__carAltFuelCOLL": 1,
+                    "autoCarAltFuel__carAltFuelMED": 1,
+                    "autoCarAltFuel__carAltFuelUM": 1,
+                    "autoCarBrakes__carBrakeBIPD": 1,
+                    "autoCarBrakes__carBrakeCOLL": 1,
+                    "autoCarBrakes__carBrakeMED": 1,
+                    "autoCarStability__carStabCOLL": 1,
+                    "autoCarSymbol__carSymbolBIPD": 0.94,
+                    "autoCarSymbol__carSymbolMED": 0.81,
+                    "autoCarTheft__carTheftCCD": 1,
+                    "autoCarValue__carSymbol": "1",
+                    "autoCarValue__carValueCCD": 0.28,
+                    "autoCarValue__carValueCOLL": 0.3,
+                    "autoCarYear__carYearBIPD": 1.12,
+                    "autoCarYear__carYearCCD": 1.31,
+                    "autoCarYear__carYearCOLL": 1.55,
+                    "autoCarYear__carYearMED": 1.16,
+                    "autoCarYear__carYearUM": 1.11,
+                    "autoDeductCCD__dedCCD_Ded": 1.73,
+                    "autoLimitBIPD__factorBIPD": 0.042,
+                    "autoLimitMED__factorLimitMED": 0.65,
+                    "autoLimitUM__factorLimitUM": 1.65,
+                    "autoMED": 0.94,
+                    "autoUM": 1.11,
+                    "autoVehicle.instanceKey": null,
+                    "condition_output__2": true,
+                    "deductCOLL__dedCOLL_Ded": 1,
+                    "parentProdKey": "01tDo000001GynFIAS",
+                    "premA": 10,
+                    "premB": 70.5,
+                    "premiumBIPD": 15.96,
+                    "premiumCCD": 16,
+                    "premiumMED": 30.24,
+                    "premiumUM": 65.84,
+                    "productKey": "01tDo000001GynFIAS"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "Document_Gen_SampleInput.json",
+    "Description": "Create a tearsheet based on the template type.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "DocumentGeneration",
+    "OmniProcessElement": [
+        "Document_Gen_Element_setupServiceCallInputParams.json",
+        "Document_Gen_Element_generateDocumentService.json",
+        "Document_Gen_Element_ipResponse.json"
+    ],
+    "OmniProcessKey": "Document_Gen",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "tearsheet_%vlocity_namespace%__DocumentGeneration_CreateTearSheet_Procedure_1",
+    "PropertySetConfig": "Document_Gen_PropertySetConfig.json",
+    "SubType": "Gen",
+    "Type": "Document",
+    "UniqueName": "DocumentGeneration_CreateTearSheet_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Document/Gen/Procedure",
+    "WebComponentKey": "168c7ac2-b955-fc9a-97ec-75c18440ca6d"
+}

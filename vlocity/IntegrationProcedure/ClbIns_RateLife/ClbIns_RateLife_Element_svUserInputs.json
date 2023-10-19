@@ -1,0 +1,38 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "svUserInputs",
+    "OmniProcessId": {
+        "Name": "ClbInsRateLife",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/RateLife/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "userInputs": {
+                "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+                "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+                "INS_PARTY_ASEGURADO.instanceKey": "Text",
+                "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+                "SEGURO_VI_APF1_ROOT.CANTIDAD_CUOTAS": "%installments%",
+                "SEGURO_VI_APF1_ROOT.PLAN_SELECCIONADO": "%plan%",
+                "productCode": "%code%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues5",
+        "responseJSONNode": "userInputs",
+        "responseJSONPath": "userInputs",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/RateLife/Procedure/svUserInputs"
+}

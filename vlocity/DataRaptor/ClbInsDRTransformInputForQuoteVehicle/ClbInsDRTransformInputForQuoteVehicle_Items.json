@@ -1,0 +1,1290 @@
+[
+    {
+        "FormulaExpression": "CONCAT(DAY(quote:createdDate)+ \" de \"+ monthCreatedDate + \" de \" +  YEAR(quote:createdDate) + \" \" + FORMATDATETIME(quote:createdDate,\"H:m:s aa\",\"America/Mexico_City\") )",
+        "FormulaResultPath": "CreatedDate",
+        "FormulaSequence": 7,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4450",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(DAY(quote:effectiveDate) + \"/\"+ monthEffectiveDate + \"/\" + YEAR(quote:effectiveDate))",
+        "FormulaResultPath": "effectiveDate",
+        "FormulaSequence": 9,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom5366",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(DAY(quote:expirationDate) + \"/\"+ monthExpirationDate + \"/\" + YEAR(quote:expirationDate))",
+        "FormulaResultPath": "expirationDate",
+        "FormulaSequence": 11,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2891",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'name == \"INS-PARTY ASEGURADO\"')",
+        "FormulaResultPath": "Asegurado",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3975",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'name == \"Vehicle\"')",
+        "FormulaResultPath": "Vehicle",
+        "FormulaSequence": 3,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom944",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"CoverageSpec\"')",
+        "FormulaResultPath": "Coverages",
+        "FormulaSequence": 4,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1049",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"Product\"')",
+        "FormulaResultPath": "Product",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom9764",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(MONTH(quote:createdDate) == 1,\"enero\",IF(MONTH(quote:createdDate) == 2,\"febrero\",IF(MONTH(quote:createdDate) == 3,\"marzo\",IF(MONTH(quote:createdDate) == 4,\"abril\",IF(MONTH(quote:createdDate) == 5,\"mayo\",IF(MONTH(quote:createdDate) == 6,\"junio\",IF(MONTH(quote:createdDate) == 7,\"julio\",IF(MONTH(quote:createdDate) == 8,\"agosto\",IF(MONTH(quote:createdDate) == 9,\"septiembre\",IF(MONTH(quote:createdDate) == 10,\"octubre\",IF(MONTH(quote:createdDate) == 11,\"noviembre\",\"diciembre\")))))))))))",
+        "FormulaResultPath": "monthCreatedDate",
+        "FormulaSequence": 6,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom6137",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(MONTH(quote:effectiveDate) == 1,\"ENE\",IF(MONTH(quote:effectiveDate) == 2,\"FEB\",IF(MONTH(quote:effectiveDate) == 3,\"MAR\",IF(MONTH(quote:effectiveDate) == 4,\"ABR\",IF(MONTH(quote:effectiveDate) == 5,\"MAY\",IF(MONTH(quote:effectiveDate) == 6,\"JUN\",IF(MONTH(quote:effectiveDate) == 7,\"JUL\",IF(MONTH(quote:effectiveDate) == 8,\"AGO\",IF(MONTH(quote:effectiveDate) == 9,\"SEP\",IF(MONTH(quote:effectiveDate) == 10,\"OCT\",IF(MONTH(quote:effectiveDate) == 11,\"NOV\",\"DIC\")))))))))))",
+        "FormulaResultPath": "monthEffectiveDate",
+        "FormulaSequence": 8,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom7076",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(MONTH(quote:expirationDate) == 1,\"ENE\",IF(MONTH(quote:expirationDate) == 2,\"FEB\",IF(MONTH(quote:expirationDate) == 3,\"MAR\",IF(MONTH(quote:expirationDate) == 4,\"ABR\",IF(MONTH(quote:expirationDate) == 5,\"MAY\",IF(MONTH(quote:expirationDate) == 6,\"JUN\",IF(MONTH(quote:expirationDate) == 7,\"JUL\",IF(MONTH(quote:expirationDate) == 8,\"AGO\",IF(MONTH(quote:expirationDate) == 9,\"SEP\",IF(MONTH(quote:expirationDate) == 10,\"OCT\",IF(MONTH(quote:expirationDate) == 11,\"NOV\",\"DIC\")))))))))))",
+        "FormulaResultPath": "monthExpirationDate",
+        "FormulaSequence": 10,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3624",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(numInstallments == \"001\",total,installmentAmount )",
+        "FormulaResultPath": "FirstTotal",
+        "FormulaSequence": 19,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom7422",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(quote:paymentPeriod == \"012\", 11, 0)",
+        "FormulaResultPath": "PrimRec",
+        "FormulaSequence": 21,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom5200",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(quote:paymentPeriod == \"012\",installmentAmount, '0.00')",
+        "FormulaResultPath": "SecondTotal",
+        "FormulaSequence": 20,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom8924",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT CILINDROS__c FROM clbinsValor__c WHERE CodModeloDetalle__c = '{0}' AND AnoVeh__c = '{1}'\", Vehicle:attribute:ModelDesc, Vehicle:attribute:Year)",
+        "FormulaResultPath": "Vehicle:cylinders",
+        "FormulaSequence": 14,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4741",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT DESCTRANSMISION__c FROM clbinsValor__c WHERE CodModeloDetalle__c = '{0}' AND AnoVeh__c = '{1}'\", Vehicle:attribute:ModelDesc, Vehicle:attribute:Year)",
+        "FormulaResultPath": "Vehicle:transmission",
+        "FormulaSequence": 18,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1330",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT DescModeloDetalle__c FROM clbinsValor__c WHERE CodModeloDetalle__c = '{0}' AND AnoVeh__c = '{1}'\", Vehicle:attribute:ModelDesc, Vehicle:attribute:Year)",
+        "FormulaResultPath": "Vehicle:description",
+        "FormulaSequence": 13,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom8594",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT NUMPUERTAS__c FROM clbinsValor__c WHERE CodModeloDetalle__c = '{0}' AND AnoVeh__c = '{1}'\", Vehicle:attribute:ModelDesc, Vehicle:attribute:Year)",
+        "FormulaResultPath": "Vehicle:doors",
+        "FormulaSequence": 15,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4300",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT NUMPUESTOS__c FROM clbinsValor__c WHERE CodModeloDetalle__c = '{0}' AND AnoVeh__c = '{1}'\", Vehicle:attribute:ModelDesc, Vehicle:attribute:Year)",
+        "FormulaResultPath": "Vehicle:capacity",
+        "FormulaSequence": 16,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4797",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT Name FROM clbinsMarca__c WHERE CodMarca__c = '{0}'\", Vehicle:attribute:Brand)",
+        "FormulaResultPath": "Vehicle:brand",
+        "FormulaSequence": 12,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1055",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "QUERY(\"SELECT TONELAJE__c FROM clbinsValor__c WHERE CodModeloDetalle__c = '{0}' AND AnoVeh__c = '{1}'\", Vehicle:attribute:ModelDesc, Vehicle:attribute:Year)",
+        "FormulaResultPath": "Vehicle:tonnage",
+        "FormulaSequence": 17,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom7099",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "ROUND(quote:price + quote:expense + quote:tax,2,HALF_UP)",
+        "FormulaResultPath": "Total",
+        "FormulaSequence": 5,
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4725",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "NO APLICA",
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom9258",
+        "InputFieldName": "Coverages:deductible",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Coverages:deductible",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom927",
+        "InputFieldName": "Coverages:limit",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Coverages:limit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom5511",
+        "InputFieldName": "Coverages:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Coverages:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom6980",
+        "InputFieldName": "Coverages:coveragePrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Coverages:premium",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1986",
+        "InputFieldName": "FirstTotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FstTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3080",
+        "InputFieldName": "PrimRec",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PrimaRec",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom549",
+        "InputFieldName": "SecondTotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SndTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom6235",
+        "InputFieldName": "CreatedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "createdDate",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2332",
+        "InputFieldName": "Asegurado:attribute:Driver:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "driverLastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2904",
+        "InputFieldName": "Asegurado:attribute:Driver:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "driverName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3587",
+        "InputFieldName": "effectiveDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom8983",
+        "InputFieldName": "quote:expense",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number",
+        "OutputFieldName": "expense",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2283",
+        "InputFieldName": "expirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "expirationDate",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom9681",
+        "InputFieldName": "Asegurado:attribute:Address:Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredAddress",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom7037",
+        "InputFieldName": "Asegurado:attribute:Address:City",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredCity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom9049",
+        "InputFieldName": "Asegurado:attribute:Address:Country",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredCountry",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom6517",
+        "InputFieldName": "Asegurado:attribute:Address:ExternalNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredExternalNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom9677",
+        "InputFieldName": "Asegurado:attribute:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredLastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom723",
+        "InputFieldName": "Asegurado:attribute:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3237",
+        "InputFieldName": "Asegurado:attribute:PhoneNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredPhone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom7205",
+        "InputFieldName": "Asegurado:attribute:Address:PostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredPostalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom8681",
+        "InputFieldName": "quote:account:rfc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredRFC",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4256",
+        "InputFieldName": "Asegurado:attribute:Address:State",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredState",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2314",
+        "InputFieldName": "Asegurado:attribute:Address:Town",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredTown",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2657",
+        "InputFieldName": "quote:paymentPeriod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "paymentPeriod",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{\"001\":\"ANUAL\",\"012\":\"MENSUAL\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom5136",
+        "InputFieldName": "quote:typeOfCard",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "paymentType",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{\"03\":\"DÉBITO\",\"04\":\"CRÉDITO\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom8344",
+        "InputFieldName": "quote:price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number",
+        "OutputFieldName": "premium",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3151",
+        "InputFieldName": "Product:productCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "productCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom9908",
+        "InputFieldName": "Product:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3517",
+        "InputFieldName": "quote:number",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom8194",
+        "InputFieldName": "quote:tax",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number(3)",
+        "OutputFieldName": "tax",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4687",
+        "InputFieldName": "Total",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number(3)",
+        "OutputFieldName": "total",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom3604",
+        "InputFieldName": "Vehicle:brand",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleBrand",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4714",
+        "InputFieldName": "Vehicle:cylinders",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleCC",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1018",
+        "InputFieldName": "Vehicle:capacity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleCapacity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1893",
+        "InputFieldName": "Vehicle:description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleDescription",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom5271",
+        "InputFieldName": "Vehicle:doors",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleDoors",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1250",
+        "InputFieldName": "Vehicle:attribute:EngineNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleEngine",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom4896",
+        "InputFieldName": "Vehicle:attribute:NumberPlate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehiclePlate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom581",
+        "InputFieldName": "Vehicle:attribute:ModelDesc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleSB",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2983",
+        "InputFieldName": "Vehicle:attribute:SerialNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleSerial",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom2347",
+        "InputFieldName": "Vehicle:tonnage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleTonnage",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom1532",
+        "InputFieldName": "Vehicle:transmission",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleTransmission",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{\"001\":\"MAN\",\"002\":\"AUT\",\"003\":\"STD\",\"004\":\"AUT/STD\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForQuoteVehicleCustom5210",
+        "InputFieldName": "Vehicle:attribute:Year",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForQuoteVehicle",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForQuoteVehicle",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "vehicleYear",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,1112 @@
+[
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'name == \"INS-PARTY ASEGURADO\"')",
+        "FormulaResultPath": "Insured",
+        "FormulaSequence": 3,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem9",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'name LIKE \"%INCE-EDIFICIO%\"')",
+        "FormulaResultPath": "ListIncendio",
+        "FormulaSequence": 5,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem13",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"CoverageSpec\"')",
+        "FormulaResultPath": "Coverages",
+        "FormulaSequence": 2,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem8",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"InsuredItemSpec\"')",
+        "FormulaResultPath": "Property",
+        "FormulaSequence": 4,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem7",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli), 'type == \"Product\"')",
+        "FormulaResultPath": "Product",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem10",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Contenido__INCE_EDIFI_PR_EXPLOSION\"')",
+        "FormulaResultPath": "Co-Explosion",
+        "FormulaSequence": 17,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Contenido__INCE_EDIFI_PR_INFLACION\"')",
+        "FormulaResultPath": "Co-Inflacion",
+        "FormulaSequence": 15,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem4",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_EXTENSION_CUBIERTA\"')",
+        "FormulaResultPath": "Co-ExtensionCubierta",
+        "FormulaSequence": 11,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem11",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_HUELGAS_ALBOROTOS\"')",
+        "FormulaResultPath": "Co-HuelgaAlboroto",
+        "FormulaSequence": 9,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_INCENDIO_RAYO\"')",
+        "FormulaResultPath": "Co-IncendioRayo",
+        "FormulaSequence": 7,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem6",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Contenidos__INCE_CONTE_PR_TODO_RIESGO\"')",
+        "FormulaResultPath": "Co-TodoRiesgo",
+        "FormulaSequence": 13,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem14",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXPLOSION\"')",
+        "FormulaResultPath": "Ed-Explosion",
+        "FormulaSequence": 16,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem15",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_EXTENSION_CUBIERTA\"')",
+        "FormulaResultPath": "Ed-ExtensionCubierta",
+        "FormulaSequence": 10,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem17",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_HUELGAS_ALBOROTOS\"')",
+        "FormulaResultPath": "Ed-HuelgaAlboroto",
+        "FormulaSequence": 8,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INCENDIO_RAYO\"')",
+        "FormulaResultPath": "Ed-IncendioRayo",
+        "FormulaSequence": 6,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem5",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_INFLACION\"')",
+        "FormulaResultPath": "Ed-Inflacion",
+        "FormulaSequence": 14,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem19",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"INCE_Calculo_Prima_Edificio__INCE_EDIFI_PR_TODO_RIESGO\"')",
+        "FormulaResultPath": "Ed-TodoRiesgo",
+        "FormulaSequence": 12,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem12",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"OTROS_Calculo_Prima__DMED_ASEG_PR_DANOS_MATERIALES\"')",
+        "FormulaResultPath": "DanosMateriales",
+        "FormulaSequence": 20,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem18",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"OTROS_Calculo_Prima__DMRB_ASEG_PR_ROBO_VIOLENCIA_DENTRO\"')",
+        "FormulaResultPath": "RoboViolencia",
+        "FormulaSequence": 19,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem16",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "FILTER(LIST(quote:qli),'code == \"RHMT_Calculo_Prima_Edificio__RHMT_EDIFI_PR_REMOCION_ESCOMBROS\"')",
+        "FormulaResultPath": "Ed-RhtmEscombros",
+        "FormulaSequence": 18,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "ROUND(quote:price * 0.16,2,HALF_UP)",
+        "FormulaResultPath": "Tax",
+        "FormulaSequence": 21,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom56",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "ROUND(quote:price + Tax + (300 / 12 ),2,HALF_UP)",
+        "FormulaResultPath": "FirstPay",
+        "FormulaSequence": 23,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom5201",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "ROUND(quote:price + Tax + 300,2,HALF_UP)",
+        "FormulaResultPath": "Total",
+        "FormulaSequence": 22,
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom6969",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem28",
+        "InputFieldName": "Co-Explosion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coExplosion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem44",
+        "InputFieldName": "Co-ExtensionCubierta",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coExtensionCubierta",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem24",
+        "InputFieldName": "Co-HuelgaAlboroto",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coHuelgaAlboroto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem21",
+        "InputFieldName": "Co-IncendioRayo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coIncendioRayo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem23",
+        "InputFieldName": "Co-IncendioRayo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coIncendioRayo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem45",
+        "InputFieldName": "Co-Inflacion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coInflacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem47",
+        "InputFieldName": "Co-TodoRiesgo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coTodoRiesgo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem41",
+        "InputFieldName": "Beneficiario:attribute:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "contractorLastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem35",
+        "InputFieldName": "Coverages",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "coverages",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem42",
+        "InputFieldName": "DanosMateriales",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "danosMateriales",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem49",
+        "InputFieldName": "Ed-Explosion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edExplosion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem25",
+        "InputFieldName": "Ed-ExtensionCubierta",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edExtensionCubierta",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem26",
+        "InputFieldName": "Ed-HuelgaAlboroto",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edHuelgaAlboroto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem43",
+        "InputFieldName": "Ed-IncendioRayo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edIncendioRayo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem46",
+        "InputFieldName": "Ed-Inflacion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edInflacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem27",
+        "InputFieldName": "Ed-RhtmEscombros",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edRhtmEscombros",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem22",
+        "InputFieldName": "Ed-TodoRiesgo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "edTodoRiesgo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem30",
+        "InputFieldName": "quote:effectiveDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem31",
+        "InputFieldName": "quote:expirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "expirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem29",
+        "InputFieldName": "Insured",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insured",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem34",
+        "InputFieldName": "Insured:attribute:CURP",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredCURP",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem32",
+        "InputFieldName": "Insured:attribute:Apellidos",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredLastNames",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem37",
+        "InputFieldName": "Insured:attribute:Nombres",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredNames",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem40",
+        "InputFieldName": "Insured:attribute:address:Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "insuredStreet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom9868",
+        "InputFieldName": "Tax",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "iva",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem20",
+        "InputFieldName": "ListIncendio",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listIncendio",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem33",
+        "InputFieldName": "quote:price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom516",
+        "InputFieldName": "FirstPay",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "primerPag",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem39",
+        "InputFieldName": "Product:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem36",
+        "InputFieldName": "Property",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "property",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem38",
+        "InputFieldName": "quote:number",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom0jIDO00000001C02AIItem48",
+        "InputFieldName": "RoboViolencia",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "roboViolencia",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTranformQuoteDamageCopy1692626353923Custom3084",
+        "InputFieldName": "Total",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTranformQuoteDamageCopy1692626353923",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "totalPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

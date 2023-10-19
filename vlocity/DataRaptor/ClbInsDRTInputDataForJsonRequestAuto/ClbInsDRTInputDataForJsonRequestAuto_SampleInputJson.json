@@ -1,0 +1,177 @@
+{
+    "ClbBanSystemSettings": {
+        "ClbBanSS": {
+            "ruleId": "1",
+            "urlRatingEarnix": "https://earnix.com/1/rating"
+        }
+    },
+    "ClbBanSystemSettingsStatus": true,
+    "GetClaveBG": {
+        "cModeloAuto": {
+            "claveBG": "VF002083"
+        }
+    },
+    "GetClaveBGStatus": true,
+    "GetCodModeloDetalle": {
+        "cAuto": {
+            "codModDetalle": "VFU89"
+        }
+    },
+    "GetCodModeloDetalleStatus": true,
+    "GetValoresAuto": {
+        "cValorAuto": {
+            "mtoValorComercial": 59040,
+            "mtoValorNuevo": 163453
+        }
+    },
+    "GetValoresAutoStatus": true,
+    "InitialSettings": {
+        "fechaMovimiento": "02/08/2023T07:49:36.680-0600",
+        "finVigencia": "02/08/2024",
+        "inicioVigencia": "02/08/2023"
+    },
+    "InitialSettingsStatus": true,
+    "coverages": [
+        {
+            "BaseDeducible": "S",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A004",
+            "IndCobertOblig": "S",
+            "PorcDed": "10",
+            "SumaAseg": "598428.00",
+            "TipoDeducible": "PO"
+        },
+        {
+            "BaseDeducible": "M",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A005",
+            "IndCobertOblig": "S",
+            "PorcDed": "",
+            "SumaAseg": "4000000.00",
+            "TipoDeducible": "DI"
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A007",
+            "IndCobertOblig": "S",
+            "PorcDed": "",
+            "SumaAseg": "0.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A006",
+            "IndCobertOblig": "S",
+            "PorcDed": "",
+            "SumaAseg": "150000.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A009",
+            "IndCobertOblig": "S",
+            "PorcDed": "",
+            "SumaAseg": "1000000.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A010",
+            "IndCobertOblig": "S",
+            "PorcDed": "",
+            "SumaAseg": "750000.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A014",
+            "IndCobertOblig": "N",
+            "PorcDed": "",
+            "SumaAseg": "6000.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A012",
+            "IndCobertOblig": "N",
+            "PorcDed": "",
+            "SumaAseg": "100000.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A023",
+            "IndCobertOblig": "N",
+            "PorcDed": "",
+            "SumaAseg": "100.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A017",
+            "IndCobertOblig": "N",
+            "PorcDed": "",
+            "SumaAseg": "0.00",
+            "TipoDeducible": ""
+        },
+        {
+            "BaseDeducible": "",
+            "CoberturaSeleccionada": "S",
+            "CoberturaVisible": "S",
+            "CodCobert": "A022",
+            "IndCobertOblig": "N",
+            "PorcDed": "",
+            "SumaAseg": "300000.00",
+            "TipoDeducible": ""
+        }
+    ],
+    "input_1": {
+        "Availability__c": null,
+        "ParentClassCode__c": null,
+        "ParentClassId__c": null,
+        "ProductCode": "AutoP1",
+        "SubType__c": null,
+        "Type__c": null,
+        "autoDriver.FirstName": "Alberto",
+        "autoDriver.Gender": "M",
+        "autoDriver.LastName": "Juarez",
+        "autoDriver.instanceKey": "Alberto Juarez",
+        "autoDriver.isPrimary": "Boolean",
+        "autoVehicle.Make": "VF",
+        "autoVehicle.Model": "025",
+        "autoVehicle.ModelDesc": "JEEP WRANGLER 4WD 6 CYL UNLIMITED UTIL LWB",
+        "autoVehicle.Type": "008",
+        "autoVehicle.Year": "2023",
+        "autoVehicle.instanceKey": "2023 VF 025",
+        "parentProdKey": "01tDO000000KpuNYAS",
+        "productKey": "01tDO000000KpuNYAS"
+    },
+    "methodOfPayment": "TC",
+    "options": {
+        "chainable": false,
+        "ignoreCache": true,
+        "queueableChainable": false,
+        "resetCache": false,
+        "useQueueableApexRemoting": false
+    },
+    "profile": "OPERADOR",
+    "user": "8025821"
+}

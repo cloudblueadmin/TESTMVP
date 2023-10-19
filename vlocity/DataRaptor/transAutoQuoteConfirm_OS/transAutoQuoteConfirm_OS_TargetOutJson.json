@@ -1,0 +1,17 @@
+{
+    "quoteConfirm": {
+        "annualPremium": 137.59,
+        "effectiveDate": "2022-09-06",
+        "expirationDate": "2023-09-05",
+        "feeAmount": 25,
+        "producerEmail": "info@salesforce.com",
+        "producerName": "Carole White",
+        "producerPhone": "(415) 555-1212",
+        "productName": "Multi Auto",
+        "recordNumber": "00000043",
+        "status": "Draft",
+        "taxAmount": 28.53795,
+        "totalAmount": 191.13
+    },
+    "quoteNumber": "00000043"
+}

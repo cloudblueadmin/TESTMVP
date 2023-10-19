@@ -1,0 +1,502 @@
+{
+    "bien_cert": [
+        {
+            "clasebien": "001",
+            "codramocert": "INCE",
+            "insuredAmount": 2500000
+        },
+        {
+            "clasebien": "002",
+            "codramocert": "INCE",
+            "insuredAmount": 500000
+        },
+        {
+            "clasebien": "001",
+            "codramocert": "RHMT"
+        },
+        {
+            "clasebien": "002",
+            "codramocert": "RHMT"
+        },
+        {
+            "clasebien": "001",
+            "codramocert": "TEEV"
+        },
+        {
+            "clasebien": "002",
+            "codramocert": "TEEV"
+        }
+    ],
+    "cobert_bien": [
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I005E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                    "price": 94.31
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 1,
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "productCode": "I005",
+                "productName": "INCE-EDIFICIO-TODO RIESGO (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I001E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                    "price": 113.18
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 2,
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "productCode": "I001",
+                "productName": "INCE-EDIFICIO-INCENDIO Y/O RAYO"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I003E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "INCE-EDIFICIO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                    "price": 56.59
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 3,
+                "name": "INCE-EDIFICIO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "productCode": "I003",
+                "productName": "INCE-EDIFICIO-HUELGAS Y ALBOROTOS POPULARES (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I004E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 56.59
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 4,
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "productCode": "I004",
+                "productName": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I002E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                    "price": 56.59
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 5,
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "productCode": "I002",
+                "productName": "INCE-EDIFICIO-EXPLOSIÓN (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I011E",
+                    "codBien": "001",
+                    "insuredAmount": 112500,
+                    "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 11.25
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 6,
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "productCode": "I011",
+                "productName": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I013E",
+                    "codBien": "001",
+                    "insuredAmount": 250000,
+                    "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 18.85
+                },
+                "claseBien": "001",
+                "codramocert": "INCE",
+                "idcobert": 7,
+                "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "productCode": "I013",
+                "productName": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I005C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                    "price": 18.86
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 8,
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "productCode": "I005",
+                "productName": "INCE-CONTENIDO-TODO RIESGO (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I013C",
+                    "codBien": "002",
+                    "insuredAmount": 50000,
+                    "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                    "price": 3.77
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 9,
+                "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "productCode": "I013",
+                "productName": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I001C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                    "price": 22.64
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 10,
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "productCode": "I001",
+                "productName": "INCE-CONTENIDO-INCENDIO Y/O RAYO"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I003C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "INCE-CONTENIDO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                    "price": 11.32
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 11,
+                "name": "INCE-CONTENIDO-HUELGAS Y ALBOROTOS POPULARES (S)",
+                "productCode": "I003",
+                "productName": "INCE-CONTENIDO-HUELGAS Y ALBOROTOS POPULARES (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I004C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                    "price": 11.32
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 12,
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "productCode": "I004",
+                "productName": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I002C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                    "price": 11.32
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 13,
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "productCode": "I002",
+                "productName": "INCE-CONTENIDO-EXPLOSIÓN (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "I011C",
+                    "codBien": "002",
+                    "insuredAmount": 22500,
+                    "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                    "price": 2.25
+                },
+                "claseBien": "002",
+                "codramocert": "INCE",
+                "idcobert": 14,
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "productCode": "I011",
+                "productName": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "RH01E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS",
+                    "price": 315.75
+                },
+                "claseBien": "001",
+                "codramocert": "RHMT",
+                "idcobert": 15,
+                "name": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS",
+                "productCode": "RH01",
+                "productName": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "RH02E",
+                    "codBien": "001",
+                    "insuredAmount": 250000,
+                    "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 18.85
+                },
+                "claseBien": "001",
+                "codramocert": "RHMT",
+                "idcobert": 16,
+                "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "productCode": "RH02",
+                "productName": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "RH01C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS",
+                    "price": 63.15
+                },
+                "claseBien": "002",
+                "codramocert": "RHMT",
+                "idcobert": 17,
+                "name": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS",
+                "productCode": "RH01",
+                "productName": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "RH02C",
+                    "codBien": "002",
+                    "insuredAmount": 50000,
+                    "name": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                    "price": 3.77
+                },
+                "claseBien": "002",
+                "codramocert": "RHMT",
+                "idcobert": 18,
+                "name": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "productCode": "RH02",
+                "productName": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "TE01E",
+                    "codBien": "001",
+                    "insuredAmount": 2500000,
+                    "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                    "price": 1672.78
+                },
+                "claseBien": "001",
+                "codramocert": "TEEV",
+                "idcobert": 19,
+                "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "productCode": "TE01",
+                "productName": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "TE02E",
+                    "codBien": "001",
+                    "insuredAmount": 50000,
+                    "name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                    "price": 18.85
+                },
+                "claseBien": "001",
+                "codramocert": "TEEV",
+                "idcobert": 20,
+                "name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "productCode": "TE02",
+                "productName": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "TE01C",
+                    "codBien": "002",
+                    "insuredAmount": 500000,
+                    "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                    "price": 167.28
+                },
+                "claseBien": "002",
+                "codramocert": "TEEV",
+                "idcobert": 21,
+                "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "productCode": "TE01",
+                "productName": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA"
+            }
+        },
+        {
+            "cobert_bien": {
+                "attributeSelectedValues": {
+                    "ProductCode": "TE02C",
+                    "codBien": "002",
+                    "insuredAmount": 50000,
+                    "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                    "price": 3.77
+                },
+                "claseBien": "002",
+                "codramocert": "TEEV",
+                "idcobert": 22,
+                "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "productCode": "TE02",
+                "productName": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS"
+            }
+        }
+    ],
+    "cobert_cert": [
+        {
+            "baseded": "N",
+            "codcobert": "RCF1",
+            "codmoneda": "PES",
+            "codplan": "255",
+            "codramocert": "RCGE",
+            "fecfinplazoespera": "",
+            "indincren": "S",
+            "indplazoespera": "N",
+            "indvalida": "",
+            "mtodedmin": 0,
+            "nrodiasemi": "0",
+            "numcert": "1",
+            "porcded": "",
+            "porcoapact": "",
+            "porcprimadep": "",
+            "primamoneda": 80.7,
+            "revplan": "001",
+            "sumaasegmoneda": 1000000,
+            "tasa": 0,
+            "textcobert": "",
+            "tipopint": "EMI"
+        },
+        {
+            "baseded": "N",
+            "codcobert": "MA01",
+            "codmoneda": "PES",
+            "codplan": "255",
+            "codramocert": "DMED",
+            "fecfinplazoespera": "",
+            "indincren": "S",
+            "indplazoespera": "N",
+            "indvalida": "",
+            "mtodedmin": 0,
+            "nrodiasemi": "0",
+            "numcert": "1",
+            "porcded": "",
+            "porcoapact": "",
+            "porcprimadep": "",
+            "primamoneda": 35.13,
+            "revplan": "001",
+            "sumaasegmoneda": 50000,
+            "tasa": 0,
+            "textcobert": "",
+            "tipopint": "EMI"
+        },
+        {
+            "baseded": "N",
+            "codcobert": "RB03",
+            "codmoneda": "PES",
+            "codplan": "255",
+            "codramocert": "DMRB",
+            "fecfinplazoespera": "",
+            "indincren": "S",
+            "indplazoespera": "N",
+            "indvalida": "",
+            "mtodedmin": 0,
+            "nrodiasemi": "0",
+            "numcert": "1",
+            "porcded": "",
+            "porcoapact": "",
+            "porcprimadep": "",
+            "primamoneda": 338.2,
+            "revplan": "001",
+            "sumaasegmoneda": 100000,
+            "tasa": 0,
+            "textcobert": "",
+            "tipopint": "EMI"
+        },
+        {
+            "baseded": "N",
+            "codcobert": "RB15",
+            "codmoneda": "PES",
+            "codplan": "255",
+            "codramocert": "DMRB",
+            "fecfinplazoespera": "",
+            "indincren": "S",
+            "indplazoespera": "N",
+            "indvalida": "",
+            "mtodedmin": 0,
+            "nrodiasemi": "0",
+            "numcert": "1",
+            "porcded": "",
+            "porcoapact": "",
+            "porcprimadep": "",
+            "primamoneda": 0.45,
+            "revplan": "001",
+            "sumaasegmoneda": 4500,
+            "tasa": 0,
+            "textcobert": "",
+            "tipopint": "EMI"
+        }
+    ],
+    "curpId": "MOMM650904HDFNRR05",
+    "quoteId": "0Q0DO0000008vwI0AQ"
+}

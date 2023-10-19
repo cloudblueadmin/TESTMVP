@@ -1,0 +1,7 @@
+{
+    "userInputs": {
+        "SEGURO_BLINDAJE_PLUS_ROOT.CNT_DIAS_VIGENCIA": "Number",
+        "SEGURO_BLINDAJE_PLUS_ROOT.PLAN_SELECCIONADO": "Text",
+        "SEGURO_BLINDAJE_PLUS_ROOT.PORCENTAJE_DESCUENTO": "Percent"
+    }
+}

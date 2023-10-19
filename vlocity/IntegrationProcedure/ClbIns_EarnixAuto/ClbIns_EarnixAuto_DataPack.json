@@ -1,0 +1,33 @@
+{
+    "CustomJavaScript": "ClbIns_EarnixAuto_SampleInput.json",
+    "Description": "Integration Procedure for Rating of Auto Product  - INTEGRATION TO EARNIX  v6 -- added coverages as result - added codProd v8 - added price with expenses and taxes; get expenses and taxes from a separate IP",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Auto Rating",
+    "OmniProcessElement": [
+        "ClbIns_EarnixAuto_Element_ClbBanSystemSettings.json",
+        "ClbIns_EarnixAuto_Element_InitialSettings.json",
+        "ClbIns_EarnixAuto_Element_GetAutoDetails.json",
+        "ClbIns_EarnixAuto_Element_InputDataForJson.json",
+        "ClbIns_EarnixAuto_Element_JsonRequest.json",
+        "ClbIns_EarnixAuto_Element_svRequest.json",
+        "ClbIns_EarnixAuto_Element_PostEarnix.json",
+        "ClbIns_EarnixAuto_Element_CalculateExpensesAndTaxes.json",
+        "ClbIns_EarnixAuto_Element_TranformVehicleRateResponse.json",
+        "ClbIns_EarnixAuto_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_EarnixAuto",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_EarnixAuto_PropertySetConfig.json",
+    "SubType": "EarnixAuto",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/EarnixAuto/Procedure",
+    "WebComponentKey": "95edb729-d8e0-3e42-ebc1-e42e69b50f42"
+}

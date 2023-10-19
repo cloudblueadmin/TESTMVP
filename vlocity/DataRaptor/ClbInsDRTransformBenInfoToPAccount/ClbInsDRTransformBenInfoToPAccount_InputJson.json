@@ -1,0 +1,21 @@
+{
+    "BenificiaryInformation": [
+        {
+            "Address": {
+                "City": "",
+                "Country": "",
+                "ExternalNumber": 0,
+                "InternalNumber": 0,
+                "PostalCode": "",
+                "State": "",
+                "Street": "Calle A",
+                "Town": ""
+            },
+            "BirthDate": "1990-01-01",
+            "FirstName": "Persona A",
+            "KinshipExternalCode": "",
+            "LastName": "Apellido A",
+            "Percentage": 0
+        }
+    ]
+}

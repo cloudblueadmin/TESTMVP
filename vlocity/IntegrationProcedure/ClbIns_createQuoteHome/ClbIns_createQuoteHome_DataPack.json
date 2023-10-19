@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "ClbIns_createQuoteHome_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsCreateQuoteHome",
+    "OmniProcessElement": [
+        "ClbIns_createQuoteHome_Element_UpdatedCoverages.json",
+        "ClbIns_createQuoteHome_Element_JsonUpdatedCoverages.json",
+        "ClbIns_createQuoteHome_Element_JsonInputQuoteHomePropio.json",
+        "ClbIns_createQuoteHome_Element_JsonInputQuoteHomeRentado.json",
+        "ClbIns_createQuoteHome_Element_CreateUpdateQuote.json",
+        "ClbIns_createQuoteHome_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_createQuoteHome",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_createQuoteHome_PropertySetConfig.json",
+    "SubType": "createQuoteHome",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/createQuoteHome/Procedure",
+    "WebComponentKey": "0c293808-85ff-0794-b2f2-4557282ef835"
+}

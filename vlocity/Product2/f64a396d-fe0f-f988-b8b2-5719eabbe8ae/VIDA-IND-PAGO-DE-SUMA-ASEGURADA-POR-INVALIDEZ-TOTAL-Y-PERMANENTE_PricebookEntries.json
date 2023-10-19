@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "VIDA-IND-PAGO DE SUMA ASEGURADA POR INVALIDEZ TOTAL Y PERMANENTE",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "f64a396d-fe0f-f988-b8b2-5719eabbe8ae",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "f64a396d-fe0f-f988-b8b2-5719eabbe8ae",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/f64a396d-fe0f-f988-b8b2-5719eabbe8ae",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VIDA_IND_PAGO_SUMA_ASEG_INVALIDEZ_TOTAL_PERMANENTE",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/f64a396d-fe0f-f988-b8b2-5719eabbe8ae"
+    }
+]

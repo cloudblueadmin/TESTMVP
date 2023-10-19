@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "VIDA-IND-Maestro-Formula",
+    "Namespace": "",
+    "UniqueName": "VIDA-IND-Maestro-Formula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/VIDA-IND-Maestro-Formula"
+}

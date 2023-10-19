@@ -1,0 +1,950 @@
+[
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1744",
+        "InputFieldName": "jsonEmisionDanos:brecha",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:brecha",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5208",
+        "InputFieldName": "jsonEmisionDanos:certificado:bien_cert",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:bien_cert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom456",
+        "InputFieldName": "coverageListJson:cobert_bien",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:cobert_bien",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom3060",
+        "InputFieldName": "jsonEmisionDanos:certificado:cobert_cert",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:cobert_cert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1111",
+        "InputFieldName": "jsonEmisionDanos:certificado:codbarrio",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codbarrio",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5036",
+        "InputFieldName": "jsonEmisionDanos:certificado:codciudad",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codciudad",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5331",
+        "InputFieldName": "jsonEmisionDanos:certificado:codcumulo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codcumulo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom6651",
+        "InputFieldName": "jsonEmisionDanos:certificado:codestado",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codestado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9039",
+        "InputFieldName": "jsonEmisionDanos:certificado:codigopostal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codigopostal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5952",
+        "InputFieldName": "jsonEmisionDanos:certificado:codmotvexc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codmotvexc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5286",
+        "InputFieldName": "jsonEmisionDanos:certificado:codmunicipio",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codmunicipio",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom8220",
+        "InputFieldName": "jsonEmisionDanos:certificado:codofisusc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codofisusc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5661",
+        "InputFieldName": "jsonEmisionDanos:certificado:codpais",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codpais",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom688",
+        "InputFieldName": "jsonEmisionDanos:certificado:codph",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:codph",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom6417",
+        "InputFieldName": "jsonEmisionDanos:certificado:datos_part_incerd",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datos_part_incerd",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9744",
+        "InputFieldName": "jsonEmisionDanos:certificado:datos_part_mequipo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datos_part_mequipo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1498",
+        "InputFieldName": "jsonEmisionDanos:certificado:datos_part_resp",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datos_part_resp",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1434",
+        "InputFieldName": "jsonEmisionDanos:certificado:datos_part_rhm",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datos_part_rhm",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1615",
+        "InputFieldName": "jsonEmisionDanos:certificado:datos_part_robo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datos_part_robo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom4133",
+        "InputFieldName": "jsonEmisionDanos:certificado:datos_part_terremoto",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datos_part_terremoto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom2133",
+        "InputFieldName": "jsonEmisionDanos:certificado:datpacris",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:datpacris",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom6827",
+        "InputFieldName": "jsonEmisionDanos:certificado:desccert",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:desccert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom7242",
+        "InputFieldName": "jsonEmisionDanos:certificado:descdepartaseg",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:descdepartaseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom441",
+        "InputFieldName": "jsonEmisionDanos:certificado:descriesgo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:descriesgo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1266",
+        "InputFieldName": "jsonEmisionDanos:certificado:direc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:direc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom8070",
+        "InputFieldName": "jsonEmisionDanos:certificado:fecexc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:fecexc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom3858",
+        "InputFieldName": "jsonEmisionDanos:certificado:fecing",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:fecing",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom218",
+        "InputFieldName": "jsonEmisionDanos:certificado:inddirecprin",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:inddirecprin",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9056",
+        "InputFieldName": "jsonEmisionDanos:certificado:indprimerrec",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:indprimerrec",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9728",
+        "InputFieldName": "jsonEmisionDanos:certificado:indvalida",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:indvalida",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom8704",
+        "InputFieldName": "jsonEmisionDanos:certificado:mtoderpol",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:mtoderpol",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom6367",
+        "InputFieldName": "jsonEmisionDanos:certificado:mtoiva",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:mtoiva",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom3502",
+        "InputFieldName": "jsonEmisionDanos:certificado:mtoprima",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:mtoprima",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom7674",
+        "InputFieldName": "jsonEmisionDanos:certificado:mtorecargo",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:mtorecargo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom4073",
+        "InputFieldName": "jsonEmisionDanos:certificado:mtototpagar",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:mtototpagar",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom4990",
+        "InputFieldName": "jsonEmisionDanos:certificado:numcert",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:numcert",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom1903",
+        "InputFieldName": "jsonEmisionDanos:certificado:numcertcum",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:numcertcum",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom2165",
+        "InputFieldName": "jsonEmisionDanos:certificado:numempleado",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:numempleado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9796",
+        "InputFieldName": "jsonEmisionDanos:certificado:observacion",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:observacion",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9658",
+        "InputFieldName": "jsonEmisionDanos:certificado:porciva",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:porciva",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9068",
+        "InputFieldName": "jsonEmisionDanos:certificado:resp_pago",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:resp_pago",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom2126",
+        "InputFieldName": "jsonEmisionDanos:certificado:textmotvexc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:textmotvexc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.NULL",
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom8642",
+        "InputFieldName": "jsonEmisionDanos:certificado:tipoexc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:tipoexc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom2494",
+        "InputFieldName": "jsonEmisionDanos:certificado:tipopint",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:certificado:tipopint",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom8993",
+        "InputFieldName": "jsonEmisionDanos:codofiemi",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:codofiemi",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9843",
+        "InputFieldName": "jsonEmisionDanos:codprod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:codprod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom9612",
+        "InputFieldName": "jsonEmisionDanos:newidproc",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:newidproc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom7377",
+        "InputFieldName": "jsonEmisionDanos:numpol",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:numpol",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbDRTCoverageListToJsonCustom5756",
+        "InputFieldName": "jsonEmisionDanos:poliza",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbDRTCoverageListToJson",
+        "OmniDataTransformationId": {
+            "Name": "ClbDRTCoverageListToJson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbDRTCoverageListToJson",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "jsonToEmisionDamage:poliza",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

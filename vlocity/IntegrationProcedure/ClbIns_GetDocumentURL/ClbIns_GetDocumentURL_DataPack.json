@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_GetDocumentURL_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetDocumentURL",
+    "OmniProcessElement": [
+        "ClbIns_GetDocumentURL_Element_DecryptJodId.json",
+        "ClbIns_GetDocumentURL_Element_GetDocumentDetails.json",
+        "ClbIns_GetDocumentURL_Element_CreateContentDistribution.json",
+        "ClbIns_GetDocumentURL_Element_GetDocumentURL.json",
+        "ClbIns_GetDocumentURL_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetDocumentURL",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetDocumentURL_PropertySetConfig.json",
+    "SubType": "GetDocumentURL",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetDocumentURL/Procedure",
+    "WebComponentKey": "6cb1e404-8db1-37a3-6fdb-b2574ef712d7"
+}

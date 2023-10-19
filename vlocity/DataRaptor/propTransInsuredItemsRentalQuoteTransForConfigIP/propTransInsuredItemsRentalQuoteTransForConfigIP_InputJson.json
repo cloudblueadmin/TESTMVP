@@ -1,0 +1,102 @@
+{
+    "home": {
+        "effectiveDate": "2019-10-31",
+        "expirationDate": "2020-10-30T07:00:00.000Z",
+        "plBrushClearance": "501",
+        "plBurglarAlarm": "Local",
+        "plConstType": "Wood Frame",
+        "plFireAlarm": "Battery operated detectors",
+        "plNumBath": 2,
+        "plNumBed": 2,
+        "plPropType": "Condo",
+        "plRoofType": "Wood Shingles",
+        "plSprinklers": "None",
+        "plUsageType": "Main Residence",
+        "plValue": 1000000,
+        "plYrBuilt": 2010,
+        "plYrOwned": 2,
+        "policyholderName": "undefined undefined",
+        "propertyAddress-Block": {
+            "plCity": "San Francisco",
+            "plCountry": "US",
+            "plPostCode": "94103",
+            "plState": "CA",
+            "plStreet": "50 Broadway Avenue",
+            "plUnitNum": null,
+            "propertyAddress": null
+        },
+        "proposalName": "Homeowners Policy for undefined undefined"
+    },
+    "valuables": {
+        "cbCollections": true,
+        "cbFineArts": true,
+        "cbFurs": true,
+        "cbGuns": true,
+        "cbJewelry": true,
+        "schdCollections": [
+            {
+                "itemNameCOLL": "Eggs",
+                "itemTypeCOLL": "Collections",
+                "itemValueCOLL": 10000
+            },
+            {
+                "itemNameCOLL": "Stamps",
+                "itemTypeCOLL": "Collections",
+                "itemValueCOLL": 20000
+            }
+        ],
+        "schdFineArts": [
+            {
+                "itemNameFA": "Renoir",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 400000
+            },
+            {
+                "itemNameFA": "statue",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 20000
+            }
+        ],
+        "schdFurs": [
+            {
+                "itemNameFUR": "Mink Coat",
+                "itemTypeFUR": "Furs",
+                "itemValueFUR": 5000
+            },
+            {
+                "itemNameFUR": "Mink Stole",
+                "itemTypeFUR": "Furs",
+                "itemValueFUR": 2000
+            }
+        ],
+        "schdGuns": [
+            {
+                "itemNameGUN": "AK47",
+                "itemTypeGUN": "Guns",
+                "itemValueGUN": 3000
+            },
+            {
+                "itemNameGUN": "pistol",
+                "itemTypeGUN": "Guns",
+                "itemValueGUN": 500
+            }
+        ],
+        "schdJewelry": [
+            {
+                "itemNameJWY": "Dimond ring",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 4000
+            },
+            {
+                "itemNameJWY": "Rolex",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 35000
+            }
+        ],
+        "sumCollections": 30000,
+        "sumFineArts": 420000,
+        "sumFurs": 7000,
+        "sumGuns": 3500,
+        "sumJewelry": 39000
+    }
+}

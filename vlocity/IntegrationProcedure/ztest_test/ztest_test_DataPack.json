@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ztest_test_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ztest",
+    "OmniProcessElement": [
+        "ztest_test_Element_InitQuote.json",
+        "ztest_test_Element_svQuote.json",
+        "ztest_test_Element_CreateUpdateQuote.json",
+        "ztest_test_Element_Response.json"
+    ],
+    "OmniProcessKey": "ztest_test",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ztest_test_PropertySetConfig.json",
+    "SubType": "test",
+    "Type": "ztest",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ztest/test/Procedure",
+    "WebComponentKey": "72ee51b0-466a-7f60-8b67-2fad2a1c5da9"
+}

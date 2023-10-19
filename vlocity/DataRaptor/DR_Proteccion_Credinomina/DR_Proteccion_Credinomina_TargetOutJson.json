@@ -1,0 +1,15 @@
+{
+    "userInputs": {
+        "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+        "INS_PARTY_ASEGURADO.Asegurado_FechaNacimiento": "Date",
+        "INS_PARTY_ASEGURADO.Asegurado_Fuma": "Boolean",
+        "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+        "INS_PARTY_ASEGURADO.MensualidadCredito": "Currency",
+        "INS_PARTY_ASEGURADO.instanceKey": "Text",
+        "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+        "INS_PARTY_ASEGURADO.saldoInsoluto": "Currency",
+        "SEGURO_PROTECCION_CREDINOMINA_ROOT.PLAN_SELECCIONADO": "Text",
+        "SEGURO_PROTECCION_CREDINOMINA_ROOT.SUMA_ASEGURADA": "Currency",
+        "SEGURO_PROTECCION_CREDINOMINA_ROOT.TEMPORALIDAD_SELECCIONADA": "Number"
+    }
+}

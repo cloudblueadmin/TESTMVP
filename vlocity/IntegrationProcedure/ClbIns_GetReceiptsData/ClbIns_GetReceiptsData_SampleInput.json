@@ -1,0 +1,9 @@
+{
+    "expense": 500,
+    "numInstallments": "12",
+    "price": "1500",
+    "priceWithExpense": "2000",
+    "productCode": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+    "taxAmount": "320",
+    "total": "2320"
+}

@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ClbIns_GetTokenDataForVehicleTemplate_SampleInput.json",
+    "Description": "Get the data that will be print a TemplateVehicle document",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetTokenDataForVehicleTemplate",
+    "OmniProcessElement": [
+        "ClbIns_GetTokenDataForVehicleTemplate_Element_GetQuoteDetailsVehicle.json",
+        "ClbIns_GetTokenDataForVehicleTemplate_Element_TransformInputForQuoteVehicle.json",
+        "ClbIns_GetTokenDataForVehicleTemplate_Element_ResponseVehicle.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetTokenDataForVehicleTemplate",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetTokenDataForVehicleTemplate_PropertySetConfig.json",
+    "SubType": "GetTokenDataForVehicleTemplate",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetTokenDataForVehicleTemplate/Procedure",
+    "WebComponentKey": "24a40fef-3292-2145-1aca-60a713adae60"
+}

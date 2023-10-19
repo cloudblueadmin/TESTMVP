@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_GetOwnedHomePackages_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetOwnedHomePackages",
+    "OmniProcessElement": [
+        "ClbIns_GetOwnedHomePackages_Element_GetRatePropio.json",
+        "ClbIns_GetOwnedHomePackages_Element_TransformHomePropioResponse.json",
+        "ClbIns_GetOwnedHomePackages_Element_ListAction.json",
+        "ClbIns_GetOwnedHomePackages_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetOwnedHomePackages",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetOwnedHomePackages_PropertySetConfig.json",
+    "ResponseCacheType": "Org Cache",
+    "SubType": "GetOwnedHomePackages",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetOwnedHomePackages/Procedure",
+    "WebComponentKey": "506a8cce-2c32-93c7-3cde-87143cc8116a"
+}

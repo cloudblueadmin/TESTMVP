@@ -1,0 +1,7 @@
+[
+    "DataRaptor/ClbInsDREGetDocumentTemplate",
+    "DataRaptor/ClbInsDREGetQuoteRelatedProduct",
+    "IntegrationProcedure/ClbIns_GetTokenDataForDamageTemplate",
+    "IntegrationProcedure/ClbIns_GetTokenDataForLifeTemplate",
+    "IntegrationProcedure/ClbIns_GetTokenDataForVehicleTemplate"
+]

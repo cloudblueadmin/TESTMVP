@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "ClbIns_InitQuote_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsInitQuote",
+    "OmniProcessElement": [
+        "ClbIns_InitQuote_Element_DRGetAccByCURP.json",
+        "ClbIns_InitQuote_Element_DRUpdateAccount.json",
+        "ClbIns_InitQuote_Element_DRCreateOpp.json",
+        "ClbIns_InitQuote_Element_GetStandardPricebookId.json",
+        "ClbIns_InitQuote_Element_DRGetQuoteNumber.json",
+        "ClbIns_InitQuote_Element_DRUpdateQuoteNumber.json",
+        "ClbIns_InitQuote_Element_PeriodosPago.json",
+        "ClbIns_InitQuote_Element_CreateQuote.json",
+        "ClbIns_InitQuote_Element_UpdateQuoteSourceSystemId.json",
+        "ClbIns_InitQuote_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_InitQuote",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_InitQuote_PropertySetConfig.json",
+    "SubType": "InitQuote",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/InitQuote/Procedure",
+    "WebComponentKey": "75fedd9d-c759-ac6f-a6cc-a288e1fabe51"
+}

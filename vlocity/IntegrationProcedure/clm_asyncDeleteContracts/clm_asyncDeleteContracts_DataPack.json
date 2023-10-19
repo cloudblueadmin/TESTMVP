@@ -1,0 +1,23 @@
+{
+    "CustomJavaScript": "clm_asyncDeleteContracts_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CLM - Async Delete Contracts",
+    "OmniProcessElement": "clm_asyncDeleteContracts_Element_DeleteAllContractLineItems.json",
+    "OmniProcessKey": "clm_asyncDeleteContracts",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "clm_asyncDeleteContracts_PropertySetConfig.json",
+    "SubType": "asyncDeleteContracts",
+    "Type": "clm",
+    "UniqueName": "clm_asyncDeleteContracts_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/clm/asyncDeleteContracts/Procedure",
+    "WebComponentKey": "17419e4e-2428-260a-31dd-16d10921fb0a"
+}

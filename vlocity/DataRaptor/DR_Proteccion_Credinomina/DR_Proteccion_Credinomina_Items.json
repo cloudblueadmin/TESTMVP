@@ -1,0 +1,78 @@
+[
+    {
+        "GlobalKey": "DR_Proteccion_CredinominaCustom9236",
+        "InputFieldName": "CapturaDatosSeguro:EDAD",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Proteccion_Credinomina",
+        "OmniDataTransformationId": {
+            "Name": "DR_Proteccion_Credinomina",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Proteccion_Credinomina",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:INS_PARTY_ASEGURADO.Asegurado_Edad",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Proteccion_CredinominaCustom7505",
+        "InputFieldName": "CapturaDatosSeguro:PLAN_SELECCIONADO",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Proteccion_Credinomina",
+        "OmniDataTransformationId": {
+            "Name": "DR_Proteccion_Credinomina",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Proteccion_Credinomina",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_PROTECCION_CREDINOMINA_ROOT.PLAN_SELECCIONADO",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Proteccion_CredinominaCustom1182",
+        "InputFieldName": "CapturaDatosSeguro:SUMA_ASEGURADA",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Proteccion_Credinomina",
+        "OmniDataTransformationId": {
+            "Name": "DR_Proteccion_Credinomina",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Proteccion_Credinomina",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_PROTECCION_CREDINOMINA_ROOT.SUMA_ASEGURADA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Proteccion_CredinominaCustom3021",
+        "InputFieldName": "CapturaDatosSeguro:TEMPORALIDAD",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Proteccion_Credinomina",
+        "OmniDataTransformationId": {
+            "Name": "DR_Proteccion_Credinomina",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Proteccion_Credinomina",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_PROTECCION_CREDINOMINA_ROOT.TEMPORALIDAD_SELECCIONADA",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

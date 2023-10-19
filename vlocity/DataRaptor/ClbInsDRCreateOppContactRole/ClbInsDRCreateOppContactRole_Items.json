@@ -1,0 +1,22 @@
+[
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "ClbInsDRCreateOppContactRoleCustom366",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "ClbInsDRCreateOppContactRole",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRCreateOppContactRole",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRCreateOppContactRole",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "OpportunityContactRole",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

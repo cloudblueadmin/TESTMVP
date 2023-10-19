@@ -1,0 +1,57 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "svTokenData",
+    "OmniProcessId": {
+        "Name": "ClbInsGetTokenDataForDamageTemplate",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetTokenDataForDamageTemplate/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "tokenDataMap": {
+                "InsAddCity": "%svDRTransformDamage:InsuredAddressCity%",
+                "InsAddExtNum": "%svDRTransformDamage:InsuredAddressExtNumber%",
+                "InsAddIntNum": "%svDRTransformDamage:InsuredAddressIntNumber%",
+                "InsAddPC": "%svDRTransformDamage:InsuredAddressPC%",
+                "InsAddState": "%svDRTransformDamage:InsuredAddressState%",
+                "InsAddStreet": "%svDRTransformDamage:InsuredAddressStreet%",
+                "InsAddTown": "%svDRTransformDamage:InsuredAddressTown%",
+                "InsuredEmail": "%svDRTransformDamage:InsuredEmail%",
+                "InsuredName": "%svDRTransformDamage:InsuredName%",
+                "InsuredPhone": "%svDRTransformDamage:InsuredPhone%",
+                "InsuredRfc": "%svDRTransformDamage:InsuredRfc%",
+                "coIncendioRayo": "%svDRTransformDamage:CoIncendioRayo%",
+                "consePay": "%svDRTransformDamage:ConsecutivePay%",
+                "covs": "%svDRTransformDamage:Coverages%",
+                "edIncendioRayo": "%svDRTransformDamage:EdIncendioRayo%",
+                "effectiveDate": "%svDRTransformDamage:EffectiveDate%",
+                "expirationDate": "%svDRTransformDamage:ExpirationDate%",
+                "firstPay": "%svDRTransformDamage:FirstPay%",
+                "issueCost": "%svDRTransformDamage:IssueCost%",
+                "price": "%svDRTransformDamage:Price%",
+                "priceFracc": "%svDRTransformDamage:PriceFracc%",
+                "priceTotal": "%svDRTransformDamage:Total%",
+                "property": "%svDRTransformDamage:Property%",
+                "quoteNumber": "%svDRTransformDamage:QuoteNumber%",
+                "recurringPayment": "%svDRTransformDamage:RecurringPayment%",
+                "tax": "%svDRTransformDamage:Tax%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues10",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetTokenDataForDamageTemplate/Procedure/svTokenData"
+}

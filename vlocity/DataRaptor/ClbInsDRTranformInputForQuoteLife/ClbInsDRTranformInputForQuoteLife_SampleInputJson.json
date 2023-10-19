@@ -1,0 +1,268 @@
+{
+    "quote": {
+        "Edad": 41,
+        "RFC": "SABL820408NA6",
+        "asegurado": {
+            "Address": {
+                "City": "Escuinapa",
+                "Country": "México",
+                "ExternalNumber": 366,
+                "InternalNumber": 11,
+                "PostalCode": "82500",
+                "State": "Sinaloa",
+                "Street": "AV CENTRAL SUR",
+                "Town": "Rincón Del Verde"
+            },
+            "email": "mipruebaQA44@hotmail.com"
+        },
+        "createdDate": "2023-10-12T19:44:12.000Z",
+        "effectiveDate": "06/10/2023",
+        "expirationDate": "06/10/2024",
+        "fecnac": "08/04/1982",
+        "number": "1000497",
+        "pagoRecurrente": true,
+        "paymentPeriod": "001",
+        "price": 26089.8,
+        "qli": [
+            {
+                "attribute": {
+                    "ProductCode": "VI10",
+                    "codRamo": "Muer",
+                    "insuredAmount": 500000,
+                    "name": "Muerte Accidental",
+                    "price": 250,
+                    "tasa": 0.5
+                },
+                "code": "VIDA_IND_PR_MUERTE_ACCIDENTAL",
+                "id": "0QLDO0000004vC44AI",
+                "lineNumber": "00023523",
+                "name": "Muerte Accidental",
+                "price": "250",
+                "productCode": "VI10",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "VI58",
+                    "codRamo": "Inde",
+                    "insuredAmount": 50000,
+                    "name": "Indemnización Hospitalaria por Accidente",
+                    "price": 433,
+                    "tasa": 8.66
+                },
+                "code": "VIDA_IND_PR_INDEM_HOSPITALARIA",
+                "id": "0QLDO0000004vC54AI",
+                "lineNumber": "00023524",
+                "name": "Indemnización Hospitalaria por Accidente",
+                "price": "433",
+                "productCode": "VI58",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "VI67",
+                    "codRamo": "Inde",
+                    "insuredAmount": 2500,
+                    "name": "Indemnización Diaria por Hospitalización",
+                    "price": 1370.6,
+                    "tasa": 548.24
+                },
+                "code": "VIDA_IND_PR_INDEM_DIARIA",
+                "id": "0QLDO0000004vC64AI",
+                "lineNumber": "00023525",
+                "name": "Indemnización Diaria por Hospitalización",
+                "price": "1,370.6",
+                "productCode": "VI67",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "VI95",
+                    "codRamo": "Enfe",
+                    "insuredAmount": 100000,
+                    "name": "Enfermedades Graves",
+                    "price": 653,
+                    "tasa": 6.53
+                },
+                "code": "VIDA_IND_PR_ENFERMEDADES_GRAVES",
+                "id": "0QLDO0000004vC84AI",
+                "lineNumber": "00023527",
+                "name": "Enfermedades Graves",
+                "price": "653",
+                "productCode": "VI95",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "VI00",
+                    "codRamo": "Fall",
+                    "insuredAmount": 500000,
+                    "name": "Fallecimiento",
+                    "price": 4065,
+                    "tasa": 8.13
+                },
+                "code": "VIDA_IND_PR_FALLECIMIENTO",
+                "id": "0QLDO0000004vC74AI",
+                "lineNumber": "00023526",
+                "name": "Fallecimiento",
+                "price": "4,065",
+                "productCode": "VI00",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Rincón Del Verde",
+                        "Country": "México",
+                        "ExternalNumber": 366,
+                        "InternalNumber": 11,
+                        "PostalCode": "82500",
+                        "State": "Sinaloa",
+                        "Street": "AV CENTRAL SUR",
+                        "Town": "Escuinapa"
+                    },
+                    "BirthDate": "1983-07-12",
+                    "KinshipExternalCode": "0006",
+                    "NumBen": 2,
+                    "Percentage": 50,
+                    "fullName": "FERNANDA ROCHA BAUTISTA",
+                    "indasegurado": "S",
+                    "indcontratante": "N",
+                    "indresppago": "N"
+                },
+                "id": "0QLDO0000004vC14AI",
+                "lineNumber": "00023520",
+                "name": "Beneficiario",
+                "price": "0",
+                "productCode": "",
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "CANTIDAD_CUOTAS": 12,
+                    "PLAN_SELECCIONADO": "PAQUETE 3",
+                    "PRECIO_MENSUAL": 1500
+                },
+                "id": "0QLDO0000004vBy4AI",
+                "lineNumber": "00023517",
+                "name": "SEGURO de VIDA INDIVIDUAL APF PAQUETE 1",
+                "price": "8,696.6",
+                "productCode": "",
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Escuinapa",
+                        "Country": "México",
+                        "ExternalNumber": 366,
+                        "InternalNumber": 11,
+                        "PostalCode": "82500",
+                        "State": "Sinaloa",
+                        "Street": "AV CENTRAL SUR",
+                        "Town": "Rincón Del Verde"
+                    },
+                    "Apellidos": "SALAS BAUTISTA",
+                    "Asegurado_Edad": 41,
+                    "Asegurado_Genero": "Female",
+                    "BirthDate": "1982-04-08",
+                    "CURP": "SABL820408MHGLTC01",
+                    "Email": "mipruebaQA44@hotmail.com",
+                    "Nombres": "LUCERO",
+                    "PhoneNumber": 5101910203,
+                    "RFC": "SABL820408NA6",
+                    "fullName": "LUCERO SALAS BAUTISTA",
+                    "indasegurado": "S",
+                    "indcontratante": "N",
+                    "indresppago": "N"
+                },
+                "id": "0QLDO0000004vBz4AI",
+                "lineNumber": "00023518",
+                "name": "INS-PARTY ASEGURADO",
+                "price": "8,696.6",
+                "productCode": "",
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Rincón Del Verde",
+                        "Country": "México",
+                        "ExternalNumber": 366,
+                        "InternalNumber": 11,
+                        "PostalCode": "82500",
+                        "State": "Sinaloa",
+                        "Street": "AV CENTRAL SUR",
+                        "Town": "Escuinapa"
+                    },
+                    "Apellidos": "ROCHA BAUTISTA",
+                    "Asegurado_Genero": "Female",
+                    "KinshipExternalCode": "0005",
+                    "Nombres": "ANDRES",
+                    "NumBen": 1,
+                    "Percentage": 50,
+                    "fullName": "ANDRES ROCHA BAUTISTA",
+                    "indasegurado": "S",
+                    "indcontratante": "N",
+                    "indresppago": "N"
+                },
+                "id": "0QLDO0000004vC04AI",
+                "lineNumber": "00023519",
+                "name": "Beneficiario",
+                "price": "0",
+                "productCode": "",
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Apellidos": "SALAS BAUTISTA",
+                    "BirthDate": "1982-04-08",
+                    "CURP": "SABL820408MHGLTC01",
+                    "Email": "mipruebaQA44@hotmail.com",
+                    "FirstName": "LUCERO",
+                    "LastName": "SALAS BAUTISTA",
+                    "Nombres": "LUCERO",
+                    "PhoneNumber": {
+                        "City": "Escuinapa",
+                        "Country": "México",
+                        "ExternalNumber": 366,
+                        "InternalNumber": 11,
+                        "PostalCode": "82500",
+                        "State": "Sinaloa",
+                        "Street": "AV CENTRAL SUR",
+                        "Town": "Rincón Del Verde"
+                    },
+                    "RFC": "SABL820408NA6",
+                    "fullName": "LUCERO SALAS BAUTISTA",
+                    "indasegurado": "N",
+                    "indcontratante": "S",
+                    "indresppago": "S"
+                },
+                "id": "0QLDO0000004vC24AI",
+                "lineNumber": "00023521",
+                "name": "INS-PARTY PAGADOR",
+                "price": "0",
+                "productCode": "",
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "VI33",
+                    "codRamo": "Ries",
+                    "insuredAmount": 500000,
+                    "name": "Riesgos de Invalidez",
+                    "price": 1925,
+                    "tasa": 3.85
+                },
+                "code": "VIDA_IND_PR_INVALIDEZ_TYP",
+                "id": "0QLDO0000004vC34AI",
+                "lineNumber": "00023522",
+                "name": "Riesgos de Invalidez",
+                "price": "1,925",
+                "productCode": "VI33",
+                "type": "CoverageSpec"
+            }
+        ],
+        "type": "Life"
+    }
+}

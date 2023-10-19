@@ -1,0 +1,239 @@
+{
+    "quote": {
+        "account": {
+            "id": "001DO00000EsJjvYAF",
+            "phone": "5585419712",
+            "rfc": "FOVC810815TW0"
+        },
+        "createdDate": "2023-09-29T17:49:17.000Z",
+        "effectiveDate": "2023-09-28",
+        "expense": 500,
+        "expirationDate": "2024-09-28",
+        "number": "1700285",
+        "paymentPeriod": "012",
+        "price": 9657.27,
+        "qli": [
+            {
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scH4AQ",
+                "limit": "false",
+                "lineNumber": "00017642",
+                "name": "LIMITADA",
+                "price": 9657.27,
+                "productCode": "A05",
+                "type": "Product"
+            },
+            {
+                "attribute": {
+                    "AcceptanceInformation": true,
+                    "AcceptanceLaw": true,
+                    "Brand": "AC",
+                    "EngineNumber": "3B7KC26ZXXM58430Z",
+                    "Model": "007",
+                    "ModelDesc": "AC016",
+                    "NumberPlate": "lxy619a",
+                    "PostalCode": "01000",
+                    "SerialNumber": "3B7KC26ZXXM58430Z",
+                    "Type": "001",
+                    "Year": 2020,
+                    "isParticular": true
+                },
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scI4AQ",
+                "limit": "null",
+                "lineNumber": "00017643",
+                "name": "Vehicle",
+                "price": 0,
+                "productCode": "autoVehicle",
+                "type": "InsuredItemSpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Álvaro Obregón",
+                        "Country": "México",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 1,
+                        "PostalCode": "01000",
+                        "State": "Ciudad de México",
+                        "Street": "Fuentes",
+                        "Town": "San Angel"
+                    },
+                    "CURP": "FOVC810815MHGLLH04",
+                    "Driver": {
+                        "Email": "gromoa@desarrollo-ultrasist.com.mx",
+                        "FirstName": "MARIA CHANTAL",
+                        "LastName": "FLORES VILLALBA",
+                        "PhoneNumber": "5585419712"
+                    },
+                    "Email": "gromoa@desarrollo-ultrasist.com.mx",
+                    "FirstName": "MARIA CHANTAL",
+                    "LastName": "FLORES VILLALBA",
+                    "PhoneNumber": 5585419712,
+                    "RFC": "FOVC810815TW0",
+                    "indasegurado": "N",
+                    "indcontratante": "S",
+                    "indresppago": "S",
+                    "isDriver": true
+                },
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scJ4AQ",
+                "limit": "null",
+                "lineNumber": "00017644",
+                "name": "INS-PARTY ASEGURADO",
+                "price": 0,
+                "productCode": "INS_PARTY_ASEGURADO",
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "Address": {
+                        "City": "Álvaro Obregón",
+                        "Country": "México",
+                        "ExternalNumber": 1,
+                        "InternalNumber": 1,
+                        "PostalCode": "01000",
+                        "State": "Ciudad de México",
+                        "Street": "Fuentes",
+                        "Town": "San Angel"
+                    },
+                    "Apellidos": "FLORES VILLALBA",
+                    "CURP": "FOVC810815MHGLLH04",
+                    "FirstName": "MARIA CHANTAL",
+                    "indasegurado": "S",
+                    "indcontratante": "N",
+                    "indresppago": "N"
+                },
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scK4AQ",
+                "limit": "null",
+                "lineNumber": "00017645",
+                "name": "Beneficiario",
+                "price": 0,
+                "productCode": "INS_PARTY_BENEFICIARIO",
+                "type": "InsuredPartySpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A004",
+                    "insuredAmount": "536903",
+                    "price": 5397.8
+                },
+                "code": "AUTO_PR_ROBO_TOTAL",
+                "coveragePrice": "5397.8",
+                "deductible": "5%",
+                "id": "0QLDO0000004scL4AQ",
+                "limit": "VALOR COMERCIAL",
+                "lineNumber": "00017646",
+                "name": "Robo total",
+                "price": 5397.8,
+                "productCode": "A004",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A005",
+                    "insuredAmount": "4000000",
+                    "price": 900.68
+                },
+                "code": "AUTO_PR_RC_TERCEROS",
+                "coveragePrice": "900.68",
+                "deductible": "0",
+                "id": "0QLDO0000004scM4AQ",
+                "limit": "$4,000,000",
+                "lineNumber": "00017647",
+                "name": "Responsabilidad civil terceros",
+                "price": 900.68,
+                "productCode": "A005",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A006",
+                    "insuredAmount": "250000",
+                    "price": 156.45
+                },
+                "code": "AUTO_PR_GASTOS_MEDI_OCUPANTES",
+                "coveragePrice": "156.45",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scN4AQ",
+                "limit": "$50,000 POR EVENTO",
+                "lineNumber": "00017648",
+                "name": "Gastos médicos ocupantes",
+                "price": 156.45,
+                "productCode": "A006",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A010",
+                    "insuredAmount": "750000",
+                    "price": 259
+                },
+                "code": "AUTO_PR_ASIST_VEHI",
+                "coveragePrice": "259",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scO4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00017649",
+                "name": "Asistencia vehicular",
+                "price": 259,
+                "productCode": "A010",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A009",
+                    "insuredAmount": "1000000",
+                    "price": 129.69
+                },
+                "code": "AUTO_PR_ASIST_JURID",
+                "coveragePrice": "129.69",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scP4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00017650",
+                "name": "Asistencia jurídica",
+                "price": 129.69,
+                "productCode": "A009",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A017",
+                    "insuredAmount": "29865.5",
+                    "price": 981.61
+                },
+                "code": "AUTO_PR_ELIM_DED_DEV_PRIMA_ROBO_TOT",
+                "coveragePrice": "981.61",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scQ4AQ",
+                "limit": "AMPARADA",
+                "lineNumber": "00017651",
+                "name": "Eliminación deducible y devolución de primas por robo total",
+                "price": 981.61,
+                "productCode": "A017",
+                "type": "CoverageSpec"
+            },
+            {
+                "attribute": {
+                    "ProductCode": "A014",
+                    "insuredAmount": "1000000",
+                    "price": 1832.04
+                },
+                "code": "AUTO_PR_SUSTIT_ROBO_TOT",
+                "coveragePrice": "1832.04",
+                "deductible": "NO APLICA",
+                "id": "0QLDO0000004scR4AQ",
+                "limit": "30 días",
+                "lineNumber": "00017652",
+                "name": "Auto sustituto por robo total",
+                "price": 1832.04,
+                "productCode": "A014",
+                "type": "CoverageSpec"
+            }
+        ],
+        "tax": 1625.16,
+        "typeOfCard": "04"
+    }
+}

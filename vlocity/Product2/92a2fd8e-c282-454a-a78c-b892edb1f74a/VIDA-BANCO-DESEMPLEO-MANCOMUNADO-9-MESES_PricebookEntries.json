@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "VIDA-BANCO-DESEMPLEO-MANCOMUNADO-9-MESES",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "92a2fd8e-c282-454a-a78c-b892edb1f74a",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "92a2fd8e-c282-454a-a78c-b892edb1f74a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/92a2fd8e-c282-454a-a78c-b892edb1f74a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VIDA_BANCO_DESEMPLEO_MANCOMUNADO_9_MESES",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/92a2fd8e-c282-454a-a78c-b892edb1f74a"
+    }
+]

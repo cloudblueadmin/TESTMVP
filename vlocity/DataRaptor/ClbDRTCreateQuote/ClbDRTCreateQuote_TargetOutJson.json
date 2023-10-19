@@ -1,0 +1,1555 @@
+{
+    "quotepolicyJson": {
+        "accountId": "001Hn00001uyAjbIAE",
+        "additionalFields": {
+            "Constancy__c": true,
+            "EffectiveDate": "2023-07-31T00:00:00.000Z",
+            "Email": "fariffasmfffdfm@gmail.com",
+            "ExpirationDate": "2024-07-31T00:00:00.000Z",
+            "Imported_Vehicle__c": "Agencia",
+            "Name": "  Full Extras Advanced",
+            "Particular_Vehicle__c": "Si",
+            "Phone": "50312345678",
+            "Status": "Generated",
+            "Vehicle_Kilometer__c": "No",
+            "omnistudio__TotalTaxForTerm__c": 5.9059
+        },
+        "effectiveDate": "2023-07-31T00:00:00.000Z",
+        "opportunityId": "0061I00000AV8gBQAT",
+        "productConfigurationDetail": {
+            "records": [
+                {
+                    "CalculatedPriceData": {
+                        "ID": "0",
+                        "autoDescuentoFullExtrasAdvanced__descuento": 50,
+                        "dctoTotal": 55,
+                        "primaBE": 545.14,
+                        "primaCTG": 0,
+                        "primaCTGMensual": 0,
+                        "primaDTV": 402.93,
+                        "primaDeducible": 444,
+                        "primaGMST": 15.75,
+                        "primaMensual": 45.43,
+                        "primaRCB": 51.75,
+                        "primaRCEE": 13.5,
+                        "primaRCP": 0,
+                        "primaTotal": 616.01,
+                        "totalCoberturasFijas": 61.21,
+                        "totalCoberturasVariables": 483.93
+                    },
+                    "Description": "Nuestro plan contra todo tipo de riesgo más vendido",
+                    "Id": "01tP0000006lb2HIAQ",
+                    "IsConfigurable__c": false,
+                    "IsRecommended__c": false,
+                    "LineOfBusiness__c": "Property & Casualty",
+                    "Name": "Full Extras Advanced",
+                    "Price": 45.43,
+                    "PricingFormula__c": "SUM(primaMensual+primaLLDRMensual+primaCTGMensual)",
+                    "ProductCode": "8",
+                    "RawPriceData": [
+                    ],
+                    "RecordTypeName__c": "Product",
+                    "Type__c": "Auto",
+                    "childProducts": {
+                        "records": [
+                            {
+                                "Id": "01tP0000006laUNIAY",
+                                "ImageId": "/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068P0000001AG17IAG",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Vehículo de Reemplazo",
+                                "Price": 0,
+                                "PricingSource__c": "primaCTGMensual",
+                                "ProductCode": "25",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnUMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoCantidadDias",
+                                                        "dataType": "text",
+                                                        "disabled": false,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "dropdown",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Cantidad de días",
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": "5",
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "id": "0",
+                                                                "label": "5 dias",
+                                                                "readonly": false,
+                                                                "value": "5"
+                                                            },
+                                                            {
+                                                                "disabled": false,
+                                                                "id": "1",
+                                                                "label": "10 dias",
+                                                                "readonly": false,
+                                                                "value": "10"
+                                                            },
+                                                            {
+                                                                "disabled": false,
+                                                                "id": "2",
+                                                                "label": "15 dias",
+                                                                "readonly": false,
+                                                                "value": "15"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 14,
+                                "isOptional": true,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EboMAE",
+                                "productId": "01tP0000006laUNIAY"
+                            },
+                            {
+                                "Id": "01tP0000006laYeIAI",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Territorio",
+                                "ProductCode": "0",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "Centro América, México, Panamá (Excluye Belice)",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 20,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbtMAE",
+                                "productId": "01tP0000006laYeIAI"
+                            },
+                            {
+                                "Id": "01tP0000006lNQdIAM",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Servicio de Grúa",
+                                "ProductCode": "SG",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "Ilimitado en El Salvador/ $1250 fuera del salvador",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 17,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbKMAU",
+                                "productId": "01tP0000006lNQdIAM"
+                            },
+                            {
+                                "Id": "01tP0000006lNQsIAM",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Reposición de LLave",
+                                "ProductCode": "22",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "text",
+                                                        "description": "Cubierto",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Estatus",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "Cubierto",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 12,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbQMAU",
+                                "productId": "01tP0000006lNQsIAM"
+                            },
+                            {
+                                "Id": "01tP0000006lPFKIA2",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Participación (Robo y Hurto)",
+                                "ProductCode": "3",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "rules": [
+                                                            {
+                                                                "actions": {
+                                                                    "Set Value": {
+                                                                        "client": {
+                                                                            "params": {
+                                                                            }
+                                                                        },
+                                                                        "remote": {
+                                                                            "params": {
+                                                                            }
+                                                                        },
+                                                                        "rest": {
+                                                                            "link": null,
+                                                                            "method": null,
+                                                                            "params": {
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "expression": "auto.autoValorAsegurable >= 40000 ",
+                                                                "ruleType": "Set Value",
+                                                                "valueExpression": "\"95/5\""
+                                                            },
+                                                            {
+                                                                "actions": {
+                                                                    "Set Value": {
+                                                                        "client": {
+                                                                            "params": {
+                                                                            }
+                                                                        },
+                                                                        "remote": {
+                                                                            "params": {
+                                                                            }
+                                                                        },
+                                                                        "rest": {
+                                                                            "link": null,
+                                                                            "method": null,
+                                                                            "params": {
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "expression": "auto.autoModelo = \"CIVIC\"",
+                                                                "ruleType": "Set Value",
+                                                                "valueExpression": "\"80/20\""
+                                                            }
+                                                        ],
+                                                        "userValues": "90/10",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 3,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EabMAE",
+                                "productId": "01tP0000006lPFKIA2"
+                            },
+                            {
+                                "Id": "01tP0000006lKzXIAU",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Muerte Accidental o invalidez total del ocupantes",
+                                "Price": 545.14,
+                                "PricingSource__c": "primaBE",
+                                "ProductCode": "18",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 10000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 10,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029Eb5MAE",
+                                "productId": "01tP0000006lKzXIAU"
+                            },
+                            {
+                                "Id": "01tP0000006l8tZIAQ",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Muerte Accidental o invalidez total del conductor",
+                                "Price": 545.14,
+                                "PricingSource__c": "primaBE",
+                                "ProductCode": "17",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 15000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 9,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029Eb0MAE",
+                                "productId": "01tP0000006l8tZIAQ"
+                            },
+                            {
+                                "Id": "01tP0000006l8tFIAQ",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Gastos Médicos",
+                                "ProductCode": "16",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 15000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 7,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EavMAE",
+                                "productId": "01tP0000006l8tFIAQ"
+                            },
+                            {
+                                "Id": "01tP0000006laU7IAI",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Gastos legales",
+                                "ProductCode": "GL",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 2000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 18,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbZMAU",
+                                "productId": "01tP0000006laU7IAI"
+                            },
+                            {
+                                "Id": "01tP0000006lPLpIAM",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Depreciación anual del valor del Vehículo",
+                                "ProductCode": "20",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnaMAA",
+                                                        "cloneable": true,
+                                                        "code": "terminoDepreciacion",
+                                                        "dataType": "percentage",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Depreciación",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 0,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 8,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbUMAU",
+                                "productId": "01tP0000006lPLpIAM"
+                            },
+                            {
+                                "Id": "01tP0000006lPEvIAM",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Deducible",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Deducible",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "$200 con posibilidad de ahorro de 100%",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 2,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EaWMAU",
+                                "productId": "01tP0000006lPEvIAM"
+                            },
+                            {
+                                "Id": "01tP0000006lOACIA2",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Daños y Hurto",
+                                "ProductCode": "1",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": false,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "rules": [
+                                                            {
+                                                                "actions": {
+                                                                    "Set Value": {
+                                                                        "client": {
+                                                                            "params": {
+                                                                            }
+                                                                        },
+                                                                        "remote": {
+                                                                            "params": {
+                                                                            }
+                                                                        },
+                                                                        "rest": {
+                                                                            "link": null,
+                                                                            "method": null,
+                                                                            "params": {
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "expression": "auto.autoValorAsegurable > 0",
+                                                                "ruleType": "Set Value",
+                                                                "valueExpression": "auto.autoValorAsegurable"
+                                                            }
+                                                        ],
+                                                        "userValues": 14800,
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 0,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EaMMAU",
+                                "productId": "01tP0000006lOACIA2"
+                            },
+                            {
+                                "Id": "01tP0000006l8nkIAA",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Daños a Terceros Plus",
+                                "ProductCode": "15",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 50000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 6,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EaqMAE",
+                                "productId": "01tP0000006l8nkIAA"
+                            },
+                            {
+                                "Id": "01tP0000006l8naIAA",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Daños a Terceros en Personas",
+                                "ProductCode": "6",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 10000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 5,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EalMAE",
+                                "productId": "01tP0000006l8naIAA"
+                            },
+                            {
+                                "Id": "01tP0000006l8hMIAQ",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Daños a Terceros en Bienes",
+                                "ProductCode": "5",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 10000,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 4,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EagMAE",
+                                "productId": "01tP0000006l8hMIAQ"
+                            },
+                            {
+                                "Id": "01tP0000006lOhjIAE",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Daño mínimo a reparar por parte del seguro",
+                                "ProductCode": "DS",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": false,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": false,
+                                                        "required": false,
+                                                        "userValues": 200,
+                                                        "values": [
+                                                            {
+                                                                "disabled": false,
+                                                                "readonly": false
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 1,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029F7EMAU",
+                                "productId": "01tP0000006lOhjIAE"
+                            },
+                            {
+                                "Description": "Área Metropolitana de San Salvador, Santa Ana y San Miguel",
+                                "Id": "01tP0000006lPFUIA2",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Conductor Designado",
+                                "ProductCode": "21",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnZMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoCantidadEventos",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Cantidad de eventos",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "15 eventos al año",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 16,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbFMAU",
+                                "productId": "01tP0000006lPFUIA2"
+                            },
+                            {
+                                "Id": "01tP0000006laUCIAY",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Cerrajería y Fontanería de Emergencia para el Hogar",
+                                "ProductCode": "AH",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnZMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoCantidadEventos",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Cantidad de eventos",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "12 eventos al año",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 19,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbeMAE",
+                                "productId": "01tP0000006laUCIAY"
+                            },
+                            {
+                                "Description": "Máximo 30 días",
+                                "Id": "01tP0000006lL4JIAU",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Beneficio por Hospitalización",
+                                "ProductCode": "19",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnKMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoLimite",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Límite",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 100,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 11,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbAMAU",
+                                "productId": "01tP0000006lL4JIAU"
+                            },
+                            {
+                                "Id": "01tP0000006laUMIAY",
+                                "IsConfigurable__c": true,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Asistencia Vial",
+                                "ProductCode": "26",
+                                "RecordTypeName__c": "CoverageSpec",
+                                "Term__c": "Annual",
+                                "Type__c": "Auto",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "terminoPoliza",
+                                            "Name": "Términos Póliza",
+                                            "displaySequence": 2,
+                                            "id": "a0UP0000004R8cHMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thnZMAQ",
+                                                        "cloneable": true,
+                                                        "code": "terminoCantidadEventos",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Cantidad de eventos",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "Ilimitado",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 1
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 15,
+                                "isOptional": false,
+                                "isSelected": true,
+                                "pciId": "a4XP00000029EbjMAE",
+                                "productId": "01tP0000006laUMIAY"
+                            },
+                            {
+                                "Id": "01tP0000006l8jDIAQ",
+                                "IsConfigurable__c": false,
+                                "IsRecommended__c": false,
+                                "LineOfBusiness__c": "Property & Casualty",
+                                "Name": "Auto",
+                                "ProductCode": "auto",
+                                "RecordTypeName__c": "InsuredItemSpec",
+                                "Term__c": "Annual",
+                                "attributeCategories": {
+                                    "records": [
+                                        {
+                                            "Code__c": "auto",
+                                            "Name": "Auto",
+                                            "displaySequence": 1,
+                                            "id": "a0UP0000004R8cGMAS",
+                                            "productAttributes": {
+                                                "records": [
+                                                    {
+                                                        "attributeId": "a0VP0000007thmqMAA",
+                                                        "cloneable": true,
+                                                        "code": "autoMarca",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 0,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Marca",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "AUDI",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007thmvMAA",
+                                                        "cloneable": true,
+                                                        "code": "autoModelo",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 1,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Modelo",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "A1",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007thn0MAA",
+                                                        "cloneable": true,
+                                                        "code": "autoAnio",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 2,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Año",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "2012",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007thn5MAA",
+                                                        "cloneable": true,
+                                                        "code": "autoVersion",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 3,
+                                                        "filterable": true,
+                                                        "hasRules": true,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Versión",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "Agencia",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007thnFMAQ",
+                                                        "cloneable": true,
+                                                        "code": "autoValorAsegurable",
+                                                        "dataType": "currency",
+                                                        "disabled": true,
+                                                        "displaySequence": 4,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Valor asegurable",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 14800,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007tpa0MAA",
+                                                        "cloneable": true,
+                                                        "code": "autoClaseOtorgada",
+                                                        "dataType": "text",
+                                                        "disabled": true,
+                                                        "displaySequence": 5,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "text",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Clase Otorgada",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": "B",
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007tpgcMAA",
+                                                        "cloneable": true,
+                                                        "code": "autoDctoAdicional",
+                                                        "dataType": "percentage",
+                                                        "disabled": true,
+                                                        "displaySequence": 6,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Descuento Adicional",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 5,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007tphBMAQ",
+                                                        "cloneable": true,
+                                                        "code": "autoLlantaDeRepuesto",
+                                                        "dataType": "number",
+                                                        "disabled": true,
+                                                        "displaySequence": 7,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Llanta de repuesto",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 0,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "attributeId": "a0VP0000007tt7SMAQ",
+                                                        "cloneable": true,
+                                                        "code": "autoAntiguedad",
+                                                        "dataType": "number",
+                                                        "disabled": true,
+                                                        "displaySequence": 8,
+                                                        "filterable": true,
+                                                        "hasRules": false,
+                                                        "hidden": false,
+                                                        "inputType": "number",
+                                                        "isNotTranslatable": false,
+                                                        "label": "Antigüedad",
+                                                        "multiselect": false,
+                                                        "readonly": true,
+                                                        "required": false,
+                                                        "userValues": 9,
+                                                        "values": [
+                                                            {
+                                                                "disabled": true,
+                                                                "readonly": true
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "totalSize": 9
+                                            }
+                                        }
+                                    ],
+                                    "totalSize": 1
+                                },
+                                "displaySequence": 1,
+                                "maxQuantity": 1,
+                                "minQuantity": 1,
+                                "pciId": "a4XP00000029F6LMAU",
+                                "productId": "01tP0000006l8jDIAQ"
+                            }
+                        ],
+                        "totalSize": 21
+                    },
+                    "currencyCode": "USD",
+                    "currencySymbol": "$",
+                    "displaySequence": -1,
+                    "priceDiff": 0,
+                    "productId": "01tP0000006lb2HIAQ",
+                    "taxAmount": 5.9059,
+                    "taxesAndFees": [
+                        {
+                            "Amount__c": null,
+                            "Condition__c": null,
+                            "Id": "a4JP0000003qWJLMA2",
+                            "IsRefundable__c": false,
+                            "JurisdictionId__c": null,
+                            "Name": "IVA SURA",
+                            "Percent__c": 13,
+                            "ProcedureFormula__c": null,
+                            "ProcedureName__c": null,
+                            "ProcedureSource__c": null,
+                            "RatingType__c": "Percent",
+                            "Type__c": "Tax",
+                            "calculatedAmount": 5.9059,
+                            "currencyCode": "USD",
+                            "currencySymbol": "$"
+                        }
+                    ],
+                    "totalTaxFeeAmount": 5.9059
+                }
+            ]
+        },
+        "term": "Annual"
+    }
+}

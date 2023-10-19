@@ -1,0 +1,13 @@
+{
+    "input": {
+        "userInputs": {
+            "SEGURO_VH_HIPOTECARIO_ROOT_V1.CNT_DIAS_VIGENCIA": "Number",
+            "SEGURO_VH_HIPOTECARIO_ROOT_V1.MensualidadCredito": "Currency",
+            "SEGURO_VH_HIPOTECARIO_ROOT_V1.PLAN_SELECCIONADO": "Text",
+            "SEGURO_VH_HIPOTECARIO_ROOT_V1.saldoInsoluto": "Currency"
+        }
+    },
+    "output": {
+        "result": "JSONResult"
+    }
+}

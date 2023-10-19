@@ -1,0 +1,57 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetBodyMap",
+    "OmniProcessId": {
+        "Name": "ClbInsApexDemo1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/RemoteConnection/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "body": {
+                "application": "APP_SEGUROS",
+                "client": {
+                    "celphone": "8181114141",
+                    "email": "christian.lopez.chaidez@banorte.com",
+                    "firstName": "GUADALUPE",
+                    "gender": "F",
+                    "lastName": "APREZA",
+                    "surName": "HUERTA"
+                },
+                "correlationId": "1000030_APF",
+                "origin": "ACSEL",
+                "poliza": {
+                    "acsel": {
+                        "certificate": "1",
+                        "idPolizaAcsel": "",
+                        "office": "7DB",
+                        "poliza": "1000032",
+                        "productCode": "ESMI",
+                        "serie": ""
+                    },
+                    "centralType": 1,
+                    "flowType": 0
+                },
+                "process": "Ramo",
+                "subprocess": "APF_Ramo",
+                "system": "Salesforce_APF"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/RemoteConnection/Procedure/SetBodyMap"
+}

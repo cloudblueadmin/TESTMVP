@@ -1,0 +1,116 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTResponsePriceWithExpensesAndTaxesCustom0jIDO00000001Sl2AIItem3",
+        "InputFieldName": "coverages",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "result:coverages",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponsePriceWithExpensesAndTaxesCustom0jIDO00000001Sl2AIItem1",
+        "InputFieldName": "expensesAndTaxesResults:output:calculationResults:expense",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "result:expense",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponsePriceWithExpensesAndTaxesCustom0jIDO00000001Sl2AIItem4",
+        "InputFieldName": "price",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "result:price",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponsePriceWithExpensesAndTaxesCustom0jIDO00000001Sl2AIItem2",
+        "InputFieldName": "expensesAndTaxesResults:output:calculationResults:priceWithExpense",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "result:priceWithExpense",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponsePriceWithExpensesAndTaxesCustom0jIDO00000001Sl2AIItem5",
+        "InputFieldName": "expensesAndTaxesResults:output:calculationResults:taxAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "result:taxAmount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTResponsePriceWithExpensesAndTaxesCustom0jIDO00000001Sl2AIItem0",
+        "InputFieldName": "expensesAndTaxesResults:output:calculationResults:total",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "result:total",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,116 @@
+{
+    "ContextId": null,
+    "autoDrivers": {
+        "EffectiveDate": null,
+        "autoDriver": {
+            "adAge": null,
+            "adAgeLicensed": null,
+            "adBirthdate": null,
+            "adFirstName": null,
+            "adGender": null,
+            "adInstanceKey": null,
+            "adLastName": null,
+            "adMaritalStatus": null,
+            "adMiddleName": null,
+            "driverDiscounts": {
+                "adGPA": null,
+                "adMilitaryID": null,
+                "adMiltaryBranch": null,
+                "discountDriverInstanceKey": null,
+                "typeDriverDiscount": null
+            }
+        }
+    },
+    "configure": {
+        "configureProduct": null
+    },
+    "confirmQuote": {
+        "quoteConfirm": null,
+        "underwritingRules": null
+    },
+    "intro": {
+    },
+    "policyHolder": {
+        "AccNameFormula": null,
+        "effectiveDate": null,
+        "insuredAge": null,
+        "insuredAgeLicensed": null,
+        "insuredBirthdate": null,
+        "insuredCity": null,
+        "insuredEmail": null,
+        "insuredFirstName": null,
+        "insuredFullName": null,
+        "insuredGender": null,
+        "insuredLastName": null,
+        "insuredMaritalStatus": null,
+        "insuredMiddleName": null,
+        "insuredOpptyName": null,
+        "insuredPhone": null,
+        "insuredPostalCode": null,
+        "insuredState": null,
+        "insuredStreet": null,
+        "ratingEffectiveDate": null,
+        "todaysDate": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vehicles": {
+        "EffectiveDate": null,
+        "autoVehicle": {
+            "avColor": null,
+            "avCondition": null,
+            "avEstimatedValue": null,
+            "avGaragePostalCode": null,
+            "avInstanceKey": null,
+            "avMake": null,
+            "avMakeName": null,
+            "avMileage": null,
+            "avModel": null,
+            "avModelName": null,
+            "avTrim": null,
+            "avTrimName": null,
+            "avVIN": null,
+            "avVehicleType": null,
+            "avYear": null,
+            "avYearName": null,
+            "discountAuto": {
+                "avAltFuel": null,
+                "avAntiTheft": null,
+                "avBrakes": null,
+                "avStabilization": null,
+                "typeAutoDiscount": null
+            }
+        },
+        "autoVehicleCount": null
+    },
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AutoInsuredItems": null,
+        "DataRaptorExtractAction2": null,
+        "SetErrors1": null,
+        "autoDrivers": null,
+        "configure": null,
+        "confirmQuote": null,
+        "createAccountOppty": null,
+        "createUpdateQuote": null,
+        "createUserInputs": null,
+        "deCryptQuote": null,
+        "getContextType": null,
+        "getJurisdictionTurbo": null,
+        "getQuoteDetail": null,
+        "intro": null,
+        "policyHolder": null,
+        "readAccount": null,
+        "readProducer": null,
+        "readQuote": null,
+        "setAccountOpptyId": null,
+        "setDefaults": null,
+        "setInsuredasDriver": null,
+        "transformQuoteConfirm": null,
+        "vehicles": null
+    }
+}

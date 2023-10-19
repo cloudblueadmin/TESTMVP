@@ -1,0 +1,21 @@
+{
+    "cobert_cert": [
+        {
+            "baseded": "N",
+            "codcobert": "RCF1",
+            "codmoneda": "PES",
+            "codplan": "255",
+            "codramocert": "RCGE",
+            "indincren": "S",
+            "indplazoespera": "N",
+            "mtodedmin": 0,
+            "nrodiasemi": "0",
+            "numcert": 1,
+            "primamoneda": 80.7,
+            "revplan": "001",
+            "sumaasegmoneda": 1000000,
+            "tasa": 0,
+            "tipopint": "EMI"
+        }
+    ]
+}

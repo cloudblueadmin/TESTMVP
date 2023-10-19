@@ -1,0 +1,200 @@
+{
+    "AccountData": {
+        "accountId": "001DO000009pIMuYAM",
+        "birthDate": "1989-01-01",
+        "contactId": "003DO00000805MNYAY",
+        "curp": "BEGJ661019HDFNZL09",
+        "firstName": "CESAR",
+        "gender": "Male",
+        "lastName": "BENHUMEA GUZMAN",
+        "rfc": "BEGJ6610199Z9",
+        "status": "Active"
+    },
+    "InitQuote": {
+        "opportunityId": "006DO000003WhIrYAK",
+        "pricebookId": "01sDn000006cxArIAI",
+        "quoteId": "0Q0DO0000008soZ0AQ",
+        "quoteName": "CESAR BENHUMEA GUZMAN -VI47- 9/25/2023"
+    },
+    "Step1": {
+        "BirthDate": "1989-01-01",
+        "CURP": "BEGJ661019HDFNZL09",
+        "Email": "prueba@gmail.com",
+        "FirstName": "CESAR",
+        "LastName": "BENHUMEA GUZMAN",
+        "PhoneNumber": "+5212334218",
+        "RFC": "BIZA701230DA9"
+    },
+    "Step2": {
+        "Address": {
+            "City": "CDMX",
+            "Country": "Mexico",
+            "ExternalNumber": 13,
+            "InternalNumber": 24,
+            "PostalCode": "06010",
+            "State": "CDMX",
+            "Street": "Tolsa 64",
+            "Town": "Colonia Centro, Juárez, Cuauhtémoc"
+        }
+    },
+    "Step3": {
+        "BenificiaryInformation": [
+            {
+                "Address": {
+                    "City": "CDMX",
+                    "Country": "Mexico",
+                    "ExternalNumber": 13,
+                    "InternalNumber": 24,
+                    "PostalCode": "06010",
+                    "State": "CDMX",
+                    "Street": "Tolsa 34",
+                    "Town": "Colonia Centro, Juárez, Cuauhtémoc"
+                },
+                "BirthDate": "1989-01-01",
+                "FirstName": "Primero",
+                "KinshipExternalCode": "0096",
+                "LastName": "First Benef",
+                "NumBen": 1,
+                "Percentage": 50,
+                "email": "personaa@gmail.com"
+            },
+            {
+                "Address": {
+                    "City": "CDMX",
+                    "Country": "Mexico",
+                    "ExternalNumber": 13,
+                    "InternalNumber": 24,
+                    "PostalCode": "06010",
+                    "State": "CDMX",
+                    "Street": "Tolsa 34",
+                    "Town": "Colonia Centro, Juárez, Cuauhtémoc"
+                },
+                "BirthDate": "1989-01-01",
+                "FirstName": "Segundo",
+                "KinshipExternalCode": "0096",
+                "LastName": "Person Dos",
+                "NumBen": 2,
+                "Percentage": 50,
+                "email": "segundo@gmail.com"
+            }
+        ]
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 17393.2,
+            "Code": "SEGURO_VI_APF2_ROOT",
+            "EndDate": "1900-01-01",
+            "StartDate": "1900-01-01",
+            "branch": "VI47"
+        },
+        "PackageCoverage": [
+            {
+                "code": "VI10",
+                "insuredAmount": 1000000,
+                "name": "Muerte Accidental",
+                "price": 500
+            },
+            {
+                "code": "VI33",
+                "insuredAmount": 1000000,
+                "name": "Invalidez Total y Permanente",
+                "price": 3850
+            },
+            {
+                "code": "VI58",
+                "insuredAmount": 100000,
+                "name": "Indemnización Hospitalaria por Accidente",
+                "price": 866
+            },
+            {
+                "code": "VI67",
+                "insuredAmount": 5000,
+                "name": "Indemnización Diaria por Hospitalización",
+                "price": 2741.2
+            },
+            {
+                "code": "VI00",
+                "insuredAmount": 1000000,
+                "name": "Fallecimiento",
+                "price": 8130
+            },
+            {
+                "code": "VI95",
+                "insuredAmount": 200000,
+                "name": "Enfermedades Graves",
+                "price": 1306
+            }
+        ]
+    },
+    "Step5": {
+        "Amount": 1534.99,
+        "Bank": "Universal",
+        "CardCVV": "121",
+        "CardMonth": 12,
+        "CardNumber": 123,
+        "CardYear": 2026,
+        "FirstName": "Camilo",
+        "IsRecurringPayment": false,
+        "LastName": "Lugo",
+        "PaymentPeriod": "012",
+        "TypeOfCard": "04"
+    },
+    "UpdatedCoverages": [
+        {
+            "codRamo": "Muer",
+            "code": "VI10",
+            "insuredAmount": 1000000,
+            "name": "Muerte Accidental",
+            "price": 500,
+            "tasa": 0.5
+        },
+        {
+            "codRamo": "Inva",
+            "code": "VI33",
+            "insuredAmount": 1000000,
+            "name": "Invalidez Total y Permanente",
+            "price": 3850,
+            "tasa": 3.85
+        },
+        {
+            "codRamo": "Inde",
+            "code": "VI58",
+            "insuredAmount": 100000,
+            "name": "Indemnización Hospitalaria por Accidente",
+            "price": 866,
+            "tasa": 8.66
+        },
+        {
+            "codRamo": "Inde",
+            "code": "VI67",
+            "insuredAmount": 5000,
+            "name": "Indemnización Diaria por Hospitalización",
+            "price": 2741.2,
+            "tasa": 548.24
+        },
+        {
+            "codRamo": "Fall",
+            "code": "VI00",
+            "insuredAmount": 1000000,
+            "name": "Fallecimiento",
+            "price": 8130,
+            "tasa": 8.13
+        },
+        {
+            "codRamo": "Enfe",
+            "code": "VI95",
+            "insuredAmount": 200000,
+            "name": "Enfermedades Graves",
+            "price": 1306,
+            "tasa": 6.53
+        }
+    ],
+    "UpdatedCoveragesStatus": true,
+    "options": {
+        "chainable": false,
+        "ignoreCache": true,
+        "queueableChainable": false,
+        "resetCache": false,
+        "useQueueableApexRemoting": false
+    }
+}

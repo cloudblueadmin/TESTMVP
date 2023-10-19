@@ -1,0 +1,272 @@
+[
+    {
+        "FormulaExpression": "Step3:BenificiaryInformation:FirstName+' '+Step3:BenificiaryInformation:LastName",
+        "FormulaResultPath": "fullName",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom8205",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom0jIDO000000012E2AQItem3",
+        "InputFieldName": "Settings:beneficiaryCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Code",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom0jIDO000000012E2AQItem4",
+        "InputFieldName": "GetBeneficiaryProductDetails:PricebookEntryId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PricebookEntryId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom0jIDO000000012E2AQItem5",
+        "InputFieldName": "GetBeneficiaryProductDetails:ProductId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ProductId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0",
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom3750",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Number",
+        "OutputFieldName": "SumaAseg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom0jIDO000000012E2AQItem2",
+        "InputFieldName": "Step3:BenificiaryInformation",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom7658",
+        "InputFieldName": "Step3:BenificiaryInformationAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary:Address",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "0096",
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom4503",
+        "InputFieldName": "Step3:BenificiaryInformation:KinshipExternalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary:KinshipExternalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom9613",
+        "InputFieldName": "fullName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary:fullName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "S",
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom2383",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary:indasegurado",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "N",
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom2456",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary:indcontratante",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "N",
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom8562",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "beneficiary:indresppago",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom3390",
+        "InputFieldName": "CreateQuoteLineItemForRootProduct:QuoteLineItem_1:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "parentItemId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTransformInputForBeneficiaryQuoteLineItemsCustom0jIDO000000012E2AQItem1",
+        "InputFieldName": "CreateQuote:Quote_1:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTransformInputForBeneficiaryQuoteLineItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quoteId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

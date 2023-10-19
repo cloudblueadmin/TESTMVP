@@ -1,0 +1,11 @@
+[
+    "DataRaptor/ClbDRGetAccByCURP",
+    "DataRaptor/ClbInsDRLSaveQuoteInputData",
+    "DataRaptor/ClbInsDRTransformQuoteInputData",
+    "IntegrationProcedure/ClbIns_CreateQuoteValidations",
+    "IntegrationProcedure/ClbIns_InitQuote",
+    "IntegrationProcedure/ClbIns_QuotePricingAdjustments",
+    "IntegrationProcedure/ClbIns_createQuoteHome",
+    "IntegrationProcedure/ClbIns_createQuoteLife",
+    "IntegrationProcedure/ClbIns_createQuoteVehicle"
+]

@@ -1,0 +1,180 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Asegurado_Edad": null,
+            "Asegurado_FechaNacimiento": null,
+            "Asegurado_Genero": "Femenino",
+            "MensualidadCredito": null,
+            "saldoInsoluto": null
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "Atributos-Cov-Asegurado",
+                    "Name": "Atributos-Cov-Asegurado",
+                    "displaySequence": 1,
+                    "id": "a0qDN000000CdfIYAS",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDN000000GoCDYA0",
+                                "cloneable": true,
+                                "code": "Asegurado_Edad",
+                                "dataType": "number",
+                                "disabled": true,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Edad",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoC8YAK",
+                                "cloneable": true,
+                                "code": "Asegurado_FechaNacimiento",
+                                "dataType": "date",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "date",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Fecha Nacimiento",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoC3YAK",
+                                "cloneable": true,
+                                "code": "saldoInsoluto",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Saldo Insoluto",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoEZYA0",
+                                "cloneable": true,
+                                "code": "MensualidadCredito",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Mensualidad Credito",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDN000000GoCIYA0",
+                                "cloneable": true,
+                                "code": "Asegurado_Genero",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Asegurado Genero",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Femenino",
+                                        "readonly": false,
+                                        "value": "Femenino"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Masculino",
+                                        "readonly": false,
+                                        "value": "Masculino"
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "aa91c248-cea8-eb92-5cd8-5e8ed4e43d84",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/aa91c248-cea8-eb92-5cd8-5e8ed4e43d84",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e405ae4f-d009-00db-2c07-f789f15fd5e9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e405ae4f-d009-00db-2c07-f789f15fd5e9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated924257318"
+    }
+]

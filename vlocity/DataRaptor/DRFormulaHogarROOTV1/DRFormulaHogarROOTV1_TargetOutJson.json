@@ -1,0 +1,31 @@
+{
+    "input": {
+        "userInputs": {
+            "INS_ITEM_CONTENIDOS.CONT_VALOR_DESTRUCTIBLE": "Currency",
+            "INS_ITEM_CONTENIDOS.instanceKey": "Text",
+            "INS_ITEM_CONTENIDOS.isPrimary": "Boolean",
+            "INS_ITEM_EDIFICIO.VALOR_DESTRUCTIBLE_EDIFICIO": "Currency",
+            "INS_ITEM_EDIFICIO.instanceKey": "Text",
+            "INS_ITEM_EDIFICIO.isPrimary": "Boolean",
+            "INS_PARTY_ASEGURADO.Asegurado_Edad": "Number",
+            "INS_PARTY_ASEGURADO.Asegurado_FechaNacimiento": "Date",
+            "INS_PARTY_ASEGURADO.Asegurado_Fuma": "Boolean",
+            "INS_PARTY_ASEGURADO.Asegurado_Genero": "Text",
+            "INS_PARTY_ASEGURADO.MensualidadCredito": "Currency",
+            "INS_PARTY_ASEGURADO.instanceKey": "Text",
+            "INS_PARTY_ASEGURADO.isPrimary": "Boolean",
+            "INS_PARTY_ASEGURADO.saldoInsoluto": "Currency",
+            "SEGURO_FORMULA_HOGAR_ROOT.CNT_DIAS_VIGENCIA": "Number",
+            "SEGURO_FORMULA_HOGAR_ROOT.PLAN_SELECCIONADO": "Text",
+            "SEGURO_FORMULA_HOGAR_ROOT.PORCENTAJE_DESCUENTO": "Percent",
+            "SEGURO_FORMULA_HOGAR_ROOT.VALOR_CONTENIDOS": "Currency",
+            "SEGURO_FORMULA_HOGAR_ROOT.VALOR_EDIFICIO": "Currency",
+            "SEGURO_FORMULA_HOGAR_ROOT.ZONA": "Text",
+            "SEGURO_FORMULA_HOGAR_ROOT.ZONA_RHMT": "Text",
+            "SEGURO_FORMULA_HOGAR_ROOT.ZONA_TEEV": "Text"
+        }
+    },
+    "output": {
+        "result": "JSONResult"
+    }
+}

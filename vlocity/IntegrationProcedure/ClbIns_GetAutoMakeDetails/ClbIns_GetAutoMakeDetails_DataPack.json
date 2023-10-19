@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetAutoMakeDetails",
+    "OmniProcessElement": [
+        "ClbIns_GetAutoMakeDetails_Element_GetMarcaDetails.json",
+        "ClbIns_GetAutoMakeDetails_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetAutoMakeDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetAutoMakeDetails_PropertySetConfig.json",
+    "SubType": "GetAutoMakeDetails",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetAutoMakeDetails/Procedure",
+    "WebComponentKey": "73bedf56-1416-54e6-6abc-be525459d883"
+}

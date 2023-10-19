@@ -1,0 +1,390 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "year",
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem5",
+        "InputFieldName": "AnoVeh__c",
+        "InputObjectName": "clbinsValor__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Valor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "codMarca",
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem4",
+        "InputFieldName": "CodMarca__c",
+        "InputObjectName": "clbinsValor__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Valor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "codModeloDetalle",
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom2952",
+        "InputFieldName": "CodModeloDetalle__c",
+        "InputObjectName": "clbinsValor__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Valor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "codModelo",
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom4584",
+        "InputFieldName": "CodModelo__c",
+        "InputObjectName": "clbinsValor__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Valor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "vehType",
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem7",
+        "InputFieldName": "TipoVeh__c",
+        "InputObjectName": "clbinsValor__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Valor",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "LISTSIZE(auto)",
+        "FormulaResultPath": "NumItems",
+        "FormulaSequence": 1,
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom384",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem18",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "cAuto",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom8861",
+        "InputFieldName": "Valor:NUMPUESTOS__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:cantidadPasajeros",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom1766",
+        "InputFieldName": "Valor:Clase__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:claseVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem14",
+        "InputFieldName": "Valor:CodMarca__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:codMarca",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem13",
+        "InputFieldName": "Valor:CodModelo__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:codModelo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem16",
+        "InputFieldName": "Valor:CodModeloDetalle__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:codModeloDetalle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem20",
+        "InputFieldName": "Valor:GPOESTSBG__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:gpoEstBg",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem12",
+        "InputFieldName": "Valor:GPOESTRC__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:gpoEstRc",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem17",
+        "InputFieldName": "Valor:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:marca",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem19",
+        "InputFieldName": "Valor:MTOVALORCOMERCIAL__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:mtoValorComercial",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem10",
+        "InputFieldName": "Valor:MTOVALORNUEVO__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:mtoValorNuevo",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem15",
+        "InputFieldName": "Valor:TipoVeh__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "cAuto:tipoVeh",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsGetAutoDetailsForRatingNewCustom0jIDO00000001AD2AYItem11",
+        "InputFieldName": "NumItems",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsGetAutoDetailsForRatingNew",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsGetAutoDetailsForRatingNew",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsGetAutoDetailsForRatingNew",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "numItems",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

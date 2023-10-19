@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "ClbIns_createQuoteLife_SampleInput.json",
+    "Description": "fix: single beneficiary",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsCreateQuoteLife",
+    "OmniProcessElement": [
+        "ClbIns_createQuoteLife_Element_UpdatedCoverages.json",
+        "ClbIns_createQuoteLife_Element_JsonLifeUpdatedCoverages.json",
+        "ClbIns_createQuoteLife_Element_JsonInputQuoteLifeSingleBenef.json",
+        "ClbIns_createQuoteLife_Element_JsonInputQuoteLife.json",
+        "ClbIns_createQuoteLife_Element_CreateUpdateQuote.json",
+        "ClbIns_createQuoteLife_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_createQuoteLife",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_createQuoteLife_PropertySetConfig.json",
+    "SubType": "createQuoteLife",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/createQuoteLife/Procedure",
+    "WebComponentKey": "65c947c9-1daa-14e2-05ba-a96b2e437521"
+}

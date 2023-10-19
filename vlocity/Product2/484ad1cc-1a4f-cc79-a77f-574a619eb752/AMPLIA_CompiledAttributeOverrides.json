@@ -1,0 +1,394 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "AUTO_BASE_DEDUCTIBLE": null,
+            "AUTO_NumDiasEmi": "15 días",
+            "AUTO_PR": null,
+            "AUTO_SA": "15 días",
+            "AUTO_TYPE_DEDUCTIBLE": null,
+            "AUTO_VALUE_DEDUCTIBLE": null
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "AttributesAuto",
+                    "Name": "Atributos Ramo Auto",
+                    "displaySequence": 18,
+                    "id": "a0qDO0000008d0lYAA",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FfoQYAS",
+                                "cloneable": true,
+                                "code": "AUTO_SA",
+                                "dataType": "text",
+                                "description": "15 días",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO SUMA ASEGURADA",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfoVYAS",
+                                "cloneable": true,
+                                "code": "AUTO_PR",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO PRIMA",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuEYAS",
+                                "cloneable": true,
+                                "code": "AUTO_TYPE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 2,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO TIPO DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuJYAS",
+                                "cloneable": true,
+                                "code": "AUTO_BASE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 3,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO BASE DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuOYAS",
+                                "cloneable": true,
+                                "code": "AUTO_VALUE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 4,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO VALOR DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000GDZGYA4",
+                                "cloneable": true,
+                                "code": "AUTO_NumDiasEmi",
+                                "dataType": "text",
+                                "description": "15",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "NumDiasEmi",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 6
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "78117151-a053-703e-83de-17c7d536bf84",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/78117151-a053-703e-83de-17c7d536bf84",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "484ad1cc-1a4f-cc79-a77f-574a619eb752",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/484ad1cc-1a4f-cc79-a77f-574a619eb752",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated2112675156"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "AUTO_BASE_DEDUCTIBLE": null,
+            "AUTO_NumDiasEmi": "30 días",
+            "AUTO_PR": null,
+            "AUTO_SA": "30 días",
+            "AUTO_TYPE_DEDUCTIBLE": null,
+            "AUTO_VALUE_DEDUCTIBLE": null
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "AttributesAuto",
+                    "Name": "Atributos Ramo Auto",
+                    "displaySequence": 18,
+                    "id": "a0qDO0000008d0lYAA",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FfoQYAS",
+                                "cloneable": true,
+                                "code": "AUTO_SA",
+                                "dataType": "text",
+                                "description": "30 días",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO SUMA ASEGURADA",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfoVYAS",
+                                "cloneable": true,
+                                "code": "AUTO_PR",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO PRIMA",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuEYAS",
+                                "cloneable": true,
+                                "code": "AUTO_TYPE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 2,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO TIPO DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuJYAS",
+                                "cloneable": true,
+                                "code": "AUTO_BASE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 3,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO BASE DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuOYAS",
+                                "cloneable": true,
+                                "code": "AUTO_VALUE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 4,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO VALOR DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000GDZGYA4",
+                                "cloneable": true,
+                                "code": "AUTO_NumDiasEmi",
+                                "dataType": "text",
+                                "description": "30",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "NumDiasEmi",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 6
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "bce37573-49d6-c8fc-ceb3-4c1e95a0801d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/bce37573-49d6-c8fc-ceb3-4c1e95a0801d",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "484ad1cc-1a4f-cc79-a77f-574a619eb752",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/484ad1cc-1a4f-cc79-a77f-574a619eb752",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1927166803"
+    }
+]

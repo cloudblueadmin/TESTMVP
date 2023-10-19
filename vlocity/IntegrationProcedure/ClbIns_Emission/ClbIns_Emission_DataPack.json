@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "ClbIns_Emission_SampleInput.json",
+    "Description": "Add urlSettings",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsEmission",
+    "OmniProcessElement": [
+        "ClbIns_Emission_Element_DecryptQuoteId.json",
+        "ClbIns_Emission_Element_DRGetQuoteDetails.json",
+        "ClbIns_Emission_Element_DRUpdateQuoteStatus.json",
+        "ClbIns_Emission_Element_ClbBanSystemSettings.json",
+        "ClbIns_Emission_Element_IPEmisionVida.json",
+        "ClbIns_Emission_Element_IPEmisionAuto.json",
+        "ClbIns_Emission_Element_IPEmisionHogar.json",
+        "ClbIns_Emission_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ClbIns_Emission",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_Emission_PropertySetConfig.json",
+    "SubType": "Emission",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/Emission/Procedure",
+    "WebComponentKey": "f5639fb1-032a-b81e-5759-d1639f8a690d"
+}

@@ -1,0 +1,149 @@
+{
+    "insuredItems": {
+        "propHome": {
+            "instanceKey": "50 Broadway Avenue",
+            "plBrushClearance": "501",
+            "plBurglarAlarm": "Local",
+            "plCity": "San Francisco",
+            "plConstType": "Wood Frame",
+            "plCountry": "US",
+            "plFireAlarm": "Battery operated detectors",
+            "plNumBath": 2,
+            "plNumBed": 2,
+            "plPostCode": "94103",
+            "plPropType": "Condo",
+            "plRoofType": "Wood Shingles",
+            "plSprinklers": "None",
+            "plState": "CA",
+            "plStreet": "50 Broadway Avenue",
+            "plUsageType": "Main Residence",
+            "plValue": 1000000,
+            "plYrBuilt": 2010,
+            "plYrOwned": 2
+        },
+        "propItem": [
+            {
+                "instanceKey": "Eggs",
+                "piName": "Eggs",
+                "piValue": 10000
+            },
+            {
+                "instanceKey": "Stamps",
+                "piName": "Stamps",
+                "piValue": 20000
+            },
+            {
+                "instanceKey": "Renoir",
+                "piName": "Renoir",
+                "piValue": 400000
+            },
+            {
+                "instanceKey": "statue",
+                "piName": "statue",
+                "piValue": 20000
+            },
+            {
+                "instanceKey": "Mink Coat",
+                "piName": "Mink Coat",
+                "piValue": 5000
+            },
+            {
+                "instanceKey": "Mink Stole",
+                "piName": "Mink Stole",
+                "piValue": 2000
+            },
+            {
+                "instanceKey": "AK47",
+                "piName": "AK47",
+                "piValue": 3000
+            },
+            {
+                "instanceKey": "pistol",
+                "piName": "pistol",
+                "piValue": 500
+            },
+            {
+                "instanceKey": "Dimond ring",
+                "piName": "Dimond ring",
+                "piValue": 4000
+            },
+            {
+                "instanceKey": "Rolex",
+                "piName": "Rolex",
+                "piValue": 35000
+            }
+        ]
+    },
+    "valuables": {
+        "cbCollections": true,
+        "cbFineArts": true,
+        "cbFurs": true,
+        "cbGuns": true,
+        "cbJewelry": true,
+        "schdCollections": [
+            {
+                "itemNameCOLL": "Eggs",
+                "itemTypeCOLL": "Collections",
+                "itemValueCOLL": 10000
+            },
+            {
+                "itemNameCOLL": "Stamps",
+                "itemTypeCOLL": "Collections",
+                "itemValueCOLL": 20000
+            }
+        ],
+        "schdFineArts": [
+            {
+                "itemNameFA": "Renoir",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 400000
+            },
+            {
+                "itemNameFA": "statue",
+                "itemTypeFA": "Fine Arts",
+                "itemValueFA": 20000
+            }
+        ],
+        "schdFurs": [
+            {
+                "itemNameFUR": "Mink Coat",
+                "itemTypeFUR": "Furs",
+                "itemValueFUR": 5000
+            },
+            {
+                "itemNameFUR": "Mink Stole",
+                "itemTypeFUR": "Furs",
+                "itemValueFUR": 2000
+            }
+        ],
+        "schdGuns": [
+            {
+                "itemNameGUN": "AK47",
+                "itemTypeGUN": "Guns",
+                "itemValueGUN": 3000
+            },
+            {
+                "itemNameGUN": "pistol",
+                "itemTypeGUN": "Guns",
+                "itemValueGUN": 500
+            }
+        ],
+        "schdJewelry": [
+            {
+                "itemNameJWY": "Dimond ring",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 4000
+            },
+            {
+                "itemNameJWY": "Rolex",
+                "itemTypeJWY": "Jewelry",
+                "itemValueJWY": 35000
+            }
+        ],
+        "sumCollections": 30000,
+        "sumFineArts": 420000,
+        "sumFurs": 7000,
+        "sumGuns": 3500,
+        "sumJewelry": 39000
+    }
+}

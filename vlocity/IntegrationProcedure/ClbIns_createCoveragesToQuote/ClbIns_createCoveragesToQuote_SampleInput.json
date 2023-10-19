@@ -1,0 +1,290 @@
+{
+    "CreateQuote": {
+        "ActualTime": 1052,
+        "CpuTime": 870,
+        "Quote_1": [
+            {
+                "%vlocity_namespace%__EffectiveDate__c": "2023-09-06",
+                "%vlocity_namespace%__EndDate__c": "2024-09-06",
+                "%vlocity_namespace%__MonthlyPremium__c": 241.66,
+                "%vlocity_namespace%__TotalAdjustmentAmount__c": 300,
+                "%vlocity_namespace%__Type__c": "Damage",
+                "BillingCity": "CDMX",
+                "BillingCountry": "Mexico",
+                "BillingName": "Colonia Centro, Juárez, Cuauhtémoc",
+                "BillingPostalCode": "06010",
+                "BillingState": "CDMX",
+                "BillingStreet": "Tolsa 64",
+                "ClbInsQuoteInputData__c": "{\"Step1\":{\"CURP\":\"BIZA701230HDFRPL10\",\"FirstName\":\"Claudia\",\"LastName\":\"Martinez\",\"RFC\":\"BIZA701230DK4\",\"PhoneNumber\":\"5645634534\",\"Email\":\"personaa@gmail.com\",\"BirthDate\":\"1980-01-01\"},\"Step2\":{\"Address\":{\"Street\":\"Tolsa 64\",\"ExternalNumber\":1,\"InternalNumber\":2,\"City\":\"CDMX\",\"Country\":\"Mexico\",\"State\":\"CDMX\",\"Town\":\"Colonia Centro, Juárez, Cuauhtémoc\",\"PostalCode\":\"06010\"}},\"Step3\":{\"BuildingInformation\":{\"Address\":{\"Street\":\"Tolsa 64\",\"ExternalNumber\":1,\"InternalNumber\":2,\"City\":\"CDMX\",\"Country\":\"Mexico\",\"State\":\"CDMX\",\"Town\":\"Colonia Centro, Juárez, Cuauhtémoc\",\"PostalCode\":\"06010\"},\"Value\":4000000,\"ContentsInsuredAmount\":20,\"Levels\":\"1 a 5 niveles\",\"BuildingAge\":\"20 años\",\"MarDistance\":true},\"ContentsInformation\":{\"Value\":1600000}},\"Step4\":{\"Package\":{\"branch\":\"CAHA\",\"Code\":\"SEGURO_CASA_HABITACION_APF_PROPIO_ROOT\",\"StartDate\":\"1900-01-01\",\"EndDate\":\"1900-01-01\",\"Amount\":2899.87},\"PackageCoverage\":[{\"isRecommended\":true,\"isOptional\":true,\"code\":\"TE01\",\"name\":\"TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA\",\"price\":642.8,\"NombreComercial\":\"Terremoto y erupción volcánica\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"TE02\",\"name\":\"TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS\",\"price\":30.16,\"NombreComercial\":\"Null\",\"insuredAmount\":160000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"RH01\",\"name\":\"RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS\",\"price\":505.2,\"NombreComercial\":\"Riesgos Hidrometeorológicos\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"RH02\",\"name\":\"RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS\",\"price\":30.16,\"NombreComercial\":\"Null\",\"insuredAmount\":400000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I005\",\"name\":\"INCE-EDIFICIO-TODO RIESGO (S)\",\"price\":150.9,\"NombreComercial\":\"Null\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I013\",\"name\":\"INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS\",\"price\":30.16,\"NombreComercial\":\"Null\",\"insuredAmount\":400000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I001\",\"name\":\"INCE-EDIFICIO-INCENDIO Y/O RAYO\",\"price\":181.08,\"NombreComercial\":\"Suma Asegurada Básica\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I003\",\"name\":\"INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)\",\"price\":90.54,\"NombreComercial\":\"Null\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I004\",\"name\":\"INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)\",\"price\":90.54,\"NombreComercial\":\"Null\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I002\",\"name\":\"INCE-EDIFICIO-EXPLOSIÓN (S)\",\"price\":90.54,\"NombreComercial\":\"Null\",\"insuredAmount\":4000000},{\"isRecommended\":true,\"isOptional\":false,\"code\":\"I011\",\"name\":\"INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)\",\"price\":18,\"NombreComercial\":\"Null\",\"insuredAmount\":180000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"TE01\",\"name\":\"TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA\",\"price\":128.56,\"NombreComercial\":\"Terremoto y erupción volcánica contenidos\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"TE02\",\"name\":\"TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS\",\"price\":12.06,\"NombreComercial\":\"Null\",\"insuredAmount\":160000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"RH01\",\"name\":\"RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS\",\"price\":202.08,\"NombreComercial\":\"Riesgos Hidrometeorológicos Contenidos\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"RH02\",\"name\":\"RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS\",\"price\":12.06,\"NombreComercial\":\"Null\",\"insuredAmount\":160000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I005\",\"name\":\"INCE-CONTENIDO-TODO RIESGO (S)\",\"price\":60.36,\"NombreComercial\":\"Null\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I013\",\"name\":\"INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS\",\"price\":12.06,\"NombreComercial\":\"Null\",\"insuredAmount\":160000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I001\",\"name\":\"INCE-CONTENIDO-INCENDIO Y/O RAYO\",\"price\":72.43,\"NombreComercial\":\"Suma asegurada Contenidos\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I003\",\"name\":\"INCE-CONTENIDO-HUELGAS Y VANDALISMO (S)\",\"price\":36.22,\"NombreComercial\":\"Null\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I004\",\"name\":\"INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)\",\"price\":36.22,\"NombreComercial\":\"Null\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I002\",\"name\":\"INCE-CONTENIDO-EXPLOSIÓN (S)\",\"price\":36.22,\"NombreComercial\":\"Null\",\"insuredAmount\":1600000},{\"isRecommended\":true,\"isOptional\":true,\"code\":\"I011\",\"name\":\"INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)\",\"price\":7.2,\"NombreComercial\":\"Null\",\"insuredAmount\":72000},{\"isRecommended\":false,\"isOptional\":true,\"code\":\"RCF2\",\"name\":\"RCGE-RENTADO-ARRENDATARIO\",\"price\":0,\"NombreComercial\":\"Null\",\"insuredAmount\":1000000},{\"isRecommended\":false,\"isOptional\":true,\"code\":\"RCF1\",\"name\":\"RCGE-PROPIO-FAMILIAR\",\"price\":80.7,\"NombreComercial\":\"Responsabilidad Civil Familiar\",\"insuredAmount\":1000000},{\"isRecommended\":false,\"isOptional\":true,\"code\":\"RB03\",\"name\":\"DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO\",\"price\":338.2,\"NombreComercial\":\"Robo de Bienes\",\"insuredAmount\":100000},{\"isRecommended\":false,\"isOptional\":true,\"code\":\"RB15\",\"name\":\"DMRB-PROPIO-AJUSTE AUTOMÁTICO POR INFLACIÓN\",\"price\":0.45,\"NombreComercial\":\"Null\",\"insuredAmount\":4500},{\"isRecommended\":false,\"isOptional\":true,\"code\":\"MA01\",\"name\":\"DMED-PROPIO-DAÑOS MATERIALES\",\"price\":35.13,\"NombreComercial\":\"Maquinaria y Equipo de Uso doméstico\",\"insuredAmount\":50000}]},\"Step5\":{\"Bank\":\"Universal\",\"CardCVV\":\"121\",\"FirstName\":\"Camilo\",\"LastName\":\"Lugo\",\"PaymentPeriod\":\"012\",\"TypeOfCard\":\"D\",\"Amount\":1534.99,\"IsRecurringPayment\":false,\"CardMonth\":12,\"CardNumber\":123,\"CardYear\":2026}}",
+                "ContactId": "003DO000008H1OjYAK",
+                "ExpirationDate": "2024-09-06",
+                "Id": "0Q0DO0000008nqd0AA",
+                "Name": "Angi Perez -CAHA- 9/6/2023",
+                "OpportunityId": "006DO000003WYBDYA4",
+                "Pricebook2Id": "01sDn000006cxArIAI",
+                "Tax": 511.98,
+                "UpsertSuccess": true,
+                "clbinsNumExt__c": 1,
+                "clbinsNumInt__c": 2,
+                "clbinsPremiumAmount__c": 1534.99,
+                "clbinsQuoteNumber__c": "1000256"
+            }
+        ],
+        "error": "OK",
+        "responseType": "SObject"
+    },
+    "Step4": {
+        "Package": {
+            "Amount": 2899.87,
+            "Code": "SEGURO_CASA_HABITACION_APF_PROPIO_ROOT",
+            "EndDate": "1900-01-01",
+            "StartDate": "1900-01-01",
+            "branch": "CAHA"
+        },
+        "PackageCoverage": [
+            {
+                "NombreComercial": "Terremoto y erupción volcánica",
+                "code": "TE01",
+                "insuredAmount": 4000000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 642.8
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "TE02",
+                "insuredAmount": 160000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "TEEV-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 30.16
+            },
+            {
+                "NombreComercial": "Riesgos Hidrometeorológicos",
+                "code": "RH01",
+                "insuredAmount": 4000000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "RHMT-EDIFICIO-RIESGOS HIDROMETEOROLÓGICOS",
+                "price": 505.2
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "RH02",
+                "insuredAmount": 400000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "RHMT-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 30.16
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I005",
+                "insuredAmount": 4000000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-TODO RIESGO (S)",
+                "price": 150.9
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I013",
+                "insuredAmount": 400000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-REMOCIÓN DE ESCOMBROS",
+                "price": 30.16
+            },
+            {
+                "NombreComercial": "Suma Asegurada Básica",
+                "code": "I001",
+                "insuredAmount": 4000000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-INCENDIO Y/O RAYO",
+                "price": 181.08
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I003",
+                "insuredAmount": 4000000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-HUELGAS Y VANDALISMO (S)",
+                "price": 90.54
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I004",
+                "insuredAmount": 4000000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 90.54
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I002",
+                "insuredAmount": 4000000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-EXPLOSIÓN (S)",
+                "price": 90.54
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I011",
+                "insuredAmount": 180000,
+                "isOptional": false,
+                "isRecommended": true,
+                "name": "INCE-EDIFICIO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 18
+            },
+            {
+                "NombreComercial": "Terremoto y erupción volcánica contenidos",
+                "code": "TE01",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "TEEV-CONTENIDO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+                "price": 128.56
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "TE02",
+                "insuredAmount": 160000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "TEEV-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 12.06
+            },
+            {
+                "NombreComercial": "Riesgos Hidrometeorológicos Contenidos",
+                "code": "RH01",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "RHMT-CONTENIDO-RIESGOS HIDROMETEOROLÓGICOS",
+                "price": 202.08
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "RH02",
+                "insuredAmount": 160000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "RHMT-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 12.06
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I005",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-TODO RIESGO (S)",
+                "price": 60.36
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I013",
+                "insuredAmount": 160000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-REMOCIÓN DE ESCOMBROS",
+                "price": 12.06
+            },
+            {
+                "NombreComercial": "Suma asegurada Contenidos",
+                "code": "I001",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-INCENDIO Y/O RAYO",
+                "price": 72.43
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I003",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-HUELGAS Y VANDALISMO (S)",
+                "price": 36.22
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I004",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-EXTENSIÓN DE CUBIERTA (S)",
+                "price": 36.22
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I002",
+                "insuredAmount": 1600000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-EXPLOSIÓN (S)",
+                "price": 36.22
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "I011",
+                "insuredAmount": 72000,
+                "isOptional": true,
+                "isRecommended": true,
+                "name": "INCE-CONTENIDO-AJUSTE AUTOMÁTICO POR INFLACIÓN (S)",
+                "price": 7.2
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "RCF2",
+                "insuredAmount": 1000000,
+                "isOptional": true,
+                "isRecommended": false,
+                "name": "RCGE-RENTADO-ARRENDATARIO",
+                "price": 0
+            },
+            {
+                "NombreComercial": "Responsabilidad Civil Familiar",
+                "code": "RCF1",
+                "insuredAmount": 1000000,
+                "isOptional": true,
+                "isRecommended": false,
+                "name": "RCGE-PROPIO-FAMILIAR",
+                "price": 80.7
+            },
+            {
+                "NombreComercial": "Robo de Bienes",
+                "code": "RB03",
+                "insuredAmount": 100000,
+                "isOptional": true,
+                "isRecommended": false,
+                "name": "DMRB-PROPIO-ROBO CON VIOLENCIA Y ASALTO",
+                "price": 338.2
+            },
+            {
+                "NombreComercial": "Null",
+                "code": "RB15",
+                "insuredAmount": 4500,
+                "isOptional": true,
+                "isRecommended": false,
+                "name": "DMRB-PROPIO-AJUSTE AUTOMÁTICO POR INFLACIÓN",
+                "price": 0.45
+            },
+            {
+                "NombreComercial": "Maquinaria y Equipo de Uso doméstico",
+                "code": "MA01",
+                "insuredAmount": 50000,
+                "isOptional": true,
+                "isRecommended": false,
+                "name": "DMED-PROPIO-DAÑOS MATERIALES",
+                "price": 35.13
+            }
+        ]
+    }
+}

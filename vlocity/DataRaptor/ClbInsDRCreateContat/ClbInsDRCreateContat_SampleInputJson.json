@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "capturaInformacionVida": {
+            "beneficiario": {
+                "apellido": "Jimenes",
+                "domicilioBeneficiario": {
+                    "calle": "Libertador",
+                    "estado": "DF",
+                    "nombreColonia": "Colonia",
+                    "nombreDelegacionMunicipio": "Delegacion General",
+                    "numExt": "42",
+                    "numInt": "5342",
+                    "pais": "Mexico",
+                    "porcentaje": "40",
+                    "postalCode": ""
+                },
+                "fechaNac": "1940-12-30",
+                "nombre": "Jaime",
+                "parentesco": "Padre"
+            }
+        }
+    }
+}

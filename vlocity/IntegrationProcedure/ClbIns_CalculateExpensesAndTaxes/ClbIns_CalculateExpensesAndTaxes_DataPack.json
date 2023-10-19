@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_CalculateExpensesAndTaxes_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsCalculateExpensesAndTaxes",
+    "OmniProcessElement": [
+        "ClbIns_CalculateExpensesAndTaxes_Element_GetTaxPercent.json",
+        "ClbIns_CalculateExpensesAndTaxes_Element_InputGetPriceWithExpenseAndTaxes.json",
+        "ClbIns_CalculateExpensesAndTaxes_Element_GetPriceWithExpensesAndTaxes.json",
+        "ClbIns_CalculateExpensesAndTaxes_Element_JsonResponse.json",
+        "ClbIns_CalculateExpensesAndTaxes_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_CalculateExpensesAndTaxes",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_CalculateExpensesAndTaxes_PropertySetConfig.json",
+    "SubType": "CalculateExpensesAndTaxes",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/CalculateExpensesAndTaxes/Procedure",
+    "WebComponentKey": "ebe45ccb-4a3f-3dfe-44c2-a3061126de7b"
+}

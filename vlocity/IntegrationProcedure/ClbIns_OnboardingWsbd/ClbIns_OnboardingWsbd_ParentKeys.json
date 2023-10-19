@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ClbInsDREGetQuoteDetailsForOnboarding",
+    "DataRaptor/ClbInsDRTransformInputforOnboardingRequest",
+    "DataRaptor/ClbInsGetOnboardingURL",
+    "IntegrationProcedure/ClbIns_BanorteAPITokenCreate"
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "ApiName": "tasaImpuesto",
+        "CalculationMatrixId": {
+            "Name": "TasasImpuestos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/TasasImpuestos",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Output",
+        "DataType": "Percent",
+        "DisplaySequence": 2,
+        "IsWildcardColumn": false,
+        "Name": "tasaImpuesto",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated1177274116",
+        "WildcardColumnValue": ""
+    },
+    {
+        "ApiName": "tipoImpuesto",
+        "CalculationMatrixId": {
+            "Name": "TasasImpuestos",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/TasasImpuestos",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Input",
+        "DataType": "Text",
+        "DisplaySequence": 1,
+        "IsWildcardColumn": false,
+        "Name": "tipoImpuesto",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated15052628",
+        "WildcardColumnValue": ""
+    }
+]

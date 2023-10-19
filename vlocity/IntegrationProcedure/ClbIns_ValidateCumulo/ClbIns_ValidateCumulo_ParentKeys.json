@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ClbGetSystemSettings",
+    "DataRaptor/ClbInsDRTransformRequestCumulo",
+    "IntegrationProcedure/ClbIns_BanorteAPITokenCreate",
+    "IntegrationProcedure/ClbIns_ValidateCURP"
+]

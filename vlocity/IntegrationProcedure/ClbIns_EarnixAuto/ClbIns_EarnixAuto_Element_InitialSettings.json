@@ -1,0 +1,32 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "InitialSettings",
+    "OmniProcessId": {
+        "Name": "Auto Rating",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/EarnixAuto/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "fechaMovimiento": "=NOW(\"dd/MM/yyyy'T'HH:mm:ss.SSSZ\")",
+            "finVigencia": "=FORMATDATETIME(ADDMONTH(ADDDAY(TODAY(),1), 12), \"dd/MM/yyyy\")",
+            "inicioVigencia": "=FORMATDATETIME(NOW(), \"dd/MM/yyyy\")"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues3",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/EarnixAuto/Procedure/InitialSettings"
+}

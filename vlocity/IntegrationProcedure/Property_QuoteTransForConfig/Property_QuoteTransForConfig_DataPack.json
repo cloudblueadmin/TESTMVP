@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "Property_QuoteTransForConfig_SampleInput.json",
+    "Description": "Use in the Property Homeowners OS to transform the scheduled valuables into list for createUpdateQuote",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TransForQuoteConfig",
+    "OmniProcessElement": [
+        "Property_QuoteTransForConfig_Element_mergeSchedules.json",
+        "Property_QuoteTransForConfig_Element_drTransInsuredItemsHO3.json",
+        "Property_QuoteTransForConfig_Element_drTransHO3UserInputs.json",
+        "Property_QuoteTransForConfig_Element_ResponseHO3.json",
+        "Property_QuoteTransForConfig_Element_drTransInsuredItemsHO4.json",
+        "Property_QuoteTransForConfig_Element_drTransHO4UserInputs.json",
+        "Property_QuoteTransForConfig_Element_ResponseHO4.json"
+    ],
+    "OmniProcessKey": "Property_QuoteTransForConfig",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Property_QuoteTransForConfig_PropertySetConfig.json",
+    "SubType": "QuoteTransForConfig",
+    "Type": "Property",
+    "UniqueName": "Property_QuoteTransForConfig_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Property/QuoteTransForConfig/Procedure",
+    "WebComponentKey": "8198d28f-d36f-346b-8e77-e87b0f42d37d"
+}

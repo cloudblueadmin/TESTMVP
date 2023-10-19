@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "ClbIns_SaveLifeAssessmentResponses_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsSaveLifeAssessmentResponses",
+    "OmniProcessElement": [
+        "ClbIns_SaveLifeAssessmentResponses_Element_InputQuoteId.json",
+        "ClbIns_SaveLifeAssessmentResponses_Element_DecryptQuoteId.json",
+        "ClbIns_SaveLifeAssessmentResponses_Element_ResponseIdQuoteIdEmpty.json",
+        "ClbIns_SaveLifeAssessmentResponses_Element_Save-Responses.json",
+        "ClbIns_SaveLifeAssessmentResponses_Element_SaveAssessmentOnQuote.json",
+        "ClbIns_SaveLifeAssessmentResponses_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_SaveLifeAssessmentResponses",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_SaveLifeAssessmentResponses_PropertySetConfig.json",
+    "SubType": "SaveLifeAssessmentResponses",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/SaveLifeAssessmentResponses/Procedure",
+    "WebComponentKey": "5399ec79-9131-4484-b75e-cf5dcc3ab451"
+}

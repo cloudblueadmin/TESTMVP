@@ -1,0 +1,135 @@
+[
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom7919",
+        "InputFieldName": "aplicaDmed",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.APLICA_DMED",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom4958",
+        "InputFieldName": "aplicaDmrb",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.APLICA_DMRB",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom4292",
+        "InputFieldName": "aplicaRcge",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.APLICA_RCGE",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom8864",
+        "InputFieldName": "aplicaRhmt",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.APLICA_RHMT",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom3909",
+        "InputFieldName": "aplicaTeev",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.APLICA_TEEV",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom3928",
+        "InputFieldName": "codigoPostal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.CODIGO_POSTAL",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ClbInsDRTUserInputsHomeRentadoCustom4335",
+        "InputFieldName": "valorContenidos",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ClbInsDRTUserInputsHomeRentado",
+        "OmniDataTransformationId": {
+            "Name": "ClbInsDRTUserInputsHomeRentado",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ClbInsDRTUserInputsHomeRentado",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "userInputs:SEGURO_CASA_HABITACION_APF_RENTADO_ROOT.VALOR_CONTENIDOS",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

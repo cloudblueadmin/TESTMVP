@@ -1,0 +1,30 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "svPriceTotal",
+    "OmniProcessId": {
+        "Name": "ClbInsGetTokenDataForLifeTemplate",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/GetTokenDataForLifeTemplate/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "PriceTotal": "=%DRTransformQuoteLife:fallecimiento:price% + %DRTransformQuoteLife:invalidezTotal:price% + %DRTransformQuoteLife:muerteAccidental:price% + %DRTransformQuoteLife:enfermedadesGraves:price% +  %DRTransformQuoteLife:indemnizacionDiaria:price% + %DRTransformQuoteLife:indemnizacionHospitalaria:price%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues3",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/GetTokenDataForLifeTemplate/Procedure/svPriceTotal"
+}

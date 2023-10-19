@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "VIDA-IND-FALLECIMIENTO CON ASISTENCIA FUNERARIA INDIVIDUAL",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "a7962131-0bc9-ff3c-925f-477e786bef2a",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "a7962131-0bc9-ff3c-925f-477e786bef2a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/a7962131-0bc9-ff3c-925f-477e786bef2a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VIDA_IND_FALLECIMIENTO_ASISTENCIA_FUNERARIA",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/a7962131-0bc9-ff3c-925f-477e786bef2a"
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "DefaultValue": "Advance",
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom1783",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson: %vlocity_namespace%_fsc__PremiumPaymentType__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Annually",
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom3455",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:PremiumFrequency",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom816",
+        "InputFieldName": "quoteDetail:AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:accountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom4993",
+        "InputFieldName": "quoteDetail:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:additionalFields:%vlocity_namespace%__Type__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom1510",
+        "InputFieldName": "quoteDetail:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:additionalFields:PolicyType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "$Vlocity.TODAY",
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom732",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:additionalFields:SaleDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom5933",
+        "InputFieldName": "quoteId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:additionalFields:SourceQuoteId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "InForce",
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom7294",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:additionalFields:Status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom4635",
+        "InputFieldName": "insuredItems",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:insuredItems",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom1284",
+        "InputFieldName": "productConfigurationDetail:records",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:productConfigurationDetail:records",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom9232",
+        "InputFieldName": "quoteDetail:%vlocity_namespace%__Term__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:term",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "FSCTransToCreatePolicyCreateUpdatePolicyIPCustom7453",
+        "InputFieldName": "quoteDetail:%vlocity_namespace%__TotalAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+        "OmniDataTransformationId": {
+            "Name": "FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCTransToCreatePolicyCreateUpdatePolicyIP",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "quotePolicyJson:totalSumInsured",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GlobalSettings",
+    "OmniProcessId": {
+        "Name": "SearchPostalCodeFromBanorteAPI",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ClbIns/APIBanorteRequestPostalCode/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "endpoint": "https://syp-catalogs-api-pre.segurosbanorte.com/custom-ctgs/api/cutom-catalogs/CODIGO_POSTAL/MEXICO/TODAS/CODIGO_POSTAL"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ClbIns/APIBanorteRequestPostalCode/Procedure/GlobalSettings"
+}

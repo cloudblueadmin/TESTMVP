@@ -1,0 +1,197 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "AUTO_BASE_DEDUCTIBLE": "M",
+            "AUTO_PR": null,
+            "AUTO_SA": 100000,
+            "AUTO_TYPE_DEDUCTIBLE": null
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "AttributesAuto",
+                    "Name": "Atributos Ramo Auto",
+                    "displaySequence": 18,
+                    "id": "a0qDO0000008d0lYAA",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0rDO000000FfoQYAS",
+                                "cloneable": true,
+                                "code": "AUTO_SA",
+                                "dataType": "currency",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO SUMA ASEGURADA",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "$50,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 50000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "$30,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 30000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "$40,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 40000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "$60,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 60000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "$70,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 70000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "5",
+                                        "label": "$80,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 80000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "6",
+                                        "label": "$90,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 90000
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "7",
+                                        "label": "$100,000 POR EVENTO",
+                                        "readonly": false,
+                                        "value": 100000
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfoVYAS",
+                                "cloneable": true,
+                                "code": "AUTO_PR",
+                                "dataType": "currency",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "number",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO PRIMA",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuEYAS",
+                                "cloneable": true,
+                                "code": "AUTO_TYPE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 2,
+                                "filterable": false,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO TIPO DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0rDO000000FfuJYAS",
+                                "cloneable": true,
+                                "code": "AUTO_BASE_DEDUCTIBLE",
+                                "dataType": "text",
+                                "description": "M",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": false,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "AUTO BASE DEDUCIBLE",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 4
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5d8d2f6d-56ca-41c0-ed21-f2ba67298ada",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/5d8d2f6d-56ca-41c0-ed21-f2ba67298ada",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ac55b94a-11fd-cf39-1123-bef3df1ffddb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ac55b94a-11fd-cf39-1123-bef3df1ffddb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1608486863"
+    }
+]

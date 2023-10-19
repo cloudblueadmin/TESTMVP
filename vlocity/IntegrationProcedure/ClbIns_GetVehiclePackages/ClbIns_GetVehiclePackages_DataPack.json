@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ClbIns_GetVehiclePackages_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ClbInsGetVehiclePackages",
+    "OmniProcessElement": [
+        "ClbIns_GetVehiclePackages_Element_GetElegibleProducts.json",
+        "ClbIns_GetVehiclePackages_Element_LoopBlock.json",
+        "ClbIns_GetVehiclePackages_Element_GetVehicleCoverages.json",
+        "ClbIns_GetVehiclePackages_Element_TransformOutput.json",
+        "ClbIns_GetVehiclePackages_Element_Response.json"
+    ],
+    "OmniProcessKey": "ClbIns_GetVehiclePackages",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ClbIns_GetVehiclePackages_PropertySetConfig.json",
+    "SubType": "GetVehiclePackages",
+    "Type": "ClbIns",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ClbIns/GetVehiclePackages/Procedure",
+    "WebComponentKey": "f404e737-4216-2e2e-42e2-9023d06aad3d"
+}

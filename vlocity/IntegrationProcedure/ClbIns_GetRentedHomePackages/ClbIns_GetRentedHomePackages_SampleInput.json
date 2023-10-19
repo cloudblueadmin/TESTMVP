@@ -1,0 +1,14 @@
+{
+    "options": {
+        "ignoreCache": false
+    },
+    "rentado": {
+        "aplicaDmed": true,
+        "aplicaDmrb": true,
+        "aplicaRcge": true,
+        "aplicaRhmt": true,
+        "aplicaTeev": true,
+        "codigoPostal": "64000",
+        "valorContenidos": 1600000
+    }
+}

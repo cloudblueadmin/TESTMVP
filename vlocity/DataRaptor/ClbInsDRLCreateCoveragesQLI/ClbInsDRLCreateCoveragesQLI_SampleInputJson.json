@@ -1,0 +1,17 @@
+{
+    "Code": "TE01",
+    "Price": 642.8,
+    "PricebookEntryId": "01uDO000001HeW1YAK",
+    "ProductId": "01tDO000000L0fDYAS",
+    "SumaAseg": 4000000,
+    "coverage": {
+        "ProductCode": "TE01",
+        "codBien": "001",
+        "codRamo": "TEEV",
+        "insuredAmount": 4000000,
+        "name": "TEEV-EDIFICIO-TERREMOTO Y ERUPCIÓN VOLCÁNICA",
+        "price": 642.8,
+        "tasa": null
+    },
+    "quoteId": "0Q0DO0000008nqi0AA"
+}

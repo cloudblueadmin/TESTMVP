@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ClbInsDRTInputGetPriceWithExpenseAndTaxes",
+    "DataRaptor/ClbInsDRTResponsePriceWithExpensesAndTaxes",
+    "DataRaptor/ClbInsGetIvaForProduct",
+    "ExpressionSet/PriceWithExpensesAndTaxes"
+]
